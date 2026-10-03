@@ -1,0 +1,33 @@
+• Validating lock
+✓ Validating lock in 712µs
+• Configuring shell
+• Configuring cachix
+✓ Configuring cachix in 1.56ms
+• Evaluating shell
+✓ Evaluating shell in 45.2ms (cached)
+✓ Configuring shell in 53.6ms
+• Loading tasks
+• Evaluating devenv.config.task.config
+✓ Evaluating devenv.config.task.config in 6.57ms (cached)
+✓ Loading tasks in 7.80ms
+• Running tasks
+• Running devenv:files:cleanup
+✓ Running devenv:files:cleanup in 165ms
+• Running devenv:enterShell
+✓ Running devenv:enterShell in 213ms
+• Running devenv:enterTest
+✓ Running devenv:enterTest in 55.9µs (no command)
+✓ Running tasks in 379ms
+✨ devenv 2.1.2 is out of date. Please update to 2.4.0: https://devenv.sh/getting-started/#installation
+    Updating crates.io index
+   Packaging gpui-alloy-macros v0.1.0 (/private/tmp/alloy-registry-packager/staging-process-31/crates/gpui_macros)
+    Updating crates.io index
+    Packaged 20 files, 144.8KiB (29.7KiB compressed)
+   Verifying gpui-alloy-macros v0.1.0 (/private/tmp/alloy-registry-packager/staging-process-31/crates/gpui_macros)
+   Compiling gpui-alloy-macros v0.1.0 (/private/tmp/gpui-alloy-registry-target/package/gpui-alloy-macros-0.1.0)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.89s
+   Uploading gpui-alloy-macros v0.1.0 (/private/tmp/alloy-registry-packager/staging-process-31/crates/gpui_macros)
+    Uploaded gpui-alloy-macros v0.1.0 to registry `crates-io`
+note: waiting for gpui-alloy-macros v0.1.0 to be available at registry `crates-io`
+help: you may press ctrl-c to skip waiting; the crate should be available shortly
+   Published gpui-alloy-macros v0.1.0 at registry `crates-io`

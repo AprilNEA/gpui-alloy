@@ -1,6 +1,6 @@
 # GPUI Alloy 0.1.0
 
-**Release status: pending.** This record describes the frozen registry candidate. Upload, registry consumer acceptance, and the release tag remain pending.
+**Release status: partially published (6/31 packages).** Crates.io accepted six frozen packages before the new-crate rate limit delayed the remaining uploads. Registry consumer acceptance and the release tag remain pending. See the [publication record](publication.json) and [continuation instructions](RESUME.md).
 
 | Identity | Fixed commit |
 | --- | --- |
@@ -30,9 +30,9 @@ No root `[patch.crates-io]` table is propagated. The required `async-process` im
 | Packaging and consumer-verifier Python tests | Passed: 15 tests; see [the log](python-check.log). |
 | Independent archive inspection | Passed for all 31 candidate archives: package identities, exact family dependencies, provenance, licenses, runtime file completeness, and source bytes. See the [locked archive audit](archive-audit.json) and [file digests](archive-files.json). |
 | Full Cargo workspace publish dry-run | Passed for all 31 packages; see [the dry-run log](preflight-2.log). The [first candidate](preflight-1.log) exposed the required `adopt_raw_pid` API; the current candidate preserves the two-package process chain. |
-| Clean consumer against the generated package set | Pending. |
+| Clean consumer against the generated package set | Passed: 119 tests, formatting, Clippy, and 19 reachable Alloy identities; see the [result](generated-consumer.json) and [log](generated-consumer.log). |
 | Locked package verification and frozen archives | Passed for all 31 packages; see [the final package log](preflight-3.log), [archive checksums](archives.json), and [release lockfile](registry.Cargo.lock). |
-| Crates.io uploads and checksum verification | Pending. |
+| Crates.io uploads and checksum verification | Six packages published and independently checksum-verified; see [publication.json](publication.json). All 31 publication archives reproduced the frozen hashes before the first upload; see the [pre-upload check](pre-upload-check.json). |
 | Clean Cupertino consumer resolving only crates.io Alloy packages | Pending. |
 | Consumer integration commit | Pending. |
 | Signed `v0.1.0` tag, signature verification, and remote object IDs | Pending. |

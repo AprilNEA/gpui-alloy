@@ -1,0 +1,66 @@
+{
+  "kind": "GENERATED-PACKAGE consumer preflight",
+  "registry_acceptance": false,
+  "completed_at": "2026-10-03T15:21:33.329326+00:00",
+  "exit_code": 0,
+  "base_commit": "3e585e5062c2affb4e5ef27a001b59e4b3891ea3",
+  "worktree": "/Users/Xuan/.codex/worktrees/gpui-alloy-registry/gpui-cupertino",
+  "staging": "/private/tmp/alloy-registry-packager/staging-process-31",
+  "target": "aarch64-apple-darwin",
+  "build_target_dir": "/private/tmp/gpui-alloy-registry-consumer-target",
+  "checks": [
+    "Cargo-only dependency edits with original Rust aliases and features",
+    "cargo metadata --format-version 1 --locked --all-features --filter-platform aarch64-apple-darwin",
+    "19 reachable Alloy package identities match staging; no vendor package paths",
+    "cargo fmt --all -- --check",
+    "cargo clippy --workspace --all-targets --all-features --locked -- -D warnings",
+    "cargo test --workspace --all-features --locked"
+  ],
+  "test_suites": 27,
+  "tests": {
+    "passed": 119,
+    "failed": 0,
+    "ignored": 0,
+    "measured": 0,
+    "filtered_out": 0
+  },
+  "resolved_alloy_packages": [
+    "gpui-alloy",
+    "gpui-alloy-apple",
+    "gpui-alloy-collections",
+    "gpui-alloy-derive-refineable",
+    "gpui-alloy-font-kit",
+    "gpui-alloy-http-client",
+    "gpui-alloy-macos",
+    "gpui-alloy-macros",
+    "gpui-alloy-perf",
+    "gpui-alloy-platform",
+    "gpui-alloy-refineable",
+    "gpui-alloy-scheduler",
+    "gpui-alloy-shared-string",
+    "gpui-alloy-sum-tree",
+    "gpui-alloy-util",
+    "gpui-alloy-util-macros",
+    "gpui-alloy-zlog",
+    "gpui-alloy-ztracing",
+    "gpui-alloy-ztracing-macro"
+  ],
+  "sha256": {
+    "ALLOY-REGISTRY.json": "f67f3a22db05c348ae8afee8962c3fde6a650fef478e98942680285494a655a1",
+    "consumer_manifest": "1d94e6ab0d6991dfb2ce98ee35c2c46ae11d36d1f7d83dc9a91fb6880c60aa3e",
+    "Cargo.lock": "2451e220a63691b95db4322604d3ed2c0dcaeaa7a49e83c41b5b0bb16f10dd57",
+    "preflight.log": "7a75fa306d69b8278f47eaaa658d25f0e2452a085875d8e538444407b7c26803"
+  },
+  "dependency_warnings": [
+    "Inherited Cocoa deprecations in gpui-alloy-apple and gpui-alloy-macos",
+    "block 0.1.6 future incompatibility"
+  ],
+  "startup_delay_evidence": "button-startup-sample.txt: dyld::_dyld_start before user code",
+  "committed": false,
+  "pushed": false,
+  "preserved_patch": {
+    "file": "generated-consumer.patch.gz",
+    "sha256": "10291abd27dba3045a337eb8232438afdf5930b8f534da7a6d168b2a0736a478",
+    "uncompressed_sha256": "f186e4c2c800d1206b5e9cafd05e0b7868f072674cba72fff7828b7fc96a7514"
+  }
+}

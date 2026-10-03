@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "kind": "partial-publication-verification",
+  "checked_at": "2026-10-03T15:29:48.021117+00:00",
+  "archive_manifest_sha256": "78428ea3d01a6a55b6a1abefc4299ef7385434b4057bdaef5902c1de3cbcd5b0",
+  "packages": [
+    {
+      "name": "gpui-alloy-async-process",
+      "version": "0.1.0",
+      "archive_sha256": "3aa7ed2f916e81065c0d790307eb0ee6cfd82060eb4f40fba357367dd7a54e23",
+      "index_checksum": "3aa7ed2f916e81065c0d790307eb0ee6cfd82060eb4f40fba357367dd7a54e23",
+      "frozen_sha256": "3aa7ed2f916e81065c0d790307eb0ee6cfd82060eb4f40fba357367dd7a54e23",
+      "archive_path": "/Users/Xuan/.cargo/registry/cache/index.crates.io-1949cf8c6b5b557f/gpui-alloy-async-process-0.1.0.crate",
+      "index_cache_path": "/Users/Xuan/.cargo/registry/index/index.crates.io-1949cf8c6b5b557f/.cache/gp/ui/gpui-alloy-async-process",
+      "command": [
+        "cargo",
+        "info",
+        "gpui-alloy-async-process@0.1.0",
+        "--registry",
+        "crates-io"
+      ]
+    },
+    {
+      "name": "gpui-alloy-async-tar",
+      "version": "0.1.0",
+      "archive_sha256": "f8d4a16c020368cd98fae064d4b377b4e21c64522b5489851cfac2a522f6b962",
+      "index_checksum": "f8d4a16c020368cd98fae064d4b377b4e21c64522b5489851cfac2a522f6b962",
+      "frozen_sha256": "f8d4a16c020368cd98fae064d4b377b4e21c64522b5489851cfac2a522f6b962",
+      "archive_path": "/Users/Xuan/.cargo/registry/cache/index.crates.io-1949cf8c6b5b557f/gpui-alloy-async-tar-0.1.0.crate",
+      "index_cache_path": "/Users/Xuan/.cargo/registry/index/index.crates.io-1949cf8c6b5b557f/.cache/gp/ui/gpui-alloy-async-tar",
+      "command": [
+        "cargo",
+        "info",
+        "gpui-alloy-async-tar@0.1.0",
+        "--registry",
+        "crates-io"
+      ]
+    },
+    {
+      "name": "gpui-alloy-derive-refineable",
+      "version": "0.1.0",
+      "archive_sha256": "d526f37a224f2b5ccca8d20d6ab619b545315d9a99a7482034fe8bdcc8102f00",
+      "index_checksum": "d526f37a224f2b5ccca8d20d6ab619b545315d9a99a7482034fe8bdcc8102f00",
+      "frozen_sha256": "d526f37a224f2b5ccca8d20d6ab619b545315d9a99a7482034fe8bdcc8102f00",
+      "archive_path": "/Users/Xuan/.cargo/registry/cache/index.crates.io-1949cf8c6b5b557f/gpui-alloy-derive-refineable-0.1.0.crate",
+      "index_cache_path": "/Users/Xuan/.cargo/registry/index/index.crates.io-1949cf8c6b5b557f/.cache/gp/ui/gpui-alloy-derive-refineable",
+      "command": [
+        "cargo",
+        "info",
+        "gpui-alloy-derive-refineable@0.1.0",
+        "--registry",
+        "crates-io"
+      ]
+    },
+    {
+      "name": "gpui-alloy-font-kit",
+      "version": "0.1.0",
+      "archive_sha256": "95061ecd3cd4ca267797bdcfb7dba72961efac00e4f1bf32f1b5b53fab88e157",
+      "index_checksum": "95061ecd3cd4ca267797bdcfb7dba72961efac00e4f1bf32f1b5b53fab88e157",
+      "frozen_sha256": "95061ecd3cd4ca267797bdcfb7dba72961efac00e4f1bf32f1b5b53fab88e157",
+      "archive_path": "/Users/Xuan/.cargo/registry/cache/index.crates.io-1949cf8c6b5b557f/gpui-alloy-font-kit-0.1.0.crate",
+      "index_cache_path": "/Users/Xuan/.cargo/registry/index/index.crates.io-1949cf8c6b5b557f/.cache/gp/ui/gpui-alloy-font-kit",
+      "command": [
+        "cargo",
+        "info",
+        "gpui-alloy-font-kit@0.1.0",
+        "--registry",
+        "crates-io"
+      ]
+    },
+    {
+      "name": "gpui-alloy-http-client-tls",
+      "version": "0.1.0",
+      "archive_sha256": "28df4418cec432b80d0aed90626a0612d161bc30b3fa090636acf79d21f3f60b",
+      "index_checksum": "28df4418cec432b80d0aed90626a0612d161bc30b3fa090636acf79d21f3f60b",
+      "frozen_sha256": "28df4418cec432b80d0aed90626a0612d161bc30b3fa090636acf79d21f3f60b",
+      "archive_path": "/Users/Xuan/.cargo/registry/cache/index.crates.io-1949cf8c6b5b557f/gpui-alloy-http-client-tls-0.1.0.crate",
+      "index_cache_path": "/Users/Xuan/.cargo/registry/index/index.crates.io-1949cf8c6b5b557f/.cache/gp/ui/gpui-alloy-http-client-tls",
+      "command": [
+        "cargo",
+        "info",
+        "gpui-alloy-http-client-tls@0.1.0",
+        "--registry",
+        "crates-io"
+      ]
+    },
+    {
+      "name": "gpui-alloy-macros",
+      "version": "0.1.0",
+      "archive_sha256": "e8bba3774879d41965916a1908c499e3553dd8d47b4671f609fc45eaf26d64bb",
+      "index_checksum": "e8bba3774879d41965916a1908c499e3553dd8d47b4671f609fc45eaf26d64bb",
+      "frozen_sha256": "e8bba3774879d41965916a1908c499e3553dd8d47b4671f609fc45eaf26d64bb",
+      "archive_path": "/Users/Xuan/.cargo/registry/cache/index.crates.io-1949cf8c6b5b557f/gpui-alloy-macros-0.1.0.crate",
+      "index_cache_path": "/Users/Xuan/.cargo/registry/index/index.crates.io-1949cf8c6b5b557f/.cache/gp/ui/gpui-alloy-macros",
+      "command": [
+        "cargo",
+        "info",
+        "gpui-alloy-macros@0.1.0",
+        "--registry",
+        "crates-io"
+      ]
+    }
+  ],
+  "exclude": [
+    "gpui-alloy-async-process",
+    "gpui-alloy-async-tar",
+    "gpui-alloy-derive-refineable",
+    "gpui-alloy-font-kit",
+    "gpui-alloy-http-client-tls",
+    "gpui-alloy-macros"
+  ],
+  "status": "partially-published",
+  "published_package_count": 6,
+  "total_package_count": 31,
+  "remaining_packages": [
+    "gpui-alloy-util",
+    "gpui-alloy-shared-string",
+    "gpui-alloy-scheduler",
+    "gpui-alloy-path",
+    "gpui-alloy-reqwest",
+    "gpui-alloy-ztracing-macro",
+    "gpui-alloy-collections",
+    "gpui-alloy-refineable",
+    "gpui-alloy-smol",
+    "gpui-alloy-perf",
+    "gpui-alloy-zlog",
+    "gpui-alloy-util-macros",
+    "gpui-alloy-ztracing",
+    "gpui-alloy-zed-util",
+    "gpui-alloy-sum-tree",
+    "gpui-alloy-http-client",
+    "gpui-alloy",
+    "gpui-alloy-reqwest-client",
+    "gpui-alloy-apple",
+    "gpui-alloy-wgpu",
+    "gpui-alloy-windows",
+    "gpui-alloy-macos",
+    "gpui-alloy-linux",
+    "gpui-alloy-web",
+    "gpui-alloy-platform"
+  ],
+  "rate_limit": {
+    "new_crate_burst": 5,
+    "new_crate_refill_seconds": 600,
+    "source": "https://github.com/rust-lang/crates.io/blob/main/svelte/src/routes/docs/rate-limits/+page.svelte"
+  },
+  "latest_upload_log_completed_at": "2026-10-03T15:28:26.186689+00:00",
+  "conservative_next_attempt_at": "2026-10-03T15:38:26.186689+00:00",
+  "automatic_continuation_configured": false
+}
