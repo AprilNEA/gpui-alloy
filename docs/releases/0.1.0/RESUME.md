@@ -1,6 +1,6 @@
 # Resume GPUI Alloy 0.1.0
 
-The release is partially published. Six of 31 packages are confirmed in [publication.json](publication.json). Their downloaded archives and registry index checksums match [archives.json](archives.json). The remaining package set is the complete projection minus those confirmed packages.
+The release is partially published. The confirmed package list and current count are stored in [publication.json](publication.json). Their downloaded archives and registry index checksums match [archives.json](archives.json). The remaining package set is the complete projection minus those confirmed packages.
 
 Crates.io permits an initial burst of five new crates and then restores one new-crate allowance every ten minutes. Follow the retry time in each server response. See the [official rate-limit documentation source](https://github.com/rust-lang/crates.io/blob/main/svelte/src/routes/docs/rate-limits/+page.svelte).
 
