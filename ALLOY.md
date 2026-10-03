@@ -1,6 +1,6 @@
 # GPUI Alloy maintenance
 
-Use the validated snapshot [gpui-alloy/20261003.2](https://github.com/AprilNEA/gpui-alloy/tree/gpui-alloy/20261003.2), which identifies S `9d59ea617d75d02e4645eefd22844235431138c8`. Pin that full commit SHA in dependencies and exports. The `main` branch also carries later documentation commits and acceptance records.
+Use the validated snapshot [gpui-alloy/20261003.2](https://github.com/AprilNEA/gpui-alloy/tree/gpui-alloy/20261003.2), which identifies S `9d59ea617d75d02e4645eefd22844235431138c8`. For Git dependencies and exports, pin that full commit SHA. The `main` branch also carries later documentation commits and acceptance records.
 
 ## Repository roles
 
@@ -61,13 +61,61 @@ A dependent topic may use another topic as its base. Record that dependency expl
 
 Keep `local/*` branches for local-only changes or adaptations of existing PRs. A local adaptation does not update the original PR branch. Preserve the original PR branch until a deliberate PR update is ready.
 
-Sign new authored commits and annotated snapshot or archive tags. Preserve upstream commits, authorship, existing commit objects, and existing tag objects. Do not re-sign imported history. Before rewriting a working topic branch, preserve its old head with an archive reference and record the mapping.
+Sign new authored commits and annotated snapshot, registry release, or archive tags. Preserve upstream commits, authorship, existing commit objects, and existing tag objects. Do not re-sign imported history. Before rewriting a working topic branch, preserve its old head with an archive reference and record the mapping.
 
-Published snapshot tags are immutable. Never move a published tag to another commit or replace its tag object. If a correction is required, create a new snapshot number. The one-time signing conversion before the first remote publication does not authorize later history rewrites.
+Published snapshot and registry release tags are immutable. Never move a published tag to another commit or replace its tag object. If a correction is required, create a new snapshot number or registry version. The one-time signing conversion before the first remote publication does not authorize later history rewrites.
 
-Create a release tag only after both validation layers pass: the exact GPUI revision and the consumer using its exact export. Verify the commit and tag signatures before publication. Confirm the remote object IDs after publication.
+Create a snapshot tag only after both validation layers pass: the exact GPUI revision and the consumer using its exact export. Registry release tags also require the package and registry consumer checks in the version policy below. Verify the commit and tag signatures before publication. Confirm the remote object IDs after publication.
 
 Keep licenses and attribution. Every modified Apache-2.0 file must carry a prominent modification notice. A repository-level notice alone is insufficient. Add new notices in the downstream integration when needed; keep existing notices through export.
+
+## Crates.io version policy
+
+The first non-prerelease registry version is `0.1.0`. Alloy owns this version series independently of Zed. The current validated delivery remains the Git snapshot above; this policy does not record a crates.io publication.
+
+The reference is gpui-kit's [publishing script at `d89a9b2`](https://github.com/longbridge/gpui-kit/blob/d89a9b272292f30c724e7098a965287d6d912307/script/bump-gpui.ts). That script uses a shared `0.3.N` version, exact internal dependencies, a recorded Zed revision, and continuation of partially published versions. Alloy uses the following compatibility and artifact rules.
+
+### Version selection
+
+Use one `0.MINOR.PATCH` version for every Alloy package in a release. Freeze the package list and required registry dependency closure in a release manifest. Determine that list during packaging review; the 26 source crates do not automatically define the registry release list.
+
+| Change | Required version |
+| --- | --- |
+| First non-prerelease release. | `0.1.0`. |
+| Backward-compatible fix, feature, upstream synchronization, or packaging correction. | Increment `PATCH`, for example `0.1.0` to `0.1.1`. |
+| Incompatible API, public dependency type, documented behavior contract, default feature set, or supported platform requirement. | Increment `MINOR` and reset `PATCH`, for example `0.1.3` to `0.2.0`. |
+| Higher minimum supported Rust version, or compatibility that cannot be established. | Increment `MINOR` and reset `PATCH`. This is Alloy's conservative compatibility policy. |
+| Maintenance documentation changes outside published packages. | No registry release. |
+
+Judge upstream synchronizations by their effect on Alloy consumers. An upstream manifest version or commit date does not establish compatibility. Record the compatibility decision and affected APIs in the release notes.
+
+Cargo treats `0.MINOR.*` as one compatible series. Preserve that contract within each series. See [Cargo version requirements](https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html#default-requirements).
+
+When public candidate testing is needed, use `0.MINOR.PATCH-rc.N`, starting at `rc.1`. Candidate consumers must select the exact version with `=`, such as `=0.1.0-rc.1`. Select the final core version under the same compatibility rules. The non-prerelease release must pass its own package checks.
+
+Do not encode dates or upstream versions in the registry version. Do not use `+alloy.N` as a release counter: registry version uniqueness ignores build metadata. Keep dates in snapshot tags and source SHAs in release metadata. See [Cargo version uniqueness](https://doc.rust-lang.org/cargo/reference/registry-index.html#version-uniqueness).
+
+### Package family and provenance
+
+Dependencies between Alloy packages in the release manifest must use the exact shared version, such as `=0.1.0`. Publish the complete family for each release, including packages whose implementation did not change. Keep third-party dependency versions independent of the Alloy version.
+
+Exact internal requirements select the tested family. Conflicting exact requirements can prevent dependency resolution. Different `0.MINOR` series can coexist, but their public Rust types are not interchangeable. Do not claim that exact requirements eliminate all duplicate package identities.
+
+Keep upstream package names and versions unchanged in S. Apply registry package names, versions, publish flags, and dependency metadata through a reproducible packaging projection. Record every changed manifest field. Preserve production implementation, resources, licenses, and the six provenance files. Implementation changes must still enter through a source topic branch and a new D.
+
+Use a signed annotated `vVERSION` tag for a registry release, including a candidate release. The tag must identify a signed release commit that fixes S and the packaging tool revision. Preserve `gpui-alloy/YYYYMMDD.N` tags as source snapshot identities; do not move or reuse a snapshot tag for a registry release.
+
+Record U, D, S, the release commit, the packaging tool revision, the source-to-registry package name map, and the complete package list. Record each uploaded archive's SHA-256, compatibility decision, validation results, and final tag object in the release record. Add commit and tag identities in a later documentation commit, as required by the source contract.
+
+### Publication and interrupted releases
+
+1. Before the first upload, freeze the release manifest, source revision, packaging tool revision, and transformed package contents.
+2. Validate the generated packages and a clean consumer against the generated package set. The existing source snapshot checks remain required.
+3. Publish dependencies before their dependents. Record and preserve each package archive and its SHA-256 before uploading that archive.
+4. After an interruption, compare each already published package's registry checksum with the frozen archive record. Resume only the missing packages from the same frozen release. The highest registry version alone does not authorize continuation.
+5. If any package needs different contents, mark the release incomplete and select a new version under the compatibility rules. Publish the complete family under the new version. Preserve the partial publication record; yanking a package does not free its version number.
+6. After all packages are available, validate a clean consumer that resolves the Alloy family from crates.io without local path, Git, or workspace patch overrides. Record the resolved package identities and platform scope. The vendor-only source verifier cannot establish registry acceptance.
+7. After all checks pass, create the signed registry release tag and mark the release complete. Preserve published package versions and tags permanently.
 
 ## Current patch ledger
 

@@ -37,6 +37,8 @@ gpui = { git = "https://github.com/AprilNEA/gpui-alloy", rev = "9d59ea617d75d02e
 gpui_platform = { git = "https://github.com/AprilNEA/gpui-alloy", rev = "9d59ea617d75d02e4645eefd22844235431138c8" }
 ```
 
+Planned crates.io releases use an independent, shared `0.x.y` version, starting at `0.1.0`. Compatible changes increment the patch number; breaking changes start the next `0.x` series. See the [version policy](ALLOY.md#cratesio-version-policy) for package coordination, provenance, and publication requirements.
+
 See [ALLOY.md](ALLOY.md) for validated revisions, patch branches, source exports, checks, and platform limits. See the [GPUI README](crates/gpui/README.md) for framework usage.
 
 ## Source history
