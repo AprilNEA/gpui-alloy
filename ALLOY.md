@@ -2,6 +2,8 @@
 
 Use the validated snapshot [gpui-alloy/20261003.2](https://github.com/AprilNEA/gpui-alloy/tree/gpui-alloy/20261003.2), which identifies S `9d59ea617d75d02e4645eefd22844235431138c8`. For Git dependencies and exports, pin that full commit SHA. The `main` branch also carries later documentation commits and acceptance records.
 
+This branch contains the local GPUI-012 source import described below. The published snapshot above remains the previous accepted release until the new consumer checks complete.
+
 ## Repository roles
 
 | Repository | Responsibility |
@@ -24,13 +26,13 @@ The source notices that link to this document remain valid. Keep those notices u
 | Symbol | Meaning | Current value |
 | --- | --- | --- |
 | U | Fixed upstream baseline in the full source repository. | `4c841aaf1c4fa613e89a5d77096523d0ff593b56` |
-| D | Full source integration commit containing the downstream patches. | `d21987f81a013ec67945892506bcc6aae8a2db0f` |
-| S | Independently versioned standalone commit projected from D. | `9d59ea617d75d02e4645eefd22844235431138c8` |
-| V | Consumer commit that imports an export of S. | `3208e4fb8e751b6619e5b25997893618011b2809` |
+| D | Full source integration commit containing the downstream patches. | `f7ecd66e516734656bf72e2b6f876ec6d977c633`, local only. |
+| S | Independently versioned standalone commit projected from D. | This source import; record its exact SHA after committing. |
+| V | Consumer commit that imports an export of S. | Pending; previous accepted V is `3208e4fb8e751b6619e5b25997893618011b2809`. |
 
 U must be an ancestor of D in `AprilNEA/zed`. D → S is a source projection, not a Git ancestry relationship. S → V is a fixed Git tree export followed by a consumer import.
 
-[ALLOY-SOURCE.json](ALLOY-SOURCE.json) identifies the source repository, U, D, and the original export record digest. The preserved [source export record](alloy-source/ALLOY-SNAPSHOT.json) has format 1 and SHA-256 `88a1781f7241d1f6a5f0f178a63230e0730085fce93c0f1049b66445a076615a`.
+[ALLOY-SOURCE.json](ALLOY-SOURCE.json) identifies the source repository, U, D, and the original export record digest. The preserved [source export record](alloy-source/ALLOY-SNAPSHOT.json) has format 1 and SHA-256 `a8b922e9b2c5d0e6f2d61f0eb24f9a09f40df55bbd16105940751d4795eb4a23`.
 
 Preserve these six provenance files in S and in every consumer export:
 
@@ -119,7 +121,7 @@ Record U, D, S, the release commit, the packaging tool revision, the source-to-r
 
 ## Current patch ledger
 
-AprilNEA maintains all eleven patches. D contains all eleven topics. The following signed source branches are published in `AprilNEA/zed`. The final acceptance record links the remote verification evidence.
+AprilNEA maintains all twelve patches. D contains all twelve topics. GPUI-001 through GPUI-011 are published in `AprilNEA/zed`; GPUI-012 remains local. The earlier acceptance record links the published branches' remote verification evidence.
 
 Unless a dependency is listed, each topic is based on U. GPUI-005 does not depend on GPUI-003. GPUI-010 contains the native popup adaptation and a later hidden-popup lifecycle fix.
 
@@ -136,8 +138,9 @@ Unless a dependency is listed, each topic is based on U. GPUI-005 does not depen
 | GPUI-009 | `local/gpui-inactive-clear` | `271ec2547b5f81740cd1f1855ec647e50b98a852` | GPUI-008, including GPUI-007. |
 | GPUI-010 | `local/gpui-010-native-popup` | `459b3648bf99f6cc5cd149a6d3e695bb476f3fec` | None. |
 | GPUI-011 | `local/gpui-011-popup-decorations` | `02c9bcf88b50768302b3ba95ca1cc8f52d345576` | None. |
+| GPUI-012 | `fix/gpui-accessibility-focus-forwarding` | `c13304e585f6442da5b22cf45198c16fa6aa2185` | None; local only. |
 
-The full source integration branch is `downstream/gpui` at D. The [archived signing map](https://github.com/AprilNEA/gpui-alloy-archive/blob/3ec8404e11262fb038e15b583724e2a35809dfae/alloy-validation/20261003/signing-map.json) maps original topic commits and integration commits to their signed objects.
+The local full source integration branch is `downstream/gpui` at D. Its published head remains the previous D until an explicit push. The [archived signing map](https://github.com/AprilNEA/gpui-alloy-archive/blob/3ec8404e11262fb038e15b583724e2a35809dfae/alloy-validation/20261003/signing-map.json) maps original topic commits and integration commits to their signed objects.
 
 | Patch | Behavior | Upstream route | Regression source |
 | --- | --- | --- | --- |
@@ -152,6 +155,7 @@ The full source integration branch is `downstream/gpui` at D. The [archived sign
 | GPUI-009 | Render inactive Clear with public ColorSync conversion. | Local-only. | [Clear](crates/gpui_apple/tests/clear.rs), [color management](crates/gpui_apple/tests/color_management.rs). |
 | GPUI-010 | Add native anchored popups and correct hidden-popup lifecycle handling. | Existing [PR #64353](https://github.com/zed-industries/zed/pull/64353); the local lifecycle fix has not updated that PR. | [native popup](crates/gpui_macos/tests/native_popup.rs), [popup example](crates/gpui/examples/popup.rs). |
 | GPUI-011 | Remove native decoration from untitled popup windows. | Existing [PR #64430](https://github.com/zed-industries/zed/pull/64430). | [popup decorations](crates/gpui_macos/tests/popup_decorations.rs). |
+| GPUI-012 | Forward native accessibility focus to the content view's focused control. | One fix PR; not submitted. | [accessibility focus](crates/gpui_macos/tests/accessibility_focus.rs). |
 
 Both existing PRs were open at the 2026-10-03 source audit. Recheck their current base, review, and CI status before an update. The migration must preserve these original PR refs:
 
@@ -321,3 +325,31 @@ The new standalone repository is public. Its initial published `main` identifies
 The earlier publication evidence remains at the [fixed archive publication record](https://github.com/AprilNEA/gpui-alloy-archive/blob/3ec8404e11262fb038e15b583724e2a35809dfae/alloy-validation/20261003/publication.json). Preserve that record independently of this release.
 
 The standalone checkout is `/Users/Xuan/Developer/AprilNEA/gpui-alloy`. The full-history checkout is `/Users/Xuan/Developer/AprilNEA/gpui-alloy-archive`. All six linked source worktrees retain their commit identities after repair. See the [local layout record](docs/validation/20261003-standalone/local-layout.json).
+
+## GPUI-012 focus forwarding
+
+GPUI-012 forwards `GPUIWindow` and `GPUIPanel` accessibility focus queries to the content view's AccessKit adapter. The internal `GPUIView` remains the native first responder. This change uses the existing AccessKit helper and adds no public API or dependency.
+
+| Record | Value |
+| --- | --- |
+| Source branch | `AprilNEA/zed:fix/gpui-accessibility-focus-forwarding`, local only. |
+| Base U | `4c841aaf1c4fa613e89a5d77096523d0ff593b56`. |
+| Signed topic | `c13304e585f6442da5b22cf45198c16fa6aa2185`; trailer `GPUI-Patch: GPUI-012`. |
+| Dependencies | None. |
+| Signed integration D | `f7ecd66e516734656bf72e2b6f876ec6d977c633`. |
+| Previous D | `d21987f81a013ec67945892506bcc6aae8a2db0f`. |
+| Source export digest | `a8b922e9b2c5d0e6f2d61f0eb24f9a09f40df55bbd16105940751d4795eb4a23`. |
+| Upstream PR | Not submitted. |
+| Retirement condition | Retire the patch when a new U supplies equivalent window and panel forwarding and passes the same lifecycle regression. |
+
+The original native regression fails when the window returns its own accessibility object instead of the focused input. The same assertion passes with the forwarding helper. The regression also checks adapter installation and removal, no focused control, and an unfocused host. Both native window classes stay hidden and non-key.
+
+Source integration checks passed: formatting, strict Clippy, 424 GPUI library tests, 23 macOS library tests, and three explicit native harnesses. The native harnesses are `accessibility_focus`, `native_popup`, and `popup_decorations`. The standalone check script now includes the new explicit target because `test = false` excludes the harness from default test selection.
+
+The first integration native run used a stale build-script executable from the U checkout's shared target cache. The generated shader omitted the continuous corner functions. Standard `cargo clean -p gpui_apple --release` rebuilt the script and shader; the unchanged checks then passed. No shader source, assertion, feature, or system setting changed. The failed run remains in [the initial native log](docs/validation/20261003-focus/integration-initial-native-failure.log.gz). Rebuilt results are recorded in [the library log](docs/validation/20261003-focus/integration-lib.log.gz) and [the native log](docs/validation/20261003-focus/integration-native.log.gz).
+
+The staged projection audit compares 431 payload entries against D: 404 ordinary files and 27 symbolic links. Path sets, bytes, modes, link targets, source controls, and provenance match. The standalone root build configuration and lockfile remain unchanged. The [staged audit](docs/validation/20261003-focus/source-projection-staged.json) does not establish commit ancestry; repeat the audit against the fixed S.
+
+The standalone `./script/check` passed with exit status 0: formatting, strict Clippy, 517 tests, and three native harnesses. The [standalone log](docs/validation/20261003-focus/standalone-check.log.gz) has SHA-256 `5f3ab9038f4e27357f61ac7fd45cdb5bf8417966b4563380331c404487f80ad3`. The standalone run did not reproduce the integration run's startup delays.
+
+Consumer acceptance remains pending at this source import. Record the exact S, V, native application focus evidence, and any local snapshot tag in a later documentation commit. Embedded SSH signatures are present; the user waived local trust verification for this work. No source or standalone branch has been pushed.
