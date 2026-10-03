@@ -1,0 +1,71 @@
+# Modified by AprilNEA for GPUI Alloy. Patch records: https://github.com/AprilNEA/gpui-alloy/blob/main/ALLOY.md
+
+[package]
+name = "gpui_apple"
+version = "0.1.0"
+edition.workspace = true
+publish.workspace = true
+license = "Apache-2.0"
+
+[lints]
+workspace = true
+
+[lib]
+path = "src/gpui_apple.rs"
+doctest = false
+
+[features]
+default = []
+bench-support = ["gpui/bench-support"]
+test-support = ["gpui/test-support"]
+runtime_shaders = []
+
+[dependencies]
+gpui.workspace = true
+
+[target.'cfg(target_os = "macos")'.dependencies]
+anyhow.workspace = true
+block2.workspace = true
+cocoa.workspace = true
+core-foundation.workspace = true
+core-video.workspace = true
+derive_more.workspace = true
+etagere.workspace = true
+foreign-types.workspace = true
+image.workspace = true
+libm = "0.2.16"
+log.workspace = true
+metal.workspace = true
+objc.workspace = true
+objc2.workspace = true
+parking_lot.workspace = true
+
+[target.'cfg(target_os = "macos")'.build-dependencies]
+cbindgen.workspace = true
+
+[target.'cfg(target_os = "macos")'.dev-dependencies]
+gpui = { workspace = true, features = ["test-support"] }
+
+[[test]]
+name = "backdrop"
+required-features = ["test-support"]
+
+[[test]]
+name = "numeric_reference"
+required-features = ["test-support"]
+
+[[test]]
+name = "optical_reference"
+required-features = ["test-support"]
+
+[[test]]
+name = "continuous_corners"
+required-features = ["test-support"]
+
+[[test]]
+name = "clear"
+required-features = ["test-support"]
+
+[[test]]
+name = "color_management"
+required-features = ["test-support"]

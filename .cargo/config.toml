@@ -1,0 +1,8 @@
+[target.'cfg(all())']
+rustflags = ["-C", "symbol-mangling-version=v0", "--cfg", "tokio_unstable"]
+
+[target.'cfg(target_os = "windows")']
+rustflags = ["--cfg", "windows_slim_errors"]
+
+[env]
+MACOSX_DEPLOYMENT_TARGET = "10.15.7"

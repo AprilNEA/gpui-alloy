@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+if [[ ! " $* " == *" -p "* && ! " $* " == *" --package "* ]]; then
+    set -- "$@" --workspace
+fi
+
+"${CARGO:-cargo}" clippy "$@" --release --all-targets --all-features -- --deny warnings

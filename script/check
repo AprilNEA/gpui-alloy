@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+
+# The native window harnesses require a macOS desktop session and Apple Metal.
+cargo fmt --all -- --check
+./script/clippy --locked
+cargo test -p gpui -p gpui_apple -p gpui_macos -p gpui_wgpu --lib --release --all-features --locked -- --test-threads=1
+cargo test -p gpui --test ordered_backdrop --release --all-features --locked
+cargo test -p gpui_apple --release --all-features --locked --test backdrop --test numeric_reference --test optical_reference --test continuous_corners --test clear --test color_management
+cargo test -p gpui_macos --test native_popup --test popup_decorations --release --all-features --locked
+cargo test -p gpui --example popup --release --all-features --locked
+cargo test -p gpui_apple --release --features test-support --locked --test continuous_corners
