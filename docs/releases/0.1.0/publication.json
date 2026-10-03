@@ -1,7 +1,7 @@
 {
   "format": 1,
   "kind": "partial-publication-verification",
-  "checked_at": "2026-10-03T19:20:04.035537+00:00",
+  "checked_at": "2026-10-03T19:28:44.538692+00:00",
   "archive_manifest_sha256": "78428ea3d01a6a55b6a1abefc4299ef7385434b4057bdaef5902c1de3cbcd5b0",
   "packages": [
     {
@@ -303,6 +303,23 @@
         "crates-io"
       ],
       "evidence_log": "publish-20261003T191616.log"
+    },
+    {
+      "name": "gpui-alloy-ztracing",
+      "version": "0.1.0",
+      "archive_sha256": "8d948b973a01e17cc9ddd269e926577df5305b2c3dc91ef70886d61fad2bc20b",
+      "index_checksum": "8d948b973a01e17cc9ddd269e926577df5305b2c3dc91ef70886d61fad2bc20b",
+      "frozen_sha256": "8d948b973a01e17cc9ddd269e926577df5305b2c3dc91ef70886d61fad2bc20b",
+      "archive_path": "/Users/Xuan/.cargo/registry/cache/index.crates.io-1949cf8c6b5b557f/gpui-alloy-ztracing-0.1.0.crate",
+      "index_cache_path": "/Users/Xuan/.cargo/registry/index/index.crates.io-1949cf8c6b5b557f/.cache/gp/ui/gpui-alloy-ztracing",
+      "command": [
+        "cargo",
+        "info",
+        "gpui-alloy-ztracing@0.1.0",
+        "--registry",
+        "crates-io"
+      ],
+      "evidence_log": "publish-20261003T192642.log"
     }
   ],
   "exclude": [
@@ -323,13 +340,13 @@
     "gpui-alloy-smol",
     "gpui-alloy-perf",
     "gpui-alloy-zlog",
-    "gpui-alloy-util-macros"
+    "gpui-alloy-util-macros",
+    "gpui-alloy-ztracing"
   ],
   "status": "partially-published",
-  "published_package_count": 18,
+  "published_package_count": 19,
   "total_package_count": 31,
   "remaining_packages": [
-    "gpui-alloy-ztracing",
     "gpui-alloy-zed-util",
     "gpui-alloy-sum-tree",
     "gpui-alloy-http-client",
@@ -348,7 +365,7 @@
     "new_crate_refill_seconds": 600,
     "source": "https://github.com/rust-lang/crates.io/blob/main/svelte/src/routes/docs/rate-limits/+page.svelte"
   },
-  "latest_upload_log_completed_at": "2026-10-03T19:19:52.061824+00:00",
+  "latest_upload_log_completed_at": "2026-10-03T19:28:32.461373+00:00",
   "automatic_continuation_configured": true,
   "automatic_continuation": {
     "automation_id": "gpui-alloy-cupertino",
@@ -360,15 +377,15 @@
     "stop_condition": "All 31 packages are verified in crates.io and Cupertino registry acceptance is complete."
   },
   "server_retry_after": null,
-  "next_scheduled_check_at": "2026-10-03T19:26:16.541000+00:00",
+  "next_scheduled_check_at": "2026-10-03T19:36:42.268000+00:00",
   "latest_run": {
-    "scheduled_at": "2026-10-03T19:16:16.541Z",
+    "scheduled_at": "2026-10-03T19:26:42.268Z",
     "new_packages_published": [
-      "gpui-alloy-util-macros"
+      "gpui-alloy-ztracing"
     ],
     "exit_code": 0,
-    "log": "publish-20261003T191616.log",
-    "log_sha256": "7b1637119f1ea291d8f562fcc2552658a915b53ae3aec30d16fb11ff4d573beb",
+    "log": "publish-20261003T192642.log",
+    "log_sha256": "176bc49050bf1fb5636b9c4349e6b747e65100fc60d5240bef91728af68872af",
     "package_verification_enabled": true,
     "frozen_archive_comparison_passed_before_upload": true,
     "registry_archive_and_index_checksum_match": true
