@@ -1,5 +1,5 @@
 target-version = "py312"
-include = ["gpui_snapshot.py", "test_gpui_snapshot.py", "gpui_registry.py", "test_gpui_registry.py"]
+include = ["gpui_snapshot.py", "test_gpui_snapshot.py", "gpui_registry.py", "test_gpui_registry.py", "gpui_registry_consumer.py", "test_gpui_registry_consumer.py"]
 line-length = 100
 
 [lint]

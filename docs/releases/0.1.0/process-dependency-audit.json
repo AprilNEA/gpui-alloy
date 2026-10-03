@@ -1,0 +1,201 @@
+{
+  "format": 1,
+  "source_audit_date": "2026-10-03",
+  "reason": "Registry async-process does not expose adopt_raw_pid, used by Alloy util through smol::process on macOS. Preserve source bytes and github-download through two manifest projections.",
+  "before_dependencies": [
+    {
+      "owner": "Alloy standalone workspace",
+      "name": "smol",
+      "version": "2.0"
+    },
+    {
+      "owner": "smol 2.0.2",
+      "target": "cfg(not(target_os = \"espidf\"))",
+      "name": "async-process",
+      "version": "2.0.0"
+    }
+  ],
+  "required_projection": [
+    {
+      "owner": "Alloy packages using workspace smol",
+      "alias": "smol",
+      "package": "gpui-alloy-smol",
+      "version": "=0.1.0"
+    },
+    {
+      "owner": "gpui-alloy-smol",
+      "target": "cfg(not(target_os = \"espidf\"))",
+      "alias": "async-process",
+      "package": "gpui-alloy-async-process",
+      "version": "=0.1.0"
+    }
+  ],
+  "sources": [
+    {
+      "original_package": "smol",
+      "original_version": "2.0.2",
+      "fixed_git": {
+        "repository": "https://github.com/smol-rs/smol",
+        "revision": "a1e642196803fc5dff56f1e04e867bfc024966bd",
+        "checkout": "/private/tmp/alloy-smol-2.0.2-a1e6421"
+      },
+      "registry_projection": {
+        "name": "gpui-alloy-smol",
+        "version": "0.1.0",
+        "lib_name": "smol"
+      },
+      "manifest_sha256": "17f909a9a9e849777955b2bfbae280c80ad9b09e97f0c3e50f6403836911e5f2",
+      "rust_inventory": "process-evidence/smol-rust-sha256.json",
+      "rust_inventory_sha256": "3f276752b6715ce347adf071a157ce147231cb4b0f0e5291c38824fb2e209fdc",
+      "license": "Apache-2.0 OR MIT",
+      "license_files": {
+        "LICENSE-APACHE": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+        "LICENSE-MIT": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+      },
+      "additional_unpublished_dependencies": [],
+      "dependencies": {
+        "dependencies": {
+          "async-channel": "2.0.0",
+          "async-executor": "1.5.0",
+          "async-fs": "2.0.0",
+          "async-io": "2.1.0",
+          "async-lock": "3.0.0",
+          "async-net": "2.0.0",
+          "blocking": "1.3.0",
+          "futures-lite": "2.0.0"
+        },
+        "target": {
+          "cfg(not(target_os = \"espidf\"))": {
+            "dependencies": {
+              "async-process": "2.0.0"
+            }
+          },
+          "cfg(target_os = \"linux\")": {
+            "dev-dependencies": {
+              "inotify": {
+                "version": "0.11",
+                "default-features": false
+              },
+              "rustix": "0.38",
+              "timerfd": "1"
+            }
+          },
+          "cfg(windows)": {
+            "dev-dependencies": {
+              "uds_windows": "1"
+            }
+          }
+        }
+      }
+    },
+    {
+      "original_package": "async-process",
+      "original_version": "2.5.0",
+      "fixed_git": {
+        "repository": "https://github.com/zed-industries/async-process.git",
+        "revision": "0b6d6713570af61806e1e5cb40e0f757cb93fd9d",
+        "checkout": "/Users/Xuan/.cargo/git/checkouts/async-process-b80486ce8f827270/0b6d671"
+      },
+      "registry_projection": {
+        "name": "gpui-alloy-async-process",
+        "version": "0.1.0",
+        "lib_name": "async_process"
+      },
+      "manifest_sha256": "4bee4d21e32200da10ed1bfe4dc1e7cc3589d24516d1bd729b9a224d4ecdbf41",
+      "rust_inventory": "process-evidence/async-process-rust-sha256.json",
+      "rust_inventory_sha256": "c0c377bf17a7d9096dec49a0e441de0df4f16d7007d46fdc5934f85fac014a2e",
+      "license": "Apache-2.0 OR MIT",
+      "license_files": {
+        "LICENSE-APACHE": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+        "LICENSE-MIT": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+      },
+      "additional_unpublished_dependencies": [],
+      "dependencies": {
+        "dependencies": {
+          "async-io": "2.3.0",
+          "cfg-if": "1.0",
+          "event-listener": "5.1.0",
+          "futures-lite": "2.0.0",
+          "tracing": {
+            "version": "0.1.40",
+            "default-features": false,
+            "optional": true
+          }
+        },
+        "target": {
+          "cfg(unix)": {
+            "dependencies": {
+              "async-lock": "3.0.0",
+              "async-signal": "0.2.3",
+              "rustix": {
+                "version": "1.0",
+                "default-features": false,
+                "features": [
+                  "std",
+                  "fs",
+                  "process"
+                ]
+              }
+            }
+          },
+          "cfg(any(windows, target_os = \"linux\"))": {
+            "dependencies": {
+              "async-channel": "2.0.0",
+              "async-task": "4.7.0"
+            }
+          },
+          "cfg(windows)": {
+            "dependencies": {
+              "blocking": "1.0.0"
+            },
+            "dev-dependencies": {
+              "windows-sys": {
+                "version": "0.61",
+                "default-features": false,
+                "features": [
+                  "Win32_Foundation",
+                  "Win32_System_Threading"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "smol_registry_equivalence": {
+    "package": "smol",
+    "version": "2.0.2",
+    "archive": "/Users/Xuan/.cargo/registry/cache/index.crates.io-1949cf8c6b5b557f/smol-2.0.2.crate",
+    "archive_sha256": "a33bd3e260892199c3ccfc487c88b2da2265080acb316cd920da72fdfd7c599f",
+    "matches_standalone_lock_checksum": true,
+    "git_sha_from_archive_vcs": "a1e642196803fc5dff56f1e04e867bfc024966bd",
+    "original_manifest_equal": true,
+    "published_source_files_equal": true,
+    "compared_archive_files": 33,
+    "generated_archive_metadata_excluded": [
+      {
+        "path": ".cargo_vcs_info.json",
+        "sha256": "ac66e7ef8f007d61b2a522317594a8ca0eb7b77fc3114552f4248824f0c459f3"
+      },
+      {
+        "path": "Cargo.lock",
+        "sha256": "186f648f33d244a36565ec9a53e3832cdc78ae374bbce18e2e14c83f98a31b92"
+      },
+      {
+        "path": "Cargo.toml",
+        "sha256": "0f387d5cad16e2e98eb5ce6a017f162127c27a1fc50a1ffa580c318cd1af6682"
+      }
+    ],
+    "generated_lock_note": "Cargo.lock exists in the registry archive but not at the source Git revision. It is packaging metadata, not a runtime source difference.",
+    "evidence": "process-evidence/smol-archive-to-git.json",
+    "evidence_sha256": "2061b4edd475ef81cbf1b198cbade09ed6510e8f01317c951bc2a7adbe3a790e"
+  },
+  "publication_order": [
+    "gpui-alloy-async-process",
+    "gpui-alloy-smol"
+  ],
+  "additional_packages_required": 2,
+  "source_changes_required": false,
+  "root_patch_disposition": "Replace the required async-process edge through namespaced smol. Continue omitting generic root patches. Both manifests otherwise use registry dependencies."
+}

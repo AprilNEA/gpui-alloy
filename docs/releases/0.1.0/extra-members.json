@@ -16,5 +16,17 @@
     "repo": "/Users/Xuan/.cargo/git/checkouts/font-kit-2de8721bb3347bf4/94b0f28",
     "repository": "https://github.com/zed-industries/font-kit",
     "revision": "94b0f28166665e8fd2f53ff6d268a14955c82269"
+  },
+  {
+    "package": "gpui-alloy-smol",
+    "repo": "/private/tmp/alloy-smol-2.0.2-a1e6421",
+    "repository": "https://github.com/smol-rs/smol",
+    "revision": "a1e642196803fc5dff56f1e04e867bfc024966bd"
+  },
+  {
+    "package": "gpui-alloy-async-process",
+    "repo": "/Users/Xuan/.cargo/git/checkouts/async-process-b80486ce8f827270/0b6d671",
+    "repository": "https://github.com/zed-industries/async-process.git",
+    "revision": "0b6d6713570af61806e1e5cb40e0f757cb93fd9d"
   }
 ]

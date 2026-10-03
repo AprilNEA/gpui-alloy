@@ -1,0 +1,200 @@
+[
+  {
+    "archive_path": "CHANGELOG.md",
+    "git_path": "CHANGELOG.md",
+    "archive_sha256": "3050680c941fe3426a9f61442136406a4abcea8e24ff408ab879a3243ca12d9c",
+    "git_sha256": "3050680c941fe3426a9f61442136406a4abcea8e24ff408ab879a3243ca12d9c"
+  },
+  {
+    "archive_path": "CODE_OF_CONDUCT.md",
+    "git_path": "CODE_OF_CONDUCT.md",
+    "archive_sha256": "13a6d92728fe39a430251becdfc6a21f167df8cc99406f2efabc72f6833fff28",
+    "git_sha256": "13a6d92728fe39a430251becdfc6a21f167df8cc99406f2efabc72f6833fff28"
+  },
+  {
+    "archive_path": "Cargo.toml.orig",
+    "git_path": "Cargo.toml",
+    "archive_sha256": "17f909a9a9e849777955b2bfbae280c80ad9b09e97f0c3e50f6403836911e5f2",
+    "git_sha256": "17f909a9a9e849777955b2bfbae280c80ad9b09e97f0c3e50f6403836911e5f2"
+  },
+  {
+    "archive_path": "LICENSE-APACHE",
+    "git_path": "LICENSE-APACHE",
+    "archive_sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+    "git_sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+  },
+  {
+    "archive_path": "LICENSE-MIT",
+    "git_path": "LICENSE-MIT",
+    "archive_sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+    "git_sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+  },
+  {
+    "archive_path": "README.md",
+    "git_path": "README.md",
+    "archive_sha256": "a5e8fba81e8f14f2a4aa91e99a351bc132831c66779daf106a1267d416f87a99",
+    "git_sha256": "a5e8fba81e8f14f2a4aa91e99a351bc132831c66779daf106a1267d416f87a99"
+  },
+  {
+    "archive_path": "assets/images/logo_fullsize.png",
+    "git_path": "assets/images/logo_fullsize.png",
+    "archive_sha256": "58966a8f5aef000b3bdbe3c608368db7bb6635d8b6cd821307f07a6d5506dbea",
+    "git_sha256": "58966a8f5aef000b3bdbe3c608368db7bb6635d8b6cd821307f07a6d5506dbea"
+  },
+  {
+    "archive_path": "assets/images/logo_fullsize_transparent.png",
+    "git_path": "assets/images/logo_fullsize_transparent.png",
+    "archive_sha256": "e9c534f53c9eab50a97a1ed05c723b568794cde2a5ab30a912333de3e2a0c1b9",
+    "git_sha256": "e9c534f53c9eab50a97a1ed05c723b568794cde2a5ab30a912333de3e2a0c1b9"
+  },
+  {
+    "archive_path": "examples/async-h1-client.rs",
+    "git_path": "examples/async-h1-client.rs",
+    "archive_sha256": "22eafb086c5aa845a4e8d9dcf25b1b9e6b72eb3036e5c88fe855f742763fd597",
+    "git_sha256": "22eafb086c5aa845a4e8d9dcf25b1b9e6b72eb3036e5c88fe855f742763fd597"
+  },
+  {
+    "archive_path": "examples/async-h1-server.rs",
+    "git_path": "examples/async-h1-server.rs",
+    "archive_sha256": "ff481d773b47d4c1180d5272d381bd7077c1beee5aa00e0779410c840fa86a56",
+    "git_sha256": "ff481d773b47d4c1180d5272d381bd7077c1beee5aa00e0779410c840fa86a56"
+  },
+  {
+    "archive_path": "examples/certificate.pem",
+    "git_path": "examples/certificate.pem",
+    "archive_sha256": "7a5c3f70fa9ad09b631709cbcecbc037794c1e69e0d6507b1d29a7078c55f84c",
+    "git_sha256": "7a5c3f70fa9ad09b631709cbcecbc037794c1e69e0d6507b1d29a7078c55f84c"
+  },
+  {
+    "archive_path": "examples/chat-client.rs",
+    "git_path": "examples/chat-client.rs",
+    "archive_sha256": "55ca9aa63b930fe09c0d15f4cfe32e4c9355fb3a9021c055810629b8ee969ae0",
+    "git_sha256": "55ca9aa63b930fe09c0d15f4cfe32e4c9355fb3a9021c055810629b8ee969ae0"
+  },
+  {
+    "archive_path": "examples/chat-server.rs",
+    "git_path": "examples/chat-server.rs",
+    "archive_sha256": "7ca9a69df3dce19a65bc340fbe9ff4988196bf4d0c2934c195f9eb4a140039dc",
+    "git_sha256": "7ca9a69df3dce19a65bc340fbe9ff4988196bf4d0c2934c195f9eb4a140039dc"
+  },
+  {
+    "archive_path": "examples/ctrl-c.rs",
+    "git_path": "examples/ctrl-c.rs",
+    "archive_sha256": "bf985474d757de3d720114869fb77e3813cdbe30ebf30fc93d2fae3e96c9c73b",
+    "git_sha256": "bf985474d757de3d720114869fb77e3813cdbe30ebf30fc93d2fae3e96c9c73b"
+  },
+  {
+    "archive_path": "examples/get-request.rs",
+    "git_path": "examples/get-request.rs",
+    "archive_sha256": "7499faeb0b21ce4c57205782859c81473785e24bb57d109368ae8d06fb97ca89",
+    "git_sha256": "7499faeb0b21ce4c57205782859c81473785e24bb57d109368ae8d06fb97ca89"
+  },
+  {
+    "archive_path": "examples/hyper-client.rs",
+    "git_path": "examples/hyper-client.rs",
+    "archive_sha256": "49861baed617ea21751fdeaf5f5ca050ada27b1085af714bc8f9ff74418d15d9",
+    "git_sha256": "49861baed617ea21751fdeaf5f5ca050ada27b1085af714bc8f9ff74418d15d9"
+  },
+  {
+    "archive_path": "examples/hyper-server.rs",
+    "git_path": "examples/hyper-server.rs",
+    "archive_sha256": "a920910e90966fbd44cf4c5401f93e711c24ceaf7d9aa05941ca7e7966529970",
+    "git_sha256": "a920910e90966fbd44cf4c5401f93e711c24ceaf7d9aa05941ca7e7966529970"
+  },
+  {
+    "archive_path": "examples/identity.pfx",
+    "git_path": "examples/identity.pfx",
+    "archive_sha256": "08895e488582ed2f75d17e8b1c56d2c9cd8989c344cd48bdce93c88cfec1bd35",
+    "git_sha256": "08895e488582ed2f75d17e8b1c56d2c9cd8989c344cd48bdce93c88cfec1bd35"
+  },
+  {
+    "archive_path": "examples/linux-inotify.rs",
+    "git_path": "examples/linux-inotify.rs",
+    "archive_sha256": "4f97e4a2bec33d6745b3c2f0e70a46b1f269b1fb3703adb21b39b7f2e9cb02fe",
+    "git_sha256": "4f97e4a2bec33d6745b3c2f0e70a46b1f269b1fb3703adb21b39b7f2e9cb02fe"
+  },
+  {
+    "archive_path": "examples/linux-timerfd.rs",
+    "git_path": "examples/linux-timerfd.rs",
+    "archive_sha256": "c7dcb147278f3e953c78487bd5f20d546b2af0de91edb92ea01b82c143e0001a",
+    "git_sha256": "c7dcb147278f3e953c78487bd5f20d546b2af0de91edb92ea01b82c143e0001a"
+  },
+  {
+    "archive_path": "examples/simple-client.rs",
+    "git_path": "examples/simple-client.rs",
+    "archive_sha256": "dd6ec68d92751fa2be0289ced37f7f0fd9db393d630138ece1169aa620ce8c43",
+    "git_sha256": "dd6ec68d92751fa2be0289ced37f7f0fd9db393d630138ece1169aa620ce8c43"
+  },
+  {
+    "archive_path": "examples/simple-server.rs",
+    "git_path": "examples/simple-server.rs",
+    "archive_sha256": "bacabee8f663e6d47ba259a9c824a11db1b18e5fd1f861148b31095330fcf5f6",
+    "git_sha256": "bacabee8f663e6d47ba259a9c824a11db1b18e5fd1f861148b31095330fcf5f6"
+  },
+  {
+    "archive_path": "examples/tcp-client.rs",
+    "git_path": "examples/tcp-client.rs",
+    "archive_sha256": "9741b356452b7e0aca153bc21bbc00d8ce7a37764ecb66ec2a115a4e6c0d39f3",
+    "git_sha256": "9741b356452b7e0aca153bc21bbc00d8ce7a37764ecb66ec2a115a4e6c0d39f3"
+  },
+  {
+    "archive_path": "examples/tcp-server.rs",
+    "git_path": "examples/tcp-server.rs",
+    "archive_sha256": "58f4de4e72c4f2b800406dae2491467b61326c1e0ae6e066dbcccf468f0e1133",
+    "git_sha256": "58f4de4e72c4f2b800406dae2491467b61326c1e0ae6e066dbcccf468f0e1133"
+  },
+  {
+    "archive_path": "examples/tls-client.rs",
+    "git_path": "examples/tls-client.rs",
+    "archive_sha256": "4ef453319010cd6be764d3e24ee23e422c9d9db91557a7c9796564d021749a09",
+    "git_sha256": "4ef453319010cd6be764d3e24ee23e422c9d9db91557a7c9796564d021749a09"
+  },
+  {
+    "archive_path": "examples/tls-server.rs",
+    "git_path": "examples/tls-server.rs",
+    "archive_sha256": "5628f18525351d27039d0aaa99939cf7ec06ff7525eae8ea4c79b29d6be21d96",
+    "git_sha256": "5628f18525351d27039d0aaa99939cf7ec06ff7525eae8ea4c79b29d6be21d96"
+  },
+  {
+    "archive_path": "examples/unix-signal.rs",
+    "git_path": "examples/unix-signal.rs",
+    "archive_sha256": "5a9dbd8b0a89b9ccb3f89f84bd2c0063674df9a660223a422aeb2edc1fc87349",
+    "git_sha256": "5a9dbd8b0a89b9ccb3f89f84bd2c0063674df9a660223a422aeb2edc1fc87349"
+  },
+  {
+    "archive_path": "examples/web-crawler.rs",
+    "git_path": "examples/web-crawler.rs",
+    "archive_sha256": "031398caf1eddd5c5e06568a36b8751cc63ecec86cb6034caa30c13ba24c5105",
+    "git_sha256": "031398caf1eddd5c5e06568a36b8751cc63ecec86cb6034caa30c13ba24c5105"
+  },
+  {
+    "archive_path": "examples/websocket-client.rs",
+    "git_path": "examples/websocket-client.rs",
+    "archive_sha256": "f29d38fff268fa83440ba44e05831688e91eb31e8ee73f017952fdf8e6fcb5b5",
+    "git_sha256": "f29d38fff268fa83440ba44e05831688e91eb31e8ee73f017952fdf8e6fcb5b5"
+  },
+  {
+    "archive_path": "examples/websocket-server.rs",
+    "git_path": "examples/websocket-server.rs",
+    "archive_sha256": "b46432d569999bdf90e82285cef17f0835a4c8d0409e93992cde31f6cc8d8e17",
+    "git_sha256": "b46432d569999bdf90e82285cef17f0835a4c8d0409e93992cde31f6cc8d8e17"
+  },
+  {
+    "archive_path": "examples/windows-uds.rs",
+    "git_path": "examples/windows-uds.rs",
+    "archive_sha256": "f4354a467f27430970af294eaace15a317a6580785eecd7c81d8e0f023050fcb",
+    "git_sha256": "f4354a467f27430970af294eaace15a317a6580785eecd7c81d8e0f023050fcb"
+  },
+  {
+    "archive_path": "src/lib.rs",
+    "git_path": "src/lib.rs",
+    "archive_sha256": "bbf33d4c1f2ba97bea8b491f5f749920716ac96e669fbb5c22e5e41c5e6685c4",
+    "git_sha256": "bbf33d4c1f2ba97bea8b491f5f749920716ac96e669fbb5c22e5e41c5e6685c4"
+  },
+  {
+    "archive_path": "src/spawn.rs",
+    "git_path": "src/spawn.rs",
+    "archive_sha256": "d44292b66c578ab66aefb260467fa1f0d07a4c8a0e8bde5779271ec5fdb229f8",
+    "git_sha256": "d44292b66c578ab66aefb260467fa1f0d07a4c8a0e8bde5779271ec5fdb229f8"
+  }
+]

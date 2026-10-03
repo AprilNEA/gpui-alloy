@@ -7,6 +7,69 @@ import gpui_registry as registry
 
 
 class RegistryProjectionTests(unittest.TestCase):
+    def test_registry_override_validates_inherited_identity_and_keeps_features(self):
+        workspace = {
+            "dependencies": {
+                "executor": {
+                    "package": "smol",
+                    "version": "2.0",
+                    "features": ["upstream"],
+                    "default-features": False,
+                }
+            }
+        }
+        packages = {
+            "smol": {
+                "package": "gpui-alloy-smol",
+                "directory": "external/smol",
+                "source": {"git": "https://example.test/smol", "rev": "a" * 40},
+            }
+        }
+        overrides = {
+            "executor": {"source": {"package": "smol", "version": "2.0"}, "internal": "smol"}
+        }
+        value, internal = registry.dependency(
+            "executor",
+            {
+                "workspace": True,
+                "features": ["local"],
+                "optional": True,
+            },
+            workspace,
+            "crates/util",
+            packages,
+            "0.1.0",
+            {},
+            overrides,
+        )
+        self.assertEqual(internal, "smol")
+        self.assertEqual(
+            value,
+            {
+                "package": "gpui-alloy-smol",
+                "version": "=0.1.0",
+                "path": "../../external/smol",
+                "features": ["upstream", "local"],
+                "default-features": False,
+                "optional": True,
+            },
+        )
+        for changes in ({"version": "2.1"}, {"package": "another-smol"}, {"registry": "private"}):
+            with (
+                self.subTest(changes=changes),
+                self.assertRaisesRegex(ValueError, "audited package/version"),
+            ):
+                registry.dependency(
+                    "executor",
+                    {"package": "smol", "version": "2.0", **changes},
+                    {},
+                    "crates/util",
+                    packages,
+                    "0.1.0",
+                    {},
+                    overrides,
+                )
+
     def test_provenance_is_packaged_with_include_or_exclude_filters(self):
         for field, patterns in (
             ("include", ["src/**", f"!/{registry.PACKAGE_RECORD}"]),

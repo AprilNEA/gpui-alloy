@@ -130,17 +130,36 @@ python3 script/gpui_registry.py \
   --revision 9d59ea617d75d02e4645eefd22844235431138c8 \
   --version 0.1.0 \
   --git-overrides docs/releases/0.1.0/git-overrides.json \
+  --registry-overrides docs/releases/0.1.0/registry-overrides.json \
   --extra-members docs/releases/0.1.0/extra-members.json \
   --output /new/registry-workspace
 ```
 
-The `0.1.0` candidate contains 29 packages: the 26 standalone crates and fixed `async-tar`, `reqwest`, and `font-kit` sources. The additional packages retain behavior or dependency declarations absent from the corresponding registry releases. See the [dependency audit](docs/releases/0.1.0/dependency-audit.json), [Git mappings](docs/releases/0.1.0/git-overrides.json), and [projection record](docs/releases/0.1.0/projection.json).
+The `0.1.0` candidate contains 31 packages: the 26 standalone crates and fixed `async-tar`, `reqwest`, `font-kit`, `smol`, and `async-process` sources. The additional packages preserve fixed forks and the dependency path required by `util`. See the [dependency audit](docs/releases/0.1.0/dependency-audit.json), [process dependency audit](docs/releases/0.1.0/process-dependency-audit.json), [Git mappings](docs/releases/0.1.0/git-overrides.json), [registry mappings](docs/releases/0.1.0/registry-overrides.json), and [projection record](docs/releases/0.1.0/projection.json).
+
+The [first preflight](docs/releases/0.1.0/preflight-1.log) exposed the required `async-process::Child::adopt_raw_pid` API. The registry projection preserves the source patch through the Alloy `smol` dependency. The `async-task`, `calloop`, and `windows-capture` root patches remain omitted; the registry graph requires separate compilation and consumer acceptance.
 
 The projector preserves original Rust library names and dependency aliases. Consumer manifests must use aliases such as `gpui = { package = "gpui-alloy", version = "=0.1.0" }`. Package names alone do not make separately resolved GPUI types interchangeable.
 
 The projection record includes all manifest diffs, source and generated file inventories, license link materializations, build input copies, and dependency order. Every generated package also contains `ALLOY-REGISTRY-SOURCE.json` with its own source identity and generator digests. A projection record does not establish publication or consumer acceptance.
 
 Run Cargo package checks and validate the generated package set before uploading. Keep build output outside the generated workspace. After publication, validate the registry consumer under the publication procedure above. Record archive checksums and results with the release; do not infer acceptance from the projector's unit tests.
+
+## Verify a registry consumer
+
+After all release archives are published, run the registry verifier with Cargo available:
+
+```sh
+python3 script/gpui_registry_consumer.py \
+  --consumer /path/to/consumer \
+  --projection docs/releases/0.1.0/projection.json \
+  --archives docs/releases/0.1.0/archives.json \
+  --target aarch64-apple-darwin
+```
+
+Create `archives.json` from the frozen uploaded archives. Each `packages` entry must contain `name`, `version`, and `sha256`. The manifest must contain exactly the complete release family.
+
+The verifier obtains fresh locked Cargo metadata with all consumer features enabled. Every reachable Alloy package must have one identity, the exact release version, a crates.io source, and the recorded archive checksum. The verifier rejects reachable original package names from the release manifest and unrecorded `gpui-alloy-*` packages. The output records input digests, the target, and the checked package identities. Run the consumer's formatter, linter, and behavior tests after this identity check.
 
 ## Current patch ledger
 
@@ -300,8 +319,8 @@ The library suite uses one test thread. A historical parallel profiler failure r
 For Python tool changes, run these commands with Cargo available:
 
 ```sh
-ruff format --check script/gpui_snapshot.py script/test_gpui_snapshot.py script/gpui_registry.py script/test_gpui_registry.py
-ruff check script/gpui_snapshot.py script/test_gpui_snapshot.py script/gpui_registry.py script/test_gpui_registry.py
+ruff format --check script/gpui_snapshot.py script/test_gpui_snapshot.py script/gpui_registry.py script/test_gpui_registry.py script/gpui_registry_consumer.py script/test_gpui_registry_consumer.py
+ruff check script/gpui_snapshot.py script/test_gpui_snapshot.py script/gpui_registry.py script/test_gpui_registry.py script/gpui_registry_consumer.py script/test_gpui_registry_consumer.py
 python3 -B -m unittest discover -s script -p 'test_gpui_*.py' -v
 ```
 

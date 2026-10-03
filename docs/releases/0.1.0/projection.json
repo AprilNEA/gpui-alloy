@@ -28,6 +28,109 @@
     "path": "crates/gpui_apple/build.rs"
   },
   "external_sources": {
+    "async-process": {
+      "files": {
+        ".github/dependabot.yml": {
+          "executable": false,
+          "sha256": "d5e4443e927939474020e847dcb71338ae8d528adc18ef47e350b0c01a1462e2",
+          "type": "file"
+        },
+        ".github/workflows/ci.yml": {
+          "executable": false,
+          "sha256": "faf4548f1786be872d1b2d3c8b08605620ae8816aca5cf4b9d48bee4076bef31",
+          "type": "file"
+        },
+        ".github/workflows/release.yml": {
+          "executable": false,
+          "sha256": "33a9a65957ce5ee53e340eb21ecabddf776b83a2e61efb09da646d7614250ea6",
+          "type": "file"
+        },
+        ".gitignore": {
+          "executable": false,
+          "sha256": "2ebe6cb6f5289849dce5a8a6cdd77e06b1385302c862982f8e181c4782d19214",
+          "type": "file"
+        },
+        "CHANGELOG.md": {
+          "executable": false,
+          "sha256": "1e91524c696211cdaa0864f0179556d35581db6d6bc4fe087090dd700bcafd7c",
+          "type": "file"
+        },
+        "Cargo.toml": {
+          "executable": false,
+          "sha256": "4bee4d21e32200da10ed1bfe4dc1e7cc3589d24516d1bd729b9a224d4ecdbf41",
+          "type": "file"
+        },
+        "LICENSE-APACHE": {
+          "executable": false,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+          "type": "file"
+        },
+        "LICENSE-MIT": {
+          "executable": false,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "type": "file"
+        },
+        "README.md": {
+          "executable": false,
+          "sha256": "bf88cc3f7f9fdebc16e92f715a458dafdb771bcf5f0d143d0d3aef8d1e001d7d",
+          "type": "file"
+        },
+        "examples/timeout.rs": {
+          "executable": false,
+          "sha256": "3901680251fc96254c5a2b7456507e62f47ef85501f258852875115fb6ce5af8",
+          "type": "file"
+        },
+        "src/lib.rs": {
+          "executable": false,
+          "sha256": "ebe5addca708143765099c6eef3ad4af70b5087fbce95cb3f1cae37de2264cec",
+          "type": "file"
+        },
+        "src/reaper/mod.rs": {
+          "executable": false,
+          "sha256": "56f9f0694c51c031e9b41bf47a1bea0519099ff8b5f653cceb97e1a209e5af60",
+          "type": "file"
+        },
+        "src/reaper/signal.rs": {
+          "executable": false,
+          "sha256": "a3b15ca9a5c5e3530b33f42beec1b6ff5572c5b2bf7ce7c0ada3af06edaec47a",
+          "type": "file"
+        },
+        "src/reaper/wait.rs": {
+          "executable": false,
+          "sha256": "fbc5393cab611b8a0b9a24dd0e68ddf62d11dd1d527094ab3fb38cdc2ab26ea3",
+          "type": "file"
+        },
+        "src/unix.rs": {
+          "executable": false,
+          "sha256": "b0a4627e8a9d5e097aaf3e221fc62da0cae9f4a43b476edf30d6a43bf1792402",
+          "type": "file"
+        },
+        "src/windows.rs": {
+          "executable": false,
+          "sha256": "f36508afde29df7dcb0ab38abfbcf3ed4cf10dcd43c3edd809024394f6d8599b",
+          "type": "file"
+        },
+        "tests/adopt.rs": {
+          "executable": false,
+          "sha256": "6d5cc95ece4f154f3c3379ab5bfcd59ab0e37225843cef0b98a801fc41f5a69c",
+          "type": "file"
+        },
+        "tests/sleep.rs": {
+          "executable": false,
+          "sha256": "33dd9c928a92498e64d99a141e42bfd7a811cfcd38757cc589a4efe4ba2c5957",
+          "type": "file"
+        },
+        "tests/std.rs": {
+          "executable": false,
+          "sha256": "72b5374ea4a21e4e9c3fe74da4f5ac47e8fec5d5b0b027a67e9eb278039c7672",
+          "type": "file"
+        }
+      },
+      "source": {
+        "git": "https://github.com/zed-industries/async-process.git",
+        "rev": "0b6d6713570af61806e1e5cb40e0f757cb93fd9d"
+      }
+    },
     "async-tar": {
       "files": {
         ".github/dependabot.yml": {
@@ -224,6 +327,199 @@
       "source": {
         "git": "https://github.com/zed-industries/async-tar",
         "rev": "bd3ad6f89df9a9da7a8535958756d6bf465936a0"
+      }
+    },
+    "smol": {
+      "files": {
+        ".github/dependabot.yml": {
+          "executable": false,
+          "sha256": "d5e4443e927939474020e847dcb71338ae8d528adc18ef47e350b0c01a1462e2",
+          "type": "file"
+        },
+        ".github/workflows/ci.yml": {
+          "executable": false,
+          "sha256": "83f2641e1824ea97de9fbc67380d091384402e45e9e58fc1510f2ec273d20697",
+          "type": "file"
+        },
+        ".github/workflows/release.yml": {
+          "executable": false,
+          "sha256": "33a9a65957ce5ee53e340eb21ecabddf776b83a2e61efb09da646d7614250ea6",
+          "type": "file"
+        },
+        ".gitignore": {
+          "executable": false,
+          "sha256": "12cc0f91b51fedf41ae1670d1624ee1d78a284bdb101645b60a06a12de16c069",
+          "type": "file"
+        },
+        "CHANGELOG.md": {
+          "executable": false,
+          "sha256": "3050680c941fe3426a9f61442136406a4abcea8e24ff408ab879a3243ca12d9c",
+          "type": "file"
+        },
+        "CODE_OF_CONDUCT.md": {
+          "executable": false,
+          "sha256": "13a6d92728fe39a430251becdfc6a21f167df8cc99406f2efabc72f6833fff28",
+          "type": "file"
+        },
+        "Cargo.toml": {
+          "executable": false,
+          "sha256": "17f909a9a9e849777955b2bfbae280c80ad9b09e97f0c3e50f6403836911e5f2",
+          "type": "file"
+        },
+        "LICENSE-APACHE": {
+          "executable": false,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+          "type": "file"
+        },
+        "LICENSE-MIT": {
+          "executable": false,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "type": "file"
+        },
+        "README.md": {
+          "executable": false,
+          "sha256": "a5e8fba81e8f14f2a4aa91e99a351bc132831c66779daf106a1267d416f87a99",
+          "type": "file"
+        },
+        "assets/images/logo_fullsize.png": {
+          "executable": false,
+          "sha256": "58966a8f5aef000b3bdbe3c608368db7bb6635d8b6cd821307f07a6d5506dbea",
+          "type": "file"
+        },
+        "assets/images/logo_fullsize_transparent.png": {
+          "executable": false,
+          "sha256": "e9c534f53c9eab50a97a1ed05c723b568794cde2a5ab30a912333de3e2a0c1b9",
+          "type": "file"
+        },
+        "examples/async-h1-client.rs": {
+          "executable": false,
+          "sha256": "22eafb086c5aa845a4e8d9dcf25b1b9e6b72eb3036e5c88fe855f742763fd597",
+          "type": "file"
+        },
+        "examples/async-h1-server.rs": {
+          "executable": false,
+          "sha256": "ff481d773b47d4c1180d5272d381bd7077c1beee5aa00e0779410c840fa86a56",
+          "type": "file"
+        },
+        "examples/certificate.pem": {
+          "executable": false,
+          "sha256": "7a5c3f70fa9ad09b631709cbcecbc037794c1e69e0d6507b1d29a7078c55f84c",
+          "type": "file"
+        },
+        "examples/chat-client.rs": {
+          "executable": false,
+          "sha256": "55ca9aa63b930fe09c0d15f4cfe32e4c9355fb3a9021c055810629b8ee969ae0",
+          "type": "file"
+        },
+        "examples/chat-server.rs": {
+          "executable": false,
+          "sha256": "7ca9a69df3dce19a65bc340fbe9ff4988196bf4d0c2934c195f9eb4a140039dc",
+          "type": "file"
+        },
+        "examples/ctrl-c.rs": {
+          "executable": false,
+          "sha256": "bf985474d757de3d720114869fb77e3813cdbe30ebf30fc93d2fae3e96c9c73b",
+          "type": "file"
+        },
+        "examples/get-request.rs": {
+          "executable": false,
+          "sha256": "7499faeb0b21ce4c57205782859c81473785e24bb57d109368ae8d06fb97ca89",
+          "type": "file"
+        },
+        "examples/hyper-client.rs": {
+          "executable": false,
+          "sha256": "49861baed617ea21751fdeaf5f5ca050ada27b1085af714bc8f9ff74418d15d9",
+          "type": "file"
+        },
+        "examples/hyper-server.rs": {
+          "executable": false,
+          "sha256": "a920910e90966fbd44cf4c5401f93e711c24ceaf7d9aa05941ca7e7966529970",
+          "type": "file"
+        },
+        "examples/identity.pfx": {
+          "executable": false,
+          "sha256": "08895e488582ed2f75d17e8b1c56d2c9cd8989c344cd48bdce93c88cfec1bd35",
+          "type": "file"
+        },
+        "examples/linux-inotify.rs": {
+          "executable": false,
+          "sha256": "4f97e4a2bec33d6745b3c2f0e70a46b1f269b1fb3703adb21b39b7f2e9cb02fe",
+          "type": "file"
+        },
+        "examples/linux-timerfd.rs": {
+          "executable": false,
+          "sha256": "c7dcb147278f3e953c78487bd5f20d546b2af0de91edb92ea01b82c143e0001a",
+          "type": "file"
+        },
+        "examples/simple-client.rs": {
+          "executable": false,
+          "sha256": "dd6ec68d92751fa2be0289ced37f7f0fd9db393d630138ece1169aa620ce8c43",
+          "type": "file"
+        },
+        "examples/simple-server.rs": {
+          "executable": false,
+          "sha256": "bacabee8f663e6d47ba259a9c824a11db1b18e5fd1f861148b31095330fcf5f6",
+          "type": "file"
+        },
+        "examples/tcp-client.rs": {
+          "executable": false,
+          "sha256": "9741b356452b7e0aca153bc21bbc00d8ce7a37764ecb66ec2a115a4e6c0d39f3",
+          "type": "file"
+        },
+        "examples/tcp-server.rs": {
+          "executable": false,
+          "sha256": "58f4de4e72c4f2b800406dae2491467b61326c1e0ae6e066dbcccf468f0e1133",
+          "type": "file"
+        },
+        "examples/tls-client.rs": {
+          "executable": false,
+          "sha256": "4ef453319010cd6be764d3e24ee23e422c9d9db91557a7c9796564d021749a09",
+          "type": "file"
+        },
+        "examples/tls-server.rs": {
+          "executable": false,
+          "sha256": "5628f18525351d27039d0aaa99939cf7ec06ff7525eae8ea4c79b29d6be21d96",
+          "type": "file"
+        },
+        "examples/unix-signal.rs": {
+          "executable": false,
+          "sha256": "5a9dbd8b0a89b9ccb3f89f84bd2c0063674df9a660223a422aeb2edc1fc87349",
+          "type": "file"
+        },
+        "examples/web-crawler.rs": {
+          "executable": false,
+          "sha256": "031398caf1eddd5c5e06568a36b8751cc63ecec86cb6034caa30c13ba24c5105",
+          "type": "file"
+        },
+        "examples/websocket-client.rs": {
+          "executable": false,
+          "sha256": "f29d38fff268fa83440ba44e05831688e91eb31e8ee73f017952fdf8e6fcb5b5",
+          "type": "file"
+        },
+        "examples/websocket-server.rs": {
+          "executable": false,
+          "sha256": "b46432d569999bdf90e82285cef17f0835a4c8d0409e93992cde31f6cc8d8e17",
+          "type": "file"
+        },
+        "examples/windows-uds.rs": {
+          "executable": false,
+          "sha256": "f4354a467f27430970af294eaace15a317a6580785eecd7c81d8e0f023050fcb",
+          "type": "file"
+        },
+        "src/lib.rs": {
+          "executable": false,
+          "sha256": "bbf33d4c1f2ba97bea8b491f5f749920716ac96e669fbb5c22e5e41c5e6685c4",
+          "type": "file"
+        },
+        "src/spawn.rs": {
+          "executable": false,
+          "sha256": "d44292b66c578ab66aefb260467fa1f0d07a4c8a0e8bde5779271ec5fdb229f8",
+          "type": "file"
+        }
+      },
+      "source": {
+        "git": "https://github.com/smol-rs/smol",
+        "rev": "a1e642196803fc5dff56f1e04e867bfc024966bd"
       }
     },
     "zed-font-kit": {
@@ -966,7 +1262,7 @@
     },
     "Cargo.toml": {
       "executable": false,
-      "sha256": "4249e8852fa0aff1fbb5ab486bd89c1730f5c42cb4bbaa5a553db18f925bc7dd",
+      "sha256": "74fce65ccad5c05b5d2dda4b95d62fc917a42ad5e56c57f22f18e0bdd6a55b87",
       "type": "file"
     },
     "LICENSE-APACHE": {
@@ -1061,7 +1357,7 @@
     },
     "crates/collections/ALLOY-REGISTRY-SOURCE.json": {
       "executable": false,
-      "sha256": "cd5cb4c477bcb9851ec8f12d9f79eb3c8d838ac63ac4917aab08c6364f093037",
+      "sha256": "942eef618eff71ec534b9e692b924037bfeee41365b696f531c97cca2a5b1f77",
       "type": "file"
     },
     "crates/collections/Cargo.toml": {
@@ -1091,7 +1387,7 @@
     },
     "crates/gpui/ALLOY-REGISTRY-SOURCE.json": {
       "executable": false,
-      "sha256": "9091e3d8a1fc5c1bf5db11950924eb77e6696fb219977cee3e5e3fc37ffc8b3b",
+      "sha256": "74052824559ac56a2521840cc8098fa9a1ba5e331b3e30e0f0dcd37549249037",
       "type": "file"
     },
     "crates/gpui/Cargo.toml": {
@@ -1896,7 +2192,7 @@
     },
     "crates/gpui_apple/ALLOY-REGISTRY-SOURCE.json": {
       "executable": false,
-      "sha256": "3267b76593b3a1b8d7d1adcb3399121316dbe5bc0b263b1bd1904081d28aa756",
+      "sha256": "ef739f12e8edb19a8e03c2e47b0ef512b054eebbc6f975ae3f2cc2c3b86d20d9",
       "type": "file"
     },
     "crates/gpui_apple/Cargo.toml": {
@@ -2051,12 +2347,12 @@
     },
     "crates/gpui_linux/ALLOY-REGISTRY-SOURCE.json": {
       "executable": false,
-      "sha256": "cdfde0216e0573e38277910efa74d0e519b818b86c9cdc0ac348e3e9881d834c",
+      "sha256": "5d8fb29969fc2ceab9f4fef48c72bdafd0fad20c28a54785e14c92fc511d3191",
       "type": "file"
     },
     "crates/gpui_linux/Cargo.toml": {
       "executable": false,
-      "sha256": "45f683da3f09d21807e95fa57c16585812a687c3980731d9cfa9a6f01c73dca3",
+      "sha256": "29460a0e42ea59a992c109a57f69edc613409020f8c5a9903cf61d6dfde693b1",
       "type": "file"
     },
     "crates/gpui_linux/LICENSE-APACHE": {
@@ -2201,7 +2497,7 @@
     },
     "crates/gpui_macos/ALLOY-REGISTRY-SOURCE.json": {
       "executable": false,
-      "sha256": "d78ba8e7376022728d42bec022295dd59efdc8957f38a761e710515d36f832e0",
+      "sha256": "ebc1140b89f78ab6299eb0e3c0f3d06a2bcac93895bad264f628eaebcb0280ca",
       "type": "file"
     },
     "crates/gpui_macos/Cargo.toml": {
@@ -2301,7 +2597,7 @@
     },
     "crates/gpui_macros/ALLOY-REGISTRY-SOURCE.json": {
       "executable": false,
-      "sha256": "8d94c416b5bd3e4efe3740ca36852beda8e89bdeae3f36cc13fae04308275c50",
+      "sha256": "8d711eaac7dcf46aff529ec531927e17f71f16688c84976c49108bdd085afc1b",
       "type": "file"
     },
     "crates/gpui_macros/Cargo.toml": {
@@ -2391,7 +2687,7 @@
     },
     "crates/gpui_platform/ALLOY-REGISTRY-SOURCE.json": {
       "executable": false,
-      "sha256": "10cdaad20e6cf66f391cd9f9d7a35492c75f0b059d06c86cd6910c7640e0c09b",
+      "sha256": "a6f232a5eb9a3ca1eb9502b8b63a3ab4751ec14c3dd327523a6fbd28edd9f65f",
       "type": "file"
     },
     "crates/gpui_platform/Cargo.toml": {
@@ -2416,7 +2712,7 @@
     },
     "crates/gpui_shared_string/ALLOY-REGISTRY-SOURCE.json": {
       "executable": false,
-      "sha256": "3e07e1e0d5fa7c7d2693a7ff11408c8077d229821b9de5ef6c601eb6f6eeb637",
+      "sha256": "c198aff01624e894481fba9685f4aadd69bb7a0d3127fb715a184a4f9d91e7b9",
       "type": "file"
     },
     "crates/gpui_shared_string/Cargo.toml": {
@@ -2436,7 +2732,7 @@
     },
     "crates/gpui_util/ALLOY-REGISTRY-SOURCE.json": {
       "executable": false,
-      "sha256": "574d2f25251a58fb24783e489f75ce6ca09475312b9da1801ae9eb89cec0927c",
+      "sha256": "121537c42a8d145b37718678435e1e62269ac15ccd761f238c0fe0ccbab784de",
       "type": "file"
     },
     "crates/gpui_util/Cargo.toml": {
@@ -2461,7 +2757,7 @@
     },
     "crates/gpui_web/ALLOY-REGISTRY-SOURCE.json": {
       "executable": false,
-      "sha256": "bdb671f0f2b4bb3477880729802c1a2fa6cdfdff395421dcd7ecb560c48a258e",
+      "sha256": "680e43fd8c39b07c4817f87abf1a42aef6a1701e083445c3b0d7339009ecc217",
       "type": "file"
     },
     "crates/gpui_web/Cargo.toml": {
@@ -2626,7 +2922,7 @@
     },
     "crates/gpui_wgpu/ALLOY-REGISTRY-SOURCE.json": {
       "executable": false,
-      "sha256": "b8916eeb296d5e195d7f69bc0c5b2cd9cc23b9591ccf50b398802aa16cc4cc18",
+      "sha256": "1e321e4c1de4d6dc7afb94342f1a753e62aa747a7ed233de2781892e21fa7947",
       "type": "file"
     },
     "crates/gpui_wgpu/Cargo.toml": {
@@ -2691,7 +2987,7 @@
     },
     "crates/gpui_windows/ALLOY-REGISTRY-SOURCE.json": {
       "executable": false,
-      "sha256": "0e8a642407a8ab613e1d0f5dd1de7bfa5f74951b529d1042e2c17664c2ea5237",
+      "sha256": "8581470841236331356463388491f9c1a02f90a09b9c8f99a08fc37dac725db0",
       "type": "file"
     },
     "crates/gpui_windows/Cargo.toml": {
@@ -2826,7 +3122,7 @@
     },
     "crates/http_client/ALLOY-REGISTRY-SOURCE.json": {
       "executable": false,
-      "sha256": "e71c0e97d12fe71852270e20d600956e04ae5a641c525c79e9bb4a8242b45ae8",
+      "sha256": "03575627bf58c0c80bcef7f4a9198b51d3e29bd8e7914d13a2bd1f457b28b6ee",
       "type": "file"
     },
     "crates/http_client/Cargo.toml": {
@@ -2861,7 +3157,7 @@
     },
     "crates/http_client_tls/ALLOY-REGISTRY-SOURCE.json": {
       "executable": false,
-      "sha256": "ac9c950e6d08c7cd11a308d1b56159e593dd67b2b4a2c42a4ce84630fea6b0f9",
+      "sha256": "f5b62583618952e9f2f168f8e977e6c48b92f10f821a0f10eeea56ac338b5c72",
       "type": "file"
     },
     "crates/http_client_tls/Cargo.toml": {
@@ -2881,7 +3177,7 @@
     },
     "crates/path/ALLOY-REGISTRY-SOURCE.json": {
       "executable": false,
-      "sha256": "c7851e66f4952ebb44b3a12c219fd77bea0c85bc5b08f1e1a8f0bed06631ddf6",
+      "sha256": "3c4d4007dc93376e2469f7f09b3bde709a8b6c50ed3f6718ba9a910d2fb106ab",
       "type": "file"
     },
     "crates/path/Cargo.toml": {
@@ -2911,7 +3207,7 @@
     },
     "crates/refineable/ALLOY-REGISTRY-SOURCE.json": {
       "executable": false,
-      "sha256": "84a1ac5702094f352c7f68b46f284c8579ff1dd8fe0f2dc92c31a9df8885d3cb",
+      "sha256": "847efaabb9208ca00f2851dc712552737dfcb42fdf91d0173047a2f3b13354e4",
       "type": "file"
     },
     "crates/refineable/Cargo.toml": {
@@ -2926,7 +3222,7 @@
     },
     "crates/refineable/derive_refineable/ALLOY-REGISTRY-SOURCE.json": {
       "executable": false,
-      "sha256": "1b030c37e6bc71628f36f21ddce72e5aff2924286558ccaaae952d923f2f7d7d",
+      "sha256": "d10ac793098769e014f754060b9c5f8568d9f7070cbeed86e5b4ff4f832bca48",
       "type": "file"
     },
     "crates/refineable/derive_refineable/Cargo.toml": {
@@ -2951,7 +3247,7 @@
     },
     "crates/reqwest_client/ALLOY-REGISTRY-SOURCE.json": {
       "executable": false,
-      "sha256": "13bb5a015c262e9c6617457f2514f45e559ff0d8dfe6504ee1ebb29705f69e01",
+      "sha256": "c0b6fa3128bd25e06a3fa8a9f8bc28187c94fa02b8d8a715536273c74eee5dad",
       "type": "file"
     },
     "crates/reqwest_client/Cargo.toml": {
@@ -2971,7 +3267,7 @@
     },
     "crates/scheduler/ALLOY-REGISTRY-SOURCE.json": {
       "executable": false,
-      "sha256": "fcc5c69d79abd7698fa074244ff36640a21732832402d25f8dc89b8ee53f29dc",
+      "sha256": "7fbc44d2405b66e709c84a7b7f0169a61175e9be72812f752896f211ecdafbce",
       "type": "file"
     },
     "crates/scheduler/Cargo.toml": {
@@ -3011,7 +3307,7 @@
     },
     "crates/sum_tree/ALLOY-REGISTRY-SOURCE.json": {
       "executable": false,
-      "sha256": "d40f5af31771f658d522de78a10072e1e0e9255e33f2bca20ca3b326f63ddac8",
+      "sha256": "22d4eb42d6312ae522d56878b265925c6b3765d08156a9751feff0e6f2a78ed1",
       "type": "file"
     },
     "crates/sum_tree/Cargo.toml": {
@@ -3046,12 +3342,12 @@
     },
     "crates/util/ALLOY-REGISTRY-SOURCE.json": {
       "executable": false,
-      "sha256": "043a0ae313b858e9b4b45d6810fb7a840995a5e4626393799d27cb4a1394e218",
+      "sha256": "9c75d958d324e190205c1b1cfd17ede63d5ee9fd19299426a25ab7c6557a0df0",
       "type": "file"
     },
     "crates/util/Cargo.toml": {
       "executable": false,
-      "sha256": "4da2588dcfb75e3e778294304f0726fb3267d48cef9ed8ee2b741ea31a054a5f",
+      "sha256": "f53856d83ec50b0d272de87b88bc113e5f1a9cb0fd1944e3845b0d0e3ad0973c",
       "type": "file"
     },
     "crates/util/LICENSE-APACHE": {
@@ -3166,7 +3462,7 @@
     },
     "crates/util_macros/ALLOY-REGISTRY-SOURCE.json": {
       "executable": false,
-      "sha256": "d5996b5cb759390af42f2f8670e244fb095bbe1ab6b8f697260dfc1aaec2da2b",
+      "sha256": "e7ac4af5e5a65bef430eeb0e7c8d4ef4f67113f0e7634e7f329ea717434b3f12",
       "type": "file"
     },
     "crates/util_macros/Cargo.toml": {
@@ -3186,7 +3482,7 @@
     },
     "crates/zlog/ALLOY-REGISTRY-SOURCE.json": {
       "executable": false,
-      "sha256": "532f2926367566249d33c24e07ea4b0fbf7c0aee15f4ce316d02735899f25ddb",
+      "sha256": "90ca8ea79b31012bf4a7e1f0d8b6750cb9d01d35707db4726c5f70fc5ee359cd",
       "type": "file"
     },
     "crates/zlog/Cargo.toml": {
@@ -3226,7 +3522,7 @@
     },
     "crates/ztracing/ALLOY-REGISTRY-SOURCE.json": {
       "executable": false,
-      "sha256": "bb8e6d4f8e5132f7b43fbe673de2048173c2816987c4afb68b0ccee08d7beee6",
+      "sha256": "63ca74de27cf8ed0cd95cca238ac6ba0bb763d7559c97da7a4f6929f15e70e8c",
       "type": "file"
     },
     "crates/ztracing/Cargo.toml": {
@@ -3256,7 +3552,7 @@
     },
     "crates/ztracing_macro/ALLOY-REGISTRY-SOURCE.json": {
       "executable": false,
-      "sha256": "19ba230a278843e793c82e46e25f2d5c7ecadc5912da79d970c194fb9f500010",
+      "sha256": "108b1aeed8ec011cb7422e043cf2fd2f661eed02372a3802b57c56bc2376e683",
       "type": "file"
     },
     "crates/ztracing_macro/Cargo.toml": {
@@ -3272,6 +3568,106 @@
     "crates/ztracing_macro/src/lib.rs": {
       "executable": false,
       "sha256": "b42eb20f84e45949bb78b121606b2ee02695ba7e1123bf206b635ce71bb122eb",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/.github/dependabot.yml": {
+      "executable": false,
+      "sha256": "d5e4443e927939474020e847dcb71338ae8d528adc18ef47e350b0c01a1462e2",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/.github/workflows/ci.yml": {
+      "executable": false,
+      "sha256": "faf4548f1786be872d1b2d3c8b08605620ae8816aca5cf4b9d48bee4076bef31",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/.github/workflows/release.yml": {
+      "executable": false,
+      "sha256": "33a9a65957ce5ee53e340eb21ecabddf776b83a2e61efb09da646d7614250ea6",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/.gitignore": {
+      "executable": false,
+      "sha256": "2ebe6cb6f5289849dce5a8a6cdd77e06b1385302c862982f8e181c4782d19214",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/ALLOY-REGISTRY-SOURCE.json": {
+      "executable": false,
+      "sha256": "8e539c4e0a97a223b7a71319ccb0e24dd1885be39394344ff22bbd0dc0b564ec",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/CHANGELOG.md": {
+      "executable": false,
+      "sha256": "1e91524c696211cdaa0864f0179556d35581db6d6bc4fe087090dd700bcafd7c",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/Cargo.toml": {
+      "executable": false,
+      "sha256": "1c305fea2ec9e4c0ab0cea204fb50604121c3d96b599446de9d93f686e22d5bb",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/LICENSE-APACHE": {
+      "executable": false,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/LICENSE-MIT": {
+      "executable": false,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/README.md": {
+      "executable": false,
+      "sha256": "bf88cc3f7f9fdebc16e92f715a458dafdb771bcf5f0d143d0d3aef8d1e001d7d",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/examples/timeout.rs": {
+      "executable": false,
+      "sha256": "3901680251fc96254c5a2b7456507e62f47ef85501f258852875115fb6ce5af8",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/src/lib.rs": {
+      "executable": false,
+      "sha256": "ebe5addca708143765099c6eef3ad4af70b5087fbce95cb3f1cae37de2264cec",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/src/reaper/mod.rs": {
+      "executable": false,
+      "sha256": "56f9f0694c51c031e9b41bf47a1bea0519099ff8b5f653cceb97e1a209e5af60",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/src/reaper/signal.rs": {
+      "executable": false,
+      "sha256": "a3b15ca9a5c5e3530b33f42beec1b6ff5572c5b2bf7ce7c0ada3af06edaec47a",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/src/reaper/wait.rs": {
+      "executable": false,
+      "sha256": "fbc5393cab611b8a0b9a24dd0e68ddf62d11dd1d527094ab3fb38cdc2ab26ea3",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/src/unix.rs": {
+      "executable": false,
+      "sha256": "b0a4627e8a9d5e097aaf3e221fc62da0cae9f4a43b476edf30d6a43bf1792402",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/src/windows.rs": {
+      "executable": false,
+      "sha256": "f36508afde29df7dcb0ab38abfbcf3ed4cf10dcd43c3edd809024394f6d8599b",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/tests/adopt.rs": {
+      "executable": false,
+      "sha256": "6d5cc95ece4f154f3c3379ab5bfcd59ab0e37225843cef0b98a801fc41f5a69c",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/tests/sleep.rs": {
+      "executable": false,
+      "sha256": "33dd9c928a92498e64d99a141e42bfd7a811cfcd38757cc589a4efe4ba2c5957",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/tests/std.rs": {
+      "executable": false,
+      "sha256": "72b5374ea4a21e4e9c3fe74da4f5ac47e8fec5d5b0b027a67e9eb278039c7672",
       "type": "file"
     },
     "external/gpui-alloy-async-tar/.github/dependabot.yml": {
@@ -3296,7 +3692,7 @@
     },
     "external/gpui-alloy-async-tar/ALLOY-REGISTRY-SOURCE.json": {
       "executable": false,
-      "sha256": "c95ca7eb4ff8c517356cb5b03368e89bb528f9d1b27bb615c88067dddadc0535",
+      "sha256": "7fd26f81cb85e1dd8ababacb0c826cb2acd1714502a699125a56aaf651c35f7d",
       "type": "file"
     },
     "external/gpui-alloy-async-tar/Cargo.toml": {
@@ -3481,7 +3877,7 @@
     },
     "external/gpui-alloy-font-kit/ALLOY-REGISTRY-SOURCE.json": {
       "executable": false,
-      "sha256": "4f0ec95dbeace7510e5f01886b8374e7142203cb576a8b2edf60f36bb7f13a0a",
+      "sha256": "1f0c4f2b66721f7955b8d56487284632260738e98d439a8c7c9f4be14d57c20a",
       "type": "file"
     },
     "external/gpui-alloy-font-kit/Cargo.toml": {
@@ -3766,7 +4162,7 @@
     },
     "external/gpui-alloy-reqwest/ALLOY-REGISTRY-SOURCE.json": {
       "executable": false,
-      "sha256": "f8f9316793f5f05deaca3e83f1d0e3c3d88638a3313a14ceac076474cb7d5c84",
+      "sha256": "8c6635b093d31920b170b61a03ab03f408081a8acdd0193408925656cf40d434",
       "type": "file"
     },
     "external/gpui-alloy-reqwest/CHANGELOG.md": {
@@ -4189,9 +4585,199 @@
       "sha256": "e6ecbeb92293b557acb5e97a5857c2b65fa4e22e732a4ccf29d6a127be7c0d78",
       "type": "file"
     },
+    "external/gpui-alloy-smol/.github/dependabot.yml": {
+      "executable": false,
+      "sha256": "d5e4443e927939474020e847dcb71338ae8d528adc18ef47e350b0c01a1462e2",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/.github/workflows/ci.yml": {
+      "executable": false,
+      "sha256": "83f2641e1824ea97de9fbc67380d091384402e45e9e58fc1510f2ec273d20697",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/.github/workflows/release.yml": {
+      "executable": false,
+      "sha256": "33a9a65957ce5ee53e340eb21ecabddf776b83a2e61efb09da646d7614250ea6",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/.gitignore": {
+      "executable": false,
+      "sha256": "12cc0f91b51fedf41ae1670d1624ee1d78a284bdb101645b60a06a12de16c069",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/ALLOY-REGISTRY-SOURCE.json": {
+      "executable": false,
+      "sha256": "0c273d5af20b0837a58e9608b17d7679fa359e3e8ad47fe98c093fb8f6cbe2e8",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/CHANGELOG.md": {
+      "executable": false,
+      "sha256": "3050680c941fe3426a9f61442136406a4abcea8e24ff408ab879a3243ca12d9c",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/CODE_OF_CONDUCT.md": {
+      "executable": false,
+      "sha256": "13a6d92728fe39a430251becdfc6a21f167df8cc99406f2efabc72f6833fff28",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/Cargo.toml": {
+      "executable": false,
+      "sha256": "85b9b42d05ae1d6dedf3228d2f6413bfc671ba8dad2282b74c3c777c9104fc94",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/LICENSE-APACHE": {
+      "executable": false,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/LICENSE-MIT": {
+      "executable": false,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/README.md": {
+      "executable": false,
+      "sha256": "a5e8fba81e8f14f2a4aa91e99a351bc132831c66779daf106a1267d416f87a99",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/assets/images/logo_fullsize.png": {
+      "executable": false,
+      "sha256": "58966a8f5aef000b3bdbe3c608368db7bb6635d8b6cd821307f07a6d5506dbea",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/assets/images/logo_fullsize_transparent.png": {
+      "executable": false,
+      "sha256": "e9c534f53c9eab50a97a1ed05c723b568794cde2a5ab30a912333de3e2a0c1b9",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/async-h1-client.rs": {
+      "executable": false,
+      "sha256": "22eafb086c5aa845a4e8d9dcf25b1b9e6b72eb3036e5c88fe855f742763fd597",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/async-h1-server.rs": {
+      "executable": false,
+      "sha256": "ff481d773b47d4c1180d5272d381bd7077c1beee5aa00e0779410c840fa86a56",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/certificate.pem": {
+      "executable": false,
+      "sha256": "7a5c3f70fa9ad09b631709cbcecbc037794c1e69e0d6507b1d29a7078c55f84c",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/chat-client.rs": {
+      "executable": false,
+      "sha256": "55ca9aa63b930fe09c0d15f4cfe32e4c9355fb3a9021c055810629b8ee969ae0",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/chat-server.rs": {
+      "executable": false,
+      "sha256": "7ca9a69df3dce19a65bc340fbe9ff4988196bf4d0c2934c195f9eb4a140039dc",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/ctrl-c.rs": {
+      "executable": false,
+      "sha256": "bf985474d757de3d720114869fb77e3813cdbe30ebf30fc93d2fae3e96c9c73b",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/get-request.rs": {
+      "executable": false,
+      "sha256": "7499faeb0b21ce4c57205782859c81473785e24bb57d109368ae8d06fb97ca89",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/hyper-client.rs": {
+      "executable": false,
+      "sha256": "49861baed617ea21751fdeaf5f5ca050ada27b1085af714bc8f9ff74418d15d9",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/hyper-server.rs": {
+      "executable": false,
+      "sha256": "a920910e90966fbd44cf4c5401f93e711c24ceaf7d9aa05941ca7e7966529970",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/identity.pfx": {
+      "executable": false,
+      "sha256": "08895e488582ed2f75d17e8b1c56d2c9cd8989c344cd48bdce93c88cfec1bd35",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/linux-inotify.rs": {
+      "executable": false,
+      "sha256": "4f97e4a2bec33d6745b3c2f0e70a46b1f269b1fb3703adb21b39b7f2e9cb02fe",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/linux-timerfd.rs": {
+      "executable": false,
+      "sha256": "c7dcb147278f3e953c78487bd5f20d546b2af0de91edb92ea01b82c143e0001a",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/simple-client.rs": {
+      "executable": false,
+      "sha256": "dd6ec68d92751fa2be0289ced37f7f0fd9db393d630138ece1169aa620ce8c43",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/simple-server.rs": {
+      "executable": false,
+      "sha256": "bacabee8f663e6d47ba259a9c824a11db1b18e5fd1f861148b31095330fcf5f6",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/tcp-client.rs": {
+      "executable": false,
+      "sha256": "9741b356452b7e0aca153bc21bbc00d8ce7a37764ecb66ec2a115a4e6c0d39f3",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/tcp-server.rs": {
+      "executable": false,
+      "sha256": "58f4de4e72c4f2b800406dae2491467b61326c1e0ae6e066dbcccf468f0e1133",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/tls-client.rs": {
+      "executable": false,
+      "sha256": "4ef453319010cd6be764d3e24ee23e422c9d9db91557a7c9796564d021749a09",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/tls-server.rs": {
+      "executable": false,
+      "sha256": "5628f18525351d27039d0aaa99939cf7ec06ff7525eae8ea4c79b29d6be21d96",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/unix-signal.rs": {
+      "executable": false,
+      "sha256": "5a9dbd8b0a89b9ccb3f89f84bd2c0063674df9a660223a422aeb2edc1fc87349",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/web-crawler.rs": {
+      "executable": false,
+      "sha256": "031398caf1eddd5c5e06568a36b8751cc63ecec86cb6034caa30c13ba24c5105",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/websocket-client.rs": {
+      "executable": false,
+      "sha256": "f29d38fff268fa83440ba44e05831688e91eb31e8ee73f017952fdf8e6fcb5b5",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/websocket-server.rs": {
+      "executable": false,
+      "sha256": "b46432d569999bdf90e82285cef17f0835a4c8d0409e93992cde31f6cc8d8e17",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/windows-uds.rs": {
+      "executable": false,
+      "sha256": "f4354a467f27430970af294eaace15a317a6580785eecd7c81d8e0f023050fcb",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/src/lib.rs": {
+      "executable": false,
+      "sha256": "bbf33d4c1f2ba97bea8b491f5f749920716ac96e669fbb5c22e5e41c5e6685c4",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/src/spawn.rs": {
+      "executable": false,
+      "sha256": "d44292b66c578ab66aefb260467fa1f0d07a4c8a0e8bde5779271ec5fdb229f8",
+      "type": "file"
+    },
     "tooling/perf/ALLOY-REGISTRY-SOURCE.json": {
       "executable": false,
-      "sha256": "c221f96d49bf3e0d8ec2c2aff186ca727fb56083e531feddea25ddfd96536417",
+      "sha256": "a98ac2af79ec57edc4326801d52f733e00edaee32f83e44ff798b8523577572a",
       "type": "file"
     },
     "tooling/perf/Cargo.toml": {
@@ -4221,7 +4807,7 @@
     }
   },
   "format": 1,
-  "generator_sha256": "7bec01cfb3e81e2ad119d5e1f2c430701ddac135e997d32480ee61563da4b9f2",
+  "generator_sha256": "13866a1322174008eb44db61d02dd7567058b362a042ee0fc74e6468f6e9053f",
   "git_overrides": {
     "async-tar": {
       "internal": "async-tar",
@@ -4285,12 +4871,20 @@
       }
     }
   },
+  "included_root_patch_sources": {
+    "crates-io": {
+      "async-process": {
+        "git": "https://github.com/zed-industries/async-process.git",
+        "rev": "0b6d6713570af61806e1e5cb40e0f757cb93fd9d"
+      }
+    }
+  },
   "kind": "registry-projection",
   "manifests": {
     "Cargo.toml": {
-      "after_sha256": "4249e8852fa0aff1fbb5ab486bd89c1730f5c42cb4bbaa5a553db18f925bc7dd",
+      "after_sha256": "74fce65ccad5c05b5d2dda4b95d62fc917a42ad5e56c57f22f18e0bdd6a55b87",
       "before_sha256": "348e69e56d943704bac072144b70c70b3b86f67a8347941dfb7d5ae8cc11ec90",
-      "diff": "--- source/Cargo.toml\n+++ registry/Cargo.toml\n@@ -1,161 +1,2 @@\n-# Generated by script/gpui_snapshot.py.\n-[workspace]\n-resolver = \"2\"\n-members = [\"crates/collections\", \"crates/gpui\", \"crates/gpui_apple\", \"crates/gpui_linux\", \"crates/gpui_macos\", \"crates/gpui_macros\", \"crates/gpui_platform\", \"crates/gpui_shared_string\", \"crates/gpui_util\", \"crates/gpui_web\", \"crates/gpui_wgpu\", \"crates/gpui_windows\", \"crates/http_client\", \"crates/http_client_tls\", \"crates/path\", \"crates/refineable\", \"crates/refineable/derive_refineable\", \"crates/reqwest_client\", \"crates/scheduler\", \"crates/sum_tree\", \"crates/util\", \"crates/util_macros\", \"crates/zlog\", \"crates/ztracing\", \"crates/ztracing_macro\", \"tooling/perf\"]\n-\n-[workspace.package]\n-\"publish\" = false\n-\"edition\" = \"2024\"\n-\n-[workspace.dependencies]\n-\"accesskit\" = { \"version\" = \"0.24.0\", \"features\" = [\"enumn\"] }\n-\"accesskit_macos\" = \"0.26.0\"\n-\"accesskit_unix\" = \"0.22\"\n-\"accesskit_windows\" = \"0.34\"\n-\"anyhow\" = \"1.0.86\"\n-\"ashpd\" = { \"version\" = \"0.13\", \"default-features\" = false, \"features\" = [\"async-io\", \"inhibit\", \"notification\", \"open_uri\", \"file_chooser\", \"settings\", \"trash\"] }\n-\"async-channel\" = \"2.5.0\"\n-\"async-compression\" = { \"version\" = \"0.4\", \"features\" = [\"bzip2\", \"gzip\", \"futures-io\"] }\n-\"async-fs\" = \"2.1\"\n-\"async-tar\" = { \"git\" = \"https://github.com/zed-industries/async-tar\", \"rev\" = \"bd3ad6f89df9a9da7a8535958756d6bf465936a0\" }\n-\"async-task\" = \"4.7\"\n-\"async_zip\" = { \"version\" = \"0.0.18\", \"features\" = [\"deflate\", \"deflate64\"] }\n-\"backtrace\" = \"0.3\"\n-\"bitflags\" = \"2.6.0\"\n-\"block2\" = \"0.6\"\n-\"bytes\" = \"1.0\"\n-\"cbindgen\" = { \"version\" = \"0.28.0\", \"default-features\" = false }\n-\"chrono\" = { \"version\" = \"0.4\", \"features\" = [\"serde\"] }\n-\"cocoa\" = \"=0.26.0\"\n-\"collections\" = { \"path\" = \"crates/collections\", \"version\" = \"0.1.0\" }\n-\"console_error_panic_hook\" = \"0.1.7\"\n-\"core-foundation\" = \"0.10\"\n-\"core-foundation-sys\" = \"0.8.6\"\n-\"core-graphics\" = \"0.24\"\n-\"core-text\" = \"21\"\n-\"core-video\" = { \"version\" = \"0.5.2\", \"features\" = [\"metal\"] }\n-\"criterion\" = { \"version\" = \"0.5\", \"features\" = [\"html_reports\"] }\n-\"ctor\" = \"1.0.12\"\n-\"derive_more\" = { \"version\" = \"2.1.1\", \"features\" = [\"add\", \"add_assign\", \"deref\", \"deref_mut\", \"display\", \"from\", \"from_str\", \"mul\", \"mul_assign\", \"not\"] }\n-\"derive_refineable\" = { \"path\" = \"crates/refineable/derive_refineable\" }\n-\"dirs\" = \"6.0\"\n-\"dunce\" = \"1.0\"\n-\"env_logger\" = \"0.11\"\n-\"etagere\" = \"0.2\"\n-\"flume\" = \"0.12\"\n-\"foreign-types\" = \"0.5\"\n-\"futures\" = \"0.3.34\"\n-\"futures-concurrency\" = \"7.7.1\"\n-\"futures-lite\" = \"2\"\n-\"globset\" = \"0.4\"\n-\"gpui\" = { \"path\" = \"crates/gpui\", \"default-features\" = false }\n-\"gpui_apple\" = { \"path\" = \"crates/gpui_apple\" }\n-\"gpui_linux\" = { \"path\" = \"crates/gpui_linux\", \"default-features\" = false }\n-\"gpui_macos\" = { \"path\" = \"crates/gpui_macos\", \"default-features\" = false }\n-\"gpui_macros\" = { \"path\" = \"crates/gpui_macros\" }\n-\"gpui_platform\" = { \"path\" = \"crates/gpui_platform\", \"default-features\" = false }\n-\"gpui_shared_string\" = { \"path\" = \"crates/gpui_shared_string\" }\n-\"gpui_util\" = { \"path\" = \"crates/gpui_util\" }\n-\"gpui_web\" = { \"path\" = \"crates/gpui_web\" }\n-\"gpui_wgpu\" = { \"path\" = \"crates/gpui_wgpu\" }\n-\"gpui_windows\" = { \"path\" = \"crates/gpui_windows\", \"default-features\" = false }\n-\"hdrhistogram\" = { \"version\" = \"7\", \"default-features\" = false }\n-\"heapless\" = \"0.9.2\"\n-\"heck\" = \"0.5\"\n-\"http\" = \"1.1\"\n-\"http-body\" = \"1.0\"\n-\"http_client\" = { \"path\" = \"crates/http_client\" }\n-\"http_client_tls\" = { \"path\" = \"crates/http_client_tls\" }\n-\"image\" = { \"version\" = \"0.25.1\", \"default-features\" = false, \"features\" = [\"bmp\", \"dds\", \"exr\", \"ff\", \"gif\", \"hdr\", \"ico\", \"jpeg\", \"png\", \"pnm\", \"qoi\", \"rayon\", \"tga\", \"tiff\", \"webp\"] }\n-\"indexmap\" = { \"version\" = \"2.7.0\", \"features\" = [\"serde\"] }\n-\"inventory\" = \"0.3.19\"\n-\"itertools\" = \"0.14.0\"\n-\"js-sys\" = \"0.3\"\n-\"libc\" = \"0.2\"\n-\"log\" = { \"version\" = \"0.4.16\", \"features\" = [\"kv_unstable_serde\", \"serde\"] }\n-\"mach2\" = \"0.5\"\n-\"metal\" = \"0.33\"\n-\"nix\" = \"0.30\"\n-\"notify-rust\" = \"4\"\n-\"objc\" = \"0.2\"\n-\"objc2\" = \"0.6\"\n-\"objc2-app-kit\" = { \"version\" = \"0.3.2\", \"default-features\" = false, \"features\" = [\"NSAlert\", \"NSApplication\", \"NSButton\", \"NSControl\", \"NSDraggingItem\", \"NSGraphics\", \"NSImage\", \"NSOpenPanel\", \"NSPanel\", \"NSPasteboard\", \"NSResponder\", \"NSSavePanel\", \"NSScreen\", \"NSTrackingArea\", \"NSView\", \"NSWindow\", \"NSWorkspace\", \"block2\", \"objc2-core-foundation\"] }\n-\"objc2-core-foundation\" = { \"version\" = \"=0.3.2\", \"default-features\" = false }\n-\"objc2-core-graphics\" = { \"version\" = \"=0.3.2\", \"default-features\" = false, \"features\" = [\"CGDirectDisplay\"] }\n-\"objc2-core-media\" = { \"version\" = \"=0.3.2\", \"default-features\" = false, \"features\" = [\"CMSampleBuffer\", \"objc2-core-video\"] }\n-\"objc2-core-video\" = { \"version\" = \"=0.3.2\", \"default-features\" = false, \"features\" = [\"CVBuffer\", \"CVImageBuffer\"] }\n-\"objc2-foundation\" = { \"version\" = \"=0.3.2\", \"default-features\" = false, \"features\" = [\"NSArray\", \"NSAttributedString\", \"NSBundle\", \"NSCoder\", \"NSData\", \"NSDate\", \"NSDictionary\", \"NSEnumerator\", \"NSError\", \"NSGeometry\", \"NSNotification\", \"NSNull\", \"NSObjCRuntime\", \"NSObject\", \"NSProcessInfo\", \"NSRange\", \"NSRunLoop\", \"NSSet\", \"NSString\", \"NSURL\", \"NSUndoManager\", \"NSValue\", \"objc2-core-foundation\", \"std\"] }\n-\"objc2-screen-capture-kit\" = { \"version\" = \"=0.3.2\", \"default-features\" = false, \"features\" = [\"block2\", \"dispatch2\", \"objc2-core-graphics\", \"objc2-core-media\", \"SCShareableContent\", \"SCStream\", \"std\"] }\n-\"objc2-user-notifications\" = \"0.3\"\n-\"parking_lot\" = \"0.12.1\"\n-\"path\" = { \"path\" = \"crates/path\" }\n-\"pathfinder_geometry\" = \"0.5\"\n-\"percent-encoding\" = \"2.3.2\"\n-\"perf\" = { \"path\" = \"tooling/perf\" }\n-\"pollster\" = \"0.4.0\"\n-\"postage\" = { \"version\" = \"0.5\", \"features\" = [\"futures-traits\"] }\n-\"pretty_assertions\" = { \"version\" = \"1.3.0\", \"features\" = [\"unstable\"] }\n-\"proc-macro2\" = \"1.0.93\"\n-\"profiling\" = \"1\"\n-\"proptest\" = { \"git\" = \"https://github.com/proptest-rs/proptest\", \"rev\" = \"3dca198a8fef1b32e3a66f1e1897c955b4dc5b5b\", \"features\" = [\"attr-macro\"] }\n-\"quote\" = \"1.0.9\"\n-\"rand\" = \"0.9\"\n-\"raw-window-handle\" = \"0.6\"\n-\"rayon\" = \"1.8\"\n-\"refineable\" = { \"path\" = \"crates/refineable\" }\n-\"regex\" = \"1.5\"\n-\"reqwest\" = { \"git\" = \"https://github.com/zed-industries/reqwest.git\", \"rev\" = \"33bc764aa15ff7b200bf7c93bd96e24878d53e14\", \"default-features\" = false, \"features\" = [\"charset\", \"http2\", \"macos-system-configuration\", \"multipart\", \"rustls-tls-native-roots\", \"socks\", \"stream\"], \"package\" = \"zed-reqwest\", \"version\" = \"0.12.15-zed\" }\n-\"reqwest_client\" = { \"path\" = \"crates/reqwest_client\" }\n-\"resvg\" = { \"version\" = \"0.46.0\", \"default-features\" = false, \"features\" = [\"text\", \"system-fonts\", \"memmap-fonts\", \"raster-images\"] }\n-\"rust-embed\" = { \"version\" = \"8.11\", \"features\" = [\"include-exclude\", \"compression\"] }\n-\"rustc-hash\" = \"2.1.0\"\n-\"rustls\" = { \"version\" = \"0.23.26\" }\n-\"rustls-platform-verifier\" = \"0.7\"\n-\"scap\" = { \"git\" = \"https://github.com/zed-industries/scap\", \"rev\" = \"4afea48c3b002197176fb19cd0f9b180dd36eaac\", \"default-features\" = false, \"package\" = \"zed-scap\", \"version\" = \"0.0.8-zed\" }\n-\"scheduler\" = { \"path\" = \"crates/scheduler\" }\n-\"schemars\" = { \"version\" = \"1.0\", \"features\" = [\"indexmap2\"] }\n-\"semver\" = { \"version\" = \"1.0\", \"features\" = [\"serde\"] }\n-\"serde\" = { \"version\" = \"1.0.221\", \"features\" = [\"derive\", \"rc\"] }\n-\"serde_json\" = { \"version\" = \"1.0.144\", \"features\" = [\"preserve_order\", \"raw_value\"] }\n-\"serde_json_lenient\" = { \"version\" = \"0.2\", \"features\" = [\"preserve_order\", \"raw_value\"] }\n-\"serde_urlencoded\" = \"0.7\"\n-\"sha2\" = \"0.10\"\n-\"shlex\" = \"1.3.0\"\n-\"slotmap\" = \"1.0.6\"\n-\"smallvec\" = { \"version\" = \"1.6\", \"features\" = [\"union\", \"const_new\"] }\n-\"smol\" = \"2.0\"\n-\"stacksafe\" = \"1.0\"\n-\"strum\" = { \"version\" = \"0.28\", \"features\" = [\"derive\"] }\n-\"sum_tree\" = { \"path\" = \"crates/sum_tree\" }\n-\"swash\" = \"0.2.6\"\n-\"syn\" = { \"version\" = \"2.0.101\", \"features\" = [\"full\", \"extra-traits\", \"visit-mut\"] }\n-\"take-until\" = \"0.2.0\"\n-\"tempfile\" = \"3.20.0\"\n-\"thiserror\" = \"2.0.12\"\n-\"tokio\" = { \"version\" = \"1\" }\n-\"tracing\" = \"0.1.40\"\n-\"unicase\" = \"2.6\"\n-\"unicode-bidi\" = { \"version\" = \"0.3.18\", \"default-features\" = false, \"features\" = [\"hardcoded-data\"] }\n-\"unicode-segmentation\" = \"1.10\"\n-\"url\" = \"2.2\"\n-\"usvg\" = { \"version\" = \"0.46.0\", \"default-features\" = false }\n-\"util\" = { \"path\" = \"crates/util\" }\n-\"util_macros\" = { \"path\" = \"crates/util_macros\" }\n-\"uuid\" = { \"version\" = \"1.1.2\", \"features\" = [\"v4\", \"v5\", \"v7\", \"serde\"] }\n-\"walkdir\" = \"2.5\"\n-\"wasm-bindgen\" = \"0.2.120\"\n-\"wasm-bindgen-futures\" = \"0.4\"\n-\"web-time\" = \"1.1.0\"\n-\"webpki-roots\" = \"1.0.8\"\n-\"wgpu\" = \"29.0.4\"\n-\"which\" = \"8\"\n-\"windows\" = { \"version\" = \"0.62\", \"features\" = [\"Data_Xml_Dom\", \"Foundation_Numerics\", \"Globalization_DateTimeFormatting\", \"Storage_Search\", \"Storage_Streams\", \"System_Threading\", \"UI_Notifications\", \"UI_ViewManagement\", \"Wdk_System_SystemServices\", \"Win32_Foundation\", \"Win32_Globalization\", \"Win32_Graphics_Direct3D\", \"Win32_Graphics_Direct3D11\", \"Win32_Graphics_Direct3D_Fxc\", \"Win32_Graphics_DirectComposition\", \"Win32_Graphics_DirectWrite\", \"Win32_Graphics_DirectManipulation\", \"Win32_Graphics_Dwm\", \"Win32_Graphics_Dxgi\", \"Win32_Graphics_Dxgi_Common\", \"Win32_Graphics_Gdi\", \"Win32_Graphics_Imaging\", \"Win32_Graphics_Hlsl\", \"Win32_Networking_WinSock\", \"Win32_Security\", \"Win32_Security_Credentials\", \"Win32_Security_Cryptography\", \"Win32_Storage_FileSystem\", \"Win32_Storage_Packaging_Appx\", \"Win32_System_Com\", \"Win32_System_Com_StructuredStorage\", \"Win32_System_Console\", \"Win32_System_Diagnostics_Debug\", \"Win32_System_DataExchange\", \"Win32_System_IO\", \"Win32_System_JobObjects\", \"Win32_System_LibraryLoader\", \"Win32_System_Memory\", \"Win32_System_Ole\", \"Win32_System_Performance\", \"Win32_System_Pipes\", \"Win32_System_Power\", \"Win32_System_RestartManager\", \"Win32_System_SystemInformation\", \"Win32_System_SystemServices\", \"Win32_System_Threading\", \"Win32_System_Variant\", \"Win32_System_WinRT\", \"Win32_UI_Controls\", \"Win32_UI_HiDpi\", \"Win32_UI_Input_Ime\", \"Win32_UI_Input_KeyboardAndMouse\", \"Win32_UI_Input_Pointer\", \"Win32_UI_Shell\", \"Win32_UI_Shell_Common\", \"Win32_UI_Shell_PropertiesSystem\", \"Win32_UI_WindowsAndMessaging\", \"Win32_Media\"] }\n-\"windows-core\" = \"0.62\"\n-\"windows-registry\" = \"0.6.0\"\n-\"zlog\" = { \"path\" = \"crates/zlog\" }\n-\"ztracing\" = { \"path\" = \"crates/ztracing\" }\n-\"ztracing_macro\" = { \"path\" = \"crates/ztracing_macro\" }\n-\n-[workspace.lints]\n-\"rust\" = { \"unexpected_cfgs\" = { \"level\" = \"allow\" } }\n-\"clippy\" = { \"dbg_macro\" = \"deny\", \"todo\" = \"deny\", \"declare_interior_mutable_const\" = \"deny\", \"redundant_clone\" = \"deny\", \"disallowed_methods\" = \"deny\", \"style\" = { \"level\" = \"allow\", \"priority\" = -1 }, \"type_complexity\" = \"allow\", \"let_underscore_future\" = \"allow\", \"single_range_in_vec_init\" = \"allow\", \"too_many_arguments\" = \"allow\", \"large_enum_variant\" = \"allow\", \"nonminimal_bool\" = \"allow\" }\n+# Generated by script/gpui_registry.py.\n+\"workspace\" = { \"resolver\" = \"2\", \"members\" = [\"crates/collections\", \"crates/refineable/derive_refineable\", \"crates/gpui\", \"crates/gpui_apple\", \"crates/gpui_linux\", \"crates/gpui_macos\", \"crates/gpui_macros\", \"crates/gpui_platform\", \"crates/gpui_shared_string\", \"crates/gpui_util\", \"crates/gpui_web\", \"crates/gpui_wgpu\", \"crates/gpui_windows\", \"crates/http_client\", \"crates/http_client_tls\", \"crates/path\", \"tooling/perf\", \"crates/refineable\", \"crates/reqwest_client\", \"crates/scheduler\", \"crates/sum_tree\", \"crates/util\", \"crates/util_macros\", \"crates/zlog\", \"crates/ztracing\", \"crates/ztracing_macro\", \"external/gpui-alloy-async-tar\", \"external/gpui-alloy-reqwest\", \"external/gpui-alloy-font-kit\"] }\n"
+      "diff": "--- source/Cargo.toml\n+++ registry/Cargo.toml\n@@ -1,161 +1,2 @@\n-# Generated by script/gpui_snapshot.py.\n-[workspace]\n-resolver = \"2\"\n-members = [\"crates/collections\", \"crates/gpui\", \"crates/gpui_apple\", \"crates/gpui_linux\", \"crates/gpui_macos\", \"crates/gpui_macros\", \"crates/gpui_platform\", \"crates/gpui_shared_string\", \"crates/gpui_util\", \"crates/gpui_web\", \"crates/gpui_wgpu\", \"crates/gpui_windows\", \"crates/http_client\", \"crates/http_client_tls\", \"crates/path\", \"crates/refineable\", \"crates/refineable/derive_refineable\", \"crates/reqwest_client\", \"crates/scheduler\", \"crates/sum_tree\", \"crates/util\", \"crates/util_macros\", \"crates/zlog\", \"crates/ztracing\", \"crates/ztracing_macro\", \"tooling/perf\"]\n-\n-[workspace.package]\n-\"publish\" = false\n-\"edition\" = \"2024\"\n-\n-[workspace.dependencies]\n-\"accesskit\" = { \"version\" = \"0.24.0\", \"features\" = [\"enumn\"] }\n-\"accesskit_macos\" = \"0.26.0\"\n-\"accesskit_unix\" = \"0.22\"\n-\"accesskit_windows\" = \"0.34\"\n-\"anyhow\" = \"1.0.86\"\n-\"ashpd\" = { \"version\" = \"0.13\", \"default-features\" = false, \"features\" = [\"async-io\", \"inhibit\", \"notification\", \"open_uri\", \"file_chooser\", \"settings\", \"trash\"] }\n-\"async-channel\" = \"2.5.0\"\n-\"async-compression\" = { \"version\" = \"0.4\", \"features\" = [\"bzip2\", \"gzip\", \"futures-io\"] }\n-\"async-fs\" = \"2.1\"\n-\"async-tar\" = { \"git\" = \"https://github.com/zed-industries/async-tar\", \"rev\" = \"bd3ad6f89df9a9da7a8535958756d6bf465936a0\" }\n-\"async-task\" = \"4.7\"\n-\"async_zip\" = { \"version\" = \"0.0.18\", \"features\" = [\"deflate\", \"deflate64\"] }\n-\"backtrace\" = \"0.3\"\n-\"bitflags\" = \"2.6.0\"\n-\"block2\" = \"0.6\"\n-\"bytes\" = \"1.0\"\n-\"cbindgen\" = { \"version\" = \"0.28.0\", \"default-features\" = false }\n-\"chrono\" = { \"version\" = \"0.4\", \"features\" = [\"serde\"] }\n-\"cocoa\" = \"=0.26.0\"\n-\"collections\" = { \"path\" = \"crates/collections\", \"version\" = \"0.1.0\" }\n-\"console_error_panic_hook\" = \"0.1.7\"\n-\"core-foundation\" = \"0.10\"\n-\"core-foundation-sys\" = \"0.8.6\"\n-\"core-graphics\" = \"0.24\"\n-\"core-text\" = \"21\"\n-\"core-video\" = { \"version\" = \"0.5.2\", \"features\" = [\"metal\"] }\n-\"criterion\" = { \"version\" = \"0.5\", \"features\" = [\"html_reports\"] }\n-\"ctor\" = \"1.0.12\"\n-\"derive_more\" = { \"version\" = \"2.1.1\", \"features\" = [\"add\", \"add_assign\", \"deref\", \"deref_mut\", \"display\", \"from\", \"from_str\", \"mul\", \"mul_assign\", \"not\"] }\n-\"derive_refineable\" = { \"path\" = \"crates/refineable/derive_refineable\" }\n-\"dirs\" = \"6.0\"\n-\"dunce\" = \"1.0\"\n-\"env_logger\" = \"0.11\"\n-\"etagere\" = \"0.2\"\n-\"flume\" = \"0.12\"\n-\"foreign-types\" = \"0.5\"\n-\"futures\" = \"0.3.34\"\n-\"futures-concurrency\" = \"7.7.1\"\n-\"futures-lite\" = \"2\"\n-\"globset\" = \"0.4\"\n-\"gpui\" = { \"path\" = \"crates/gpui\", \"default-features\" = false }\n-\"gpui_apple\" = { \"path\" = \"crates/gpui_apple\" }\n-\"gpui_linux\" = { \"path\" = \"crates/gpui_linux\", \"default-features\" = false }\n-\"gpui_macos\" = { \"path\" = \"crates/gpui_macos\", \"default-features\" = false }\n-\"gpui_macros\" = { \"path\" = \"crates/gpui_macros\" }\n-\"gpui_platform\" = { \"path\" = \"crates/gpui_platform\", \"default-features\" = false }\n-\"gpui_shared_string\" = { \"path\" = \"crates/gpui_shared_string\" }\n-\"gpui_util\" = { \"path\" = \"crates/gpui_util\" }\n-\"gpui_web\" = { \"path\" = \"crates/gpui_web\" }\n-\"gpui_wgpu\" = { \"path\" = \"crates/gpui_wgpu\" }\n-\"gpui_windows\" = { \"path\" = \"crates/gpui_windows\", \"default-features\" = false }\n-\"hdrhistogram\" = { \"version\" = \"7\", \"default-features\" = false }\n-\"heapless\" = \"0.9.2\"\n-\"heck\" = \"0.5\"\n-\"http\" = \"1.1\"\n-\"http-body\" = \"1.0\"\n-\"http_client\" = { \"path\" = \"crates/http_client\" }\n-\"http_client_tls\" = { \"path\" = \"crates/http_client_tls\" }\n-\"image\" = { \"version\" = \"0.25.1\", \"default-features\" = false, \"features\" = [\"bmp\", \"dds\", \"exr\", \"ff\", \"gif\", \"hdr\", \"ico\", \"jpeg\", \"png\", \"pnm\", \"qoi\", \"rayon\", \"tga\", \"tiff\", \"webp\"] }\n-\"indexmap\" = { \"version\" = \"2.7.0\", \"features\" = [\"serde\"] }\n-\"inventory\" = \"0.3.19\"\n-\"itertools\" = \"0.14.0\"\n-\"js-sys\" = \"0.3\"\n-\"libc\" = \"0.2\"\n-\"log\" = { \"version\" = \"0.4.16\", \"features\" = [\"kv_unstable_serde\", \"serde\"] }\n-\"mach2\" = \"0.5\"\n-\"metal\" = \"0.33\"\n-\"nix\" = \"0.30\"\n-\"notify-rust\" = \"4\"\n-\"objc\" = \"0.2\"\n-\"objc2\" = \"0.6\"\n-\"objc2-app-kit\" = { \"version\" = \"0.3.2\", \"default-features\" = false, \"features\" = [\"NSAlert\", \"NSApplication\", \"NSButton\", \"NSControl\", \"NSDraggingItem\", \"NSGraphics\", \"NSImage\", \"NSOpenPanel\", \"NSPanel\", \"NSPasteboard\", \"NSResponder\", \"NSSavePanel\", \"NSScreen\", \"NSTrackingArea\", \"NSView\", \"NSWindow\", \"NSWorkspace\", \"block2\", \"objc2-core-foundation\"] }\n-\"objc2-core-foundation\" = { \"version\" = \"=0.3.2\", \"default-features\" = false }\n-\"objc2-core-graphics\" = { \"version\" = \"=0.3.2\", \"default-features\" = false, \"features\" = [\"CGDirectDisplay\"] }\n-\"objc2-core-media\" = { \"version\" = \"=0.3.2\", \"default-features\" = false, \"features\" = [\"CMSampleBuffer\", \"objc2-core-video\"] }\n-\"objc2-core-video\" = { \"version\" = \"=0.3.2\", \"default-features\" = false, \"features\" = [\"CVBuffer\", \"CVImageBuffer\"] }\n-\"objc2-foundation\" = { \"version\" = \"=0.3.2\", \"default-features\" = false, \"features\" = [\"NSArray\", \"NSAttributedString\", \"NSBundle\", \"NSCoder\", \"NSData\", \"NSDate\", \"NSDictionary\", \"NSEnumerator\", \"NSError\", \"NSGeometry\", \"NSNotification\", \"NSNull\", \"NSObjCRuntime\", \"NSObject\", \"NSProcessInfo\", \"NSRange\", \"NSRunLoop\", \"NSSet\", \"NSString\", \"NSURL\", \"NSUndoManager\", \"NSValue\", \"objc2-core-foundation\", \"std\"] }\n-\"objc2-screen-capture-kit\" = { \"version\" = \"=0.3.2\", \"default-features\" = false, \"features\" = [\"block2\", \"dispatch2\", \"objc2-core-graphics\", \"objc2-core-media\", \"SCShareableContent\", \"SCStream\", \"std\"] }\n-\"objc2-user-notifications\" = \"0.3\"\n-\"parking_lot\" = \"0.12.1\"\n-\"path\" = { \"path\" = \"crates/path\" }\n-\"pathfinder_geometry\" = \"0.5\"\n-\"percent-encoding\" = \"2.3.2\"\n-\"perf\" = { \"path\" = \"tooling/perf\" }\n-\"pollster\" = \"0.4.0\"\n-\"postage\" = { \"version\" = \"0.5\", \"features\" = [\"futures-traits\"] }\n-\"pretty_assertions\" = { \"version\" = \"1.3.0\", \"features\" = [\"unstable\"] }\n-\"proc-macro2\" = \"1.0.93\"\n-\"profiling\" = \"1\"\n-\"proptest\" = { \"git\" = \"https://github.com/proptest-rs/proptest\", \"rev\" = \"3dca198a8fef1b32e3a66f1e1897c955b4dc5b5b\", \"features\" = [\"attr-macro\"] }\n-\"quote\" = \"1.0.9\"\n-\"rand\" = \"0.9\"\n-\"raw-window-handle\" = \"0.6\"\n-\"rayon\" = \"1.8\"\n-\"refineable\" = { \"path\" = \"crates/refineable\" }\n-\"regex\" = \"1.5\"\n-\"reqwest\" = { \"git\" = \"https://github.com/zed-industries/reqwest.git\", \"rev\" = \"33bc764aa15ff7b200bf7c93bd96e24878d53e14\", \"default-features\" = false, \"features\" = [\"charset\", \"http2\", \"macos-system-configuration\", \"multipart\", \"rustls-tls-native-roots\", \"socks\", \"stream\"], \"package\" = \"zed-reqwest\", \"version\" = \"0.12.15-zed\" }\n-\"reqwest_client\" = { \"path\" = \"crates/reqwest_client\" }\n-\"resvg\" = { \"version\" = \"0.46.0\", \"default-features\" = false, \"features\" = [\"text\", \"system-fonts\", \"memmap-fonts\", \"raster-images\"] }\n-\"rust-embed\" = { \"version\" = \"8.11\", \"features\" = [\"include-exclude\", \"compression\"] }\n-\"rustc-hash\" = \"2.1.0\"\n-\"rustls\" = { \"version\" = \"0.23.26\" }\n-\"rustls-platform-verifier\" = \"0.7\"\n-\"scap\" = { \"git\" = \"https://github.com/zed-industries/scap\", \"rev\" = \"4afea48c3b002197176fb19cd0f9b180dd36eaac\", \"default-features\" = false, \"package\" = \"zed-scap\", \"version\" = \"0.0.8-zed\" }\n-\"scheduler\" = { \"path\" = \"crates/scheduler\" }\n-\"schemars\" = { \"version\" = \"1.0\", \"features\" = [\"indexmap2\"] }\n-\"semver\" = { \"version\" = \"1.0\", \"features\" = [\"serde\"] }\n-\"serde\" = { \"version\" = \"1.0.221\", \"features\" = [\"derive\", \"rc\"] }\n-\"serde_json\" = { \"version\" = \"1.0.144\", \"features\" = [\"preserve_order\", \"raw_value\"] }\n-\"serde_json_lenient\" = { \"version\" = \"0.2\", \"features\" = [\"preserve_order\", \"raw_value\"] }\n-\"serde_urlencoded\" = \"0.7\"\n-\"sha2\" = \"0.10\"\n-\"shlex\" = \"1.3.0\"\n-\"slotmap\" = \"1.0.6\"\n-\"smallvec\" = { \"version\" = \"1.6\", \"features\" = [\"union\", \"const_new\"] }\n-\"smol\" = \"2.0\"\n-\"stacksafe\" = \"1.0\"\n-\"strum\" = { \"version\" = \"0.28\", \"features\" = [\"derive\"] }\n-\"sum_tree\" = { \"path\" = \"crates/sum_tree\" }\n-\"swash\" = \"0.2.6\"\n-\"syn\" = { \"version\" = \"2.0.101\", \"features\" = [\"full\", \"extra-traits\", \"visit-mut\"] }\n-\"take-until\" = \"0.2.0\"\n-\"tempfile\" = \"3.20.0\"\n-\"thiserror\" = \"2.0.12\"\n-\"tokio\" = { \"version\" = \"1\" }\n-\"tracing\" = \"0.1.40\"\n-\"unicase\" = \"2.6\"\n-\"unicode-bidi\" = { \"version\" = \"0.3.18\", \"default-features\" = false, \"features\" = [\"hardcoded-data\"] }\n-\"unicode-segmentation\" = \"1.10\"\n-\"url\" = \"2.2\"\n-\"usvg\" = { \"version\" = \"0.46.0\", \"default-features\" = false }\n-\"util\" = { \"path\" = \"crates/util\" }\n-\"util_macros\" = { \"path\" = \"crates/util_macros\" }\n-\"uuid\" = { \"version\" = \"1.1.2\", \"features\" = [\"v4\", \"v5\", \"v7\", \"serde\"] }\n-\"walkdir\" = \"2.5\"\n-\"wasm-bindgen\" = \"0.2.120\"\n-\"wasm-bindgen-futures\" = \"0.4\"\n-\"web-time\" = \"1.1.0\"\n-\"webpki-roots\" = \"1.0.8\"\n-\"wgpu\" = \"29.0.4\"\n-\"which\" = \"8\"\n-\"windows\" = { \"version\" = \"0.62\", \"features\" = [\"Data_Xml_Dom\", \"Foundation_Numerics\", \"Globalization_DateTimeFormatting\", \"Storage_Search\", \"Storage_Streams\", \"System_Threading\", \"UI_Notifications\", \"UI_ViewManagement\", \"Wdk_System_SystemServices\", \"Win32_Foundation\", \"Win32_Globalization\", \"Win32_Graphics_Direct3D\", \"Win32_Graphics_Direct3D11\", \"Win32_Graphics_Direct3D_Fxc\", \"Win32_Graphics_DirectComposition\", \"Win32_Graphics_DirectWrite\", \"Win32_Graphics_DirectManipulation\", \"Win32_Graphics_Dwm\", \"Win32_Graphics_Dxgi\", \"Win32_Graphics_Dxgi_Common\", \"Win32_Graphics_Gdi\", \"Win32_Graphics_Imaging\", \"Win32_Graphics_Hlsl\", \"Win32_Networking_WinSock\", \"Win32_Security\", \"Win32_Security_Credentials\", \"Win32_Security_Cryptography\", \"Win32_Storage_FileSystem\", \"Win32_Storage_Packaging_Appx\", \"Win32_System_Com\", \"Win32_System_Com_StructuredStorage\", \"Win32_System_Console\", \"Win32_System_Diagnostics_Debug\", \"Win32_System_DataExchange\", \"Win32_System_IO\", \"Win32_System_JobObjects\", \"Win32_System_LibraryLoader\", \"Win32_System_Memory\", \"Win32_System_Ole\", \"Win32_System_Performance\", \"Win32_System_Pipes\", \"Win32_System_Power\", \"Win32_System_RestartManager\", \"Win32_System_SystemInformation\", \"Win32_System_SystemServices\", \"Win32_System_Threading\", \"Win32_System_Variant\", \"Win32_System_WinRT\", \"Win32_UI_Controls\", \"Win32_UI_HiDpi\", \"Win32_UI_Input_Ime\", \"Win32_UI_Input_KeyboardAndMouse\", \"Win32_UI_Input_Pointer\", \"Win32_UI_Shell\", \"Win32_UI_Shell_Common\", \"Win32_UI_Shell_PropertiesSystem\", \"Win32_UI_WindowsAndMessaging\", \"Win32_Media\"] }\n-\"windows-core\" = \"0.62\"\n-\"windows-registry\" = \"0.6.0\"\n-\"zlog\" = { \"path\" = \"crates/zlog\" }\n-\"ztracing\" = { \"path\" = \"crates/ztracing\" }\n-\"ztracing_macro\" = { \"path\" = \"crates/ztracing_macro\" }\n-\n-[workspace.lints]\n-\"rust\" = { \"unexpected_cfgs\" = { \"level\" = \"allow\" } }\n-\"clippy\" = { \"dbg_macro\" = \"deny\", \"todo\" = \"deny\", \"declare_interior_mutable_const\" = \"deny\", \"redundant_clone\" = \"deny\", \"disallowed_methods\" = \"deny\", \"style\" = { \"level\" = \"allow\", \"priority\" = -1 }, \"type_complexity\" = \"allow\", \"let_underscore_future\" = \"allow\", \"single_range_in_vec_init\" = \"allow\", \"too_many_arguments\" = \"allow\", \"large_enum_variant\" = \"allow\", \"nonminimal_bool\" = \"allow\" }\n+# Generated by script/gpui_registry.py.\n+\"workspace\" = { \"resolver\" = \"2\", \"members\" = [\"crates/collections\", \"crates/refineable/derive_refineable\", \"crates/gpui\", \"crates/gpui_apple\", \"crates/gpui_linux\", \"crates/gpui_macos\", \"crates/gpui_macros\", \"crates/gpui_platform\", \"crates/gpui_shared_string\", \"crates/gpui_util\", \"crates/gpui_web\", \"crates/gpui_wgpu\", \"crates/gpui_windows\", \"crates/http_client\", \"crates/http_client_tls\", \"crates/path\", \"tooling/perf\", \"crates/refineable\", \"crates/reqwest_client\", \"crates/scheduler\", \"crates/sum_tree\", \"crates/util\", \"crates/util_macros\", \"crates/zlog\", \"crates/ztracing\", \"crates/ztracing_macro\", \"external/gpui-alloy-async-tar\", \"external/gpui-alloy-reqwest\", \"external/gpui-alloy-font-kit\", \"external/gpui-alloy-smol\", \"external/gpui-alloy-async-process\"] }\n"
     },
     "crates/collections/Cargo.toml": {
       "after_sha256": "12966f640d2448d11e49243701dece000a709606bc7ed6a184822965e4bde3da",
@@ -4308,9 +4902,9 @@
       "diff": "--- source/crates/gpui_apple/Cargo.toml\n+++ registry/crates/gpui_apple/Cargo.toml\n@@ -1,71 +1,7 @@\n-# Modified by AprilNEA for GPUI Alloy. Patch records: https://github.com/AprilNEA/gpui-alloy/blob/main/ALLOY.md\n-\n-[package]\n-name = \"gpui_apple\"\n-version = \"0.1.0\"\n-edition.workspace = true\n-publish.workspace = true\n-license = \"Apache-2.0\"\n-\n-[lints]\n-workspace = true\n-\n-[lib]\n-path = \"src/gpui_apple.rs\"\n-doctest = false\n-\n-[features]\n-default = []\n-bench-support = [\"gpui/bench-support\"]\n-test-support = [\"gpui/test-support\"]\n-runtime_shaders = []\n-\n-[dependencies]\n-gpui.workspace = true\n-\n-[target.'cfg(target_os = \"macos\")'.dependencies]\n-anyhow.workspace = true\n-block2.workspace = true\n-cocoa.workspace = true\n-core-foundation.workspace = true\n-core-video.workspace = true\n-derive_more.workspace = true\n-etagere.workspace = true\n-foreign-types.workspace = true\n-image.workspace = true\n-libm = \"0.2.16\"\n-log.workspace = true\n-metal.workspace = true\n-objc.workspace = true\n-objc2.workspace = true\n-parking_lot.workspace = true\n-\n-[target.'cfg(target_os = \"macos\")'.build-dependencies]\n-cbindgen.workspace = true\n-\n-[target.'cfg(target_os = \"macos\")'.dev-dependencies]\n-gpui = { workspace = true, features = [\"test-support\"] }\n-\n-[[test]]\n-name = \"backdrop\"\n-required-features = [\"test-support\"]\n-\n-[[test]]\n-name = \"numeric_reference\"\n-required-features = [\"test-support\"]\n-\n-[[test]]\n-name = \"optical_reference\"\n-required-features = [\"test-support\"]\n-\n-[[test]]\n-name = \"continuous_corners\"\n-required-features = [\"test-support\"]\n-\n-[[test]]\n-name = \"clear\"\n-required-features = [\"test-support\"]\n-\n-[[test]]\n-name = \"color_management\"\n-required-features = [\"test-support\"]\n+# Generated by script/gpui_registry.py.\n+\"package\" = { \"name\" = \"gpui-alloy-apple\", \"version\" = \"0.1.0\", \"edition\" = \"2024\", \"publish\" = true, \"license\" = \"Apache-2.0\", \"repository\" = \"https://github.com/AprilNEA/gpui-alloy\", \"autoexamples\" = false, \"autotests\" = false, \"autobenches\" = false, \"description\" = \"GPUI Alloy distribution of gpui_apple\" }\n+\"lints\" = { \"rust\" = { \"unexpected_cfgs\" = { \"level\" = \"allow\" } }, \"clippy\" = { \"dbg_macro\" = \"deny\", \"todo\" = \"deny\", \"declare_interior_mutable_const\" = \"deny\", \"redundant_clone\" = \"deny\", \"disallowed_methods\" = \"deny\", \"style\" = { \"level\" = \"allow\", \"priority\" = -1 }, \"type_complexity\" = \"allow\", \"let_underscore_future\" = \"allow\", \"single_range_in_vec_init\" = \"allow\", \"too_many_arguments\" = \"allow\", \"large_enum_variant\" = \"allow\", \"nonminimal_bool\" = \"allow\" } }\n+\"lib\" = { \"path\" = \"src/gpui_apple.rs\", \"doctest\" = false, \"name\" = \"gpui_apple\", \"test\" = false, \"bench\" = false }\n+\"features\" = { \"default\" = [], \"bench-support\" = [\"gpui/bench-support\"], \"test-support\" = [\"gpui/test-support\"], \"runtime_shaders\" = [] }\n+\"dependencies\" = { \"gpui\" = { \"path\" = \"../gpui\", \"default-features\" = false, \"package\" = \"gpui-alloy\", \"version\" = \"=0.1.0\" } }\n+\"target\" = { \"cfg(target_os = \\\"macos\\\")\" = { \"dependencies\" = { \"anyhow\" = { \"version\" = \"1.0.86\" }, \"block2\" = { \"version\" = \"0.6\" }, \"cocoa\" = { \"version\" = \"=0.26.0\" }, \"core-foundation\" = { \"version\" = \"0.10\" }, \"core-video\" = { \"version\" = \"0.5.2\", \"features\" = [\"metal\"] }, \"derive_more\" = { \"version\" = \"2.1.1\", \"features\" = [\"add\", \"add_assign\", \"deref\", \"deref_mut\", \"display\", \"from\", \"from_str\", \"mul\", \"mul_assign\", \"not\"] }, \"etagere\" = { \"version\" = \"0.2\" }, \"foreign-types\" = { \"version\" = \"0.5\" }, \"image\" = { \"version\" = \"0.25.1\", \"default-features\" = false, \"features\" = [\"bmp\", \"dds\", \"exr\", \"ff\", \"gif\", \"hdr\", \"ico\", \"jpeg\", \"png\", \"pnm\", \"qoi\", \"rayon\", \"tga\", \"tiff\", \"webp\"] }, \"libm\" = { \"version\" = \"0.2.16\" }, \"log\" = { \"version\" = \"0.4.16\", \"features\" = [\"kv_unstable_serde\", \"serde\"] }, \"metal\" = { \"version\" = \"0.33\" }, \"objc\" = { \"version\" = \"0.2\" }, \"objc2\" = { \"version\" = \"0.6\" }, \"parking_lot\" = { \"version\" = \"0.12.1\" } }, \"build-dependencies\" = { \"cbindgen\" = { \"version\" = \"0.28.0\", \"default-features\" = false } } } }\n"
     },
     "crates/gpui_linux/Cargo.toml": {
-      "after_sha256": "45f683da3f09d21807e95fa57c16585812a687c3980731d9cfa9a6f01c73dca3",
+      "after_sha256": "29460a0e42ea59a992c109a57f69edc613409020f8c5a9903cf61d6dfde693b1",
       "before_sha256": "d6082b295e41eee3f00395e20a9c88d9245ffd5c1ed3c94a5255a84773492126",
-      "diff": "--- source/crates/gpui_linux/Cargo.toml\n+++ registry/crates/gpui_linux/Cargo.toml\n@@ -1,137 +1,6 @@\n-[package]\n-name = \"gpui_linux\"\n-version = \"0.1.0\"\n-edition.workspace = true\n-publish.workspace = true\n-license = \"Apache-2.0\"\n-\n-[lints]\n-workspace = true\n-\n-[lib]\n-path = \"src/gpui_linux.rs\"\n-doctest = false\n-\n-[features]\n-default = [\"wayland\", \"x11\"]\n-test-support = [\"gpui/test-support\"]\n-wayland = [\n-    \"bitflags\",\n-    \"gpui_wgpu\",\n-    \"ashpd/wayland\",\n-\n-    \"calloop-wayland-source\",\n-    \"wayland-backend\",\n-    \"wayland-client\",\n-    \"wayland-cursor\",\n-    \"wayland-protocols\",\n-    \"wayland-protocols-plasma\",\n-    \"wayland-protocols-wlr\",\n-    \"filedescriptor\",\n-    \"xkbcommon/wayland\",\n-    \"open\",\n-    \"gpui/wayland\",\n-]\n-x11 = [\n-    \"gpui_wgpu\",\n-    \"ashpd\",\n-\n-    \"as-raw-xcb-connection\",\n-    \"x11rb\",\n-    \"xkbcommon/x11\",\n-    \"xim\",\n-    \"x11-clipboard\",\n-    \"filedescriptor\",\n-    \"open\",\n-    \"scap?/x11\",\n-]\n-screen-capture = [\n-    \"gpui/screen-capture\",\n-    \"scap\",\n-]\n-\n-\n-[target.'cfg(any(target_os = \"linux\", target_os = \"freebsd\"))'.dependencies]\n-accesskit.workspace = true\n-accesskit_unix.workspace = true\n-anyhow.workspace = true\n-bytemuck = \"1\"\n-collections.workspace = true\n-futures.workspace = true\n-gpui.workspace = true\n-gpui_util.workspace = true\n-gpui_wgpu = { workspace = true, optional = true, features = [\"font-kit\"] }\n-http_client.workspace = true\n-libc.workspace = true\n-log.workspace = true\n-parking_lot.workspace = true\n-smallvec.workspace = true\n-smol.workspace = true\n-strum.workspace = true\n-url.workspace = true\n-uuid.workspace = true\n-\n-# Always used\n-oo7 = { version = \"0.6\", default-features = false, features = [\n-    \"async-std\",\n-    \"native_crypto\",\n-] }\n-calloop = \"0.14.3\"\n-notify-rust.workspace = true\n-raw-window-handle.workspace = true\n-\n-# Used in both windowing options\n-ashpd = { workspace = true, optional = true }\n-bitflags = { workspace = true, optional = true }\n-filedescriptor = { version = \"0.8.2\", optional = true }\n-open = { version = \"5.2.0\", optional = true }\n-xkbcommon = { version = \"0.8.0\", default-features = false, optional = true }\n-\n-# Screen capture\n-scap = { workspace = true, optional = true }\n-\n-# Wayland\n-calloop-wayland-source = { version = \"0.4.1\", optional = true }\n-wayland-backend = { version = \"0.3.15\", features = [\n-    \"client_system\",\n-    \"dlopen\",\n-    \"log\",\n-], optional = true }\n-wayland-client = { version = \"0.31.11\", optional = true }\n-wayland-cursor = { version = \"0.31.11\", optional = true }\n-wayland-protocols = { version = \"0.32.9\", features = [\n-    \"client\",\n-    \"staging\",\n-    \"unstable\",\n-], optional = true }\n-wayland-protocols-plasma = { version = \"0.3.9\", features = [\n-    \"client\",\n-], optional = true }\n-wayland-protocols-wlr = { version = \"0.3.9\", features = [\n-    \"client\",\n-], optional = true }\n-\n-# X11\n-as-raw-xcb-connection = { version = \"1\", optional = true }\n-x11rb = { version = \"0.13.1\", features = [\n-    \"allow-unsafe-code\",\n-    \"xkb\",\n-    \"randr\",\n-    \"xinput\",\n-    \"cursor\",\n-    \"resource_manager\",\n-    \"sync\",\n-    \"dri3\",\n-], optional = true }\n-# WARNING: If you change this, you must also publish a new version of zed-xim to crates.io\n-xim = { git = \"https://github.com/zed-industries/xim-rs.git\", rev = \"16f35a2c881b815a2b6cdfd6687988e84f8447d8\", features = [\n-    \"x11rb-xcb\",\n-    \"x11rb-client\",\n-], package = \"zed-xim\", version = \"0.4.0-zed\", optional = true }\n-x11-clipboard = { version = \"0.9.3\", optional = true }\n-\n-[target.'cfg(any(target_os = \"linux\", target_os = \"freebsd\"))'.dev-dependencies]\n-gpui = { workspace = true, features = [\"test-support\"] }\n-\n-[package.metadata.cargo-shear]\n-ignored = [\"bitflags\", \"scap\", \"x11-clipboard\"]\n+# Generated by script/gpui_registry.py.\n+\"package\" = { \"name\" = \"gpui-alloy-linux\", \"version\" = \"0.1.0\", \"edition\" = \"2024\", \"publish\" = true, \"license\" = \"Apache-2.0\", \"metadata\" = { \"cargo-shear\" = { \"ignored\" = [\"bitflags\", \"scap\", \"x11-clipboard\"] } }, \"repository\" = \"https://github.com/AprilNEA/gpui-alloy\", \"autoexamples\" = false, \"autotests\" = false, \"autobenches\" = false, \"description\" = \"GPUI Alloy distribution of gpui_linux\" }\n+\"lints\" = { \"rust\" = { \"unexpected_cfgs\" = { \"level\" = \"allow\" } }, \"clippy\" = { \"dbg_macro\" = \"deny\", \"todo\" = \"deny\", \"declare_interior_mutable_const\" = \"deny\", \"redundant_clone\" = \"deny\", \"disallowed_methods\" = \"deny\", \"style\" = { \"level\" = \"allow\", \"priority\" = -1 }, \"type_complexity\" = \"allow\", \"let_underscore_future\" = \"allow\", \"single_range_in_vec_init\" = \"allow\", \"too_many_arguments\" = \"allow\", \"large_enum_variant\" = \"allow\", \"nonminimal_bool\" = \"allow\" } }\n+\"lib\" = { \"path\" = \"src/gpui_linux.rs\", \"doctest\" = false, \"name\" = \"gpui_linux\", \"test\" = false, \"bench\" = false }\n+\"features\" = { \"default\" = [\"wayland\", \"x11\"], \"test-support\" = [\"gpui/test-support\"], \"wayland\" = [\"bitflags\", \"gpui_wgpu\", \"ashpd/wayland\", \"calloop-wayland-source\", \"wayland-backend\", \"wayland-client\", \"wayland-cursor\", \"wayland-protocols\", \"wayland-protocols-plasma\", \"wayland-protocols-wlr\", \"filedescriptor\", \"xkbcommon/wayland\", \"open\", \"gpui/wayland\"], \"x11\" = [\"gpui_wgpu\", \"ashpd\", \"as-raw-xcb-connection\", \"x11rb\", \"xkbcommon/x11\", \"xim\", \"x11-clipboard\", \"filedescriptor\", \"open\", \"scap?/x11\"], \"screen-capture\" = [\"gpui/screen-capture\", \"scap\"] }\n+\"target\" = { \"cfg(any(target_os = \\\"linux\\\", target_os = \\\"freebsd\\\"))\" = { \"dependencies\" = { \"accesskit\" = { \"version\" = \"0.24.0\", \"features\" = [\"enumn\"] }, \"accesskit_unix\" = { \"version\" = \"0.22\" }, \"anyhow\" = { \"version\" = \"1.0.86\" }, \"bytemuck\" = { \"version\" = \"1\" }, \"collections\" = { \"path\" = \"../collections\", \"version\" = \"=0.1.0\", \"package\" = \"gpui-alloy-collections\" }, \"futures\" = { \"version\" = \"0.3.34\" }, \"gpui\" = { \"path\" = \"../gpui\", \"default-features\" = false, \"package\" = \"gpui-alloy\", \"version\" = \"=0.1.0\" }, \"gpui_util\" = { \"path\" = \"../gpui_util\", \"package\" = \"gpui-alloy-util\", \"version\" = \"=0.1.0\" }, \"gpui_wgpu\" = { \"path\" = \"../gpui_wgpu\", \"optional\" = true, \"features\" = [\"font-kit\"], \"package\" = \"gpui-alloy-wgpu\", \"version\" = \"=0.1.0\" }, \"http_client\" = { \"path\" = \"../http_client\", \"package\" = \"gpui-alloy-http-client\", \"version\" = \"=0.1.0\" }, \"libc\" = { \"version\" = \"0.2\" }, \"log\" = { \"version\" = \"0.4.16\", \"features\" = [\"kv_unstable_serde\", \"serde\"] }, \"parking_lot\" = { \"version\" = \"0.12.1\" }, \"smallvec\" = { \"version\" = \"1.6\", \"features\" = [\"union\", \"const_new\"] }, \"smol\" = { \"version\" = \"2.0\" }, \"strum\" = { \"version\" = \"0.28\", \"features\" = [\"derive\"] }, \"url\" = { \"version\" = \"2.2\" }, \"uuid\" = { \"version\" = \"1.1.2\", \"features\" = [\"v4\", \"v5\", \"v7\", \"serde\"] }, \"oo7\" = { \"version\" = \"0.6\", \"default-features\" = false, \"features\" = [\"async-std\", \"native_crypto\"] }, \"calloop\" = { \"version\" = \"0.14.3\" }, \"notify-rust\" = { \"version\" = \"4\" }, \"raw-window-handle\" = { \"version\" = \"0.6\" }, \"ashpd\" = { \"version\" = \"0.13\", \"default-features\" = false, \"features\" = [\"async-io\", \"inhibit\", \"notification\", \"open_uri\", \"file_chooser\", \"settings\", \"trash\"], \"optional\" = true }, \"bitflags\" = { \"version\" = \"2.6.0\", \"optional\" = true }, \"filedescriptor\" = { \"version\" = \"0.8.2\", \"optional\" = true }, \"open\" = { \"version\" = \"5.2.0\", \"optional\" = true }, \"xkbcommon\" = { \"version\" = \"0.8.0\", \"default-features\" = false, \"optional\" = true }, \"scap\" = { \"default-features\" = false, \"package\" = \"zed-scap\", \"version\" = \"=0.0.8-zed\", \"optional\" = true }, \"calloop-wayland-source\" = { \"version\" = \"0.4.1\", \"optional\" = true }, \"wayland-backend\" = { \"version\" = \"0.3.15\", \"features\" = [\"client_system\", \"dlopen\", \"log\"], \"optional\" = true }, \"wayland-client\" = { \"version\" = \"0.31.11\", \"optional\" = true }, \"wayland-cursor\" = { \"version\" = \"0.31.11\", \"optional\" = true }, \"wayland-protocols\" = { \"version\" = \"0.32.9\", \"features\" = [\"client\", \"staging\", \"unstable\"], \"optional\" = true }, \"wayland-protocols-plasma\" = { \"version\" = \"0.3.9\", \"features\" = [\"client\"], \"optional\" = true }, \"wayland-protocols-wlr\" = { \"version\" = \"0.3.9\", \"features\" = [\"client\"], \"optional\" = true }, \"as-raw-xcb-connection\" = { \"version\" = \"1\", \"optional\" = true }, \"x11rb\" = { \"version\" = \"0.13.1\", \"features\" = [\"allow-unsafe-code\", \"xkb\", \"randr\", \"xinput\", \"cursor\", \"resource_manager\", \"sync\", \"dri3\"], \"optional\" = true }, \"xim\" = { \"features\" = [\"x11rb-xcb\", \"x11rb-client\"], \"package\" = \"zed-xim\", \"version\" = \"=0.4.0-zed\", \"optional\" = true }, \"x11-clipboard\" = { \"version\" = \"0.9.3\", \"optional\" = true } } } }\n"
+      "diff": "--- source/crates/gpui_linux/Cargo.toml\n+++ registry/crates/gpui_linux/Cargo.toml\n@@ -1,137 +1,6 @@\n-[package]\n-name = \"gpui_linux\"\n-version = \"0.1.0\"\n-edition.workspace = true\n-publish.workspace = true\n-license = \"Apache-2.0\"\n-\n-[lints]\n-workspace = true\n-\n-[lib]\n-path = \"src/gpui_linux.rs\"\n-doctest = false\n-\n-[features]\n-default = [\"wayland\", \"x11\"]\n-test-support = [\"gpui/test-support\"]\n-wayland = [\n-    \"bitflags\",\n-    \"gpui_wgpu\",\n-    \"ashpd/wayland\",\n-\n-    \"calloop-wayland-source\",\n-    \"wayland-backend\",\n-    \"wayland-client\",\n-    \"wayland-cursor\",\n-    \"wayland-protocols\",\n-    \"wayland-protocols-plasma\",\n-    \"wayland-protocols-wlr\",\n-    \"filedescriptor\",\n-    \"xkbcommon/wayland\",\n-    \"open\",\n-    \"gpui/wayland\",\n-]\n-x11 = [\n-    \"gpui_wgpu\",\n-    \"ashpd\",\n-\n-    \"as-raw-xcb-connection\",\n-    \"x11rb\",\n-    \"xkbcommon/x11\",\n-    \"xim\",\n-    \"x11-clipboard\",\n-    \"filedescriptor\",\n-    \"open\",\n-    \"scap?/x11\",\n-]\n-screen-capture = [\n-    \"gpui/screen-capture\",\n-    \"scap\",\n-]\n-\n-\n-[target.'cfg(any(target_os = \"linux\", target_os = \"freebsd\"))'.dependencies]\n-accesskit.workspace = true\n-accesskit_unix.workspace = true\n-anyhow.workspace = true\n-bytemuck = \"1\"\n-collections.workspace = true\n-futures.workspace = true\n-gpui.workspace = true\n-gpui_util.workspace = true\n-gpui_wgpu = { workspace = true, optional = true, features = [\"font-kit\"] }\n-http_client.workspace = true\n-libc.workspace = true\n-log.workspace = true\n-parking_lot.workspace = true\n-smallvec.workspace = true\n-smol.workspace = true\n-strum.workspace = true\n-url.workspace = true\n-uuid.workspace = true\n-\n-# Always used\n-oo7 = { version = \"0.6\", default-features = false, features = [\n-    \"async-std\",\n-    \"native_crypto\",\n-] }\n-calloop = \"0.14.3\"\n-notify-rust.workspace = true\n-raw-window-handle.workspace = true\n-\n-# Used in both windowing options\n-ashpd = { workspace = true, optional = true }\n-bitflags = { workspace = true, optional = true }\n-filedescriptor = { version = \"0.8.2\", optional = true }\n-open = { version = \"5.2.0\", optional = true }\n-xkbcommon = { version = \"0.8.0\", default-features = false, optional = true }\n-\n-# Screen capture\n-scap = { workspace = true, optional = true }\n-\n-# Wayland\n-calloop-wayland-source = { version = \"0.4.1\", optional = true }\n-wayland-backend = { version = \"0.3.15\", features = [\n-    \"client_system\",\n-    \"dlopen\",\n-    \"log\",\n-], optional = true }\n-wayland-client = { version = \"0.31.11\", optional = true }\n-wayland-cursor = { version = \"0.31.11\", optional = true }\n-wayland-protocols = { version = \"0.32.9\", features = [\n-    \"client\",\n-    \"staging\",\n-    \"unstable\",\n-], optional = true }\n-wayland-protocols-plasma = { version = \"0.3.9\", features = [\n-    \"client\",\n-], optional = true }\n-wayland-protocols-wlr = { version = \"0.3.9\", features = [\n-    \"client\",\n-], optional = true }\n-\n-# X11\n-as-raw-xcb-connection = { version = \"1\", optional = true }\n-x11rb = { version = \"0.13.1\", features = [\n-    \"allow-unsafe-code\",\n-    \"xkb\",\n-    \"randr\",\n-    \"xinput\",\n-    \"cursor\",\n-    \"resource_manager\",\n-    \"sync\",\n-    \"dri3\",\n-], optional = true }\n-# WARNING: If you change this, you must also publish a new version of zed-xim to crates.io\n-xim = { git = \"https://github.com/zed-industries/xim-rs.git\", rev = \"16f35a2c881b815a2b6cdfd6687988e84f8447d8\", features = [\n-    \"x11rb-xcb\",\n-    \"x11rb-client\",\n-], package = \"zed-xim\", version = \"0.4.0-zed\", optional = true }\n-x11-clipboard = { version = \"0.9.3\", optional = true }\n-\n-[target.'cfg(any(target_os = \"linux\", target_os = \"freebsd\"))'.dev-dependencies]\n-gpui = { workspace = true, features = [\"test-support\"] }\n-\n-[package.metadata.cargo-shear]\n-ignored = [\"bitflags\", \"scap\", \"x11-clipboard\"]\n+# Generated by script/gpui_registry.py.\n+\"package\" = { \"name\" = \"gpui-alloy-linux\", \"version\" = \"0.1.0\", \"edition\" = \"2024\", \"publish\" = true, \"license\" = \"Apache-2.0\", \"metadata\" = { \"cargo-shear\" = { \"ignored\" = [\"bitflags\", \"scap\", \"x11-clipboard\"] } }, \"repository\" = \"https://github.com/AprilNEA/gpui-alloy\", \"autoexamples\" = false, \"autotests\" = false, \"autobenches\" = false, \"description\" = \"GPUI Alloy distribution of gpui_linux\" }\n+\"lints\" = { \"rust\" = { \"unexpected_cfgs\" = { \"level\" = \"allow\" } }, \"clippy\" = { \"dbg_macro\" = \"deny\", \"todo\" = \"deny\", \"declare_interior_mutable_const\" = \"deny\", \"redundant_clone\" = \"deny\", \"disallowed_methods\" = \"deny\", \"style\" = { \"level\" = \"allow\", \"priority\" = -1 }, \"type_complexity\" = \"allow\", \"let_underscore_future\" = \"allow\", \"single_range_in_vec_init\" = \"allow\", \"too_many_arguments\" = \"allow\", \"large_enum_variant\" = \"allow\", \"nonminimal_bool\" = \"allow\" } }\n+\"lib\" = { \"path\" = \"src/gpui_linux.rs\", \"doctest\" = false, \"name\" = \"gpui_linux\", \"test\" = false, \"bench\" = false }\n+\"features\" = { \"default\" = [\"wayland\", \"x11\"], \"test-support\" = [\"gpui/test-support\"], \"wayland\" = [\"bitflags\", \"gpui_wgpu\", \"ashpd/wayland\", \"calloop-wayland-source\", \"wayland-backend\", \"wayland-client\", \"wayland-cursor\", \"wayland-protocols\", \"wayland-protocols-plasma\", \"wayland-protocols-wlr\", \"filedescriptor\", \"xkbcommon/wayland\", \"open\", \"gpui/wayland\"], \"x11\" = [\"gpui_wgpu\", \"ashpd\", \"as-raw-xcb-connection\", \"x11rb\", \"xkbcommon/x11\", \"xim\", \"x11-clipboard\", \"filedescriptor\", \"open\", \"scap?/x11\"], \"screen-capture\" = [\"gpui/screen-capture\", \"scap\"] }\n+\"target\" = { \"cfg(any(target_os = \\\"linux\\\", target_os = \\\"freebsd\\\"))\" = { \"dependencies\" = { \"accesskit\" = { \"version\" = \"0.24.0\", \"features\" = [\"enumn\"] }, \"accesskit_unix\" = { \"version\" = \"0.22\" }, \"anyhow\" = { \"version\" = \"1.0.86\" }, \"bytemuck\" = { \"version\" = \"1\" }, \"collections\" = { \"path\" = \"../collections\", \"version\" = \"=0.1.0\", \"package\" = \"gpui-alloy-collections\" }, \"futures\" = { \"version\" = \"0.3.34\" }, \"gpui\" = { \"path\" = \"../gpui\", \"default-features\" = false, \"package\" = \"gpui-alloy\", \"version\" = \"=0.1.0\" }, \"gpui_util\" = { \"path\" = \"../gpui_util\", \"package\" = \"gpui-alloy-util\", \"version\" = \"=0.1.0\" }, \"gpui_wgpu\" = { \"path\" = \"../gpui_wgpu\", \"optional\" = true, \"features\" = [\"font-kit\"], \"package\" = \"gpui-alloy-wgpu\", \"version\" = \"=0.1.0\" }, \"http_client\" = { \"path\" = \"../http_client\", \"package\" = \"gpui-alloy-http-client\", \"version\" = \"=0.1.0\" }, \"libc\" = { \"version\" = \"0.2\" }, \"log\" = { \"version\" = \"0.4.16\", \"features\" = [\"kv_unstable_serde\", \"serde\"] }, \"parking_lot\" = { \"version\" = \"0.12.1\" }, \"smallvec\" = { \"version\" = \"1.6\", \"features\" = [\"union\", \"const_new\"] }, \"smol\" = { \"version\" = \"=0.1.0\", \"package\" = \"gpui-alloy-smol\", \"path\" = \"../../external/gpui-alloy-smol\" }, \"strum\" = { \"version\" = \"0.28\", \"features\" = [\"derive\"] }, \"url\" = { \"version\" = \"2.2\" }, \"uuid\" = { \"version\" = \"1.1.2\", \"features\" = [\"v4\", \"v5\", \"v7\", \"serde\"] }, \"oo7\" = { \"version\" = \"0.6\", \"default-features\" = false, \"features\" = [\"async-std\", \"native_crypto\"] }, \"calloop\" = { \"version\" = \"0.14.3\" }, \"notify-rust\" = { \"version\" = \"4\" }, \"raw-window-handle\" = { \"version\" = \"0.6\" }, \"ashpd\" = { \"version\" = \"0.13\", \"default-features\" = false, \"features\" = [\"async-io\", \"inhibit\", \"notification\", \"open_uri\", \"file_chooser\", \"settings\", \"trash\"], \"optional\" = true }, \"bitflags\" = { \"version\" = \"2.6.0\", \"optional\" = true }, \"filedescriptor\" = { \"version\" = \"0.8.2\", \"optional\" = true }, \"open\" = { \"version\" = \"5.2.0\", \"optional\" = true }, \"xkbcommon\" = { \"version\" = \"0.8.0\", \"default-features\" = false, \"optional\" = true }, \"scap\" = { \"default-features\" = false, \"package\" = \"zed-scap\", \"version\" = \"=0.0.8-zed\", \"optional\" = true }, \"calloop-wayland-source\" = { \"version\" = \"0.4.1\", \"optional\" = true }, \"wayland-backend\" = { \"version\" = \"0.3.15\", \"features\" = [\"client_system\", \"dlopen\", \"log\"], \"optional\" = true }, \"wayland-client\" = { \"version\" = \"0.31.11\", \"optional\" = true }, \"wayland-cursor\" = { \"version\" = \"0.31.11\", \"optional\" = true }, \"wayland-protocols\" = { \"version\" = \"0.32.9\", \"features\" = [\"client\", \"staging\", \"unstable\"], \"optional\" = true }, \"wayland-protocols-plasma\" = { \"version\" = \"0.3.9\", \"features\" = [\"client\"], \"optional\" = true }, \"wayland-protocols-wlr\" = { \"version\" = \"0.3.9\", \"features\" = [\"client\"], \"optional\" = true }, \"as-raw-xcb-connection\" = { \"version\" = \"1\", \"optional\" = true }, \"x11rb\" = { \"version\" = \"0.13.1\", \"features\" = [\"allow-unsafe-code\", \"xkb\", \"randr\", \"xinput\", \"cursor\", \"resource_manager\", \"sync\", \"dri3\"], \"optional\" = true }, \"xim\" = { \"features\" = [\"x11rb-xcb\", \"x11rb-client\"], \"package\" = \"zed-xim\", \"version\" = \"=0.4.0-zed\", \"optional\" = true }, \"x11-clipboard\" = { \"version\" = \"0.9.3\", \"optional\" = true } } } }\n"
     },
     "crates/gpui_macos/Cargo.toml": {
       "after_sha256": "778b3333b4204cf5ba126efbbc3695f42e0074ecce3132df49129726fb4ded57",
@@ -4393,9 +4987,9 @@
       "diff": "--- source/crates/sum_tree/Cargo.toml\n+++ registry/crates/sum_tree/Cargo.toml\n@@ -1,35 +1,6 @@\n-[package]\n-name = \"sum_tree\"\n-version = \"0.1.0\"\n-edition.workspace = true\n-publish = false\n-license = \"Apache-2.0\"\n-description = \"A sum tree data structure, a concurrency-friendly B-tree\"\n-\n-[lints]\n-workspace = true\n-\n-[lib]\n-path = \"src/sum_tree.rs\"\n-doctest = false\n-\n-[dependencies]\n-heapless.workspace = true\n-rayon.workspace = true\n-log.workspace = true\n-ztracing.workspace = true\n-tracing.workspace = true\n-proptest = { workspace = true, optional = true }\n-\n-[dev-dependencies]\n-ctor.workspace = true\n-rand.workspace = true\n-proptest.workspace = true\n-zlog.workspace = true\n-\n-\n-[package.metadata.cargo-shear]\n-ignored = [\"tracing\"]\n-\n-[features]\n-test-support = [\"proptest\"]+# Generated by script/gpui_registry.py.\n+\"package\" = { \"name\" = \"gpui-alloy-sum-tree\", \"version\" = \"0.1.0\", \"edition\" = \"2024\", \"publish\" = true, \"license\" = \"Apache-2.0\", \"description\" = \"A sum tree data structure, a concurrency-friendly B-tree\", \"metadata\" = { \"cargo-shear\" = { \"ignored\" = [\"tracing\"] } }, \"repository\" = \"https://github.com/AprilNEA/gpui-alloy\", \"autoexamples\" = false, \"autotests\" = false, \"autobenches\" = false }\n+\"lints\" = { \"rust\" = { \"unexpected_cfgs\" = { \"level\" = \"allow\" } }, \"clippy\" = { \"dbg_macro\" = \"deny\", \"todo\" = \"deny\", \"declare_interior_mutable_const\" = \"deny\", \"redundant_clone\" = \"deny\", \"disallowed_methods\" = \"deny\", \"style\" = { \"level\" = \"allow\", \"priority\" = -1 }, \"type_complexity\" = \"allow\", \"let_underscore_future\" = \"allow\", \"single_range_in_vec_init\" = \"allow\", \"too_many_arguments\" = \"allow\", \"large_enum_variant\" = \"allow\", \"nonminimal_bool\" = \"allow\" } }\n+\"lib\" = { \"path\" = \"src/sum_tree.rs\", \"doctest\" = false, \"name\" = \"sum_tree\", \"test\" = false, \"bench\" = false }\n+\"dependencies\" = { \"heapless\" = { \"version\" = \"0.9.2\" }, \"rayon\" = { \"version\" = \"1.8\" }, \"log\" = { \"version\" = \"0.4.16\", \"features\" = [\"kv_unstable_serde\", \"serde\"] }, \"ztracing\" = { \"path\" = \"../ztracing\", \"package\" = \"gpui-alloy-ztracing\", \"version\" = \"=0.1.0\" }, \"tracing\" = { \"version\" = \"0.1.40\" }, \"proptest\" = { \"features\" = [\"attr-macro\"], \"optional\" = true, \"package\" = \"proptest\", \"version\" = \"=1.10.0\" } }\n+\"features\" = { \"test-support\" = [\"proptest\"] }\n"
     },
     "crates/util/Cargo.toml": {
-      "after_sha256": "4da2588dcfb75e3e778294304f0726fb3267d48cef9ed8ee2b741ea31a054a5f",
+      "after_sha256": "f53856d83ec50b0d272de87b88bc113e5f1a9cb0fd1944e3845b0d0e3ad0973c",
       "before_sha256": "4075f5da78542e8eb7cd342c7208c5fc0ee550de7a6b6596f21b6379bb594313",
-      "diff": "--- source/crates/util/Cargo.toml\n+++ registry/crates/util/Cargo.toml\n@@ -1,71 +1,7 @@\n-[package]\n-name = \"util\"\n-version = \"0.1.0\"\n-edition.workspace = true\n-publish = false\n-license = \"Apache-2.0\"\n-description = \"A collection of utility structs and functions used by Zed and GPUI\"\n-\n-\n-[lints]\n-workspace = true\n-\n-[lib]\n-path = \"src/util.rs\"\n-doctest = true\n-\n-[features]\n-test-support = [\"rand\", \"util_macros\", \"path/test-support\"]\n-# Embed `fs_embed!` assets at compile time even in debug builds.\n-debug-embed = [\"rust-embed/debug-embed\"]\n-\n-[dependencies]\n-anyhow.workspace = true\n-async_zip.workspace = true\n-collections.workspace = true\n-dunce.workspace = true\n-futures-lite.workspace = true\n-futures.workspace = true\n-globset.workspace = true\n-itertools.workspace = true\n-log.workspace = true\n-rand = { workspace = true, optional = true }\n-regex.workspace = true\n-rust-embed.workspace = true\n-schemars.workspace = true\n-serde.workspace = true\n-serde_json.workspace = true\n-serde_json_lenient.workspace = true\n-shlex.workspace = true\n-take-until.workspace = true\n-tempfile.workspace = true\n-unicase.workspace = true\n-url.workspace = true\n-percent-encoding.workspace = true\n-util_macros = { workspace = true, optional = true }\n-gpui_util.workspace = true\n-path = { workspace = true, features = [\"serde\"] }\n-\n-[target.'cfg(not(target_family = \"wasm\"))'.dependencies]\n-smol.workspace = true\n-which.workspace = true\n-async-fs.workspace = true\n-walkdir.workspace = true\n-dirs.workspace = true\n-\n-[target.'cfg(unix)'.dependencies]\n-command-fds = \"0.3.1\"\n-libc.workspace = true\n-nix = { workspace = true, features = [\"resource\", \"user\"] }\n-\n-[target.'cfg(target_os = \"macos\")'.dependencies]\n-mach2.workspace = true\n-\n-[target.'cfg(windows)'.dependencies]\n-tendril = \"0.5\"\n-windows.workspace = true\n-\n-[dev-dependencies]\n-rand.workspace = true\n-util_macros.workspace = true\n-path = { workspace = true, features = [\"test-support\"] }\n+# Generated by script/gpui_registry.py.\n+\"package\" = { \"name\" = \"gpui-alloy-zed-util\", \"version\" = \"0.1.0\", \"edition\" = \"2024\", \"publish\" = true, \"license\" = \"Apache-2.0\", \"description\" = \"A collection of utility structs and functions used by Zed and GPUI\", \"repository\" = \"https://github.com/AprilNEA/gpui-alloy\", \"autoexamples\" = false, \"autotests\" = false, \"autobenches\" = false }\n+\"lints\" = { \"rust\" = { \"unexpected_cfgs\" = { \"level\" = \"allow\" } }, \"clippy\" = { \"dbg_macro\" = \"deny\", \"todo\" = \"deny\", \"declare_interior_mutable_const\" = \"deny\", \"redundant_clone\" = \"deny\", \"disallowed_methods\" = \"deny\", \"style\" = { \"level\" = \"allow\", \"priority\" = -1 }, \"type_complexity\" = \"allow\", \"let_underscore_future\" = \"allow\", \"single_range_in_vec_init\" = \"allow\", \"too_many_arguments\" = \"allow\", \"large_enum_variant\" = \"allow\", \"nonminimal_bool\" = \"allow\" } }\n+\"lib\" = { \"path\" = \"src/util.rs\", \"doctest\" = false, \"name\" = \"util\", \"test\" = false, \"bench\" = false }\n+\"features\" = { \"test-support\" = [\"rand\", \"util_macros\", \"path/test-support\"], \"debug-embed\" = [\"rust-embed/debug-embed\"] }\n+\"dependencies\" = { \"anyhow\" = { \"version\" = \"1.0.86\" }, \"async_zip\" = { \"version\" = \"0.0.18\", \"features\" = [\"deflate\", \"deflate64\"] }, \"collections\" = { \"path\" = \"../collections\", \"version\" = \"=0.1.0\", \"package\" = \"gpui-alloy-collections\" }, \"dunce\" = { \"version\" = \"1.0\" }, \"futures-lite\" = { \"version\" = \"2\" }, \"futures\" = { \"version\" = \"0.3.34\" }, \"globset\" = { \"version\" = \"0.4\" }, \"itertools\" = { \"version\" = \"0.14.0\" }, \"log\" = { \"version\" = \"0.4.16\", \"features\" = [\"kv_unstable_serde\", \"serde\"] }, \"rand\" = { \"version\" = \"0.9\", \"optional\" = true }, \"regex\" = { \"version\" = \"1.5\" }, \"rust-embed\" = { \"version\" = \"8.11\", \"features\" = [\"include-exclude\", \"compression\"] }, \"schemars\" = { \"version\" = \"1.0\", \"features\" = [\"indexmap2\"] }, \"serde\" = { \"version\" = \"1.0.221\", \"features\" = [\"derive\", \"rc\"] }, \"serde_json\" = { \"version\" = \"1.0.144\", \"features\" = [\"preserve_order\", \"raw_value\"] }, \"serde_json_lenient\" = { \"version\" = \"0.2\", \"features\" = [\"preserve_order\", \"raw_value\"] }, \"shlex\" = { \"version\" = \"1.3.0\" }, \"take-until\" = { \"version\" = \"0.2.0\" }, \"tempfile\" = { \"version\" = \"3.20.0\" }, \"unicase\" = { \"version\" = \"2.6\" }, \"url\" = { \"version\" = \"2.2\" }, \"percent-encoding\" = { \"version\" = \"2.3.2\" }, \"util_macros\" = { \"path\" = \"../util_macros\", \"optional\" = true, \"package\" = \"gpui-alloy-util-macros\", \"version\" = \"=0.1.0\" }, \"gpui_util\" = { \"path\" = \"../gpui_util\", \"package\" = \"gpui-alloy-util\", \"version\" = \"=0.1.0\" }, \"path\" = { \"path\" = \"../path\", \"features\" = [\"serde\"], \"package\" = \"gpui-alloy-path\", \"version\" = \"=0.1.0\" } }\n+\"target\" = { \"cfg(not(target_family = \\\"wasm\\\"))\" = { \"dependencies\" = { \"smol\" = { \"version\" = \"2.0\" }, \"which\" = { \"version\" = \"8\" }, \"async-fs\" = { \"version\" = \"2.1\" }, \"walkdir\" = { \"version\" = \"2.5\" }, \"dirs\" = { \"version\" = \"6.0\" } } }, \"cfg(unix)\" = { \"dependencies\" = { \"command-fds\" = { \"version\" = \"0.3.1\" }, \"libc\" = { \"version\" = \"0.2\" }, \"nix\" = { \"version\" = \"0.30\", \"features\" = [\"resource\", \"user\"] } } }, \"cfg(target_os = \\\"macos\\\")\" = { \"dependencies\" = { \"mach2\" = { \"version\" = \"0.5\" } } }, \"cfg(windows)\" = { \"dependencies\" = { \"tendril\" = { \"version\" = \"0.5\" }, \"windows\" = { \"version\" = \"0.62\", \"features\" = [\"Data_Xml_Dom\", \"Foundation_Numerics\", \"Globalization_DateTimeFormatting\", \"Storage_Search\", \"Storage_Streams\", \"System_Threading\", \"UI_Notifications\", \"UI_ViewManagement\", \"Wdk_System_SystemServices\", \"Win32_Foundation\", \"Win32_Globalization\", \"Win32_Graphics_Direct3D\", \"Win32_Graphics_Direct3D11\", \"Win32_Graphics_Direct3D_Fxc\", \"Win32_Graphics_DirectComposition\", \"Win32_Graphics_DirectWrite\", \"Win32_Graphics_DirectManipulation\", \"Win32_Graphics_Dwm\", \"Win32_Graphics_Dxgi\", \"Win32_Graphics_Dxgi_Common\", \"Win32_Graphics_Gdi\", \"Win32_Graphics_Imaging\", \"Win32_Graphics_Hlsl\", \"Win32_Networking_WinSock\", \"Win32_Security\", \"Win32_Security_Credentials\", \"Win32_Security_Cryptography\", \"Win32_Storage_FileSystem\", \"Win32_Storage_Packaging_Appx\", \"Win32_System_Com\", \"Win32_System_Com_StructuredStorage\", \"Win32_System_Console\", \"Win32_System_Diagnostics_Debug\", \"Win32_System_DataExchange\", \"Win32_System_IO\", \"Win32_System_JobObjects\", \"Win32_System_LibraryLoader\", \"Win32_System_Memory\", \"Win32_System_Ole\", \"Win32_System_Performance\", \"Win32_System_Pipes\", \"Win32_System_Power\", \"Win32_System_RestartManager\", \"Win32_System_SystemInformation\", \"Win32_System_SystemServices\", \"Win32_System_Threading\", \"Win32_System_Variant\", \"Win32_System_WinRT\", \"Win32_UI_Controls\", \"Win32_UI_HiDpi\", \"Win32_UI_Input_Ime\", \"Win32_UI_Input_KeyboardAndMouse\", \"Win32_UI_Input_Pointer\", \"Win32_UI_Shell\", \"Win32_UI_Shell_Common\", \"Win32_UI_Shell_PropertiesSystem\", \"Win32_UI_WindowsAndMessaging\", \"Win32_Media\"] } } } }\n"
+      "diff": "--- source/crates/util/Cargo.toml\n+++ registry/crates/util/Cargo.toml\n@@ -1,71 +1,7 @@\n-[package]\n-name = \"util\"\n-version = \"0.1.0\"\n-edition.workspace = true\n-publish = false\n-license = \"Apache-2.0\"\n-description = \"A collection of utility structs and functions used by Zed and GPUI\"\n-\n-\n-[lints]\n-workspace = true\n-\n-[lib]\n-path = \"src/util.rs\"\n-doctest = true\n-\n-[features]\n-test-support = [\"rand\", \"util_macros\", \"path/test-support\"]\n-# Embed `fs_embed!` assets at compile time even in debug builds.\n-debug-embed = [\"rust-embed/debug-embed\"]\n-\n-[dependencies]\n-anyhow.workspace = true\n-async_zip.workspace = true\n-collections.workspace = true\n-dunce.workspace = true\n-futures-lite.workspace = true\n-futures.workspace = true\n-globset.workspace = true\n-itertools.workspace = true\n-log.workspace = true\n-rand = { workspace = true, optional = true }\n-regex.workspace = true\n-rust-embed.workspace = true\n-schemars.workspace = true\n-serde.workspace = true\n-serde_json.workspace = true\n-serde_json_lenient.workspace = true\n-shlex.workspace = true\n-take-until.workspace = true\n-tempfile.workspace = true\n-unicase.workspace = true\n-url.workspace = true\n-percent-encoding.workspace = true\n-util_macros = { workspace = true, optional = true }\n-gpui_util.workspace = true\n-path = { workspace = true, features = [\"serde\"] }\n-\n-[target.'cfg(not(target_family = \"wasm\"))'.dependencies]\n-smol.workspace = true\n-which.workspace = true\n-async-fs.workspace = true\n-walkdir.workspace = true\n-dirs.workspace = true\n-\n-[target.'cfg(unix)'.dependencies]\n-command-fds = \"0.3.1\"\n-libc.workspace = true\n-nix = { workspace = true, features = [\"resource\", \"user\"] }\n-\n-[target.'cfg(target_os = \"macos\")'.dependencies]\n-mach2.workspace = true\n-\n-[target.'cfg(windows)'.dependencies]\n-tendril = \"0.5\"\n-windows.workspace = true\n-\n-[dev-dependencies]\n-rand.workspace = true\n-util_macros.workspace = true\n-path = { workspace = true, features = [\"test-support\"] }\n+# Generated by script/gpui_registry.py.\n+\"package\" = { \"name\" = \"gpui-alloy-zed-util\", \"version\" = \"0.1.0\", \"edition\" = \"2024\", \"publish\" = true, \"license\" = \"Apache-2.0\", \"description\" = \"A collection of utility structs and functions used by Zed and GPUI\", \"repository\" = \"https://github.com/AprilNEA/gpui-alloy\", \"autoexamples\" = false, \"autotests\" = false, \"autobenches\" = false }\n+\"lints\" = { \"rust\" = { \"unexpected_cfgs\" = { \"level\" = \"allow\" } }, \"clippy\" = { \"dbg_macro\" = \"deny\", \"todo\" = \"deny\", \"declare_interior_mutable_const\" = \"deny\", \"redundant_clone\" = \"deny\", \"disallowed_methods\" = \"deny\", \"style\" = { \"level\" = \"allow\", \"priority\" = -1 }, \"type_complexity\" = \"allow\", \"let_underscore_future\" = \"allow\", \"single_range_in_vec_init\" = \"allow\", \"too_many_arguments\" = \"allow\", \"large_enum_variant\" = \"allow\", \"nonminimal_bool\" = \"allow\" } }\n+\"lib\" = { \"path\" = \"src/util.rs\", \"doctest\" = false, \"name\" = \"util\", \"test\" = false, \"bench\" = false }\n+\"features\" = { \"test-support\" = [\"rand\", \"util_macros\", \"path/test-support\"], \"debug-embed\" = [\"rust-embed/debug-embed\"] }\n+\"dependencies\" = { \"anyhow\" = { \"version\" = \"1.0.86\" }, \"async_zip\" = { \"version\" = \"0.0.18\", \"features\" = [\"deflate\", \"deflate64\"] }, \"collections\" = { \"path\" = \"../collections\", \"version\" = \"=0.1.0\", \"package\" = \"gpui-alloy-collections\" }, \"dunce\" = { \"version\" = \"1.0\" }, \"futures-lite\" = { \"version\" = \"2\" }, \"futures\" = { \"version\" = \"0.3.34\" }, \"globset\" = { \"version\" = \"0.4\" }, \"itertools\" = { \"version\" = \"0.14.0\" }, \"log\" = { \"version\" = \"0.4.16\", \"features\" = [\"kv_unstable_serde\", \"serde\"] }, \"rand\" = { \"version\" = \"0.9\", \"optional\" = true }, \"regex\" = { \"version\" = \"1.5\" }, \"rust-embed\" = { \"version\" = \"8.11\", \"features\" = [\"include-exclude\", \"compression\"] }, \"schemars\" = { \"version\" = \"1.0\", \"features\" = [\"indexmap2\"] }, \"serde\" = { \"version\" = \"1.0.221\", \"features\" = [\"derive\", \"rc\"] }, \"serde_json\" = { \"version\" = \"1.0.144\", \"features\" = [\"preserve_order\", \"raw_value\"] }, \"serde_json_lenient\" = { \"version\" = \"0.2\", \"features\" = [\"preserve_order\", \"raw_value\"] }, \"shlex\" = { \"version\" = \"1.3.0\" }, \"take-until\" = { \"version\" = \"0.2.0\" }, \"tempfile\" = { \"version\" = \"3.20.0\" }, \"unicase\" = { \"version\" = \"2.6\" }, \"url\" = { \"version\" = \"2.2\" }, \"percent-encoding\" = { \"version\" = \"2.3.2\" }, \"util_macros\" = { \"path\" = \"../util_macros\", \"optional\" = true, \"package\" = \"gpui-alloy-util-macros\", \"version\" = \"=0.1.0\" }, \"gpui_util\" = { \"path\" = \"../gpui_util\", \"package\" = \"gpui-alloy-util\", \"version\" = \"=0.1.0\" }, \"path\" = { \"path\" = \"../path\", \"features\" = [\"serde\"], \"package\" = \"gpui-alloy-path\", \"version\" = \"=0.1.0\" } }\n+\"target\" = { \"cfg(not(target_family = \\\"wasm\\\"))\" = { \"dependencies\" = { \"smol\" = { \"version\" = \"=0.1.0\", \"package\" = \"gpui-alloy-smol\", \"path\" = \"../../external/gpui-alloy-smol\" }, \"which\" = { \"version\" = \"8\" }, \"async-fs\" = { \"version\" = \"2.1\" }, \"walkdir\" = { \"version\" = \"2.5\" }, \"dirs\" = { \"version\" = \"6.0\" } } }, \"cfg(unix)\" = { \"dependencies\" = { \"command-fds\" = { \"version\" = \"0.3.1\" }, \"libc\" = { \"version\" = \"0.2\" }, \"nix\" = { \"version\" = \"0.30\", \"features\" = [\"resource\", \"user\"] } } }, \"cfg(target_os = \\\"macos\\\")\" = { \"dependencies\" = { \"mach2\" = { \"version\" = \"0.5\" } } }, \"cfg(windows)\" = { \"dependencies\" = { \"tendril\" = { \"version\" = \"0.5\" }, \"windows\" = { \"version\" = \"0.62\", \"features\" = [\"Data_Xml_Dom\", \"Foundation_Numerics\", \"Globalization_DateTimeFormatting\", \"Storage_Search\", \"Storage_Streams\", \"System_Threading\", \"UI_Notifications\", \"UI_ViewManagement\", \"Wdk_System_SystemServices\", \"Win32_Foundation\", \"Win32_Globalization\", \"Win32_Graphics_Direct3D\", \"Win32_Graphics_Direct3D11\", \"Win32_Graphics_Direct3D_Fxc\", \"Win32_Graphics_DirectComposition\", \"Win32_Graphics_DirectWrite\", \"Win32_Graphics_DirectManipulation\", \"Win32_Graphics_Dwm\", \"Win32_Graphics_Dxgi\", \"Win32_Graphics_Dxgi_Common\", \"Win32_Graphics_Gdi\", \"Win32_Graphics_Imaging\", \"Win32_Graphics_Hlsl\", \"Win32_Networking_WinSock\", \"Win32_Security\", \"Win32_Security_Credentials\", \"Win32_Security_Cryptography\", \"Win32_Storage_FileSystem\", \"Win32_Storage_Packaging_Appx\", \"Win32_System_Com\", \"Win32_System_Com_StructuredStorage\", \"Win32_System_Console\", \"Win32_System_Diagnostics_Debug\", \"Win32_System_DataExchange\", \"Win32_System_IO\", \"Win32_System_JobObjects\", \"Win32_System_LibraryLoader\", \"Win32_System_Memory\", \"Win32_System_Ole\", \"Win32_System_Performance\", \"Win32_System_Pipes\", \"Win32_System_Power\", \"Win32_System_RestartManager\", \"Win32_System_SystemInformation\", \"Win32_System_SystemServices\", \"Win32_System_Threading\", \"Win32_System_Variant\", \"Win32_System_WinRT\", \"Win32_UI_Controls\", \"Win32_UI_HiDpi\", \"Win32_UI_Input_Ime\", \"Win32_UI_Input_KeyboardAndMouse\", \"Win32_UI_Input_Pointer\", \"Win32_UI_Shell\", \"Win32_UI_Shell_Common\", \"Win32_UI_Shell_PropertiesSystem\", \"Win32_UI_WindowsAndMessaging\", \"Win32_Media\"] } } } }\n"
     },
     "crates/util_macros/Cargo.toml": {
       "after_sha256": "1a27bed46a951949539a1de39d990fe0578a5610d8fc12c950082abf72effad1",
@@ -4417,6 +5011,11 @@
       "before_sha256": "c5417b7b5fcdf20ce622bf68a1f9b8400d4174781beb410ef0495373afcae707",
       "diff": "--- source/crates/ztracing_macro/Cargo.toml\n+++ registry/crates/ztracing_macro/Cargo.toml\n@@ -1,11 +1,3 @@\n-[package]\n-name = \"ztracing_macro\"\n-version = \"0.1.0\"\n-edition.workspace = true\n-publish.workspace = true\n-license = \"Apache-2.0\"\n-\n-[lib]\n-proc-macro = true\n-test = false\n-doctest = false\n+# Generated by script/gpui_registry.py.\n+\"package\" = { \"name\" = \"gpui-alloy-ztracing-macro\", \"version\" = \"0.1.0\", \"edition\" = \"2024\", \"publish\" = true, \"license\" = \"Apache-2.0\", \"repository\" = \"https://github.com/AprilNEA/gpui-alloy\", \"autoexamples\" = false, \"autotests\" = false, \"autobenches\" = false, \"description\" = \"GPUI Alloy distribution of ztracing_macro\" }\n+\"lib\" = { \"proc-macro\" = true, \"test\" = false, \"doctest\" = false, \"name\" = \"ztracing_macro\", \"bench\" = false }\n"
     },
+    "external/gpui-alloy-async-process/Cargo.toml": {
+      "after_sha256": "1c305fea2ec9e4c0ab0cea204fb50604121c3d96b599446de9d93f686e22d5bb",
+      "before_sha256": "4bee4d21e32200da10ed1bfe4dc1e7cc3589d24516d1bd729b9a224d4ecdbf41",
+      "diff": "--- source/external/gpui-alloy-async-process/Cargo.toml\n+++ registry/external/gpui-alloy-async-process/Cargo.toml\n@@ -1,48 +1,6 @@\n-[package]\n-name = \"async-process\"\n-# When publishing a new version:\n-# - Update CHANGELOG.md\n-# - Create \"v2.x.y\" git tag\n-version = \"2.5.0\"\n-authors = [\"Stjepan Glavina <stjepang@gmail.com>\"]\n-edition = \"2021\"\n-rust-version = \"1.71\"\n-description = \"Async interface for working with processes\"\n-license = \"Apache-2.0 OR MIT\"\n-repository = \"https://github.com/smol-rs/async-process\"\n-keywords = [\"process\", \"spawn\", \"command\", \"subprocess\", \"child\"]\n-categories = [\"asynchronous\", \"os\"]\n-exclude = [\"/.*\"]\n-\n-[dependencies]\n-async-io = \"2.3.0\"\n-cfg-if = \"1.0\"\n-event-listener = \"5.1.0\"\n-futures-lite = \"2.0.0\"\n-tracing = { version = \"0.1.40\", default-features = false, optional = true }\n-\n-[target.'cfg(unix)'.dependencies]\n-async-lock = \"3.0.0\"\n-async-signal = \"0.2.3\"\n-rustix = { version = \"1.0\", default-features = false, features = [\"std\", \"fs\", \"process\"] }\n-\n-[target.'cfg(any(windows, target_os = \"linux\"))'.dependencies]\n-async-channel = \"2.0.0\"\n-async-task = \"4.7.0\"\n-\n-[target.'cfg(windows)'.dependencies]\n-blocking = \"1.0.0\"\n-\n-[lints.rust]\n-unexpected_cfgs = { level = \"warn\", check-cfg = ['cfg(async_process_force_signal_backend)'] }\n-\n-[dev-dependencies]\n-async-executor = \"1.5.1\"\n-\n-[target.'cfg(windows)'.dev-dependencies.windows-sys]\n-version = \"0.61\"\n-default-features = false\n-features = [\n-    \"Win32_Foundation\",\n-    \"Win32_System_Threading\",\n-]\n+# Generated by script/gpui_registry.py.\n+\"package\" = { \"name\" = \"gpui-alloy-async-process\", \"version\" = \"0.1.0\", \"authors\" = [\"Stjepan Glavina <stjepang@gmail.com>\"], \"edition\" = \"2021\", \"rust-version\" = \"1.71\", \"description\" = \"Async interface for working with processes\", \"license\" = \"Apache-2.0 OR MIT\", \"repository\" = \"https://github.com/AprilNEA/gpui-alloy\", \"keywords\" = [\"process\", \"spawn\", \"command\", \"subprocess\", \"child\"], \"categories\" = [\"asynchronous\", \"os\"], \"exclude\" = [\"/.*\", \"!/ALLOY-REGISTRY-SOURCE.json\"], \"publish\" = true, \"autoexamples\" = false, \"autotests\" = false, \"autobenches\" = false }\n+\"dependencies\" = { \"async-io\" = { \"version\" = \"2.3.0\" }, \"cfg-if\" = { \"version\" = \"1.0\" }, \"event-listener\" = { \"version\" = \"5.1.0\" }, \"futures-lite\" = { \"version\" = \"2.0.0\" }, \"tracing\" = { \"version\" = \"0.1.40\", \"default-features\" = false, \"optional\" = true } }\n+\"target\" = { \"cfg(unix)\" = { \"dependencies\" = { \"async-lock\" = { \"version\" = \"3.0.0\" }, \"async-signal\" = { \"version\" = \"0.2.3\" }, \"rustix\" = { \"version\" = \"1.0\", \"default-features\" = false, \"features\" = [\"std\", \"fs\", \"process\"] } } }, \"cfg(any(windows, target_os = \\\"linux\\\"))\" = { \"dependencies\" = { \"async-channel\" = { \"version\" = \"2.0.0\" }, \"async-task\" = { \"version\" = \"4.7.0\" } } }, \"cfg(windows)\" = { \"dependencies\" = { \"blocking\" = { \"version\" = \"1.0.0\" } } } }\n+\"lints\" = { \"rust\" = { \"unexpected_cfgs\" = { \"level\" = \"warn\", \"check-cfg\" = [\"cfg(async_process_force_signal_backend)\"] } } }\n+\"lib\" = { \"name\" = \"async_process\", \"test\" = false, \"doctest\" = false, \"bench\" = false }\n"
+    },
     "external/gpui-alloy-async-tar/Cargo.toml": {
       "after_sha256": "c084a97903d2c0cf05a77a443f0cbf2bc3ac5f232ce0d447e340df6a952390b2",
       "before_sha256": "cdd6fdd9b4ea74c73ccaf086dd5e56007f20c25e8e3119bc793422f7976ab4e7",
@@ -4431,6 +5030,11 @@
       "after_sha256": "331be52f8704e003b7bbdeff03cf30b1a2170ab870316e3dcf32f922acfb8749",
       "before_sha256": "5a57f4ad320d9571591af9b553757e127b08981d285e4c6897c591ba16764c6a",
       "diff": "--- source/external/gpui-alloy-reqwest/Cargo.toml\n+++ registry/external/gpui-alloy-reqwest/Cargo.toml\n@@ -1,300 +1,7 @@\n-[package]\n-name = \"zed-reqwest\"\n-version = \"0.12.15-zed\"\n-description = \"higher level HTTP client library\"\n-keywords = [\"http\", \"request\", \"client\"]\n-categories = [\"web-programming::http-client\", \"wasm\"]\n-repository = \"https://github.com/seanmonstar/reqwest\"\n-documentation = \"https://docs.rs/reqwest\"\n-authors = [\"Sean McArthur <sean@seanmonstar.com>\"]\n-readme = \"README.md\"\n-license = \"MIT OR Apache-2.0\"\n-edition = \"2021\"\n-rust-version = \"1.64.0\"\n-autotests = true\n-\n-[package.metadata.docs.rs]\n-all-features = true\n-rustdoc-args = [\"--cfg\", \"docsrs\", \"--cfg\", \"reqwest_unstable\"]\n-targets = [\"x86_64-unknown-linux-gnu\", \"wasm32-unknown-unknown\"]\n-\n-[package.metadata.playground]\n-features = [\n-    \"blocking\",\n-    \"cookies\",\n-    \"json\",\n-    \"multipart\",\n-]\n-\n-[features]\n-default = [\"default-tls\", \"charset\", \"http2\", \"macos-system-configuration\"]\n-\n-# Note: this doesn't enable the 'native-tls' feature, which adds specific\n-# functionality for it.\n-default-tls = [\"dep:hyper-tls\", \"dep:native-tls-crate\", \"__tls\", \"dep:tokio-native-tls\"]\n-\n-http2 = [\"h2\", \"hyper/http2\", \"hyper-util/http2\", \"hyper-rustls?/http2\"]\n-\n-# Enables native-tls specific functionality not available by default.\n-native-tls = [\"default-tls\"]\n-native-tls-alpn = [\"native-tls\", \"native-tls-crate?/alpn\", \"hyper-tls?/alpn\"]\n-native-tls-vendored = [\"native-tls\", \"native-tls-crate?/vendored\"]\n-\n-rustls-tls = [\"rustls-tls-webpki-roots\"]\n-rustls-tls-no-provider = [\"rustls-tls-manual-roots-no-provider\"]\n-\n-rustls-tls-manual-roots-no-provider = [\"__rustls\"]\n-rustls-tls-webpki-roots-no-provider = [\"dep:webpki-roots\", \"hyper-rustls?/webpki-tokio\", \"__rustls\"]\n-rustls-tls-native-roots-no-provider = [\"dep:rustls-native-certs\", \"hyper-rustls?/native-tokio\", \"__rustls\"]\n-\n-rustls-tls-manual-roots = [\"rustls-tls-manual-roots-no-provider\", \"__rustls-ring\"]\n-rustls-tls-webpki-roots = [\"rustls-tls-webpki-roots-no-provider\", \"__rustls-ring\"]\n-rustls-tls-native-roots = [\"rustls-tls-native-roots-no-provider\", \"__rustls-ring\"]\n-\n-blocking = [\"dep:futures-channel\", \"futures-channel?/sink\", \"futures-util/io\", \"futures-util/sink\", \"tokio/sync\"]\n-\n-charset = [\"dep:encoding_rs\"]\n-\n-cookies = [\"dep:cookie_crate\", \"dep:cookie_store\"]\n-\n-gzip = [\"dep:async-compression\", \"async-compression?/gzip\", \"dep:tokio-util\"]\n-\n-brotli = [\"dep:async-compression\", \"async-compression?/brotli\", \"dep:tokio-util\"]\n-\n-zstd = [\"dep:async-compression\", \"async-compression?/zstd\", \"dep:tokio-util\"]\n-\n-deflate = [\"dep:async-compression\", \"async-compression?/zlib\", \"dep:tokio-util\"]\n-\n-json = [\"dep:serde_json\"]\n-\n-multipart = [\"dep:mime_guess\"]\n-\n-# Deprecated, remove this feature while bumping minor versions.\n-trust-dns = []\n-hickory-dns = [\"dep:hickory-resolver\"]\n-\n-stream = [\"tokio/fs\", \"dep:tokio-util\", \"dep:wasm-streams\"]\n-\n-socks = [\"dep:tokio-socks\"]\n-\n-# Use the system's proxy configuration.\n-macos-system-configuration = [\"dep:system-configuration\"]\n-\n-# Experimental HTTP/3 client.\n-http3 = [\"rustls-tls-manual-roots\", \"dep:h3\", \"dep:h3-quinn\", \"dep:quinn\", \"dep:slab\", \"dep:futures-channel\"]\n-\n-\n-# Internal (PRIVATE!) features used to aid testing.\n-# Don't rely on these whatsoever. They may disappear at any time.\n-\n-# Enables common types used for TLS. Useless on its own.\n-__tls = [\"dep:rustls-pemfile\", \"tokio/io-util\"]\n-\n-# Enables common rustls code.\n-# Equivalent to rustls-tls-manual-roots but shorter :)\n-__rustls = [\"dep:hyper-rustls\", \"dep:tokio-rustls\", \"dep:rustls\", \"__tls\", \"dep:rustls-pemfile\", \"dep:rustls-pki-types\"]\n-__rustls-ring = [\"hyper-rustls?/ring\", \"tokio-rustls?/ring\", \"rustls?/ring\", \"quinn?/ring\"]\n-\n-[dependencies]\n-base64 = \"0.22\"\n-http = \"1\"\n-url = \"2.4\"\n-bytes = \"1.2\"\n-serde = \"1.0\"\n-serde_urlencoded = \"0.7.1\"\n-tower-service = \"0.3\"\n-futures-core = { version = \"0.3.28\", default-features = false }\n-futures-util = { version = \"0.3.28\", default-features = false }\n-sync_wrapper = { version = \"1.0\", features = [\"futures\"] }\n-\n-# Optional deps...\n-\n-## json\n-serde_json = { version = \"1.0\", optional = true }\n-## multipart\n-mime_guess = { version = \"2.0\", default-features = false, optional = true }\n-\n-[target.'cfg(not(target_arch = \"wasm32\"))'.dependencies]\n-encoding_rs = { version = \"0.8\", optional = true }\n-http-body = \"1\"\n-http-body-util = \"0.1\"\n-hyper = { version = \"1.1\", features = [\"http1\", \"client\"] }\n-hyper-util = { version = \"0.1.11\", features = [\"http1\", \"client\", \"client-legacy\", \"tokio\"] }\n-h2 = { version = \"0.4\", optional = true }\n-once_cell = \"1.18\"\n-log = \"0.4.17\"\n-mime = \"0.3.16\"\n-percent-encoding = \"2.3\"\n-tokio = { version = \"1.0\", default-features = false, features = [\"net\", \"time\"] }\n-tower = { version = \"0.5.2\", default-features = false, features = [\"timeout\", \"util\"] }\n-pin-project-lite = \"0.2.11\"\n-ipnet = \"2.3\"\n-\n-# Optional deps...\n-rustls-pemfile = { version = \"2\", optional = true }\n-\n-## default-tls\n-hyper-tls = { version = \"0.6\", optional = true }\n-native-tls-crate = { version = \"0.2.10\", optional = true, package = \"native-tls\" }\n-tokio-native-tls = { version = \"0.3.0\", optional = true }\n-\n-# rustls-tls\n-hyper-rustls = { version = \"0.27.0\", default-features = false, optional = true, features = [\"http1\", \"tls12\"] }\n-rustls = { version = \"0.23.4\", optional = true, default-features = false, features = [\"std\", \"tls12\"] }\n-rustls-pki-types = { version = \"1.1.0\", features = [\"alloc\"] ,optional = true }\n-tokio-rustls = { version = \"0.26\", optional = true, default-features = false, features = [\"tls12\"] }\n-webpki-roots = { version = \"0.26.0\", optional = true }\n-rustls-native-certs = { version = \"0.8.0\", optional = true }\n-\n-## cookies\n-cookie_crate = { version = \"0.18.0\", package = \"cookie\", optional = true }\n-cookie_store = { version = \"0.21.0\", optional = true }\n-\n-## compression\n-async-compression = { version = \"0.4.0\", default-features = false, features = [\"tokio\"], optional = true }\n-tokio-util = { version = \"0.7.9\", default-features = false, features = [\"codec\", \"io\"], optional = true }\n-\n-## socks\n-tokio-socks = { version = \"0.5.2\", optional = true }\n-\n-## hickory-dns\n-hickory-resolver = { version = \"0.24\", optional = true, features = [\"tokio-runtime\"] }\n-\n-# HTTP/3 experimental support\n-h3 = { version = \"0.0.7\", optional = true }\n-h3-quinn = { version = \"0.0.9\", optional = true }\n-quinn = { version = \"0.11.1\", default-features = false, features = [\"rustls\", \"runtime-tokio\"], optional = true }\n-slab = { version = \"0.4.9\", optional = true } # just to get minimal versions working with quinn\n-futures-channel = { version = \"0.3\", optional = true }\n-\n-[target.'cfg(not(target_arch = \"wasm32\"))'.dev-dependencies]\n-env_logger = \"0.10\"\n-hyper = { version = \"1.1.0\", default-features = false, features = [\"http1\", \"http2\", \"client\", \"server\"] }\n-hyper-util = { version = \"0.1.10\", features = [\"http1\", \"http2\", \"client\", \"client-legacy\", \"server-auto\", \"tokio\"] }\n-serde = { version = \"1.0\", features = [\"derive\"] }\n-flate2 = \"1.0.13\"\n-brotli_crate = { package = \"brotli\", version = \"7.0.0\" }\n-zstd_crate = { package = \"zstd\", version = \"0.13\" }\n-doc-comment = \"0.3\"\n-tokio = { version = \"1.0\", default-features = false, features = [\"macros\", \"rt-multi-thread\"] }\n-futures-util = { version = \"0.3.28\", default-features = false, features = [\"std\", \"alloc\"] }\n-rustls = { version = \"0.23\", default-features = false, features = [\"ring\"] }\n-\n-[target.'cfg(windows)'.dependencies]\n-windows-registry = \"0.4\"\n-\n-[target.'cfg(target_os = \"macos\")'.dependencies]\n-system-configuration = { version = \"0.8.0\", optional = true }\n-\n-# wasm\n-\n-[target.'cfg(target_arch = \"wasm32\")'.dependencies]\n-js-sys = \"0.3.77\"\n-serde_json = \"1.0\"\n-wasm-bindgen = \"0.2.89\"\n-wasm-bindgen-futures = \"0.4.18\"\n-wasm-streams = { version = \"0.4\", optional = true }\n-\n-[target.'cfg(target_arch = \"wasm32\")'.dependencies.web-sys]\n-version = \"0.3.28\"\n-features = [\n-    \"AbortController\",\n-    \"AbortSignal\",\n-    \"Headers\",\n-    \"Request\",\n-    \"RequestInit\",\n-    \"RequestMode\",\n-    \"Response\",\n-    \"Window\",\n-    \"FormData\",\n-    \"Blob\",\n-    \"BlobPropertyBag\",\n-    \"ServiceWorkerGlobalScope\",\n-    \"RequestCredentials\",\n-    \"File\",\n-    \"ReadableStream\"\n-]\n-\n-[target.'cfg(target_arch = \"wasm32\")'.dev-dependencies]\n-wasm-bindgen = { version = \"0.2.89\", features = [\"serde-serialize\"] }\n-wasm-bindgen-test = \"0.3\"\n-\n-[dev-dependencies]\n-tower = { version = \"0.5.2\", default-features = false, features = [\"limit\"] }\n-num_cpus = \"1.0\"\n-libc = \"0\"\n-\n-[lints.rust]\n-unexpected_cfgs = { level = \"warn\", check-cfg = ['cfg(reqwest_unstable)'] }\n-\n-[[example]]\n-name = \"blocking\"\n-path = \"examples/blocking.rs\"\n-required-features = [\"blocking\"]\n-\n-[[example]]\n-name = \"json_dynamic\"\n-path = \"examples/json_dynamic.rs\"\n-required-features = [\"json\"]\n-\n-[[example]]\n-name = \"json_typed\"\n-path = \"examples/json_typed.rs\"\n-required-features = [\"json\"]\n-\n-[[example]]\n-name = \"tor_socks\"\n-path = \"examples/tor_socks.rs\"\n-required-features = [\"socks\"]\n-\n-[[example]]\n-name = \"form\"\n-path = \"examples/form.rs\"\n-\n-[[example]]\n-name = \"simple\"\n-path = \"examples/simple.rs\"\n-\n-[[example]]\n-name = \"h3_simple\"\n-path = \"examples/h3_simple.rs\"\n-required-features = [\"http3\", \"rustls-tls\"]\n-\n-[[example]]\n-name = \"connect_via_lower_priority_tokio_runtime\"\n-path = \"examples/connect_via_lower_priority_tokio_runtime.rs\"\n-\n-[[test]]\n-name = \"blocking\"\n-path = \"tests/blocking.rs\"\n-required-features = [\"blocking\"]\n-\n-[[test]]\n-name = \"cookie\"\n-path = \"tests/cookie.rs\"\n-required-features = [\"cookies\"]\n-\n-[[test]]\n-name = \"gzip\"\n-path = \"tests/gzip.rs\"\n-required-features = [\"gzip\", \"stream\"]\n-\n-[[test]]\n-name = \"brotli\"\n-path = \"tests/brotli.rs\"\n-required-features = [\"brotli\", \"stream\"]\n-\n-[[test]]\n-name = \"zstd\"\n-path = \"tests/zstd.rs\"\n-required-features = [\"zstd\", \"stream\"]\n-\n-[[test]]\n-name = \"deflate\"\n-path = \"tests/deflate.rs\"\n-required-features = [\"deflate\", \"stream\"]\n-\n-[[test]]\n-name = \"multipart\"\n-path = \"tests/multipart.rs\"\n-required-features = [\"multipart\"]\n+# Generated by script/gpui_registry.py.\n+\"package\" = { \"name\" = \"gpui-alloy-reqwest\", \"version\" = \"0.1.0\", \"description\" = \"higher level HTTP client library\", \"keywords\" = [\"http\", \"request\", \"client\"], \"categories\" = [\"web-programming::http-client\", \"wasm\"], \"repository\" = \"https://github.com/AprilNEA/gpui-alloy\", \"documentation\" = \"https://docs.rs/reqwest\", \"authors\" = [\"Sean McArthur <sean@seanmonstar.com>\"], \"readme\" = \"README.md\", \"license\" = \"MIT OR Apache-2.0\", \"edition\" = \"2021\", \"rust-version\" = \"1.64.0\", \"autotests\" = false, \"metadata\" = { \"docs\" = { \"rs\" = { \"all-features\" = true, \"rustdoc-args\" = [\"--cfg\", \"docsrs\", \"--cfg\", \"reqwest_unstable\"], \"targets\" = [\"x86_64-unknown-linux-gnu\", \"wasm32-unknown-unknown\"] } }, \"playground\" = { \"features\" = [\"blocking\", \"cookies\", \"json\", \"multipart\"] } }, \"publish\" = true, \"autoexamples\" = false, \"autobenches\" = false }\n+\"features\" = { \"default\" = [\"default-tls\", \"charset\", \"http2\", \"macos-system-configuration\"], \"default-tls\" = [\"dep:hyper-tls\", \"dep:native-tls-crate\", \"__tls\", \"dep:tokio-native-tls\"], \"http2\" = [\"h2\", \"hyper/http2\", \"hyper-util/http2\", \"hyper-rustls?/http2\"], \"native-tls\" = [\"default-tls\"], \"native-tls-alpn\" = [\"native-tls\", \"native-tls-crate?/alpn\", \"hyper-tls?/alpn\"], \"native-tls-vendored\" = [\"native-tls\", \"native-tls-crate?/vendored\"], \"rustls-tls\" = [\"rustls-tls-webpki-roots\"], \"rustls-tls-no-provider\" = [\"rustls-tls-manual-roots-no-provider\"], \"rustls-tls-manual-roots-no-provider\" = [\"__rustls\"], \"rustls-tls-webpki-roots-no-provider\" = [\"dep:webpki-roots\", \"hyper-rustls?/webpki-tokio\", \"__rustls\"], \"rustls-tls-native-roots-no-provider\" = [\"dep:rustls-native-certs\", \"hyper-rustls?/native-tokio\", \"__rustls\"], \"rustls-tls-manual-roots\" = [\"rustls-tls-manual-roots-no-provider\", \"__rustls-ring\"], \"rustls-tls-webpki-roots\" = [\"rustls-tls-webpki-roots-no-provider\", \"__rustls-ring\"], \"rustls-tls-native-roots\" = [\"rustls-tls-native-roots-no-provider\", \"__rustls-ring\"], \"blocking\" = [\"dep:futures-channel\", \"futures-channel?/sink\", \"futures-util/io\", \"futures-util/sink\", \"tokio/sync\"], \"charset\" = [\"dep:encoding_rs\"], \"cookies\" = [\"dep:cookie_crate\", \"dep:cookie_store\"], \"gzip\" = [\"dep:async-compression\", \"async-compression?/gzip\", \"dep:tokio-util\"], \"brotli\" = [\"dep:async-compression\", \"async-compression?/brotli\", \"dep:tokio-util\"], \"zstd\" = [\"dep:async-compression\", \"async-compression?/zstd\", \"dep:tokio-util\"], \"deflate\" = [\"dep:async-compression\", \"async-compression?/zlib\", \"dep:tokio-util\"], \"json\" = [\"dep:serde_json\"], \"multipart\" = [\"dep:mime_guess\"], \"trust-dns\" = [], \"hickory-dns\" = [\"dep:hickory-resolver\"], \"stream\" = [\"tokio/fs\", \"dep:tokio-util\", \"dep:wasm-streams\"], \"socks\" = [\"dep:tokio-socks\"], \"macos-system-configuration\" = [\"dep:system-configuration\"], \"http3\" = [\"rustls-tls-manual-roots\", \"dep:h3\", \"dep:h3-quinn\", \"dep:quinn\", \"dep:slab\", \"dep:futures-channel\"], \"__tls\" = [\"dep:rustls-pemfile\", \"tokio/io-util\"], \"__rustls\" = [\"dep:hyper-rustls\", \"dep:tokio-rustls\", \"dep:rustls\", \"__tls\", \"dep:rustls-pemfile\", \"dep:rustls-pki-types\"], \"__rustls-ring\" = [\"hyper-rustls?/ring\", \"tokio-rustls?/ring\", \"rustls?/ring\", \"quinn?/ring\"] }\n+\"dependencies\" = { \"base64\" = { \"version\" = \"0.22\" }, \"http\" = { \"version\" = \"1\" }, \"url\" = { \"version\" = \"2.4\" }, \"bytes\" = { \"version\" = \"1.2\" }, \"serde\" = { \"version\" = \"1.0\" }, \"serde_urlencoded\" = { \"version\" = \"0.7.1\" }, \"tower-service\" = { \"version\" = \"0.3\" }, \"futures-core\" = { \"version\" = \"0.3.28\", \"default-features\" = false }, \"futures-util\" = { \"version\" = \"0.3.28\", \"default-features\" = false }, \"sync_wrapper\" = { \"version\" = \"1.0\", \"features\" = [\"futures\"] }, \"serde_json\" = { \"version\" = \"1.0\", \"optional\" = true }, \"mime_guess\" = { \"version\" = \"2.0\", \"default-features\" = false, \"optional\" = true } }\n+\"target\" = { \"cfg(not(target_arch = \\\"wasm32\\\"))\" = { \"dependencies\" = { \"encoding_rs\" = { \"version\" = \"0.8\", \"optional\" = true }, \"http-body\" = { \"version\" = \"1\" }, \"http-body-util\" = { \"version\" = \"0.1\" }, \"hyper\" = { \"version\" = \"1.1\", \"features\" = [\"http1\", \"client\"] }, \"hyper-util\" = { \"version\" = \"0.1.11\", \"features\" = [\"http1\", \"client\", \"client-legacy\", \"tokio\"] }, \"h2\" = { \"version\" = \"0.4\", \"optional\" = true }, \"once_cell\" = { \"version\" = \"1.18\" }, \"log\" = { \"version\" = \"0.4.17\" }, \"mime\" = { \"version\" = \"0.3.16\" }, \"percent-encoding\" = { \"version\" = \"2.3\" }, \"tokio\" = { \"version\" = \"1.0\", \"default-features\" = false, \"features\" = [\"net\", \"time\"] }, \"tower\" = { \"version\" = \"0.5.2\", \"default-features\" = false, \"features\" = [\"timeout\", \"util\"] }, \"pin-project-lite\" = { \"version\" = \"0.2.11\" }, \"ipnet\" = { \"version\" = \"2.3\" }, \"rustls-pemfile\" = { \"version\" = \"2\", \"optional\" = true }, \"hyper-tls\" = { \"version\" = \"0.6\", \"optional\" = true }, \"native-tls-crate\" = { \"version\" = \"0.2.10\", \"optional\" = true, \"package\" = \"native-tls\" }, \"tokio-native-tls\" = { \"version\" = \"0.3.0\", \"optional\" = true }, \"hyper-rustls\" = { \"version\" = \"0.27.0\", \"default-features\" = false, \"optional\" = true, \"features\" = [\"http1\", \"tls12\"] }, \"rustls\" = { \"version\" = \"0.23.4\", \"optional\" = true, \"default-features\" = false, \"features\" = [\"std\", \"tls12\"] }, \"rustls-pki-types\" = { \"version\" = \"1.1.0\", \"features\" = [\"alloc\"], \"optional\" = true }, \"tokio-rustls\" = { \"version\" = \"0.26\", \"optional\" = true, \"default-features\" = false, \"features\" = [\"tls12\"] }, \"webpki-roots\" = { \"version\" = \"0.26.0\", \"optional\" = true }, \"rustls-native-certs\" = { \"version\" = \"0.8.0\", \"optional\" = true }, \"cookie_crate\" = { \"version\" = \"0.18.0\", \"package\" = \"cookie\", \"optional\" = true }, \"cookie_store\" = { \"version\" = \"0.21.0\", \"optional\" = true }, \"async-compression\" = { \"version\" = \"0.4.0\", \"default-features\" = false, \"features\" = [\"tokio\"], \"optional\" = true }, \"tokio-util\" = { \"version\" = \"0.7.9\", \"default-features\" = false, \"features\" = [\"codec\", \"io\"], \"optional\" = true }, \"tokio-socks\" = { \"version\" = \"0.5.2\", \"optional\" = true }, \"hickory-resolver\" = { \"version\" = \"0.24\", \"optional\" = true, \"features\" = [\"tokio-runtime\"] }, \"h3\" = { \"version\" = \"0.0.7\", \"optional\" = true }, \"h3-quinn\" = { \"version\" = \"0.0.9\", \"optional\" = true }, \"quinn\" = { \"version\" = \"0.11.1\", \"default-features\" = false, \"features\" = [\"rustls\", \"runtime-tokio\"], \"optional\" = true }, \"slab\" = { \"version\" = \"0.4.9\", \"optional\" = true }, \"futures-channel\" = { \"version\" = \"0.3\", \"optional\" = true } } }, \"cfg(windows)\" = { \"dependencies\" = { \"windows-registry\" = { \"version\" = \"0.4\" } } }, \"cfg(target_os = \\\"macos\\\")\" = { \"dependencies\" = { \"system-configuration\" = { \"version\" = \"0.8.0\", \"optional\" = true } } }, \"cfg(target_arch = \\\"wasm32\\\")\" = { \"dependencies\" = { \"js-sys\" = { \"version\" = \"0.3.77\" }, \"serde_json\" = { \"version\" = \"1.0\" }, \"wasm-bindgen\" = { \"version\" = \"0.2.89\" }, \"wasm-bindgen-futures\" = { \"version\" = \"0.4.18\" }, \"wasm-streams\" = { \"version\" = \"0.4\", \"optional\" = true }, \"web-sys\" = { \"version\" = \"0.3.28\", \"features\" = [\"AbortController\", \"AbortSignal\", \"Headers\", \"Request\", \"RequestInit\", \"RequestMode\", \"Response\", \"Window\", \"FormData\", \"Blob\", \"BlobPropertyBag\", \"ServiceWorkerGlobalScope\", \"RequestCredentials\", \"File\", \"ReadableStream\"] } } } }\n+\"lints\" = { \"rust\" = { \"unexpected_cfgs\" = { \"level\" = \"warn\", \"check-cfg\" = [\"cfg(reqwest_unstable)\"] } } }\n+\"lib\" = { \"name\" = \"zed_reqwest\", \"test\" = false, \"doctest\" = false, \"bench\" = false }\n"
+    },
+    "external/gpui-alloy-smol/Cargo.toml": {
+      "after_sha256": "85b9b42d05ae1d6dedf3228d2f6413bfc671ba8dad2282b74c3c777c9104fc94",
+      "before_sha256": "17f909a9a9e849777955b2bfbae280c80ad9b09e97f0c3e50f6403836911e5f2",
+      "diff": "--- source/external/gpui-alloy-smol/Cargo.toml\n+++ registry/external/gpui-alloy-smol/Cargo.toml\n@@ -1,60 +1,5 @@\n-[package]\n-name = \"smol\"\n-# When publishing a new version:\n-# - Update CHANGELOG.md\n-# - Create \"v2.x.y\" git tag\n-version = \"2.0.2\"\n-authors = [\"Stjepan Glavina <stjepang@gmail.com>\"]\n-edition = \"2018\"\n-rust-version = \"1.63\"\n-description = \"A small and fast async runtime\"\n-license = \"Apache-2.0 OR MIT\"\n-repository = \"https://github.com/smol-rs/smol\"\n-keywords = [\"async\", \"await\", \"future\", \"io\", \"networking\"]\n-categories = [\"asynchronous\", \"concurrency\", \"network-programming\"]\n-exclude = [\"/.*\"]\n-\n-[dependencies]\n-async-channel = \"2.0.0\"\n-async-executor = \"1.5.0\"\n-async-fs = \"2.0.0\"\n-async-io = \"2.1.0\"\n-async-lock = \"3.0.0\"\n-async-net = \"2.0.0\"\n-blocking = \"1.3.0\"\n-futures-lite = \"2.0.0\"\n-\n-[target.'cfg(not(target_os = \"espidf\"))'.dependencies]\n-async-process = \"2.0.0\"\n-\n-[dev-dependencies]\n-anyhow = \"1\"\n-async-dup = \"1\"\n-async-h1 = \"2\"\n-async-native-tls = \"0.5\"\n-async-tungstenite = { version = \"0.27\", features = [\"async-native-tls\"] }\n-ctrlc = \"3\"\n-doc-comment = \"0.3\"\n-futures = \"0.3\"\n-http = \"1.1\"\n-http-body-util = \"0.1.0\"\n-http-types = \"2\"\n-hyper = { version = \"1.0\", default-features = false, features = [\"client\", \"http1\", \"server\"] }\n-macro_rules_attribute = \"0.2.0\"\n-native-tls = \"0.2\"\n-scraper = \"0.20\"\n-signal-hook = \"0.3\"\n-smol-hyper = \"0.1.0\"\n-smol-macros = \"0.1.0\"\n-surf = { version = \"2\", default-features = false, features = [\"h1-client\"] }\n-tempfile = \"3\"\n-tokio = { version = \"1\", default-features = false, features = [\"rt-multi-thread\"] }\n-url = \"2\"\n-\n-[target.'cfg(target_os = \"linux\")'.dev-dependencies]\n-inotify = { version = \"0.11\", default-features = false }\n-rustix = \"0.38\"\n-timerfd = \"1\"\n-\n-[target.'cfg(windows)'.dev-dependencies]\n-uds_windows = \"1\"\n+# Generated by script/gpui_registry.py.\n+\"package\" = { \"name\" = \"gpui-alloy-smol\", \"version\" = \"0.1.0\", \"authors\" = [\"Stjepan Glavina <stjepang@gmail.com>\"], \"edition\" = \"2018\", \"rust-version\" = \"1.63\", \"description\" = \"A small and fast async runtime\", \"license\" = \"Apache-2.0 OR MIT\", \"repository\" = \"https://github.com/AprilNEA/gpui-alloy\", \"keywords\" = [\"async\", \"await\", \"future\", \"io\", \"networking\"], \"categories\" = [\"asynchronous\", \"concurrency\", \"network-programming\"], \"exclude\" = [\"/.*\", \"!/ALLOY-REGISTRY-SOURCE.json\"], \"publish\" = true, \"autoexamples\" = false, \"autotests\" = false, \"autobenches\" = false }\n+\"dependencies\" = { \"async-channel\" = { \"version\" = \"2.0.0\" }, \"async-executor\" = { \"version\" = \"1.5.0\" }, \"async-fs\" = { \"version\" = \"2.0.0\" }, \"async-io\" = { \"version\" = \"2.1.0\" }, \"async-lock\" = { \"version\" = \"3.0.0\" }, \"async-net\" = { \"version\" = \"2.0.0\" }, \"blocking\" = { \"version\" = \"1.3.0\" }, \"futures-lite\" = { \"version\" = \"2.0.0\" } }\n+\"target\" = { \"cfg(not(target_os = \\\"espidf\\\"))\" = { \"dependencies\" = { \"async-process\" = { \"version\" = \"=0.1.0\", \"package\" = \"gpui-alloy-async-process\", \"path\" = \"../gpui-alloy-async-process\" } } }, \"cfg(target_os = \\\"linux\\\")\" = {  }, \"cfg(windows)\" = {  } }\n+\"lib\" = { \"name\" = \"smol\", \"test\" = false, \"doctest\" = false, \"bench\" = false }\n"
     },
     "tooling/perf/Cargo.toml": {
       "after_sha256": "a20d21ba451b95706dd5f995abd5d8a6ec655a10e82efdd34ba1e8e140a0acf2",
@@ -4550,10 +5154,6 @@
   },
   "omitted_root_patches": {
     "crates-io": {
-      "async-process": {
-        "git": "https://github.com/zed-industries/async-process.git",
-        "rev": "0b6d6713570af61806e1e5cb40e0f757cb93fd9d"
-      },
       "async-task": {
         "git": "https://github.com/smol-rs/async-task.git",
         "rev": "b4486cd71e4e94fbda54ce6302444de14f4d190e"
@@ -4569,6 +5169,15 @@
     }
   },
   "packages": {
+    "async-process": {
+      "directory": "external/gpui-alloy-async-process",
+      "manifest": "external/gpui-alloy-async-process/Cargo.toml",
+      "package": "gpui-alloy-async-process",
+      "source": {
+        "git": "https://github.com/zed-industries/async-process.git",
+        "rev": "0b6d6713570af61806e1e5cb40e0f757cb93fd9d"
+      }
+    },
     "async-tar": {
       "directory": "external/gpui-alloy-async-tar",
       "manifest": "external/gpui-alloy-async-tar/Cargo.toml",
@@ -4678,6 +5287,15 @@
       "manifest": "crates/scheduler/Cargo.toml",
       "package": "gpui-alloy-scheduler"
     },
+    "smol": {
+      "directory": "external/gpui-alloy-smol",
+      "manifest": "external/gpui-alloy-smol/Cargo.toml",
+      "package": "gpui-alloy-smol",
+      "source": {
+        "git": "https://github.com/smol-rs/smol",
+        "rev": "a1e642196803fc5dff56f1e04e867bfc024966bd"
+      }
+    },
     "sum_tree": {
       "directory": "crates/sum_tree",
       "manifest": "crates/sum_tree/Cargo.toml",
@@ -4729,12 +5347,12 @@
   },
   "policy": {
     "manifests": "Resolve inheritance, namespace packages, preserve library names, and pin internal dependencies exactly.",
-    "patches": "Do not activate root Git patches in the registry projection.",
+    "patches": "Do not activate root patch tables. Preserve audited patch sources through explicit fixed-member dependencies.",
     "sources": "Preserve runtime source bytes. Adapt only the recorded Apple build-script input lookup.",
     "targets": "Omit dev dependencies and example, test, and bench targets in registry manifests only.",
     "validation": "This record proves projection provenance, not registry availability or consumer compatibility."
   },
-  "projected_inventory_sha256": "2a8faa2b90085a86728c3ffd74cc0e4f98285fe10ec076177c19d47097adfcc2",
+  "projected_inventory_sha256": "f3d5d2bb93515324c9db6671f3b9b8b4468261d7aade8e04de4cc832fc38fb8b",
   "publish_order": [
     "gpui-alloy-util",
     "gpui-alloy-derive-refineable",
@@ -4747,8 +5365,10 @@
     "gpui-alloy-path",
     "gpui-alloy-reqwest",
     "gpui-alloy-ztracing-macro",
+    "gpui-alloy-async-process",
     "gpui-alloy-collections",
     "gpui-alloy-refineable",
+    "gpui-alloy-smol",
     "gpui-alloy-perf",
     "gpui-alloy-zlog",
     "gpui-alloy-util-macros",
@@ -4766,6 +5386,22 @@
     "gpui-alloy-web",
     "gpui-alloy-platform"
   ],
+  "registry_overrides": {
+    "async-process": {
+      "internal": "async-process",
+      "source": {
+        "package": "async-process",
+        "version": "2.0.0"
+      }
+    },
+    "smol": {
+      "internal": "smol",
+      "source": {
+        "package": "smol",
+        "version": "2.0"
+      }
+    }
+  },
   "revision": "9d59ea617d75d02e4645eefd22844235431138c8",
   "snapshot_generator_sha256": "9a82458aa24bedaaf9f592f57d2f956e612dfab1dc31265190e7624bebb69d45",
   "source": {
@@ -6947,6 +7583,101 @@
       "sha256": "b42eb20f84e45949bb78b121606b2ee02695ba7e1123bf206b635ce71bb122eb",
       "type": "file"
     },
+    "external/gpui-alloy-async-process/.github/dependabot.yml": {
+      "executable": false,
+      "sha256": "d5e4443e927939474020e847dcb71338ae8d528adc18ef47e350b0c01a1462e2",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/.github/workflows/ci.yml": {
+      "executable": false,
+      "sha256": "faf4548f1786be872d1b2d3c8b08605620ae8816aca5cf4b9d48bee4076bef31",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/.github/workflows/release.yml": {
+      "executable": false,
+      "sha256": "33a9a65957ce5ee53e340eb21ecabddf776b83a2e61efb09da646d7614250ea6",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/.gitignore": {
+      "executable": false,
+      "sha256": "2ebe6cb6f5289849dce5a8a6cdd77e06b1385302c862982f8e181c4782d19214",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/CHANGELOG.md": {
+      "executable": false,
+      "sha256": "1e91524c696211cdaa0864f0179556d35581db6d6bc4fe087090dd700bcafd7c",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/Cargo.toml": {
+      "executable": false,
+      "sha256": "4bee4d21e32200da10ed1bfe4dc1e7cc3589d24516d1bd729b9a224d4ecdbf41",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/LICENSE-APACHE": {
+      "executable": false,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/LICENSE-MIT": {
+      "executable": false,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/README.md": {
+      "executable": false,
+      "sha256": "bf88cc3f7f9fdebc16e92f715a458dafdb771bcf5f0d143d0d3aef8d1e001d7d",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/examples/timeout.rs": {
+      "executable": false,
+      "sha256": "3901680251fc96254c5a2b7456507e62f47ef85501f258852875115fb6ce5af8",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/src/lib.rs": {
+      "executable": false,
+      "sha256": "ebe5addca708143765099c6eef3ad4af70b5087fbce95cb3f1cae37de2264cec",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/src/reaper/mod.rs": {
+      "executable": false,
+      "sha256": "56f9f0694c51c031e9b41bf47a1bea0519099ff8b5f653cceb97e1a209e5af60",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/src/reaper/signal.rs": {
+      "executable": false,
+      "sha256": "a3b15ca9a5c5e3530b33f42beec1b6ff5572c5b2bf7ce7c0ada3af06edaec47a",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/src/reaper/wait.rs": {
+      "executable": false,
+      "sha256": "fbc5393cab611b8a0b9a24dd0e68ddf62d11dd1d527094ab3fb38cdc2ab26ea3",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/src/unix.rs": {
+      "executable": false,
+      "sha256": "b0a4627e8a9d5e097aaf3e221fc62da0cae9f4a43b476edf30d6a43bf1792402",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/src/windows.rs": {
+      "executable": false,
+      "sha256": "f36508afde29df7dcb0ab38abfbcf3ed4cf10dcd43c3edd809024394f6d8599b",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/tests/adopt.rs": {
+      "executable": false,
+      "sha256": "6d5cc95ece4f154f3c3379ab5bfcd59ab0e37225843cef0b98a801fc41f5a69c",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/tests/sleep.rs": {
+      "executable": false,
+      "sha256": "33dd9c928a92498e64d99a141e42bfd7a811cfcd38757cc589a4efe4ba2c5957",
+      "type": "file"
+    },
+    "external/gpui-alloy-async-process/tests/std.rs": {
+      "executable": false,
+      "sha256": "72b5374ea4a21e4e9c3fe74da4f5ac47e8fec5d5b0b027a67e9eb278039c7672",
+      "type": "file"
+    },
     "external/gpui-alloy-async-tar/.github/dependabot.yml": {
       "executable": false,
       "sha256": "601e819a72581b0db06f31d262ab1b7f76d78504052739d7bfb0c1f8ec549a1d",
@@ -7847,6 +8578,191 @@
       "sha256": "e6ecbeb92293b557acb5e97a5857c2b65fa4e22e732a4ccf29d6a127be7c0d78",
       "type": "file"
     },
+    "external/gpui-alloy-smol/.github/dependabot.yml": {
+      "executable": false,
+      "sha256": "d5e4443e927939474020e847dcb71338ae8d528adc18ef47e350b0c01a1462e2",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/.github/workflows/ci.yml": {
+      "executable": false,
+      "sha256": "83f2641e1824ea97de9fbc67380d091384402e45e9e58fc1510f2ec273d20697",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/.github/workflows/release.yml": {
+      "executable": false,
+      "sha256": "33a9a65957ce5ee53e340eb21ecabddf776b83a2e61efb09da646d7614250ea6",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/.gitignore": {
+      "executable": false,
+      "sha256": "12cc0f91b51fedf41ae1670d1624ee1d78a284bdb101645b60a06a12de16c069",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/CHANGELOG.md": {
+      "executable": false,
+      "sha256": "3050680c941fe3426a9f61442136406a4abcea8e24ff408ab879a3243ca12d9c",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/CODE_OF_CONDUCT.md": {
+      "executable": false,
+      "sha256": "13a6d92728fe39a430251becdfc6a21f167df8cc99406f2efabc72f6833fff28",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/Cargo.toml": {
+      "executable": false,
+      "sha256": "17f909a9a9e849777955b2bfbae280c80ad9b09e97f0c3e50f6403836911e5f2",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/LICENSE-APACHE": {
+      "executable": false,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/LICENSE-MIT": {
+      "executable": false,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/README.md": {
+      "executable": false,
+      "sha256": "a5e8fba81e8f14f2a4aa91e99a351bc132831c66779daf106a1267d416f87a99",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/assets/images/logo_fullsize.png": {
+      "executable": false,
+      "sha256": "58966a8f5aef000b3bdbe3c608368db7bb6635d8b6cd821307f07a6d5506dbea",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/assets/images/logo_fullsize_transparent.png": {
+      "executable": false,
+      "sha256": "e9c534f53c9eab50a97a1ed05c723b568794cde2a5ab30a912333de3e2a0c1b9",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/async-h1-client.rs": {
+      "executable": false,
+      "sha256": "22eafb086c5aa845a4e8d9dcf25b1b9e6b72eb3036e5c88fe855f742763fd597",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/async-h1-server.rs": {
+      "executable": false,
+      "sha256": "ff481d773b47d4c1180d5272d381bd7077c1beee5aa00e0779410c840fa86a56",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/certificate.pem": {
+      "executable": false,
+      "sha256": "7a5c3f70fa9ad09b631709cbcecbc037794c1e69e0d6507b1d29a7078c55f84c",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/chat-client.rs": {
+      "executable": false,
+      "sha256": "55ca9aa63b930fe09c0d15f4cfe32e4c9355fb3a9021c055810629b8ee969ae0",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/chat-server.rs": {
+      "executable": false,
+      "sha256": "7ca9a69df3dce19a65bc340fbe9ff4988196bf4d0c2934c195f9eb4a140039dc",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/ctrl-c.rs": {
+      "executable": false,
+      "sha256": "bf985474d757de3d720114869fb77e3813cdbe30ebf30fc93d2fae3e96c9c73b",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/get-request.rs": {
+      "executable": false,
+      "sha256": "7499faeb0b21ce4c57205782859c81473785e24bb57d109368ae8d06fb97ca89",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/hyper-client.rs": {
+      "executable": false,
+      "sha256": "49861baed617ea21751fdeaf5f5ca050ada27b1085af714bc8f9ff74418d15d9",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/hyper-server.rs": {
+      "executable": false,
+      "sha256": "a920910e90966fbd44cf4c5401f93e711c24ceaf7d9aa05941ca7e7966529970",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/identity.pfx": {
+      "executable": false,
+      "sha256": "08895e488582ed2f75d17e8b1c56d2c9cd8989c344cd48bdce93c88cfec1bd35",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/linux-inotify.rs": {
+      "executable": false,
+      "sha256": "4f97e4a2bec33d6745b3c2f0e70a46b1f269b1fb3703adb21b39b7f2e9cb02fe",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/linux-timerfd.rs": {
+      "executable": false,
+      "sha256": "c7dcb147278f3e953c78487bd5f20d546b2af0de91edb92ea01b82c143e0001a",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/simple-client.rs": {
+      "executable": false,
+      "sha256": "dd6ec68d92751fa2be0289ced37f7f0fd9db393d630138ece1169aa620ce8c43",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/simple-server.rs": {
+      "executable": false,
+      "sha256": "bacabee8f663e6d47ba259a9c824a11db1b18e5fd1f861148b31095330fcf5f6",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/tcp-client.rs": {
+      "executable": false,
+      "sha256": "9741b356452b7e0aca153bc21bbc00d8ce7a37764ecb66ec2a115a4e6c0d39f3",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/tcp-server.rs": {
+      "executable": false,
+      "sha256": "58f4de4e72c4f2b800406dae2491467b61326c1e0ae6e066dbcccf468f0e1133",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/tls-client.rs": {
+      "executable": false,
+      "sha256": "4ef453319010cd6be764d3e24ee23e422c9d9db91557a7c9796564d021749a09",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/tls-server.rs": {
+      "executable": false,
+      "sha256": "5628f18525351d27039d0aaa99939cf7ec06ff7525eae8ea4c79b29d6be21d96",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/unix-signal.rs": {
+      "executable": false,
+      "sha256": "5a9dbd8b0a89b9ccb3f89f84bd2c0063674df9a660223a422aeb2edc1fc87349",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/web-crawler.rs": {
+      "executable": false,
+      "sha256": "031398caf1eddd5c5e06568a36b8751cc63ecec86cb6034caa30c13ba24c5105",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/websocket-client.rs": {
+      "executable": false,
+      "sha256": "f29d38fff268fa83440ba44e05831688e91eb31e8ee73f017952fdf8e6fcb5b5",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/websocket-server.rs": {
+      "executable": false,
+      "sha256": "b46432d569999bdf90e82285cef17f0835a4c8d0409e93992cde31f6cc8d8e17",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/examples/windows-uds.rs": {
+      "executable": false,
+      "sha256": "f4354a467f27430970af294eaace15a317a6580785eecd7c81d8e0f023050fcb",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/src/lib.rs": {
+      "executable": false,
+      "sha256": "bbf33d4c1f2ba97bea8b491f5f749920716ac96e669fbb5c22e5e41c5e6685c4",
+      "type": "file"
+    },
+    "external/gpui-alloy-smol/src/spawn.rs": {
+      "executable": false,
+      "sha256": "d44292b66c578ab66aefb260467fa1f0d07a4c8a0e8bde5779271ec5fdb229f8",
+      "type": "file"
+    },
     "tooling/perf/Cargo.toml": {
       "executable": false,
       "sha256": "389aec39608effd724b6f72388d3266f438fe43835473d59ac2ebce6eab099e9",
@@ -7873,6 +8789,6 @@
       "type": "file"
     }
   },
-  "source_inventory_sha256": "caa385bd1ca1812015ec81361fb197a4abcd6b93d2a9d608b04f61ace9046cc1",
+  "source_inventory_sha256": "48234f34d71b6610425f6dc800b5fa88ee5b0519b190b1df5bbfba05ddf0e435",
   "version": "0.1.0"
 }

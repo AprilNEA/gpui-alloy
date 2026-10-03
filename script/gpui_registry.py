@@ -76,7 +76,9 @@ def manifest_change(before, after, path):
     }
 
 
-def dependency(name, value, workspace, directory, packages, version, overrides):
+def dependency(
+    name, value, workspace, directory, packages, version, overrides, registry_overrides=None
+):
     value = {"version": value} if isinstance(value, str) else copy.deepcopy(value)
     base = directory
     if value.pop("workspace", False):
@@ -130,10 +132,29 @@ def dependency(name, value, workspace, directory, packages, version, overrides):
         for key in GIT_KEYS:
             value.pop(key, None)
         value.update(replacement)
+    elif name in (registry_overrides or {}):
+        override = registry_overrides[name]
+        identity = {"package": value.get("package", name), "version": value.get("version")}
+        if override["source"] != identity or value.get("registry", "crates-io") != "crates-io":
+            raise ValueError(
+                f"Registry dependency {name} differs from its audited package/version: {identity}."
+            )
+        internal = override["internal"]
+        entry = packages[internal]
+        if not entry.get("source"):
+            raise ValueError(
+                f"Registry replacement for {name} requires a recorded fixed-source member."
+            )
+        value.pop("registry", None)
+        value.update(package=entry["package"], version=f"={version}")
+        value["path"] = posixpath.relpath(entry["directory"], directory)
+        return value, internal
     return value, None
 
 
-def project_manifest(original, workspace, directory, packages, version, overrides):
+def project_manifest(
+    original, workspace, directory, packages, version, overrides, registry_overrides=None
+):
     result = copy.deepcopy(original)
     package = result["package"]
     name = package["name"]
@@ -166,7 +187,14 @@ def project_manifest(original, workspace, directory, packages, version, override
         for kind in ("dependencies", "build-dependencies"):
             for dep_name, value in table.get(kind, {}).items():
                 resolved, internal = dependency(
-                    dep_name, value, workspace, directory, packages, version, overrides
+                    dep_name,
+                    value,
+                    workspace,
+                    directory,
+                    packages,
+                    version,
+                    overrides,
+                    registry_overrides,
                 )
                 table[kind][dep_name] = resolved
                 if internal:
@@ -258,7 +286,9 @@ def export_extra_members(output, extra_members):
     return packages, records
 
 
-def project_registry(repo, revision, version, output, overrides, extra_members=()):
+def project_registry(
+    repo, revision, version, output, overrides, extra_members=(), registry_overrides=None
+):
     if not re.fullmatch(r"(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-[0-9A-Za-z.-]+)?", version):
         raise ValueError("Use a release or prerelease version without build metadata.")
     if output.exists():
@@ -275,6 +305,15 @@ def project_registry(repo, revision, version, output, overrides, extra_members=(
     if packages.keys() & extra_packages.keys():
         raise ValueError("Fixed-source members duplicate standalone package names.")
     packages.update(extra_packages)
+    included_patches, omitted_patches = {}, {}
+    fixed_sources = [entry["source"] for entry in extra_packages.values()]
+    for registry, patches in original_workspace.get("patch", {}).items():
+        included_patches[registry] = {
+            name: value for name, value in patches.items() if value in fixed_sources
+        }
+        omitted_patches[registry] = {
+            name: value for name, value in patches.items() if value not in fixed_sources
+        }
     source_files = inventory(output)
     if len({entry["package"] for entry in packages.values()}) != len(packages):
         raise ValueError("Registry package names collide.")
@@ -289,6 +328,7 @@ def project_registry(repo, revision, version, output, overrides, extra_members=(
             packages,
             version,
             overrides,
+            registry_overrides,
         )
         after = render_manifest(manifest)
         manifests[entry["manifest"]] = manifest_change(before, after, entry["manifest"])
@@ -335,6 +375,7 @@ def project_registry(repo, revision, version, output, overrides, extra_members=(
             },
             "build_adapter": adapter if name == "gpui_apple" else None,
             "git_overrides": overrides,
+            "registry_overrides": registry_overrides or {},
         }
         (output / entry["directory"] / PACKAGE_RECORD).write_text(
             json.dumps(record, indent=2, sort_keys=True) + "\n", encoding="utf-8", newline="\n"
@@ -349,7 +390,8 @@ def project_registry(repo, revision, version, output, overrides, extra_members=(
         "generator_sha256": digest(Path(__file__).read_bytes()),
         "snapshot_generator_sha256": source["exporter_sha256"],
         "external_sources": extra_records,
-        "omitted_root_patches": original_workspace.get("patch", {}),
+        "included_root_patch_sources": included_patches,
+        "omitted_root_patches": omitted_patches,
         "packages": packages,
         "publish_order": [packages[name]["package"] for name in order],
         "source_inventory_sha256": digest(source_files),
@@ -360,11 +402,12 @@ def project_registry(repo, revision, version, output, overrides, extra_members=(
         "materialized_symlinks": links,
         "build_adapter": adapter,
         "git_overrides": overrides,
+        "registry_overrides": registry_overrides or {},
         "policy": {
             "manifests": "Resolve inheritance, namespace packages, preserve library names, and pin internal dependencies exactly.",
             "targets": "Omit dev dependencies and example, test, and bench targets in registry manifests only.",
             "sources": "Preserve runtime source bytes. Adapt only the recorded Apple build-script input lookup.",
-            "patches": "Do not activate root Git patches in the registry projection.",
+            "patches": "Do not activate root patch tables. Preserve audited patch sources through explicit fixed-member dependencies.",
             "validation": "This record proves projection provenance, not registry availability or consumer compatibility.",
         },
     }
@@ -384,6 +427,9 @@ def main():
         "--git-overrides", type=Path, required=True, help="Audited source-to-registry JSON mapping"
     )
     parser.add_argument("--extra-members", type=Path, help="Fixed external Git sources as JSON")
+    parser.add_argument(
+        "--registry-overrides", type=Path, help="Audited registry-to-fixed-member JSON mapping"
+    )
     args = parser.parse_args()
     record = project_registry(
         args.repo,
@@ -392,6 +438,7 @@ def main():
         args.output,
         json.loads(args.git_overrides.read_text()),
         json.loads(args.extra_members.read_text()) if args.extra_members else (),
+        json.loads(args.registry_overrides.read_text()) if args.registry_overrides else None,
     )
     print(
         f"Projected {len(record['packages'])} packages at {args.version}; publication remains a separate action."

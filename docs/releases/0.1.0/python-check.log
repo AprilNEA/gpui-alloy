@@ -1,0 +1,41 @@
+• Validating lock
+✓ Validating lock in 618µs
+• Configuring shell
+• Configuring cachix
+✓ Configuring cachix in 1.56ms
+• Evaluating shell
+✓ Evaluating shell in 656ms (cached)
+✓ Configuring shell in 663ms
+• Loading tasks
+• Evaluating devenv.config.task.config
+✓ Evaluating devenv.config.task.config in 44.6ms (cached)
+✓ Loading tasks in 66.5ms
+• Running tasks
+• Running devenv:files:cleanup
+✓ Running devenv:files:cleanup in 145ms
+• Running devenv:enterShell
+✓ Running devenv:enterShell in 16.1ms
+• Running devenv:enterTest
+✓ Running devenv:enterTest in 5.42µs (no command)
+✓ Running tasks in 162ms
+✨ devenv 2.1.2 is out of date. Please update to 2.4.0: https://devenv.sh/getting-started/#installation
+test_build_adapter_and_external_license_are_self_contained (test_gpui_registry.RegistryProjectionTests.test_build_adapter_and_external_license_are_self_contained) ... ok
+test_git_mapping_requires_audited_identity_and_preserves_features (test_gpui_registry.RegistryProjectionTests.test_git_mapping_requires_audited_identity_and_preserves_features) ... ok
+test_git_member_uses_fixed_source_and_suite_version (test_gpui_registry.RegistryProjectionTests.test_git_member_uses_fixed_source_and_suite_version) ... ok
+test_manifest_preserves_aliases_features_and_library_identity (test_gpui_registry.RegistryProjectionTests.test_manifest_preserves_aliases_features_and_library_identity) ... ok
+test_provenance_is_packaged_with_include_or_exclude_filters (test_gpui_registry.RegistryProjectionTests.test_provenance_is_packaged_with_include_or_exclude_filters) ... ok
+test_registry_override_validates_inherited_identity_and_keeps_features (test_gpui_registry.RegistryProjectionTests.test_registry_override_validates_inherited_identity_and_keeps_features) ... ok
+test_duplicate_family_identities_fail (test_gpui_registry_consumer.RegistryConsumerTests.test_duplicate_family_identities_fail) ... ok
+test_incomplete_or_duplicate_archive_manifest_fails (test_gpui_registry_consumer.RegistryConsumerTests.test_incomplete_or_duplicate_archive_manifest_fails) ... ok
+test_only_reachable_packages_are_checked (test_gpui_registry_consumer.RegistryConsumerTests.test_only_reachable_packages_are_checked) ... ok
+test_original_family_copy_and_missing_core_fail (test_gpui_registry_consumer.RegistryConsumerTests.test_original_family_copy_and_missing_core_fail) ... ok
+test_wrong_source_version_or_checksum_fails (test_gpui_registry_consumer.RegistryConsumerTests.test_wrong_source_version_or_checksum_fails) ... ok
+test_export_is_fixed_complete_and_reproducible (test_gpui_snapshot.SnapshotTests.test_export_is_fixed_complete_and_reproducible) ... ok
+test_export_rejects_changed_provenance_sources_and_package_closure (test_gpui_snapshot.SnapshotTests.test_export_rejects_changed_provenance_sources_and_package_closure) ... ok
+test_resolution_checks_reachable_package_identity_and_path (test_gpui_snapshot.SnapshotTests.test_resolution_checks_reachable_package_identity_and_path) ... ok
+test_verification_rejects_changed_extra_files_and_revision (test_gpui_snapshot.SnapshotTests.test_verification_rejects_changed_extra_files_and_revision) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 3.412s
+
+OK

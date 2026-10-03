@@ -455,13 +455,17 @@
     }
   },
   "root_patches": {
-    "policy": "Omit in published registry packages and validate the ordinary registry graph, matching the existing Cupertino non-inherited root-patch behavior.",
-    "names": [
-      "async-process",
+    "policy": "Preserve async-process through fixed Alloy smol and async-process packages after preflight-1 exposed the required adopt_raw_pid API. Omit the other root patches and validate the resolved registry graph.",
+    "included": [
+      "async-process"
+    ],
+    "omitted": [
       "async-task",
       "calloop",
       "windows-capture"
-    ]
+    ],
+    "supplemental_audit": "process-dependency-audit.json",
+    "failure_record": "preflight-1.log"
   },
   "decisions": {
     "async-tar": "Republish fixed fork to preserve length-based PAX parsing and http_client/github-download.",

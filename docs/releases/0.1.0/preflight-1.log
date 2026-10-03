@@ -1,0 +1,417 @@
+• Validating lock
+✓ Validating lock in 597µs
+• Configuring shell
+• Configuring cachix
+✓ Configuring cachix in 1.55ms
+• Evaluating shell
+• Building devenv-shell-env
+✓ Building devenv-shell-env in 2.14s
+✓ Evaluating shell in 4.35s (cached)
+✓ Configuring shell in 4.35s
+• Loading tasks
+• Evaluating devenv.config.task.config
+✓ Evaluating devenv.config.task.config in 2.45ms (cached)
+✓ Loading tasks in 3.79ms
+• Running tasks
+• Running devenv:files:cleanup
+✓ Running devenv:files:cleanup in 13.2ms
+• Running devenv:enterShell
+✓ Running devenv:enterShell in 16.3ms
+• Running devenv:enterTest
+✓ Running devenv:enterTest in 5.54µs (no command)
+✓ Running tasks in 29.5ms
+✨ devenv 2.1.2 is out of date. Please update to 2.4.0: https://devenv.sh/getting-started/#installation
+    Updating crates.io index
+   Packaging gpui-alloy-util v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/crates/gpui_util)
+    Updating crates.io index
+    Packaged 7 files, 49.1KiB (14.9KiB compressed)
+   Packaging gpui-alloy-collections v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/crates/collections)
+    Updating crates.io index
+    Packaged 8 files, 38.6KiB (11.6KiB compressed)
+   Packaging gpui-alloy-font-kit v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/external/gpui-alloy-font-kit)
+    Updating crates.io index
+    Packaged 42 files, 353.4KiB (72.8KiB compressed)
+   Packaging gpui-alloy-async-tar v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/external/gpui-alloy-async-tar)
+    Updating crates.io index
+    Packaged 22 files, 280.9KiB (58.6KiB compressed)
+   Packaging gpui-alloy-path v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/crates/path)
+    Updating crates.io index
+    Packaged 8 files, 82.5KiB (19.7KiB compressed)
+   Packaging gpui-alloy-perf v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/tooling/perf)
+    Updating crates.io index
+    Packaged 8 files, 67.1KiB (21.2KiB compressed)
+   Packaging gpui-alloy-util-macros v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/crates/util_macros)
+    Updating crates.io index
+    Packaged 6 files, 37.5KiB (12.5KiB compressed)
+   Packaging gpui-alloy-zed-util v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/crates/util)
+    Updating crates.io index
+    Packaged 26 files, 428.4KiB (95.5KiB compressed)
+   Packaging gpui-alloy-http-client v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/crates/http_client)
+    Updating crates.io index
+    Packaged 9 files, 126.7KiB (33.6KiB compressed)
+   Packaging gpui-alloy-macros v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/crates/gpui_macros)
+    Updating crates.io index
+    Packaged 20 files, 144.5KiB (29.6KiB compressed)
+   Packaging gpui-alloy-derive-refineable v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/crates/refineable/derive_refineable)
+    Updating crates.io index
+    Packaged 6 files, 36.6KiB (9.7KiB compressed)
+   Packaging gpui-alloy-refineable v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/crates/refineable)
+    Updating crates.io index
+    Packaged 6 files, 25.3KiB (8.9KiB compressed)
+   Packaging gpui-alloy-scheduler v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/crates/scheduler)
+    Updating crates.io index
+    Packaged 10 files, 139.2KiB (34.6KiB compressed)
+   Packaging gpui-alloy-shared-string v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/crates/gpui_shared_string)
+    Updating crates.io index
+    Packaged 6 files, 28.3KiB (9.3KiB compressed)
+   Packaging gpui-alloy-zlog v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/crates/zlog)
+    Updating crates.io index
+    Packaged 10 files, 90.0KiB (23.5KiB compressed)
+   Packaging gpui-alloy-ztracing-macro v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/crates/ztracing_macro)
+    Packaged 6 files, 16.3KiB (6.1KiB compressed)
+   Packaging gpui-alloy-ztracing v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/crates/ztracing)
+    Updating crates.io index
+    Packaged 8 files, 63.6KiB (18.1KiB compressed)
+   Packaging gpui-alloy-sum-tree v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/crates/sum_tree)
+    Updating crates.io index
+    Packaged 9 files, 153.5KiB (32.0KiB compressed)
+   Packaging gpui-alloy v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/crates/gpui)
+    Updating crates.io index
+    Packaged 163 files, 7.9MiB (5.1MiB compressed)
+   Packaging gpui-alloy-apple v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/crates/gpui_apple)
+    Updating crates.io index
+    Packaged 33 files, 1.0MiB (233.8KiB compressed)
+   Packaging gpui-alloy-http-client-tls v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/crates/http_client_tls)
+    Updating crates.io index
+    Packaged 6 files, 40.6KiB (13.0KiB compressed)
+   Packaging gpui-alloy-wgpu v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/crates/gpui_wgpu)
+    Updating crates.io index
+    Packaged 15 files, 441.1KiB (104.1KiB compressed)
+   Packaging gpui-alloy-linux v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/crates/gpui_linux)
+    Updating crates.io index
+    Packaged 32 files, 755.9KiB (168.0KiB compressed)
+   Packaging gpui-alloy-macos v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/crates/gpui_macos)
+    Updating crates.io index
+    Packaged 22 files, 594.6KiB (135.5KiB compressed)
+   Packaging gpui-alloy-web v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/crates/gpui_web)
+    Updating crates.io index
+    Packaged 21 files, 397.4KiB (100.2KiB compressed)
+   Packaging gpui-alloy-windows v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/crates/gpui_windows)
+    Updating crates.io index
+    Packaged 29 files, 642.6KiB (152.7KiB compressed)
+   Packaging gpui-alloy-platform v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/crates/gpui_platform)
+    Updating crates.io index
+    Packaged 7 files, 223.0KiB (59.6KiB compressed)
+   Packaging gpui-alloy-reqwest v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/external/gpui-alloy-reqwest)
+    Updating crates.io index
+    Packaged 78 files, 968.6KiB (201.0KiB compressed)
+   Packaging gpui-alloy-reqwest-client v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/crates/reqwest_client)
+    Updating crates.io index
+    Packaged 6 files, 97.5KiB (28.4KiB compressed)
+   Verifying gpui-alloy-util v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/crates/gpui_util)
+   Compiling serde_core v1.0.229
+   Compiling typeid v1.0.3
+   Compiling erased-serde v0.4.10
+   Compiling anyhow v1.0.104
+   Compiling serde_fmt v1.1.0
+   Compiling value-bag-serde1 v1.14.1
+   Compiling value-bag v1.14.1
+   Compiling log v0.4.34
+   Compiling gpui-alloy-util v0.1.0 (/private/tmp/gpui-alloy-registry-target/package/gpui-alloy-util-0.1.0)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1m 05s
+   Verifying gpui-alloy-collections v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/crates/collections)
+    Updating crates.io index
+   Unpacking gpui-alloy-util v0.1.0 (registry `/private/tmp/gpui-alloy-registry-target/package/tmp-registry`)
+   Compiling hashbrown v0.17.1
+   Compiling equivalent v1.0.2
+   Compiling rustc-hash v2.1.3
+   Compiling gpui-alloy-util v0.1.0
+   Compiling indexmap v2.14.2
+   Compiling gpui-alloy-collections v0.1.0 (/private/tmp/gpui-alloy-registry-target/package/gpui-alloy-collections-0.1.0)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1m 07s
+   Verifying gpui-alloy-font-kit v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/external/gpui-alloy-font-kit)
+ Downloading crates ...
+  Downloaded lazy_static v1.5.1
+  Downloaded libc v0.2.190
+   Compiling libc v0.2.190
+   Compiling proc-macro2 v1.0.107
+   Compiling unicode-ident v1.0.26
+   Compiling quote v1.0.47
+   Compiling semver v1.0.28
+   Compiling core-foundation-sys v0.8.7
+   Compiling bitflags v2.13.2
+   Compiling foreign-types-shared v0.3.1
+   Compiling option-ext v0.2.0
+   Compiling log v0.4.34
+   Compiling same-file v1.0.6
+   Compiling gpui-alloy-font-kit v0.1.0 (/private/tmp/gpui-alloy-registry-target/package/gpui-alloy-font-kit-0.1.0)
+   Compiling lazy_static v1.5.1
+   Compiling float-ord v0.3.2
+   Compiling byteorder v1.5.0
+   Compiling walkdir v2.5.0
+   Compiling rustc_version v0.4.1
+   Compiling pathfinder_simd v0.5.6
+   Compiling syn v3.0.6
+   Compiling core-foundation v0.10.1
+   Compiling dirs-sys v0.5.0
+   Compiling dirs v6.0.0
+   Compiling core-graphics-types v0.2.0
+   Compiling pathfinder_geometry v0.5.1
+   Compiling foreign-types-macros v0.2.4
+   Compiling foreign-types v0.5.0
+   Compiling core-graphics v0.24.0
+   Compiling core-text v21.0.0
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2m 04s
+   Verifying gpui-alloy-async-tar v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/external/gpui-alloy-async-tar)
+ Downloading crates ...
+  Downloaded pin-utils v0.1.1
+   Compiling parking v2.2.1
+   Compiling pin-project-lite v0.2.17
+   Compiling crossbeam-utils v0.8.23
+   Compiling futures-core v0.3.34
+   Compiling rustix v1.1.5
+   Compiling futures-io v0.3.34
+   Compiling fastrand v2.5.0
+   Compiling bitflags v2.13.2
+   Compiling autocfg v1.5.1
+   Compiling cfg-if v1.0.5
+   Compiling async-task v4.7.1
+   Compiling slab v0.4.12
+   Compiling atomic-waker v1.1.2
+   Compiling value-bag v1.14.1
+   Compiling once_cell v1.21.4
+   Compiling event-listener v2.5.3
+   Compiling pin-utils v0.1.1
+   Compiling errno v0.3.14
+   Compiling event-listener v5.4.2
+   Compiling memchr v2.8.3
+   Compiling futures-lite v2.6.1
+   Compiling piper v0.2.5
+   Compiling filetime v0.2.29
+   Compiling log v0.4.34
+   Compiling async-io v2.6.0
+   Compiling event-listener-strategy v0.5.4
+   Compiling async-lock v3.4.2
+   Compiling kv-log-macro v1.0.7
+   Compiling concurrent-queue v2.5.0
+   Compiling async-channel v2.5.0
+   Compiling async-executor v1.14.0
+   Compiling async-channel v1.9.0
+   Compiling blocking v1.7.0
+   Compiling polling v3.11.0
+   Compiling xattr v1.6.1
+   Compiling async-global-executor v2.4.1
+   Compiling async-std v1.13.2
+   Compiling gpui-alloy-async-tar v0.1.0 (/private/tmp/gpui-alloy-registry-target/package/gpui-alloy-async-tar-0.1.0)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2m 37s
+   Verifying gpui-alloy-path v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/crates/path)
+   Compiling dunce v1.0.5
+   Compiling gpui-alloy-path v0.1.0 (/private/tmp/gpui-alloy-registry-target/package/gpui-alloy-path-0.1.0)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2m 38s
+   Verifying gpui-alloy-perf v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/tooling/perf)
+    Updating crates.io index
+   Unpacking gpui-alloy-collections v0.1.0 (registry `/private/tmp/gpui-alloy-registry-target/package/tmp-registry`)
+   Compiling serde_core v1.0.229
+   Compiling proc-macro2 v1.0.107
+   Compiling quote v1.0.47
+   Compiling zmij v1.0.23
+   Compiling serde v1.0.229
+   Compiling serde_json v1.0.151
+   Compiling memchr v2.8.3
+   Compiling itoa v1.0.18
+   Compiling syn v3.0.6
+   Compiling serde_derive v1.0.229
+   Compiling erased-serde v0.4.10
+   Compiling serde_fmt v1.1.0
+   Compiling indexmap v2.14.2
+   Compiling value-bag-serde1 v1.14.1
+   Compiling value-bag v1.14.1
+   Compiling log v0.4.34
+   Compiling gpui-alloy-util v0.1.0
+   Compiling gpui-alloy-collections v0.1.0
+   Compiling gpui-alloy-perf v0.1.0 (/private/tmp/gpui-alloy-registry-target/package/gpui-alloy-perf-0.1.0)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 3m 30s
+   Verifying gpui-alloy-util-macros v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/crates/util_macros)
+    Updating crates.io index
+   Unpacking gpui-alloy-perf v0.1.0 (registry `/private/tmp/gpui-alloy-registry-target/package/tmp-registry`)
+   Compiling serde_core v1.0.229
+   Compiling equivalent v1.0.2
+   Compiling hashbrown v0.17.1
+   Compiling memchr v2.8.3
+   Compiling rustc-hash v2.1.3
+   Compiling itoa v1.0.18
+   Compiling typeid v1.0.3
+   Compiling erased-serde v0.4.10
+   Compiling anyhow v1.0.104
+   Compiling zmij v1.0.23
+   Compiling serde v1.0.229
+   Compiling serde_json v1.0.151
+   Compiling quote v1.0.47
+   Compiling syn v3.0.6
+   Compiling syn v2.0.119
+   Compiling serde_derive v1.0.229
+   Compiling serde_fmt v1.1.0
+   Compiling indexmap v2.14.2
+   Compiling value-bag-serde1 v1.14.1
+   Compiling value-bag v1.14.1
+   Compiling log v0.4.34
+   Compiling gpui-alloy-util v0.1.0
+   Compiling gpui-alloy-collections v0.1.0
+   Compiling gpui-alloy-perf v0.1.0
+   Compiling gpui-alloy-util-macros v0.1.0 (/private/tmp/gpui-alloy-registry-target/package/gpui-alloy-util-macros-0.1.0)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 4m 17s
+   Verifying gpui-alloy-zed-util v0.1.0 (/private/tmp/alloy-registry-packager/staging-reviewed/crates/util)
+    Updating crates.io index
+ Downloading crates ...
+   Unpacking gpui-alloy-path v0.1.0 (registry `/private/tmp/gpui-alloy-registry-target/package/tmp-registry`)
+  Downloaded cc v1.6.0
+   Compiling libc v0.2.190
+   Compiling find-msvc-tools v0.1.14
+   Compiling stable_deref_trait v1.2.1
+   Compiling shlex v2.0.1
+   Compiling crossbeam-utils v0.8.23
+   Compiling pkg-config v0.3.34
+   Compiling foldhash v0.2.0
+   Compiling crc32fast v1.5.2
+   Compiling allocator-api2 v0.2.21
+   Compiling rle-decode-fast v1.0.3
+   Compiling typenum v1.20.1
+   Compiling syn v3.0.6
+   Compiling rustix v1.1.5
+   Compiling zstd-safe v7.3.0
+   Compiling syn v2.0.119
+   Compiling event-listener v5.4.2
+   Compiling adler32 v1.2.0
+   Compiling dary_heap v0.3.9
+   Compiling no_std_io2 v0.9.4
+   Compiling cfg_aliases v0.2.2
+   Compiling writeable v0.6.4
+   Compiling litemap v0.8.3
+   Compiling hashbrown v0.16.1
+   Compiling event-listener-strategy v0.5.4
+   Compiling const-oid v0.10.2
+   Compiling icu_properties_data v2.3.0
+   Compiling icu_normalizer_data v2.3.0
+   Compiling utf8_iter v1.0.4
+   Compiling proc-macro-error-attr3 v3.1.1
+   Compiling aho-corasick v1.1.5
+   Compiling regex-syntax v0.8.11
+   Compiling serde v1.0.229
+   Compiling hybrid-array v0.4.15
+   Compiling unicase v2.9.0
+   Compiling libflate_lz77 v2.3.0
+   Compiling crypto-common v0.2.2
+   Compiling block-buffer v0.12.1
+   Compiling simd-adler32 v0.3.10
+   Compiling adler2 v2.0.1
+   Compiling miniz_oxide v0.9.1
+   Compiling mime_guess v2.0.5
+   Compiling digest v0.11.3
+   Compiling regex-automata v0.4.18
+   Compiling bstr v1.13.1
+   Compiling futures-sink v0.3.34
+   Compiling thiserror v2.0.21
+   Compiling smallvec v1.16.2
+   Compiling log v0.4.34
+   Compiling futures-channel v0.3.34
+   Compiling synstructure v0.14.0
+   Compiling proc-macro-error3 v3.1.1
+   Compiling async-lock v3.4.2
+   Compiling nix v0.31.3
+   Compiling futures-task v0.3.34
+   Compiling globset v0.4.20
+   Compiling serde_json v1.0.151
+   Compiling zerofrom-derive v0.1.8
+   Compiling yoke-derive v0.8.4
+   Compiling zerovec-derive v0.11.6
+   Compiling displaydoc v0.2.7
+   Compiling serde_derive v1.0.229
+   Compiling zerofrom v0.1.8
+   Compiling futures-macro v0.3.34
+   Compiling thiserror-impl v2.0.21
+   Compiling getrandom v0.4.3
+   Compiling deflate64 v0.1.12
+   Compiling mime v0.3.17
+   Compiling ref-cast v1.0.27
+   Compiling compression-core v0.4.33
+   Compiling futures-util v0.3.34
+   Compiling ref-cast-impl v1.0.27
+   Compiling jobserver v0.1.35
+   Compiling cc v1.6.0
+   Compiling libflate v2.3.2
+   Compiling concurrent-queue v2.5.0
+   Compiling async-channel v2.5.0
+   Compiling cpufeatures v0.3.1
+   Compiling sha2 v0.11.0
+   Compiling blocking v1.7.0
+   Compiling flate2 v1.1.10
+   Compiling zstd-sys v2.1.0+zstd.1.5.7
+   Compiling rust-embed-utils v8.12.0
+   Compiling compression-codecs v0.4.45
+   Compiling pin-project-internal v1.1.13
+   Compiling serde_derive_internals v0.30.0
+   Compiling nix v0.30.1
+   Compiling serde_json_lenient v0.2.4
+   Compiling percent-encoding v2.3.2
+   Compiling schemars_derive v1.2.2
+   Compiling form_urlencoded v1.2.2
+   Compiling errno v0.3.14
+   Compiling dirs-sys v0.5.0
+   Compiling signal-hook-registry v1.4.8
+   Compiling pin-project v1.1.13
+   Compiling async-compression v0.4.50
+   Compiling async-fs v2.2.0
+   Compiling async-executor v1.14.0
+   Compiling either v1.18.0
+   Compiling rust-embed-impl v8.12.0
+   Compiling once_cell v1.21.4
+   Compiling dyn-clone v1.0.20
+   Compiling ryu v1.0.23
+   Compiling itertools v0.14.0
+   Compiling dirs v6.0.0
+   Compiling which v8.0.6
+   Compiling polling v3.11.0
+   Compiling mach2 v0.5.0
+   Compiling async-io v2.6.0
+   Compiling regex v1.13.1
+   Compiling shlex v1.3.0
+   Compiling take-until v0.2.0
+   Compiling async-signal v0.2.14
+   Compiling async-net v2.0.0
+   Compiling yoke v0.8.3
+   Compiling async-process v2.5.0
+   Compiling smol v2.0.2
+   Compiling tempfile v3.27.0
+   Compiling futures-executor v0.3.34
+   Compiling futures v0.3.34
+   Compiling gpui-alloy-path v0.1.0
+   Compiling async_zip v0.0.18
+   Compiling command-fds v0.3.3
+   Compiling zerovec v0.11.8
+   Compiling zerotrie v0.2.5
+   Compiling schemars v1.2.2
+   Compiling tinystr v0.8.4
+   Compiling potential_utf v0.1.6
+   Compiling icu_collections v2.3.0
+   Compiling icu_locale_core v2.3.0
+   Compiling icu_provider v2.3.1
+   Compiling icu_properties v2.3.0
+   Compiling icu_normalizer v2.3.0
+   Compiling zstd v0.13.3
+   Compiling include-flate-compress v0.3.4
+   Compiling include-flate-codegen v0.3.4
+   Compiling idna_adapter v1.2.2
+   Compiling idna v1.1.0
+   Compiling url v2.5.8
+   Compiling include-flate v0.3.4
+   Compiling rust-embed v8.12.0
+   Compiling gpui-alloy-zed-util v0.1.0 (/private/tmp/gpui-alloy-registry-target/package/gpui-alloy-zed-util-0.1.0)
+error[E0599]: no associated function or constant named `adopt_raw_pid` found for struct `smol::async_process::Child` in the current scope
+   --> src/command/darwin.rs:497:43
+    |
+497 |         let inner = smol::process::Child::adopt_raw_pid(pid as u32, true, kill_on_drop)?;
+    |                                           ^^^^^^^^^^^^^ associated function or constant not found in `smol::async_process::Child`
+
+For more information about this error, try `rustc --explain E0599`.
+error: could not compile `gpui-alloy-zed-util` (lib) due to 1 previous error
+error: failed to verify package tarball

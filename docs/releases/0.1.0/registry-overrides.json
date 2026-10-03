@@ -1,0 +1,16 @@
+{
+  "async-process": {
+    "internal": "async-process",
+    "source": {
+      "package": "async-process",
+      "version": "2.0.0"
+    }
+  },
+  "smol": {
+    "internal": "smol",
+    "source": {
+      "package": "smol",
+      "version": "2.0"
+    }
+  }
+}
