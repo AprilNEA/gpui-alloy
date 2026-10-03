@@ -25,7 +25,7 @@ The source tree includes these changes relative to its recorded upstream baselin
 | Fix | Forward native accessibility focus to the content view's focused control. | macOS windows and panels | [GPUI-012](ALLOY.md#gpui-012-focus-forwarding) |
 
 GPUI-010's local lifecycle fix is not included in the linked upstream PR.
-GPUI-012 is a local source candidate until consumer acceptance is recorded. The usage example below retains the published snapshot.
+GPUI-012 passed local standalone and consumer acceptance under the signed local tag `gpui-alloy/20261004.1`. The new snapshot is not published. The usage example below retains the published `gpui-alloy/20261003.2` snapshot.
 
 Validation covers macOS (`aarch64-apple-darwin`). The rendering additions target opaque SDR window content on macOS Metal. Inactive Clear additionally requires an Apple GPU, Metal 3.1, and a supported parametric RGB profile. See [validation scope](ALLOY.md#validation-commands-and-limits) for other platform and rendering limits.
 

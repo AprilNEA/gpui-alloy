@@ -2,7 +2,7 @@
 
 Use the validated snapshot [gpui-alloy/20261003.2](https://github.com/AprilNEA/gpui-alloy/tree/gpui-alloy/20261003.2), which identifies S `9d59ea617d75d02e4645eefd22844235431138c8`. For Git dependencies and exports, pin that full commit SHA. The `main` branch also carries later documentation commits and acceptance records.
 
-This branch contains the local GPUI-012 source import described below. The published snapshot above remains the previous accepted release until the new consumer checks complete.
+GPUI-012 passed local standalone and consumer acceptance on 2026-10-04. The signed local snapshot tag `gpui-alloy/20261004.1` identifies S `1a77576c8ef715f2ceaece8af18017cb360434c9`. The new source, standalone, and consumer refs have not been pushed. The published release remains `gpui-alloy/20261003.2`.
 
 ## Repository roles
 
@@ -27,8 +27,8 @@ The source notices that link to this document remain valid. Keep those notices u
 | --- | --- | --- |
 | U | Fixed upstream baseline in the full source repository. | `4c841aaf1c4fa613e89a5d77096523d0ff593b56` |
 | D | Full source integration commit containing the downstream patches. | `f7ecd66e516734656bf72e2b6f876ec6d977c633`, local only. |
-| S | Independently versioned standalone commit projected from D. | This source import; record its exact SHA after committing. |
-| V | Consumer commit that imports an export of S. | Pending; previous accepted V is `3208e4fb8e751b6619e5b25997893618011b2809`. |
+| S | Independently versioned standalone commit projected from D. | `1a77576c8ef715f2ceaece8af18017cb360434c9`, local only. |
+| V | Consumer commit that imports an export of S. | `dbc4f20bb1ccc851b1be48cbb2e0ff74415360c8`, local only. |
 
 U must be an ancestor of D in `AprilNEA/zed`. D → S is a source projection, not a Git ancestry relationship. S → V is a fixed Git tree export followed by a consumer import.
 
@@ -338,7 +338,11 @@ GPUI-012 forwards `GPUIWindow` and `GPUIPanel` accessibility focus queries to th
 | Dependencies | None. |
 | Signed integration D | `f7ecd66e516734656bf72e2b6f876ec6d977c633`. |
 | Previous D | `d21987f81a013ec67945892506bcc6aae8a2db0f`. |
+| Signed standalone S | `1a77576c8ef715f2ceaece8af18017cb360434c9`; tree `a4fb97f52dc3adfe339a831e3cbeb54c72fc1b5d`. |
+| Signed consumer V | `dbc4f20bb1ccc851b1be48cbb2e0ff74415360c8` in `AprilNEA/gpui-cupertino`. |
+| Local snapshot tag | `gpui-alloy/20261004.1`; signed annotated tag object `4828bdf0bc29923eca37962ebeecd4c94301e78e`, which resolves to S. Not published. |
 | Source export digest | `a8b922e9b2c5d0e6f2d61f0eb24f9a09f40df55bbd16105940751d4795eb4a23`. |
+| Consumer export digest | `cd26e4f2f16dc9ed9e01e8dbb195407aa6c75f7dcbf2a784f7772cb357f2401c`; format 2, 26 packages and 439 inventory entries. |
 | Upstream PR | Not submitted. |
 | Retirement condition | Retire the patch when a new U supplies equivalent window and panel forwarding and passes the same lifecycle regression. |
 
@@ -348,8 +352,23 @@ Source integration checks passed: formatting, strict Clippy, 424 GPUI library te
 
 The first integration native run used a stale build-script executable from the U checkout's shared target cache. The generated shader omitted the continuous corner functions. Standard `cargo clean -p gpui_apple --release` rebuilt the script and shader; the unchanged checks then passed. No shader source, assertion, feature, or system setting changed. The failed run remains in [the initial native log](docs/validation/20261003-focus/integration-initial-native-failure.log.gz). Rebuilt results are recorded in [the library log](docs/validation/20261003-focus/integration-lib.log.gz) and [the native log](docs/validation/20261003-focus/integration-native.log.gz).
 
-The staged projection audit compares 431 payload entries against D: 404 ordinary files and 27 symbolic links. Path sets, bytes, modes, link targets, source controls, and provenance match. The standalone root build configuration and lockfile remain unchanged. The [staged audit](docs/validation/20261003-focus/source-projection-staged.json) does not establish commit ancestry; repeat the audit against the fixed S.
+The projection audit compares 431 payload entries against D: 404 ordinary files and 27 symbolic links. Path sets, bytes, modes, link targets, source controls, and provenance match. The standalone root build configuration and lockfile remain unchanged. The [staged audit](docs/validation/20261003-focus/source-projection-staged.json) preceded the S commit. The [fixed-S audit](docs/validation/20261003-focus/source-projection-fixed.json) repeats the exact comparisons and confirms that S has neither U nor D in its ancestor history.
 
-The standalone `./script/check` passed with exit status 0: formatting, strict Clippy, 517 tests, and three native harnesses. The [standalone log](docs/validation/20261003-focus/standalone-check.log.gz) has SHA-256 `5f3ab9038f4e27357f61ac7fd45cdb5bf8417966b4563380331c404487f80ad3`. The standalone run did not reproduce the integration run's startup delays.
+The standalone `./script/check` passed with exit status 0: formatting, strict Clippy, 517 tests, and three native harnesses. The decompressed [standalone log](docs/validation/20261003-focus/standalone-check.log.gz) has SHA-256 `5f3ab9038f4e27357f61ac7fd45cdb5bf8417966b4563380331c404487f80ad3`. The standalone run did not reproduce the integration run's startup delays.
 
-Consumer acceptance remains pending at this source import. Record the exact S, V, native application focus evidence, and any local snapshot tag in a later documentation commit. Embedded SSH signatures are present; the user waived local trust verification for this work. No source or standalone branch has been pushed.
+Consumer acceptance passed on 2026-10-04. The [source check](docs/validation/20261003-focus/consumer-source.log.gz) verified exact S and 18 resolved packages with all consumer features, `--locked`, and target `aarch64-apple-darwin`. Consumer [`devenv test`](docs/validation/20261003-focus/consumer-check.log.gz) and the [`components` example build](docs/validation/20261003-focus/consumer-build.log.gz) both completed with exit status 0.
+
+CUA inspected the running native application's `focusedUIElement` through the following sequence. Each row links the accessibility text and screenshot from the same observation.
+
+| Interaction | Observed result | Evidence |
+| --- | --- | --- |
+| Focus the main input. | `Display name` is the focused text field. | [Text](docs/validation/20261003-focus/focus-fixed-input.txt), [image](docs/validation/20261003-focus/focus-fixed-input.png). |
+| Open the Popover. | `Profile note` is the focused text field. | [Text](docs/validation/20261003-focus/focus-fixed-open.txt), [image](docs/validation/20261003-focus/focus-fixed-open.png). |
+| Enter `Native focus` and press Escape. | The Popover closes and focus returns to the `Edit note…` trigger. | [Text](docs/validation/20261003-focus/focus-fixed-escape.txt), [image](docs/validation/20261003-focus/focus-fixed-escape.png). |
+| Reopen the Popover. | `Profile note` receives focus and retains `Native focus`. | [Text](docs/validation/20261003-focus/focus-fixed-reopen.txt), [image](docs/validation/20261003-focus/focus-fixed-reopen.png). |
+| Press Tab. | Focus moves to `Done`. | [Text](docs/validation/20261003-focus/focus-fixed-tab.txt), [image](docs/validation/20261003-focus/focus-fixed-tab.png). |
+| Activate `Done`. | The Popover closes and focus returns to the `Edit note…` trigger. | [Text](docs/validation/20261003-focus/focus-fixed-done.txt), [image](docs/validation/20261003-focus/focus-fixed-done.png). |
+
+The [binary digest](docs/validation/20261003-focus/focus-fixed-binary.sha256) identifies the inspected `components` executable. The example exited after acceptance. Complete VoiceOver behavior, Chinese IME, host focus immediately after a cold launch, and frame budget acceptance remain unverified.
+
+The topic, D, S, V, and local snapshot tag contain embedded SSH signatures. The user waived local trust verification for this work. No new source, standalone, or consumer ref has been pushed. The local tag does not change the published `gpui-alloy/20261003.2` release or its dependency revision.
