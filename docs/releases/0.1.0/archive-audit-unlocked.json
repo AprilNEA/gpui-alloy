@@ -1,0 +1,563 @@
+{
+  "format": 1,
+  "candidate": "/private/tmp/alloy-registry-packager/staging-process-31",
+  "source_revision": "9d59ea617d75d02e4645eefd22844235431138c8",
+  "reviewed_alloy_head": "de934a6a08b82e6c85a86dd8f156d82742c583ce",
+  "candidate_generator_sha256": "13866a1322174008eb44db61d02dd7567058b362a042ee0fc74e6468f6e9053f",
+  "head_generator_sha256": "13866a1322174008eb44db61d02dd7567058b362a042ee0fc74e6468f6e9053f",
+  "generator_matches_head": true,
+  "archive_directory": "/private/tmp/gpui-alloy-registry-target/package/tmp-crate",
+  "archive_status": "Cargo temporary workspace-publish archives; compilation verification was still running at the audit checkpoint.",
+  "expected_package_count": 31,
+  "audited_package_count": 31,
+  "pending_packages": [],
+  "findings": [],
+  "runtime_source_changes_from_fixed_inputs": [
+    "crates/gpui_apple/build.rs"
+  ],
+  "packages": [
+    {
+      "package": "gpui-alloy-async-process",
+      "version": "0.1.0",
+      "archive_sha256": "3aa7ed2f916e81065c0d790307eb0ee6cfd82060eb4f40fba357367dd7a54e23",
+      "bytes": 31537,
+      "duplicate_archive_equal": true,
+      "file_count": 18,
+      "checked_projected_files": 16,
+      "runtime_files": 6,
+      "internal_dependencies": 0,
+      "licenses": [
+        "LICENSE-APACHE",
+        "LICENSE-MIT"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    },
+    {
+      "package": "gpui-alloy-async-tar",
+      "version": "0.1.0",
+      "archive_sha256": "9f87b3c5a0efdb0acf77ea12bd68cbb76764852b6636d27a07cd3258d8219b6d",
+      "bytes": 60065,
+      "duplicate_archive_equal": true,
+      "file_count": 22,
+      "checked_projected_files": 20,
+      "runtime_files": 8,
+      "internal_dependencies": 0,
+      "licenses": [
+        "LICENSE-APACHE",
+        "LICENSE-MIT"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    },
+    {
+      "package": "gpui-alloy-collections",
+      "version": "0.1.0",
+      "archive_sha256": "023c4f47d256305865adf25d1235b5568828e7e3c84fc941ff48330824ed9fff",
+      "bytes": 11930,
+      "duplicate_archive_equal": true,
+      "file_count": 8,
+      "checked_projected_files": 6,
+      "runtime_files": 3,
+      "internal_dependencies": 1,
+      "licenses": [
+        "LICENSE-APACHE"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    },
+    {
+      "package": "gpui-alloy-derive-refineable",
+      "version": "0.1.0",
+      "archive_sha256": "6a2e6aa09fbb0d2c7a018155d82abdefb8705ea9a19b489011fa112ec8b14b98",
+      "bytes": 9988,
+      "duplicate_archive_equal": true,
+      "file_count": 6,
+      "checked_projected_files": 4,
+      "runtime_files": 1,
+      "internal_dependencies": 0,
+      "licenses": [
+        "LICENSE-APACHE"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    },
+    {
+      "package": "gpui-alloy",
+      "version": "0.1.0",
+      "archive_sha256": "7272d504df7243df5f8401a84d40b360c29902f6732376a5506b19001f00b539",
+      "bytes": 5343059,
+      "duplicate_archive_equal": true,
+      "file_count": 163,
+      "checked_projected_files": 161,
+      "runtime_files": 95,
+      "internal_dependencies": 10,
+      "licenses": [
+        "LICENSE-APACHE"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    },
+    {
+      "package": "gpui-alloy-apple",
+      "version": "0.1.0",
+      "archive_sha256": "7eb1086ac4341ca2c1555126810fed9db78d1c628c5b0ce95ceb7e723f79ed5b",
+      "bytes": 239473,
+      "duplicate_archive_equal": true,
+      "file_count": 33,
+      "checked_projected_files": 31,
+      "runtime_files": 19,
+      "internal_dependencies": 1,
+      "licenses": [
+        "LICENSE-APACHE"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    },
+    {
+      "package": "gpui-alloy-linux",
+      "version": "0.1.0",
+      "archive_sha256": "b4fe575a4aeb1606639916be2a17d6a2c27c2fa3dddcf5747af5aebd4c36b545",
+      "bytes": 172164,
+      "duplicate_archive_equal": true,
+      "file_count": 32,
+      "checked_projected_files": 30,
+      "runtime_files": 27,
+      "internal_dependencies": 6,
+      "licenses": [
+        "LICENSE-APACHE"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    },
+    {
+      "package": "gpui-alloy-macos",
+      "version": "0.1.0",
+      "archive_sha256": "28206297d78eb857789eee990d21a1c4f46e7e0fcb646f22e769792f639d9b43",
+      "bytes": 138842,
+      "duplicate_archive_equal": true,
+      "file_count": 22,
+      "checked_projected_files": 20,
+      "runtime_files": 15,
+      "internal_dependencies": 5,
+      "licenses": [
+        "LICENSE-APACHE"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    },
+    {
+      "package": "gpui-alloy-macros",
+      "version": "0.1.0",
+      "archive_sha256": "3a3dd6dee84868f78928b2cd4a48cecb09305b00c3f4b62e72811b7459abfdb0",
+      "bytes": 30366,
+      "duplicate_archive_equal": true,
+      "file_count": 20,
+      "checked_projected_files": 18,
+      "runtime_files": 12,
+      "internal_dependencies": 0,
+      "licenses": [
+        "LICENSE-APACHE"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    },
+    {
+      "package": "gpui-alloy-platform",
+      "version": "0.1.0",
+      "archive_sha256": "6c6c93e954381d7c58c8e8c0fd1ae30aac2af104bf5af98862d4730fd76c1bc5",
+      "bytes": 61164,
+      "duplicate_archive_equal": true,
+      "file_count": 7,
+      "checked_projected_files": 5,
+      "runtime_files": 1,
+      "internal_dependencies": 7,
+      "licenses": [
+        "LICENSE-APACHE"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    },
+    {
+      "package": "gpui-alloy-shared-string",
+      "version": "0.1.0",
+      "archive_sha256": "457719daa9c4839a7964b5d172b96dd1a058287d4ae65fcae966c966085b6022",
+      "bytes": 9528,
+      "duplicate_archive_equal": true,
+      "file_count": 6,
+      "checked_projected_files": 4,
+      "runtime_files": 1,
+      "internal_dependencies": 0,
+      "licenses": [
+        "LICENSE-APACHE"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    },
+    {
+      "package": "gpui-alloy-util",
+      "version": "0.1.0",
+      "archive_sha256": "46b11835c4693a9469a0c58502a3101fb762e07edf98afcd49267b21a49412df",
+      "bytes": 15335,
+      "duplicate_archive_equal": true,
+      "file_count": 7,
+      "checked_projected_files": 5,
+      "runtime_files": 2,
+      "internal_dependencies": 0,
+      "licenses": [
+        "LICENSE-APACHE"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    },
+    {
+      "package": "gpui-alloy-web",
+      "version": "0.1.0",
+      "archive_sha256": "c61dc1bcb9ea439d5135709ed9f38ffd05d98ce363e68694841cc1cd869aee5a",
+      "bytes": 102630,
+      "duplicate_archive_equal": true,
+      "file_count": 21,
+      "checked_projected_files": 19,
+      "runtime_files": 16,
+      "internal_dependencies": 4,
+      "licenses": [
+        "LICENSE-APACHE"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    },
+    {
+      "package": "gpui-alloy-wgpu",
+      "version": "0.1.0",
+      "archive_sha256": "2f85c35c1aa743df0d2a7c39ac56cfa45d142352d854fab50430bdff181572b7",
+      "bytes": 106660,
+      "duplicate_archive_equal": true,
+      "file_count": 15,
+      "checked_projected_files": 13,
+      "runtime_files": 9,
+      "internal_dependencies": 4,
+      "licenses": [
+        "LICENSE-APACHE"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    },
+    {
+      "package": "gpui-alloy-windows",
+      "version": "0.1.0",
+      "archive_sha256": "8c79138c3cc07359524db62fe2137e56383aeb1bf4f40779041bd2bc29f69d01",
+      "bytes": 156343,
+      "duplicate_archive_equal": true,
+      "file_count": 29,
+      "checked_projected_files": 27,
+      "runtime_files": 24,
+      "internal_dependencies": 3,
+      "licenses": [
+        "LICENSE-APACHE"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    },
+    {
+      "package": "gpui-alloy-http-client",
+      "version": "0.1.0",
+      "archive_sha256": "fe18e4000041fd2e4d432d13c5e47b9f3b4580be6a5a8a7a0d72f8fc22506e81",
+      "bytes": 34407,
+      "duplicate_archive_equal": true,
+      "file_count": 9,
+      "checked_projected_files": 7,
+      "runtime_files": 4,
+      "internal_dependencies": 2,
+      "licenses": [
+        "LICENSE-APACHE"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    },
+    {
+      "package": "gpui-alloy-http-client-tls",
+      "version": "0.1.0",
+      "archive_sha256": "d6c8ec12e58cb1d684ed8c42648a35898c27d2f6f4583cf6b2b388e56b8770ac",
+      "bytes": 13342,
+      "duplicate_archive_equal": true,
+      "file_count": 6,
+      "checked_projected_files": 4,
+      "runtime_files": 1,
+      "internal_dependencies": 0,
+      "licenses": [
+        "LICENSE-APACHE"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    },
+    {
+      "package": "gpui-alloy-path",
+      "version": "0.1.0",
+      "archive_sha256": "74b527764848a765ac7b585d6e65947b78b42698ce1fb1ecebe5d860cbe5c3f1",
+      "bytes": 20228,
+      "duplicate_archive_equal": true,
+      "file_count": 8,
+      "checked_projected_files": 6,
+      "runtime_files": 3,
+      "internal_dependencies": 0,
+      "licenses": [
+        "LICENSE-APACHE"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    },
+    {
+      "package": "gpui-alloy-perf",
+      "version": "0.1.0",
+      "archive_sha256": "5b7e2f889e3a9144b8a170b0ec1f9251f743938969dfcf1803e86bb883bb07d1",
+      "bytes": 21713,
+      "duplicate_archive_equal": true,
+      "file_count": 8,
+      "checked_projected_files": 6,
+      "runtime_files": 3,
+      "internal_dependencies": 1,
+      "licenses": [
+        "LICENSE-APACHE"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    },
+    {
+      "package": "gpui-alloy-refineable",
+      "version": "0.1.0",
+      "archive_sha256": "699f945429ba326515c012d05df70f664b500ab1516240fa89de6c89d0c2b5f5",
+      "bytes": 9133,
+      "duplicate_archive_equal": true,
+      "file_count": 6,
+      "checked_projected_files": 4,
+      "runtime_files": 1,
+      "internal_dependencies": 1,
+      "licenses": [
+        "LICENSE-APACHE"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    },
+    {
+      "package": "gpui-alloy-reqwest-client",
+      "version": "0.1.0",
+      "archive_sha256": "270df23fec4a3eba74d5c8ee3f9547d85e48428fbcac3c011e03e36f2cc052f5",
+      "bytes": 29152,
+      "duplicate_archive_equal": true,
+      "file_count": 6,
+      "checked_projected_files": 4,
+      "runtime_files": 1,
+      "internal_dependencies": 4,
+      "licenses": [
+        "LICENSE-APACHE"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    },
+    {
+      "package": "gpui-alloy-scheduler",
+      "version": "0.1.0",
+      "archive_sha256": "d7472f1c56699ecd72a050748fb4cc608324b470afe1985225f5fd5d8dd63178",
+      "bytes": 35482,
+      "duplicate_archive_equal": true,
+      "file_count": 10,
+      "checked_projected_files": 8,
+      "runtime_files": 5,
+      "internal_dependencies": 0,
+      "licenses": [
+        "LICENSE-APACHE"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    },
+    {
+      "package": "gpui-alloy-smol",
+      "version": "0.1.0",
+      "archive_sha256": "531842bfb20f9625c37a6281fe8565c70a78d842743bbccb68888cf79574e8c9",
+      "bytes": 263082,
+      "duplicate_archive_equal": true,
+      "file_count": 36,
+      "checked_projected_files": 34,
+      "runtime_files": 2,
+      "internal_dependencies": 1,
+      "licenses": [
+        "LICENSE-APACHE",
+        "LICENSE-MIT"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    },
+    {
+      "package": "gpui-alloy-sum-tree",
+      "version": "0.1.0",
+      "archive_sha256": "7990339fb6d392f08d083498086df5a725cfd313499f7cd68a8b6c7076e8188e",
+      "bytes": 32843,
+      "duplicate_archive_equal": true,
+      "file_count": 9,
+      "checked_projected_files": 7,
+      "runtime_files": 4,
+      "internal_dependencies": 1,
+      "licenses": [
+        "LICENSE-APACHE"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    },
+    {
+      "package": "gpui-alloy-zed-util",
+      "version": "0.1.0",
+      "archive_sha256": "6ac847e78466605e416637ab73ef60d5cd67ffff1fb9406a71162e4f14873556",
+      "bytes": 97813,
+      "duplicate_archive_equal": true,
+      "file_count": 26,
+      "checked_projected_files": 24,
+      "runtime_files": 21,
+      "internal_dependencies": 5,
+      "licenses": [
+        "LICENSE-APACHE"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    },
+    {
+      "package": "gpui-alloy-util-macros",
+      "version": "0.1.0",
+      "archive_sha256": "e78aad8a6ac36318c28372b86409bac7fb7c1da0ac12c7d95e653c746c7de733",
+      "bytes": 12826,
+      "duplicate_archive_equal": true,
+      "file_count": 6,
+      "checked_projected_files": 4,
+      "runtime_files": 1,
+      "internal_dependencies": 1,
+      "licenses": [
+        "LICENSE-APACHE"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    },
+    {
+      "package": "gpui-alloy-font-kit",
+      "version": "0.1.0",
+      "archive_sha256": "95061ecd3cd4ca267797bdcfb7dba72961efac00e4f1bf32f1b5b53fab88e157",
+      "bytes": 74577,
+      "duplicate_archive_equal": true,
+      "file_count": 42,
+      "checked_projected_files": 40,
+      "runtime_files": 29,
+      "internal_dependencies": 0,
+      "licenses": [
+        "LICENSE-APACHE",
+        "LICENSE-MIT"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    },
+    {
+      "package": "gpui-alloy-reqwest",
+      "version": "0.1.0",
+      "archive_sha256": "38245be1e744e06559797df8436dcb01c9cdd26c39b8ee2841cf64e8afa8df8a",
+      "bytes": 205858,
+      "duplicate_archive_equal": true,
+      "file_count": 78,
+      "checked_projected_files": 76,
+      "runtime_files": 39,
+      "internal_dependencies": 0,
+      "licenses": [
+        "LICENSE-APACHE",
+        "LICENSE-MIT"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    },
+    {
+      "package": "gpui-alloy-zlog",
+      "version": "0.1.0",
+      "archive_sha256": "1247ab4a8c94ab32a0f75099534d61ad1ee227c10472cd82c2b14f529705f347",
+      "bytes": 24090,
+      "duplicate_archive_equal": true,
+      "file_count": 10,
+      "checked_projected_files": 8,
+      "runtime_files": 4,
+      "internal_dependencies": 1,
+      "licenses": [
+        "LICENSE-APACHE"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    },
+    {
+      "package": "gpui-alloy-ztracing",
+      "version": "0.1.0",
+      "archive_sha256": "9e7d5c794d3d3289b0fc770636baf402bcc35f037c64e38bb56c7488185ec9c0",
+      "bytes": 18699,
+      "duplicate_archive_equal": true,
+      "file_count": 8,
+      "checked_projected_files": 6,
+      "runtime_files": 3,
+      "internal_dependencies": 2,
+      "licenses": [
+        "LICENSE-APACHE"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    },
+    {
+      "package": "gpui-alloy-ztracing-macro",
+      "version": "0.1.0",
+      "archive_sha256": "edf6d2182560f566f9acdb815a407d4a50ba5d605a6c3a183a82a7832c21bf13",
+      "bytes": 6280,
+      "duplicate_archive_equal": true,
+      "file_count": 6,
+      "checked_projected_files": 4,
+      "runtime_files": 1,
+      "internal_dependencies": 0,
+      "licenses": [
+        "LICENSE-APACHE"
+      ],
+      "provenance_included": true,
+      "projection_files_equal": true,
+      "runtime_files_complete": true
+    }
+  ],
+  "cargo_log_tail": [
+    "   Compiling accesskit v0.24.1",
+    "   Compiling gpui-alloy-refineable v0.1.0",
+    "   Compiling pin-project v1.1.13",
+    "   Compiling thiserror v1.0.69",
+    "   Compiling tracing v0.1.44",
+    "   Compiling zerocopy v0.8.59",
+    "   Compiling strum v0.28.0",
+    "   Compiling derive_more v2.1.1"
+  ],
+  "scope": "Archive names, manifests, exact family dependencies, source provenance, licenses, file completeness and bytes. Does not assert successful Cargo compilation, target-platform support, registry upload or consumer acceptance."
+}

@@ -145,6 +145,10 @@ The projection record includes all manifest diffs, source and generated file inv
 
 Run Cargo package checks and validate the generated package set before uploading. Keep build output outside the generated workspace. After publication, validate the registry consumer under the publication procedure above. Record archive checksums and results with the release; do not infer acceptance from the projector's unit tests.
 
+Generate a workspace lockfile with Cargo before the first package validation. Preserve the lockfile with the release records. Use `--locked` for package and publish commands. For the frozen `0.1.0` candidate, copy [registry.Cargo.lock](docs/releases/0.1.0/registry.Cargo.lock) into the generated workspace before running those commands. See the [release record](docs/releases/0.1.0/README.md) and [archive checksums](docs/releases/0.1.0/archives.json) for the validated inputs.
+
+Cargo rebuilds archives during publication. Keep the generated workspace, lockfile, Cargo version, and configuration fixed. Compare registry checksums with the frozen archive record after each successful upload. If publication stops, determine the remaining package set from the release manifest and confirmed registry checksums. Exclude confirmed uploads when resuming `cargo publish --workspace`; include the package that failed unless its upload is confirmed.
+
 ## Verify a registry consumer
 
 After all release archives are published, run the registry verifier with Cargo available:

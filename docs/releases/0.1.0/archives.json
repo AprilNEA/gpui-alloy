@@ -1,0 +1,228 @@
+{
+  "format": 1,
+  "version": "0.1.0",
+  "source_revision": "9d59ea617d75d02e4645eefd22844235431138c8",
+  "packaging_commit": "de934a6a08b82e6c85a86dd8f156d82742c583ce",
+  "projection_sha256": "f67f3a22db05c348ae8afee8962c3fde6a650fef478e98942680285494a655a1",
+  "workspace_lock_sha256": "d8cd328129b2fb34e3fe8da3fcdf033869c3df5401680be4dafdde934e34b6a4",
+  "cargo_version": "1.98.1",
+  "packages": [
+    {
+      "name": "gpui-alloy",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-0.1.0.crate",
+      "sha256": "0061e489fca308a1a62da91b86b5277a092970e7f567aecf1921652a6a425d05",
+      "bytes": 5343063
+    },
+    {
+      "name": "gpui-alloy-apple",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-apple-0.1.0.crate",
+      "sha256": "8aef3b75e9d5b1a32ceefe2099c7bd3e927457fd6085b946f6bb3447f3e401e0",
+      "bytes": 239472
+    },
+    {
+      "name": "gpui-alloy-async-process",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-async-process-0.1.0.crate",
+      "sha256": "3aa7ed2f916e81065c0d790307eb0ee6cfd82060eb4f40fba357367dd7a54e23",
+      "bytes": 31537
+    },
+    {
+      "name": "gpui-alloy-async-tar",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-async-tar-0.1.0.crate",
+      "sha256": "f8d4a16c020368cd98fae064d4b377b4e21c64522b5489851cfac2a522f6b962",
+      "bytes": 60065
+    },
+    {
+      "name": "gpui-alloy-collections",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-collections-0.1.0.crate",
+      "sha256": "e54340a5f061c6db3f2665f152cbe713e3c8e88d3ae737f2c48d2a69a3fb48e3",
+      "bytes": 11930
+    },
+    {
+      "name": "gpui-alloy-derive-refineable",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-derive-refineable-0.1.0.crate",
+      "sha256": "d526f37a224f2b5ccca8d20d6ab619b545315d9a99a7482034fe8bdcc8102f00",
+      "bytes": 9988
+    },
+    {
+      "name": "gpui-alloy-font-kit",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-font-kit-0.1.0.crate",
+      "sha256": "95061ecd3cd4ca267797bdcfb7dba72961efac00e4f1bf32f1b5b53fab88e157",
+      "bytes": 74577
+    },
+    {
+      "name": "gpui-alloy-http-client",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-http-client-0.1.0.crate",
+      "sha256": "5d42276f51de52d0762ec28b716ab9cfd1fe73945de2b9491744b25498798b01",
+      "bytes": 34410
+    },
+    {
+      "name": "gpui-alloy-http-client-tls",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-http-client-tls-0.1.0.crate",
+      "sha256": "28df4418cec432b80d0aed90626a0612d161bc30b3fa090636acf79d21f3f60b",
+      "bytes": 13342
+    },
+    {
+      "name": "gpui-alloy-linux",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-linux-0.1.0.crate",
+      "sha256": "03e55cad822264b02ddcf2e5941f6b8ce94e73e1f3dc442f3e8df9853480f92f",
+      "bytes": 172158
+    },
+    {
+      "name": "gpui-alloy-macos",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-macos-0.1.0.crate",
+      "sha256": "a81f67925678b013675c9823b1ea36da395a986b9ccbb249de7f1f89af30ff6e",
+      "bytes": 138837
+    },
+    {
+      "name": "gpui-alloy-macros",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-macros-0.1.0.crate",
+      "sha256": "e8bba3774879d41965916a1908c499e3553dd8d47b4671f609fc45eaf26d64bb",
+      "bytes": 30366
+    },
+    {
+      "name": "gpui-alloy-path",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-path-0.1.0.crate",
+      "sha256": "62ff90d067f223064ed145e1ca6bd9e95b903ff9cfd9736eff0dc5cceb0236a6",
+      "bytes": 20228
+    },
+    {
+      "name": "gpui-alloy-perf",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-perf-0.1.0.crate",
+      "sha256": "f724f97ae46a5ae815fc2332c3a099de263ac79850441d2692a9d82d9de2a030",
+      "bytes": 21710
+    },
+    {
+      "name": "gpui-alloy-platform",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-platform-0.1.0.crate",
+      "sha256": "fa16e86ff33a1ccea5744aeb51b56229cefab59636f37d99f0116b6975de8ede",
+      "bytes": 61170
+    },
+    {
+      "name": "gpui-alloy-refineable",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-refineable-0.1.0.crate",
+      "sha256": "ef634fe1a0b8889e80ca35d41b0861f7baa3515438a0e670dfd5e9e198763fd9",
+      "bytes": 9132
+    },
+    {
+      "name": "gpui-alloy-reqwest",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-reqwest-0.1.0.crate",
+      "sha256": "38245be1e744e06559797df8436dcb01c9cdd26c39b8ee2841cf64e8afa8df8a",
+      "bytes": 205858
+    },
+    {
+      "name": "gpui-alloy-reqwest-client",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-reqwest-client-0.1.0.crate",
+      "sha256": "dea29e29e79f4131a6103e8836b4a02027e52e667ea50a8575936db20a5aff00",
+      "bytes": 29150
+    },
+    {
+      "name": "gpui-alloy-scheduler",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-scheduler-0.1.0.crate",
+      "sha256": "5c10f14fb1b4235d4182a1fa7716275c0a7ee55f7f6e4fa397121c394cd0125a",
+      "bytes": 35482
+    },
+    {
+      "name": "gpui-alloy-shared-string",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-shared-string-0.1.0.crate",
+      "sha256": "bbe2d619aa54b1ef678d9b0fa9f1d6410d0d648b5ee179848c53e7ee7b38c1f6",
+      "bytes": 9528
+    },
+    {
+      "name": "gpui-alloy-smol",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-smol-0.1.0.crate",
+      "sha256": "531842bfb20f9625c37a6281fe8565c70a78d842743bbccb68888cf79574e8c9",
+      "bytes": 263082
+    },
+    {
+      "name": "gpui-alloy-sum-tree",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-sum-tree-0.1.0.crate",
+      "sha256": "68903e306e1b9826e6a91bd47629f5c3aa1543aa55d72dd603ae67908185d825",
+      "bytes": 32837
+    },
+    {
+      "name": "gpui-alloy-util",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-util-0.1.0.crate",
+      "sha256": "21e2b92d8f0bfa314affba702f86a9d59193711a9b2aa545b09d3eab95bd7cbf",
+      "bytes": 15335
+    },
+    {
+      "name": "gpui-alloy-util-macros",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-util-macros-0.1.0.crate",
+      "sha256": "9446e08d2f115a543d750fff439f64d5b1d44766c9536720eb95a51cab4e6661",
+      "bytes": 12826
+    },
+    {
+      "name": "gpui-alloy-web",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-web-0.1.0.crate",
+      "sha256": "721ff3e2ea4fa19913aa588f680a0a85091d6fb18d4a98c7c797c7b94cdca947",
+      "bytes": 102629
+    },
+    {
+      "name": "gpui-alloy-wgpu",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-wgpu-0.1.0.crate",
+      "sha256": "e4bc37a8fd8a8e5d53b7709a800de1c57833f98e9ef1dc3bacbbb47f9e2ad4f2",
+      "bytes": 106661
+    },
+    {
+      "name": "gpui-alloy-windows",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-windows-0.1.0.crate",
+      "sha256": "ecc5e39662e5df7df02976a7f62ee0ea85b9ef572c7e817a79512200fe1cc4b2",
+      "bytes": 156340
+    },
+    {
+      "name": "gpui-alloy-zed-util",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-zed-util-0.1.0.crate",
+      "sha256": "bf41d83d596277bac7ba8679aa9233079bf3669954a56f87d938dd39f45c54f3",
+      "bytes": 97806
+    },
+    {
+      "name": "gpui-alloy-zlog",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-zlog-0.1.0.crate",
+      "sha256": "88518736b207a0c69e688a399b421b8d2ab2e480f86775ed892785458b4d2d52",
+      "bytes": 24092
+    },
+    {
+      "name": "gpui-alloy-ztracing",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-ztracing-0.1.0.crate",
+      "sha256": "8d948b973a01e17cc9ddd269e926577df5305b2c3dc91ef70886d61fad2bc20b",
+      "bytes": 18699
+    },
+    {
+      "name": "gpui-alloy-ztracing-macro",
+      "version": "0.1.0",
+      "archive": "gpui-alloy-ztracing-macro-0.1.0.crate",
+      "sha256": "a3bde4579a7453f0eb68dd5e9135fd699214351d0b93f81f58933d2a546b61af",
+      "bytes": 6280
+    }
+  ]
+}

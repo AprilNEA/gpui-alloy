@@ -1,0 +1,15 @@
+{
+  "proposed_lock_sha256": "d8cd328129b2fb34e3fe8da3fcdf033869c3df5401680be4dafdde934e34b6a4",
+  "previous_external_union_count": 861,
+  "proposed_external_count": 860,
+  "added_external_identities": [],
+  "removed_external_identities": [
+    [
+      "unicode-properties",
+      "0.1.4",
+      "registry+https://github.com/rust-lang/crates.io-index"
+    ]
+  ],
+  "checksum_changes": [],
+  "root_lock_exists_in_candidate": false
+}
