@@ -1,0 +1,12 @@
+{
+  "repository_id": 1403205596,
+  "visibility": "public",
+  "default_branch": "main",
+  "actions_enabled": false,
+  "refs": {
+    "HEAD": "9d59ea617d75d02e4645eefd22844235431138c8",
+    "refs/heads/main": "9d59ea617d75d02e4645eefd22844235431138c8",
+    "refs/tags/gpui-alloy/20261003.2": "ac8aa77ee84b5ff5482ac6302dd58e9ad72ca8bc",
+    "refs/tags/gpui-alloy/20261003.2^{}": "9d59ea617d75d02e4645eefd22844235431138c8"
+  }
+}

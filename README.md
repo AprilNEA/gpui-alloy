@@ -11,8 +11,8 @@ Pin a validated Alloy commit and select the matching platform crate:
 
 ```toml
 [dependencies]
-gpui = { git = "https://github.com/AprilNEA/gpui-alloy", rev = "<validated-commit>" }
-gpui_platform = { git = "https://github.com/AprilNEA/gpui-alloy", rev = "<same-validated-commit>" }
+gpui = { git = "https://github.com/AprilNEA/gpui-alloy", rev = "9d59ea617d75d02e4645eefd22844235431138c8" }
+gpui_platform = { git = "https://github.com/AprilNEA/gpui-alloy", rev = "9d59ea617d75d02e4645eefd22844235431138c8" }
 ```
 
 See [ALLOY.md](ALLOY.md) for validated revisions, patch branches, source exports, checks, and platform limits. See the [GPUI README](crates/gpui/README.md) for framework usage.

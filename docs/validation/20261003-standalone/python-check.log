@@ -1,0 +1,11 @@
+2 files already formatted
+All checks passed!
+test_export_is_fixed_complete_and_reproducible (test_gpui_snapshot.SnapshotTests.test_export_is_fixed_complete_and_reproducible) ... ok
+test_export_rejects_changed_provenance_sources_and_package_closure (test_gpui_snapshot.SnapshotTests.test_export_rejects_changed_provenance_sources_and_package_closure) ... ok
+test_resolution_checks_reachable_package_identity_and_path (test_gpui_snapshot.SnapshotTests.test_resolution_checks_reachable_package_identity_and_path) ... ok
+test_verification_rejects_changed_extra_files_and_revision (test_gpui_snapshot.SnapshotTests.test_verification_rejects_changed_extra_files_and_revision) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 2.148s
+
+OK

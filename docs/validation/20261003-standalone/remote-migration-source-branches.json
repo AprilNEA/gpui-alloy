@@ -1,0 +1,21 @@
+{
+  "repository_id": 1151486575,
+  "refs": {
+    "HEAD": "70a74b8725fa39a4aa81eab4479f9055aa0d7078",
+    "refs/heads/downstream/gpui": "d21987f81a013ec67945892506bcc6aae8a2db0f",
+    "refs/heads/feat/gpui-autoscroll-on-focus": "445e4f9af7b6da4b3dcd52db4e0374a7a8a9942d",
+    "refs/heads/feat/gpui-continuous-quad": "91f103447160b013c67e74f60204f1dadd039b74",
+    "refs/heads/feat/gpui-inert": "d09c26a6bf798eccc23e277450e1e8614f088a50",
+    "refs/heads/feat/gpui-ordered-backdrop": "1f55d0eaf4b55a88316ee1b4fb30bdb9a564e5d0",
+    "refs/heads/feat/macos-anchored-popup": "619d4b2b3da3040e61c027a394aa5417123e92d0",
+    "refs/heads/fix/gpui-cancel-pending-activation": "9710df14519e1fedee1bdd8d16d57e712bcfb23c",
+    "refs/heads/fix/gpui-interceptor-propagation": "98c107d7bcc00df80a64ca68385aaf332943a99a",
+    "refs/heads/fix/gpui-spring-clock": "a1ab296fcd88f01900cc616d2b934564c95bf8c3",
+    "refs/heads/fix/macos-popup-decorations": "22df6ff9402b46943d5948e767b4c7ad493d69c3",
+    "refs/heads/local/gpui-010-native-popup": "459b3648bf99f6cc5cd149a6d3e695bb476f3fec",
+    "refs/heads/local/gpui-011-popup-decorations": "02c9bcf88b50768302b3ba95ca1cc8f52d345576",
+    "refs/heads/local/gpui-inactive-clear": "271ec2547b5f81740cd1f1855ec647e50b98a852",
+    "refs/heads/main": "70a74b8725fa39a4aa81eab4479f9055aa0d7078",
+    "refs/heads/test/gpui-accessibility-window": "0f31f3c56aa6cad679d2de3c36ec838d09610ea9"
+  }
+}

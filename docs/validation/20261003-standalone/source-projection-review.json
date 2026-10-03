@@ -1,0 +1,3734 @@
+{
+  "source_repository": "/Users/Xuan/Developer/AprilNEA/gpui-alloy",
+  "source_revision": "d21987f81a013ec67945892506bcc6aae8a2db0f",
+  "source_tree": "fbb778e445fcd9d4d9bc5d6150fa570f6a743485",
+  "candidate": "/tmp/gpui-alloy-standalone.n4rHPW/repo",
+  "candidate_commit": null,
+  "source_record_sha256": "88a1781f7241d1f6a5f0f178a63230e0730085fce93c0f1049b66445a076615a",
+  "projection": {
+    "package_count": 26,
+    "file_count": 430,
+    "mode_counts": {
+      "100644": 403,
+      "120000": 27
+    },
+    "missing": [],
+    "extra": [],
+    "mismatches": [],
+    "files": {
+      "LICENSE-APACHE": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "461a0fe5ba20a096c281a2686da08fef79f534a3",
+        "sha256": "752daf2fb234ca4a1fa372c073fe127f44b7b90fd2529ae44273a64f9d53da7a"
+      },
+      "LICENSE-GPL": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "cb82534a8de43d8e4b43c47486063bcd22411908",
+        "sha256": "0aa0322ea494da441088e4d9144c6720bf99d9e2e1eefcd29d1f58b19b5c4246"
+      },
+      "assets/fonts/ibm-plex-sans/IBMPlexSans-Italic.ttf": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "efe8a1fb9de848891cd6e7d70280e1f47019c0ca",
+        "sha256": "a9c6ef9942c49e49d11e11a6dacc0b3a087978757e9b22a06b8ac22a6400fb15"
+      },
+      "assets/fonts/ibm-plex-sans/IBMPlexSans-Regular.ttf": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "bd6817d5202895da5ac4fad88de3da71e652881a",
+        "sha256": "975dcda37d80f038dcd143c22e33ca2d97a0cc5a929aace1c749153b0fe1afa5"
+      },
+      "assets/fonts/ibm-plex-sans/IBMPlexSans-SemiBold.ttf": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "09ec8cdae8208c26165db0c87da409cda8c26ae4",
+        "sha256": "a20caf8286023a6a7a85e40b1d2a4ae9fc3e3b1f9eda8f4c542dd4986af67bb1"
+      },
+      "assets/fonts/ibm-plex-sans/IBMPlexSans-SemiBoldItalic.ttf": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "a9c14fede24bcd9ba7f974e3ec18c491df32ee30",
+        "sha256": "147106b619423a82b40f6d64bace074ad5b786e59f48023bda69d63b1755fb82"
+      },
+      "assets/fonts/ibm-plex-sans/license.txt": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "f72f76504cd73cf2c00b140b2743c138320597b6",
+        "sha256": "91c25c350d3cac39da2736d74f7ba37ef648f5237a4e330a240615bc8d8c4360"
+      },
+      "assets/fonts/lilex/Lilex-Bold.ttf": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "45930ee30b81a78e964c3ff494e05ea45147ed9b",
+        "sha256": "3369214e2ecddb45ae5024b11d45dd637e99e9d2127ab729817d41d72b8a9c68"
+      },
+      "assets/fonts/lilex/Lilex-BoldItalic.ttf": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "10c6ab5f74ab2192f0258ba637c05de7d54b632f",
+        "sha256": "9629bd65ee7376879414560e37281653ca82dcf33e143d7473341b2f88206985"
+      },
+      "assets/fonts/lilex/Lilex-Italic.ttf": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "e7aef10f7e7c6803199551463d0ab456d9c9e03a",
+        "sha256": "a6e52046b91ed12a6af50bb74e70e27dea4a54eab2bed8947db4c1128ba83d45"
+      },
+      "assets/fonts/lilex/Lilex-Regular.ttf": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "cb98a69b0ffb1976805bf5af3047307fe2422b1d",
+        "sha256": "8a467ad5a1941dc7c9cebaee34e3ed9364a73b48393034e363e4b528bd711d04"
+      },
+      "assets/fonts/lilex/OFL.txt": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "156240bc907aa14571afb18b4b1bde62d3ea33e0",
+        "sha256": "a356708a399e3f54b937ec7d9b722c26dabba21365b60f95c56eb7ebca0dee40"
+      },
+      "crates/collections/Cargo.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "2a86e88d4f669e54a5db96fb6fa18c2a08625cdc",
+        "sha256": "78ad646689787c49b45719f87021558284e8dabc300a8bc136edfec8e622e164"
+      },
+      "crates/collections/LICENSE-APACHE": {
+        "mode": "120000",
+        "type": "blob",
+        "git_blob": "1cd601d0a3affae83854be02a0afdec3b7a9ec4d",
+        "sha256": "9cff568488e9d56aae60f162404acdb15d8533a0202cf01f6eb0843b264f20ff"
+      },
+      "crates/collections/src/collections.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "9a7f4942c8b66fdb2c74412ff18e0196bad1a130",
+        "sha256": "49d25d361182a7cdc5d95591d4f2c9a43dd3ae2217dee123b4133120d17494cd"
+      },
+      "crates/collections/src/vecmap.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "bec6596b924742daf4e1da3831f1182557875d61",
+        "sha256": "5d5d4a459dc7fea27a2d0370577ba5c98bc19caf52dac533f90dc4e01fedc5ec"
+      },
+      "crates/collections/src/vecmap_tests.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "1f698f8331cc5044f23c19603005e253f8a81ef3",
+        "sha256": "a64bac649c2730e590878a37fdc79b1c40b5d9b96630bfc3404408b40b5da364"
+      },
+      "crates/gpui/Cargo.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "e767de582ff001a78e1ff5f4ebd1dbe23a572dfc",
+        "sha256": "75d30df8f917b303e273da0aedac3a936375851d0a7f0370bab051419c8f6918"
+      },
+      "crates/gpui/LICENSE-APACHE": {
+        "mode": "120000",
+        "type": "blob",
+        "git_blob": "1cd601d0a3affae83854be02a0afdec3b7a9ec4d",
+        "sha256": "9cff568488e9d56aae60f162404acdb15d8533a0202cf01f6eb0843b264f20ff"
+      },
+      "crates/gpui/README.md": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "5a90ba4f6baca1ddd8f7070d19f61d074e5726eb",
+        "sha256": "f3707d1586c63f41cce60122d4b8574ff14670790690d6faf134fd6192dca0cd"
+      },
+      "crates/gpui/build.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "79ca3f96a73c09a7c16290db21ac7bf162c84db7",
+        "sha256": "4c8ee205251fb2d5b66446a7d7385a908ecf5bbd1cae31eb4a72bf0b02b7ffb7"
+      },
+      "crates/gpui/docs/contexts.md": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "9295c775c759bda643766aeedfc57a29956170e1",
+        "sha256": "2688efb86472685cf2ea1af254c7c4bc70d53dd369c3d30118bf5e356fe86574"
+      },
+      "crates/gpui/docs/key_dispatch.md": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "ae7d828a4a3597ab473294c46381f471b043b61d",
+        "sha256": "56189467c43ca57c7cfa507f6ed7cdc31516144cbe648ef1f5fd97696862fe1a"
+      },
+      "crates/gpui/examples/README.md": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "f4a017cda01e5987d76c21db6b556121d3d18dc8",
+        "sha256": "54c16d597880aee348f066e08029bd0f37747e924528571055dfb52d1fea6bd2"
+      },
+      "crates/gpui/examples/a11y.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "ff389f330ca596aa9da81eb1b39e28772a5a7f34",
+        "sha256": "136308b44a36f7a0dbee5269b2434d8476cec42beb7f8b46e4e38e864d4cc805"
+      },
+      "crates/gpui/examples/active_state_bug.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "f767ed27e456ec65858b72a4df89fab65e7fd1f3",
+        "sha256": "94230a37b899e1c56fe34ac249c081113a0a1446f568c6cf0372905a3816b9ae"
+      },
+      "crates/gpui/examples/anchor.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "b4b280b714a61cea2cd3f3a8ffd82a8f0000eb6b",
+        "sha256": "5be423ce91b36db94857a8f7758f7f5967d0103b77941fa7bc7c5a64e3c4fe72"
+      },
+      "crates/gpui/examples/animation.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "e055b7da4755334fba1ec0891d5a691dbbafc192",
+        "sha256": "0c36449cf96c897e0520cef592933e86759471108c77f53a00cda4e21969df4b"
+      },
+      "crates/gpui/examples/data_table.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "2bee47634db0073faa82106ff76a65a190a7f3d8",
+        "sha256": "da44c6782a63d7d5e6ef349612cb263a32e930ec1247aad9eff6bf712ec4e341"
+      },
+      "crates/gpui/examples/drag_drop.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "8f038ef3308fee9b097e7289665c9fa47cd6945b",
+        "sha256": "4011afde7c64fac2559b78918e6fdabdc563fe9f7591c74425d72da906dcc47a"
+      },
+      "crates/gpui/examples/example_support/fonts.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "39c3be19182cde85033f4f98af4998f0a5d0893c",
+        "sha256": "150804a20e31ecf9d82c9ae7d47fdc9cb5b7bc4ea306ff1ab4199dd597a23051"
+      },
+      "crates/gpui/examples/focus_visible.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "c5b3d5dfec3a189d088a621baff55eb55a121b6c",
+        "sha256": "533c5101ae1727d33b3b7c339efdb2e5dd4c1e1343d6b0ffaa8babc92a8f908b"
+      },
+      "crates/gpui/examples/gif_viewer.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "80b56aa7c5dbd5a8452bd7834d3d7d21c5c3df74",
+        "sha256": "8051774dbf4cab1503ac5938a25932409c0701c66ba36d00b5e0ee11838b2a4c"
+      },
+      "crates/gpui/examples/gradient.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "df1398fff58b637abf0c0b31934f6ad523d84a21",
+        "sha256": "620dbeccd4daa80f71cb1c67f1628508cb397e9aeb4b5a5d0abe0a2a45aad193"
+      },
+      "crates/gpui/examples/grid_layout.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "51f9b13e41fb7913c653d716da3e8ce05a96109d",
+        "sha256": "c82663a8c48340464f70f96dfa60135f4cd3b48670882b7bc23a9ca787fb261e"
+      },
+      "crates/gpui/examples/hello_world.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "d18cb048726d6953edef9ea482d92bac05993d33",
+        "sha256": "7e9d145d93470b02ce5641290ed7b444776813de580fe1d613b45443cc890aa0"
+      },
+      "crates/gpui/examples/image/app-icon.png": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "08b6d8afa0d1088e50f1e9697e01407c9c623f6d",
+        "sha256": "77453d98d46494b3b34b94aa863b686ea299e0190030a5c7ca5377b238332522"
+      },
+      "crates/gpui/examples/image/arrow_circle.svg": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "90e352bdea7a208356139bed8af5bb3c1301b5ce",
+        "sha256": "1dc122d8c7f8f346e6e7b838594f9718e5670fc32a5d5024aaa5e7f28a3aa8c8"
+      },
+      "crates/gpui/examples/image/black-cat-typing.gif": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "671a102d224c3c1b12f3c768f8532894433780a6",
+        "sha256": "b50a33262f84725f9c922fcbf0bb616270a2cb611a5ea4e280c2dca46cea9622"
+      },
+      "crates/gpui/examples/image/color.svg": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "a080681b0e6fe1dc9167bc9a9a7db94159dc31cc",
+        "sha256": "d0949465578c8223c7124ff1f66ce308e07e6eb303fdf26c2814715332d88f3b"
+      },
+      "crates/gpui/examples/image/exif-orientation-rotate-180.jpg": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "9c095652a1697a63ce5b6eff0526baa4b51bafaf",
+        "sha256": "cb6c28e3e6065d62790ba38662d14f3f1510180375cacba18547720e8b48d9d5"
+      },
+      "crates/gpui/examples/image/image.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "30160c65dd0b5a7d7f184cdacbc5d28981d3c831",
+        "sha256": "5e962dc29772bc59cdab236d8adf1a8335475ce045a7beda1d5a04864dd7faea"
+      },
+      "crates/gpui/examples/image_gallery.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "d1cb919698f0806c6a243bacfa2b4ff7c492fb45",
+        "sha256": "aa6bd497f4362a74e99c2840233cf1f56bc84d70dd4f86cae76fb17856203891"
+      },
+      "crates/gpui/examples/image_loading.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "b6828915bdd0f325e6636621e6cd50a42c7d56a7",
+        "sha256": "1bbb69d71fcfc20f76cc677fc44b8ae611ec6e2bba1b769f5ad16a6bcd0818e4"
+      },
+      "crates/gpui/examples/input.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "eadc2d2f3931f905e1710b31a7fbe86f9b1a0858",
+        "sha256": "bdc741098f42201ec7c3324d70e482b8cfffe753123ddf042c26ee13542fb5b4"
+      },
+      "crates/gpui/examples/layer_shell.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "1437b05b5e91ab2db06b2f2ea4f36c8b35dd4739",
+        "sha256": "c6d78b271eb00c26869e4e54f705c9dc3a9ab84636840e6b3413b6130d85cb33"
+      },
+      "crates/gpui/examples/list_example.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "542b7e320aa912ca276f83b949b78a6f0a995231",
+        "sha256": "536e2527e4469ffe3203778e24c3af875ec3b57f88708fc096094077b5e72203"
+      },
+      "crates/gpui/examples/mouse_pressure.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "3470bf18693afa757c9bf1a6f75a55e9ecd99492",
+        "sha256": "c7edbfecdccafbcaf338bf1c0ec3d23282138a84445bac3008cb96f1cb9c6aba"
+      },
+      "crates/gpui/examples/move_entity_between_windows.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "e0f16467a61ce7020baf150eabe5ae2be9239aa0",
+        "sha256": "1b633fa89cf9382197b855cfb133319268b6c86f5bbcfc98fc2140773dee0a2f"
+      },
+      "crates/gpui/examples/on_window_close_quit.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "d61e23e445b22c0990c563bd9d4db8fae465027d",
+        "sha256": "b67e9242e1eca361e572cf8057e3cc2a2f7b9e790ecaae92f1e2ff0de305e8f6"
+      },
+      "crates/gpui/examples/opacity.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "c2af3424b63f38593b74430abe92b8229b392f6a",
+        "sha256": "dffb0dbb32ca28e113def0502688483ee91f04bd373420602f6c14ec444824f7"
+      },
+      "crates/gpui/examples/ownership_post.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "04a0b6fe370a62fcc918c0c86bca83a368cddf06",
+        "sha256": "9f7fca12bd9109634722139e72640af5338f9358246870cac1242f1b49e89644"
+      },
+      "crates/gpui/examples/painting.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "3d89b0ff522e66456c8910448b1b4d4e57bc5748",
+        "sha256": "fa856d8218217acfc6fc48a1c4c92883faca2f0b0cbf0b9e842d3d59bab558c2"
+      },
+      "crates/gpui/examples/paths_bench.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "236e70e9fcca83fc7a4a82c7a1128b6006d04f10",
+        "sha256": "936a02d1e82c1612abfcedbdd6c39596481d72e0179c79b021a182400afe28bd"
+      },
+      "crates/gpui/examples/pattern.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "7d2e98d16e24dc23dc307296a3b35c18e624d9e3",
+        "sha256": "5aff341ee70f8cd2ae08d69d70690b88a7256cd68097fe665725e764cb4b294d"
+      },
+      "crates/gpui/examples/popover.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "7678a6a3ed865d9874b72cb99b473a115591d35c",
+        "sha256": "ee87c93b159cddaa1ae913c39ccac39cd89653e3ca2a3b9b42263b970ecc56c7"
+      },
+      "crates/gpui/examples/popup.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "49b3a930c80dc499f085673db78aefaa057adb97",
+        "sha256": "37130465dfa65fa919eb8ccda7e622ad75f1f153537feebe16d27a93502541b7"
+      },
+      "crates/gpui/examples/scrollable.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "c81795618875aecf06e06043bd1709c48630b58f",
+        "sha256": "20074e207ce78efec9e7c11a6d2532227ce57a8d3c6b18055b0504e1457fdcb1"
+      },
+      "crates/gpui/examples/set_menus.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "508a60e977b3069af1de92e02c464800330be6d6",
+        "sha256": "4f2e8034e9eb3b9871f9330cd95c3fb82858c0b7cbe60ef89723be5e75a4644e"
+      },
+      "crates/gpui/examples/shadow.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "2d8dc09456fa03e7983292ec2bc4cb3b90f00f36",
+        "sha256": "ef3b84f66ae520ba2b44e590d7284d7dbe4746ade50a4a6d1f300e4662546fd0"
+      },
+      "crates/gpui/examples/svg/dragon.svg": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "e2de1a0ece5252f27cca7f76d75d627e09ebe3a2",
+        "sha256": "a66278ec0c72d70152ab05fc9dd122ad094a262d96fa6f61fba6b12e128e0e47"
+      },
+      "crates/gpui/examples/svg/svg.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "c5ac9b4e1b165aac7570f422601b55eb7f9f938b",
+        "sha256": "5ee96bdb68e3a076bbb5b1d0d2729b19317772289ed3121f8d620585af0d48c2"
+      },
+      "crates/gpui/examples/system_notifications.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "faf6919120e6f6e652e59d6b5d45ae57655df114",
+        "sha256": "692166db2266fb434f565efe2bc2f8da8f2baa8b6ab75ebc027f1e3d4722d474"
+      },
+      "crates/gpui/examples/tab_stop.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "cc7c34a9979ce4027578ec2c358f503d944ee26f",
+        "sha256": "be187a56c091ee0b609fa396cae4a13b49dcf98ff9e602d8caed3126de3f6a8e"
+      },
+      "crates/gpui/examples/testing.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "76e3b77352d547e928418b1828d89cb9e4afe4c1",
+        "sha256": "95b15f220b4a37ac02bc6ba42108721ba00fab3e94dbd8ae6cd3d0a0ef787b3c"
+      },
+      "crates/gpui/examples/text.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "7fa2a157601277cb3c0d58de045f1d5a6f21ab2e",
+        "sha256": "3883e127027adf7b99a8c909eaba3cac4b31f1afd1f6591ab520918b3f9fa25e"
+      },
+      "crates/gpui/examples/text_layout.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "07f560ab6ed163da4c613cb57311fc4c5784a15b",
+        "sha256": "07e4ab7a1286374a21b5bc541ef327c3473cecf361d172f3d62401b473e6cbdd"
+      },
+      "crates/gpui/examples/text_wrapper.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "51e58fc7e394faa1954d4f8837946ef797406804",
+        "sha256": "db28861bc1f606d125ab696d67f26b4bf69de8c7a4b3de42bc103dba1edc9481"
+      },
+      "crates/gpui/examples/tree.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "891be4790a59ae258da3380d2ef54fba26979346",
+        "sha256": "217e1e750cdeb736c68ee5c7d45fa6a0f8e44fc222fbf78f1f24d39dcda6a278"
+      },
+      "crates/gpui/examples/uniform_list.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "4a2c4788b192d802ee3d51714c250e7c5a82db76",
+        "sha256": "939b065c2db96ce38400c0ea79a0dd74803aa27793698bb5d00f6652a58f4e3a"
+      },
+      "crates/gpui/examples/view_example/example_editor.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "2064d7cacef29ca2aba1e803d28604b85ee7a1af",
+        "sha256": "564c01431356cb878e60512858fa4b86143681a4a07198fae2a02b6dade57c5f"
+      },
+      "crates/gpui/examples/view_example/example_input.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "25d74013deb757bdb0c7fa760c5aa3172be34168",
+        "sha256": "18751cd2746a1c25e6b8af052b67dd4d382e70f97baebcad8eba34e6e55b2803"
+      },
+      "crates/gpui/examples/view_example/example_tests.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "a3edae8cda1f6d39d918fd5c7cdf371e497fd4d6",
+        "sha256": "799582680b19888a0258a865d2649bc9076ee18cad3b40568e2301be98c90492"
+      },
+      "crates/gpui/examples/view_example/example_text_area.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "07640b93294677fe89e0d0b8a08ccb3442620523",
+        "sha256": "c852878e5b4c6c9006059ba2b4b88fbfe9cd737945a9a5234e0421b9f003b2a8"
+      },
+      "crates/gpui/examples/view_example/view_example_main.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "d2e4991d535a500b40752e38b5d4cdb223bf25bc",
+        "sha256": "032a61e146623470cbf19a5aa565b623b075a7430e5ac87e69e10de447423bc9"
+      },
+      "crates/gpui/examples/window.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "51dbe7276d9f2e9b57621fcf2b839883929ca62c",
+        "sha256": "791ec50ee1e824c224da8609ff72241518ddeb4a38b80fb50bc46498283dd1da"
+      },
+      "crates/gpui/examples/window_movable.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "b5fb26030bd2492ce034280150d7d35994b383aa",
+        "sha256": "b67243c58182b84f07fe531033d5cd140d1111d433e57a2c37de0dc1c34ae27c"
+      },
+      "crates/gpui/examples/window_positioning.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "22c9b359c015c93a1fd4253ca51ba55457a039d4",
+        "sha256": "2e029ffe40bbb4ef64d9e3bdb72660c41376ef8f2b88d7c25d05bfd29a32a5f1"
+      },
+      "crates/gpui/examples/window_shadow.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "fba5e91c0ec9f3c8d3724ba55f42833aaa233a60",
+        "sha256": "2dd7cd7076b31bbdf2f83d11bc70b8a283e51902021df12bc879267b3d76eb41"
+      },
+      "crates/gpui/resources/windows/gpui.manifest.xml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "d11e1a4b4d360c2f31bb59708134ea0dd3fd17a8",
+        "sha256": "00bce21693c57d15d1a15f1d8814206d9dd80389bbf63ce5a8f3b364891232b6"
+      },
+      "crates/gpui/resources/windows/gpui.rc": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "ab209572f885075617548efa3e072d4b44237d07",
+        "sha256": "eb3efc3b6af498552a0dd67f69d58e1a53e49155dfe90e4649478ec64dbd6af6"
+      },
+      "crates/gpui/src/_accessibility.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "af14b638cd086c3bf8e2be1888b152d67b8fbfc3",
+        "sha256": "bcdeb209fa6309f5c507d9e8918235e75c18751c1985d0ebed632de643d7ea2e"
+      },
+      "crates/gpui/src/_ownership_and_data_flow.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "68699cce7f595eca8172569ad51f10b3cabc27d2",
+        "sha256": "4edbde237dc322ceac8969028811fd30d87a8bd108475a642c4fb961b2770258"
+      },
+      "crates/gpui/src/action.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "07c47fc2e4ade97b1398eae3f2eaae003fab782c",
+        "sha256": "6566c34d4f4cf7f6a5280cbc4c07c747c5c6fc4c6554abd42c73fefe5716fc20"
+      },
+      "crates/gpui/src/app.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "6b54572d892d467228aa612219a19cb70900019e",
+        "sha256": "86090b397ed5256232bca9ae25245575050427c5fe157d134117b336f79d2ad9"
+      },
+      "crates/gpui/src/app/async_context.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "c3af6028be6516a226e1c736b31811e2cad8af02",
+        "sha256": "9ce9c6f7fa3621679d4785d74686e81300cdc765b500245d8a92a8d33aed3094"
+      },
+      "crates/gpui/src/app/bench_context.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "c9e5484d2981498b2f80ff2a8ec337fdf3670de0",
+        "sha256": "7555027255361bb97418ca91de53bbbda3382873692039a567e3c7044de1c888"
+      },
+      "crates/gpui/src/app/context.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "bce22b59f3751b7854f5127cf99737b55b89a186",
+        "sha256": "af9c74ba63623cf4f107861e041cddb72cca5b5c65695ab6531bb44fbf7b3573"
+      },
+      "crates/gpui/src/app/entity_map.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "4184503ba3a23ff6400b51b5aa5026b661d63edb",
+        "sha256": "f770a17e04bfb1305577ca423a926fa967eeb3f392aeba10811d2ef7ccd2562d"
+      },
+      "crates/gpui/src/app/headless_app_context.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "6ac4bfe9f8510b6c1a9eebca7f9ab7dde8038906",
+        "sha256": "b8f42a8e9e99f74611984fcf301f5f998377e7ea2eacd20a3a9c45873143a248"
+      },
+      "crates/gpui/src/app/test_app.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "bf265fd7bffade108aacca753dd1c4e037f96524",
+        "sha256": "ea41a502634c8eb8011a0f499b8a3900939228e6f6260bf8857766c799633316"
+      },
+      "crates/gpui/src/app/test_context.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "24cee121fce2a69d25633792792b77ae32e9b98a",
+        "sha256": "d4c747e52ca01a286bc8928c12dcb7651f1eaffb84f38cd13779b43842d7f7c5"
+      },
+      "crates/gpui/src/app/visual_test_context.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "b54802a299b83b16c6f70e43bc4c540de896ef6a",
+        "sha256": "b6e0399349417b70cf067a90cf46a385a0b2efc999e30fd4a037d0ecdd87ff1c"
+      },
+      "crates/gpui/src/arena.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "ea5968f84e9cb08dd878e5e09195eb88f587b1ce",
+        "sha256": "262e6403f8fa505592dddb674028f43c0e41beb1f51aa97e37c917215052580b"
+      },
+      "crates/gpui/src/asset_cache.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "4c7bee1207632edd94252c5dabbcc9d6f8a24c70",
+        "sha256": "cc1eb306523094d2d9a0e15538ce9a4fe29408288bd73e27781ea9a92c1b059e"
+      },
+      "crates/gpui/src/assets.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "cb8b47ed0166ba1bf67842766cd50cdd30e8a6d2",
+        "sha256": "44e116678b8b351ecb7fb45a3163b58288d551fbc72049ddc7a8d255d589bcff"
+      },
+      "crates/gpui/src/bounds_tree.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "e95e32477b912b810607b20306be5f7d53c76df2",
+        "sha256": "c3da5abcd110191eea8b7b73a88bb8d1fd89251549e889c9cd42d1a7857a1b4c"
+      },
+      "crates/gpui/src/color.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "3bd893f99357051e1936f52e22c4c40d6dd24887",
+        "sha256": "4292aa1a2bbc56b653aaef0702726325f8efb93f16226320519e257c3ba8a839"
+      },
+      "crates/gpui/src/colors.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "ef11ef57fdb363dae3f910db2e540e3de02fe453",
+        "sha256": "bd7d022046e8ff2303761168f70a473738abbe200f3b40b7f216d16ca05d187b"
+      },
+      "crates/gpui/src/debug_overlay.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "0cca543ea5d4b0cf45d4509bbfe05c227f8b9255",
+        "sha256": "c5bdef757b2ce28d4b1e584ba2dbaf988df106057bedab23c185b61451425cf4"
+      },
+      "crates/gpui/src/element.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "6f0acb888c1a9ebbb93dc2728e37323b233727ec",
+        "sha256": "a621d8eb7705d57fbe7d58e85577d43463ae3bd90d3cfb06d4273a6337cd21ff"
+      },
+      "crates/gpui/src/elements/anchored.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "29260061bb72ef9ca4dc66ac12919c9407d246cb",
+        "sha256": "1c649ab428e36a9502dca7d9b5c530acccd70f5a8500588c2e400e85d2a15f52"
+      },
+      "crates/gpui/src/elements/animation.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "5fbdf77930b6730439c39e48583940c7769c2098",
+        "sha256": "f1bab70afc2ba8cfe20b87ffce9b69cd9d1264d37430f4f2139c4c08ffa4430b"
+      },
+      "crates/gpui/src/elements/canvas.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "d57d2f604166626137403b746656f433a77579f2",
+        "sha256": "3e09646e725d31c10a88be290c146d6a6e829e0be173e6bc82c138461668e646"
+      },
+      "crates/gpui/src/elements/container_query.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "0363ce6900835b0a5116bc8398167085ae291ad9",
+        "sha256": "7e72aab18967e7e16ebbe38c535caf2ac6f881a62cf9f6045922fbeb8a06df07"
+      },
+      "crates/gpui/src/elements/deferred.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "ddf324a6b26b861ca0e7ef1c2ede3d648abe82a2",
+        "sha256": "0501cd9c0f041b849e51ea78a69abeb24781e5b5488311c0b87f4cf1ed01f451"
+      },
+      "crates/gpui/src/elements/div.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "e33d435a8d1b412fd73ea5d4ecf457644916347d",
+        "sha256": "0280b0f479971e25c44aa5bd19f6cefed39007473053e011878f5e45267cc40b"
+      },
+      "crates/gpui/src/elements/div/scroll_focus_tests.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "134a31ef58db5fe61edef46e19c50304e66f9e1b",
+        "sha256": "735ebb1c5a4976a9a5038cfa8807a68b3ffa66daa4de944da303296343aa7506"
+      },
+      "crates/gpui/src/elements/image_cache.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "84948145aa869a09032e292e6b6b0ca679b8726d",
+        "sha256": "e4540d7e92bc63bbaaf703df42338bbfabca764e34b7244880460d38962e14c4"
+      },
+      "crates/gpui/src/elements/img.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "2c77e5f32ad12a8fafb88305ba208ca74a80cdac",
+        "sha256": "c196cb1ed3db30ab3141b036c84288a22e04de2b53b687e1d86fe732420374e3"
+      },
+      "crates/gpui/src/elements/inert.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "fe0432f2557d5b152511276839d504e460f9391f",
+        "sha256": "324ef0626a5384ba76eb85315aba40d19a7255b25a6c336e62c53c04a75e0973"
+      },
+      "crates/gpui/src/elements/list.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "fa21d107062ab9ce56cf6bb4f90342bf053ab0e3",
+        "sha256": "42704328bf8f1f5c75b0129dfaf4052e475f2de1bcfec3a2c6f92f518c6cb573"
+      },
+      "crates/gpui/src/elements/mod.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "27e567f842eba48a4e3e7116229ddcf6d0397a58",
+        "sha256": "c03b5dc9d7a3b0f5e54bfeede63ca8d2cc7d9fd36c8c8dc5019e2989e5c6a00b"
+      },
+      "crates/gpui/src/elements/surface.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "ac1c247b47ec81bca06e458827786f549ca2d747",
+        "sha256": "b72696ba0a043fdcddcad5536c7cde2e1703a4fc185f6a5449b86b62cee20819"
+      },
+      "crates/gpui/src/elements/svg.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "176072f1c88a5635d1b8d703ac0eab5237e43a6d",
+        "sha256": "ab5412945c36fd0087e95a1544d610cf9308e906b3059835b4c49f98f4b9279e"
+      },
+      "crates/gpui/src/elements/text.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "d1896ad0a65cc659f39d18cd601e2f9f2342ee64",
+        "sha256": "3ffcc422356924ae4d6eef864421f56588be65cd931c8fe35d7e5e6438c23346"
+      },
+      "crates/gpui/src/elements/uniform_list.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "0a449a20a3cf4c0d676c6d03053baff1d8de6e8a",
+        "sha256": "04221d6daf31f1bd994fb4649a19df3184b56de293301c0306183bd642e09e03"
+      },
+      "crates/gpui/src/executor.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "b4348e940d0ea217a0191c19426ee42120c3edaf",
+        "sha256": "6047eea975fb8d0b3cfd170a07a73d72a27b80b91830c272e8c84ec49ffde52c"
+      },
+      "crates/gpui/src/geometry.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "1c87031c7aad8df10827152debe6f74672d7c07f",
+        "sha256": "900fc506a964cda44ed0cf1f97c01ff28d7268c87c9eeadbf7a4f1bb50e33edd"
+      },
+      "crates/gpui/src/gestures.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "ec611576efb00e37d781c049937aee4b13944601",
+        "sha256": "0a1db91af00d98d35799bd2c82f65ec8d39e026dc58c66b78623368b367dbb7e"
+      },
+      "crates/gpui/src/global.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "a16934c129d70c3a7be5272dd8704a443b521f5b",
+        "sha256": "c52ddc647f712282a3a1f3629f864d0868966169fee7aff5f1f8d27e67f3f077"
+      },
+      "crates/gpui/src/gpui.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "51585b5e5efc237b45abcecd9a20ce364bde5bce",
+        "sha256": "9872db89baceac714a7f055eed8249f65287346dd5fe4a8c5c845334bc7d3d70"
+      },
+      "crates/gpui/src/input.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "f7bb646fd2e30d2a78f6324ad422baef43606d11",
+        "sha256": "0f401a8cf1ca10f478153d152f135e79abcf16191985b0b25f0977a9a45ddcb4"
+      },
+      "crates/gpui/src/inspector.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "d353690e319e923fc783298c06c93cc000fe0bf4",
+        "sha256": "39a2790b992b2c354eccb4d60a7070e41628a86c5463d339f9c7b8fa250c1ede"
+      },
+      "crates/gpui/src/interactive.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "913cf1ba7905adc46ba6d6799848bbcc49fe8e13",
+        "sha256": "443b41c4f7d6d31ba288a49a151dc2280ec1e1e20df2f558551dc07009672087"
+      },
+      "crates/gpui/src/key_dispatch.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "7db14b1bbdd8b406b3590b5fbd01b3783544a595",
+        "sha256": "d28c0d9dc5bb821b1a2f832b05fd357529970d884cd6487e623434b3695547fa"
+      },
+      "crates/gpui/src/keymap.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "bef0d03a2b951805ff6b966b57070055049200cd",
+        "sha256": "7b007c96f748b0593ce56f9ea1520422b3b9401919cc442f2ef4a2b374e203be"
+      },
+      "crates/gpui/src/keymap/binding.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "fc4b32941b85f4cdea31aaba7198d3e7043ee481",
+        "sha256": "7306cd42de8bd0dbbf111c7b1c9d30b2a814251ad0f00b7f7cb3bf042925f895"
+      },
+      "crates/gpui/src/keymap/context.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "27f361bbe28a812a2b8996433854504d26bfece7",
+        "sha256": "dd3cf2e883caed26e201a8aed39fbc51de782e7f806ecc22fde617929ca223cf"
+      },
+      "crates/gpui/src/path_builder.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "40a6e71e0a1738adf1ed261183d2340682826992",
+        "sha256": "07fa0b21e5493cf46ce54976d77ffea3a430ddbbc369c4d4e247a3bc68854e35"
+      },
+      "crates/gpui/src/platform.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "19a720ba52e8aa81ffd3a541a0d85f3ea46dbeec",
+        "sha256": "ba6f51807014dd4dd39a9db9037b5bc14d0a00ce82e613e46979493716e21d22"
+      },
+      "crates/gpui/src/platform/app_menu.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "27c20c00badc50a965560073885f09a4e271ce5e",
+        "sha256": "c751e70bf50cf2366dad9d6b2a66fc3a8e9cd1547128173dbfc59520feb454cc"
+      },
+      "crates/gpui/src/platform/keyboard.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "10b8620258ecffd41e8018fc539c47812df0fe05",
+        "sha256": "8de8d585f4238204fd14113abded703afa6bb0a532dacabdf400df8249390376"
+      },
+      "crates/gpui/src/platform/keystroke.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "c45c7c1b335addf2c91df2a45a04d5c958910ec7",
+        "sha256": "35515a9d079060667e99851f09227d0ff2204b2d0d951bd96d8297f3bc3f9115"
+      },
+      "crates/gpui/src/platform/layer_shell.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "8be1b5fcdb46c98acb80e6970edbc5a856f180bb",
+        "sha256": "cdb4822c6589461045f09829640da3961e957d782c8e4763050b65701c90d305"
+      },
+      "crates/gpui/src/platform/popup.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "84e1e072e0f4afba2636674a6d3f2b579fbfb395",
+        "sha256": "c5bc399ad7bee1f14e2072044baadd1da7e7a86f08c60354018a6bc4b2701843"
+      },
+      "crates/gpui/src/platform/scap_screen_capture.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "797e19ba23f715c372d76fd349577dde16a66f6f",
+        "sha256": "b6492678395e5a9a3335fd6babaa60192dc5b971efd32f896e33fb8fbbd7e484"
+      },
+      "crates/gpui/src/platform/test.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "a327d8fe942e1463ea26b019351277bcb040dda2",
+        "sha256": "52861874bfdd1433728d61bd7be3a40b1f8c27aae4e4cc9d31b311ef13bda994"
+      },
+      "crates/gpui/src/platform/test/dispatcher.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "c48e491347485bf217bc724654b01b3ca539cdd4",
+        "sha256": "dea03a78a0c64d486f2c5b7bc669ba281638a0f8ee53316a52993a0e5b5cabd0"
+      },
+      "crates/gpui/src/platform/test/display.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "c4adb014aa523668677e1ba40b5499485a8932b5",
+        "sha256": "1cbb36acb34c98fefdebf9c3676ff6b2dad93ef9e51ed7729ccdfa34f8b6ceb4"
+      },
+      "crates/gpui/src/platform/test/platform.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "4bf08387848a40c5851fa03d1f66ddb3e83a5883",
+        "sha256": "3a95163b4974fa09a6ee6b4c3f9dd579698e642afb80a8529d4e17989b23ce22"
+      },
+      "crates/gpui/src/platform/test/window.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "d00cf6e9ff90a50f9bdad2488b5da23a6b0127ff",
+        "sha256": "0490b072aa93655cd4e8d9a264cbbf77d8b493e685a3a0c49c78f101f8c1246d"
+      },
+      "crates/gpui/src/platform/threaded_dispatcher.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "b1fb4974df945e84a8e5fe83a0ade3967473520a",
+        "sha256": "aff57da6e74ddb0dbdb57f2c58b08236c1b78a4971e0c6d2f095f0746096f09c"
+      },
+      "crates/gpui/src/platform/visual_test.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "0454c31014ac905e5d0b0e232447bcc6517cbe44",
+        "sha256": "71265c50863bfb9eb0dd5e103d1bbbb5d612e73cee1614662c26ac538db28124"
+      },
+      "crates/gpui/src/platform_scheduler.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "a555a5a36a5fbaa5a463f9037172ea20316e4df4",
+        "sha256": "db193099a1b790d8658e1f056b393bb03df5b97f2c89f60c0ebca7186bdc0a51"
+      },
+      "crates/gpui/src/prelude.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "b5185a25e8619886f9a2240da26e4d2b4cabd0ff",
+        "sha256": "cbbef2e02b205044bb46dbe0e5353af35dfa466bcecb45078947994958ef133d"
+      },
+      "crates/gpui/src/profiler.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "e8108c106b8c456925e72b1424a7e285f536fdcb",
+        "sha256": "2ead5740bf573293e4866ae40ea06d82721a87d31c0310415c3c0e2f2866508a"
+      },
+      "crates/gpui/src/profiler/actions.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "a4892f8ac223957bd93e612a30ddbfb580b839b8",
+        "sha256": "1907458a07d8370f19652fb60bb0bf1ef8ee8baf3e5fe4d04fc54f380e586d8f"
+      },
+      "crates/gpui/src/profiler/hang.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "23d63aa658bd049db5adc49f27db53014b9ee2ca",
+        "sha256": "2e410c91cec8f874471d7463194b8a7ccf2deeeefca80b3da4e93e7c335d5acb"
+      },
+      "crates/gpui/src/profiler/journal.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "ed6ac6c5889007dbcca31bdf03ae3fc11fe76b77",
+        "sha256": "f4a12172d034ad393899c4f820ad9488533a1517c87e01716759305b120286da"
+      },
+      "crates/gpui/src/queue.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "3e02b1359d9003ded61440d8eb8ee5c11e8579b8",
+        "sha256": "3eb36c766b3ae5c78b7373a6fa92a3115e498769c99485d78ad8e910fde19305"
+      },
+      "crates/gpui/src/scene.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "7354557b2e9ee04cf48271bfc6af615514ebc7fd",
+        "sha256": "ab326c65fb118e274b21660b840e4bc925e2913e44671629e43f866ee0bc894f"
+      },
+      "crates/gpui/src/scene/backdrop.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "907d9c738176b08db682b5bf8f5bf4c26a6b41c1",
+        "sha256": "3e77c2a081f6b073c5888242a80c3efa42c55e7554464020ed4f25946dcbbb4c"
+      },
+      "crates/gpui/src/scene/batch.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "9ee99654cdc1f52fba4059b50e77d730a06ef88d",
+        "sha256": "74a9d4245cff83e517d390b7a7efeb82ab13a2d7f62c3fa7e7176f41c04b19b6"
+      },
+      "crates/gpui/src/shared_uri.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "e257aaf08da0a5f4d500919e376d5a22e9ab5d7d",
+        "sha256": "7a0a4feb3e290bb3f2c15fd4c8ee4c8ca3a9a5974e04ec084c4f8f0f3fc89248"
+      },
+      "crates/gpui/src/spring.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "efc878061be7c6996993a629c9917034842fc420",
+        "sha256": "1cdc32dc3fd2d2b8cbdc7809e51c276ced938592dd08083fe7cc063a02086663"
+      },
+      "crates/gpui/src/style.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "9150fdded91b817305454f18beb0a0b7d6c5966a",
+        "sha256": "b4a0e838fc7050cef25f71aae623cf86010c2ec361600479d24ce1aaff91bdc1"
+      },
+      "crates/gpui/src/styled.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "a24982a6acb6071701d2258e47a5f25a86d1ee89",
+        "sha256": "c6e62fe136bedf887ee755c886df5466d5fe0b398a004b35d1a3530fef809c8d"
+      },
+      "crates/gpui/src/subscription.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "b0c55a3966192ea0a15011e3cd2d14498c680c46",
+        "sha256": "cca3b5138cb23084932772c8e009cce8a08562c2c00b69f3e0d4b1676b88087a"
+      },
+      "crates/gpui/src/svg_renderer.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "798fb2a9657b4a895bccf8837386d4105b458928",
+        "sha256": "fb12dae87c0cd4c5f5a1fbbd2f9548d52fde9440c21e3d576dfeb0233eda88a6"
+      },
+      "crates/gpui/src/tab_stop.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "bde651ae5c4572dbe5a795c91082dc8d8cc58b7e",
+        "sha256": "7f742d6d6b7e5cd6fc634f2764fc3937e1cdebcf086d4b7c166379724edd1881"
+      },
+      "crates/gpui/src/taffy.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "b9e583a8df43a95a8dd87ae73822ad52efb0d5ee",
+        "sha256": "dd561fcc6b693cfcd15b343b5e2935b9cff2ee8fb373d5e7166ca71ff1f74880"
+      },
+      "crates/gpui/src/test.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "a93424edeab601339e64bac5d8350511568ed41a",
+        "sha256": "3898a57d360edf65a9388ee005837f3d3b84102911cf79590352d12542f69a9c"
+      },
+      "crates/gpui/src/text_system.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "cf6bb10293699bb4b9a5c8149f996822444fd732",
+        "sha256": "b39e05a8a8f7b36e13ffe1211d2c2993f68f2ce4cada87ad3414492a42e927b4"
+      },
+      "crates/gpui/src/text_system/font_fallbacks.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "63dc89ba41ea9cf44bdffb7d81d3015d696f4413",
+        "sha256": "8451a6f069fe78c76da11377ee17b01aabd3c35aaa494fb329f2ae5a5bf9736f"
+      },
+      "crates/gpui/src/text_system/font_features.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "c1ab72b417a53b86a5b43f7a90aec9e439aa1fab",
+        "sha256": "85f901df313e3b8379e65b70a0e69e5dfc7d8280a761e568d1f4293edc4c4834"
+      },
+      "crates/gpui/src/text_system/line.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "f5210052e2b73d03521c35207b0e05550aba3e48",
+        "sha256": "25bbf6a409ce8e70d1265a858f2d2abdbbc2c110d515abd31bb0a379cdce54e3"
+      },
+      "crates/gpui/src/text_system/line_layout.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "f0bf1211114e4522a5310067e2549ba2727a4c1d",
+        "sha256": "a78d230d050bbf17bd968612da1d84f4c8aaefc39f82100e11b2b3a6990d45e4"
+      },
+      "crates/gpui/src/text_system/line_wrapper.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "678e9e0f1859e270ee1fb1ea21d5db92c177e948",
+        "sha256": "bb3ab3fa326466850816452fcf0ec82e3939a4dde5cb5f0515d771df922501e7"
+      },
+      "crates/gpui/src/util.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "13ee752dadf00ac0f4f2e450bb908ba544550943",
+        "sha256": "04397f667bf5d890cce690b96441cd5b8f5eb0a5dd2942ce27b0314be38fa636"
+      },
+      "crates/gpui/src/view.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "fcb3cd4afd867b448acb5fdea97f3f4828a1211c",
+        "sha256": "2a56357fbe00d237f0ef27031d0a996ce05b8a40b11d17a9e869b548a2bb70d7"
+      },
+      "crates/gpui/src/window.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "55a6eebd9bc10eac570e4f48a4320cc5d37ef869",
+        "sha256": "eb5407e84cdd380e568f4a027ff1d0da64733248709616fe3b610f4261505734"
+      },
+      "crates/gpui/src/window/a11y.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "5b63821232a73dcdcac5bb7c402b7b31645982e1",
+        "sha256": "1579b5772038313635feda4ad5c32a46f5bd843396268c8b573d68e7c57488b5"
+      },
+      "crates/gpui/src/window/a11y/debug.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "ae98aa52837b11b7183601dcbf70d6503a14f598",
+        "sha256": "2055ed9e63900a601a973191ff82ebbd91557178036826a4d2c04b09f5cf4dc2"
+      },
+      "crates/gpui/src/window/prompts.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "980c6f6812405a8fbf4f8c6e24388ab4f967a94c",
+        "sha256": "0d58ec14e8139af53b50f4ad67690f01959ed59ffafc4adb2cf522f3f6197164"
+      },
+      "crates/gpui/tests/action_macros.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "66ef6fba2c9b980e27150bb3bf8d9d07f35ab030",
+        "sha256": "47b69024f403feb6cb63c9990a6993b8582856146f5a6ae16984714321956a84"
+      },
+      "crates/gpui/tests/ordered_backdrop.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "f3549bbacc1777d2a1a7b2640e6bedfc271001c1",
+        "sha256": "9f6feb68ada5141cafec8c3b67e25427d543dc7de2202e58ec76c81586790746"
+      },
+      "crates/gpui_apple/Cargo.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "2278848e9d1e9d6f1818f3b49b6346253b5f8668",
+        "sha256": "3a0dea72df09733ff2b94683d62d43e3b0ee181f3bddc73a06c6f657767da2bf"
+      },
+      "crates/gpui_apple/LICENSE-APACHE": {
+        "mode": "120000",
+        "type": "blob",
+        "git_blob": "1cd601d0a3affae83854be02a0afdec3b7a9ec4d",
+        "sha256": "9cff568488e9d56aae60f162404acdb15d8533a0202cf01f6eb0843b264f20ff"
+      },
+      "crates/gpui_apple/build.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "0ee45bb023489ee2339431704df09bfa9fbdbefe",
+        "sha256": "4e792647807c52392e492c347c3e22f0d9d2a37c5bf8e1e49339ed1c6b476f72"
+      },
+      "crates/gpui_apple/src/continuous_corners.metal": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "757c016809dbcb2a7f2a0f721a637ee01c621982",
+        "sha256": "80a10a3bc66842eea32ee1053ba08cfd5a791343950a009c85cd317b923d7681"
+      },
+      "crates/gpui_apple/src/gpui_apple.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "208d297ea1062a677cc38ba7f3a71942ea2e810a",
+        "sha256": "59b162be860a3effc8becd09f3e05c25b20738da4c4ec9ea3744aa91a0253a84"
+      },
+      "crates/gpui_apple/src/metal_atlas.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "0e8b800ac4c85769bf170a862ad03ac409539d20",
+        "sha256": "d66c94714d2318e205a2e9d8ab2f7dee2569be7c79ba77c23c80ce708c0b3099"
+      },
+      "crates/gpui_apple/src/metal_renderer.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "577c22e66071bfb7827f7bdb4c294472f958c2f4",
+        "sha256": "d4c3b2ec9aeb98602f43005938527ac4ab48b1d1677969d84899e1026e35f2ed"
+      },
+      "crates/gpui_apple/src/metal_renderer/backdrop.metal": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "75fc53249288e298ce8712da90ade70192b3cb17",
+        "sha256": "46ff1088700daf89226b006d982f8eff6d67b660540c8220d109d2555cbe3dfa"
+      },
+      "crates/gpui_apple/src/metal_renderer/backdrop.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "a05a16043e07e5a8505699a1f15a0328c8a87dc8",
+        "sha256": "c2c83b9a6b7f0f706f3714ab139301e7b89646982dbb3e4725eb8a256dcc5b49"
+      },
+      "crates/gpui_apple/src/metal_renderer/clear.metal": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "08079a4679c63f7f7b9ed82eaa66bc7feded4404",
+        "sha256": "e61ce50657ae3cd31c05cbd61c3ca1721897995997f1f9b361cc615002790edf"
+      },
+      "crates/gpui_apple/src/metal_renderer/clear.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "69c9122e3c7c51529b6ffb61093a3796fc0453b7",
+        "sha256": "11b638c5ba6abfbbef18e4946b55052e3ed78d70abd98a14fc72173cc01dfc01"
+      },
+      "crates/gpui_apple/src/metal_renderer/clear_blur.metal": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "62a40f5ee7b20502d8ecb0b5382e895949a41b98",
+        "sha256": "a38c0b50d210d5727e388ede2c0893d497a3b05a64de694664a868ed287a4be3"
+      },
+      "crates/gpui_apple/src/metal_renderer/color.metal": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "4d388ed595b354284aaac788991374cf0e9db1ef",
+        "sha256": "ee3e59a5962dc7101238b6d5c08368747fd8a0dae61923492def1aaa701f8169"
+      },
+      "crates/gpui_apple/src/metal_renderer/color.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "9c09128bad111a2f44fe6c8094a4e4e11bcd15d0",
+        "sha256": "56af963cad7943eeb8b4a5a6410f744f57f7c284ed5e76e894ee372664fb0270"
+      },
+      "crates/gpui_apple/src/metal_renderer/color/tests.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "2ff1755e09f7bfe434cc1c20f9ff91a4c1133504",
+        "sha256": "d4ef6172da25630c931dc17b32e0cbc48e4f3cffcac46a68054d148d6b68d983"
+      },
+      "crates/gpui_apple/src/shaders.metal": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "a2e38476f9d9ba669dd49c71726beb58daea3451",
+        "sha256": "c65bd47c3fd990ff9563e67e5c073f61270a399d93e6ede430f43525d257b0e2"
+      },
+      "crates/gpui_apple/tests/backdrop.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "3aff5102660e772cdf5daf6142ea010e7759be81",
+        "sha256": "a09b834e7714d8817ab130f98964cb8f40af040bd364b3347dc98df1bf35c42e"
+      },
+      "crates/gpui_apple/tests/clear.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "a341c4333dc872a8aee672a566623e1b72d015d5",
+        "sha256": "38be6f81eeb0cf896365b8ea44768c27fab03f1fa2e03731c40b891fc1460b7c"
+      },
+      "crates/gpui_apple/tests/color_management.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "e04f2c5b0cf3e3d819168d60ef47bec65dfeb0c7",
+        "sha256": "386c61749b1298f75f4b7ce4c4d2c7321752afce8b0e267feee925014f8b80d5"
+      },
+      "crates/gpui_apple/tests/continuous_corners.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "21dd5eeabc38fffb207af541492d9f657218d94c",
+        "sha256": "06cdaf48c65b0da53b68356c969a402e9a01d03be2a4011f29d09632ee7a53fb"
+      },
+      "crates/gpui_apple/tests/fixtures/clear.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "4a07e491bb579840d39f753e570511448659b772",
+        "sha256": "1c500bee7726f319252416236bec154715f74014325cf90f2af7543b974eae46"
+      },
+      "crates/gpui_apple/tests/fixtures/continuous_corners.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "b6a610748ee374c9ffe05b32683030121de29523",
+        "sha256": "9e0350a96921c33eebca09da664594fad34760884a73f38aab931b8d2153a8d6"
+      },
+      "crates/gpui_apple/tests/numeric_reference.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "96d75a7060473ab9ed102eca9c584b19ca569308",
+        "sha256": "29aad628cf4625a6071334f632c6d50aa334916c114e93743bdbf1482d37670c"
+      },
+      "crates/gpui_apple/tests/optical_reference.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "01065e05616b8334e25d81bd6fe3330ccd632303",
+        "sha256": "58196496a9575e54a8a206d7c318f2ac4cb30f331150c7bd7bac1c5933bfa036"
+      },
+      "crates/gpui_apple/tests/support/render.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "080a07536c560d2bf6aad42e3af228513f456507",
+        "sha256": "afc798ad9098bcdd94e5c35b0b8372936fb15ff50807f14d8a7aef6b582f4191"
+      },
+      "crates/gpui_linux/Cargo.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "c4040af022a1ae92d0cbed7cf14054d344ed33d1",
+        "sha256": "d6082b295e41eee3f00395e20a9c88d9245ffd5c1ed3c94a5255a84773492126"
+      },
+      "crates/gpui_linux/LICENSE-APACHE": {
+        "mode": "120000",
+        "type": "blob",
+        "git_blob": "1cd601d0a3affae83854be02a0afdec3b7a9ec4d",
+        "sha256": "9cff568488e9d56aae60f162404acdb15d8533a0202cf01f6eb0843b264f20ff"
+      },
+      "crates/gpui_linux/src/gpui_linux.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "62d972dc4e07d1d960c342dfa677186e1e4d0805",
+        "sha256": "7a566f97cebfaa76feb3697969c4181b088034e0a5e941aeedab60c4bc1f906b"
+      },
+      "crates/gpui_linux/src/linux.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "33393f7e9ee41e3067893712bef95b0b5131dd41",
+        "sha256": "f2f7e3261ceafd5cceb3478166aa8c07fa97f27cc2093a0d3b45c4e55ac08664"
+      },
+      "crates/gpui_linux/src/linux/dispatcher.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "fd9caf89fc152820965e309ab9fdb53d6da32cb5",
+        "sha256": "f3e4f5302bfd8a9316b4ad0d7a8ce89d35876f5c98feb0418b9f455850b5f8a3"
+      },
+      "crates/gpui_linux/src/linux/headless.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "6667a3b5a1ffc91ee318ac5a7b1a1e5829cb1e37",
+        "sha256": "41dc91b76f0c6888dca0f80ca5b96336bcd7649ac44d65c927a73201c9e3e60c"
+      },
+      "crates/gpui_linux/src/linux/headless/client.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "0e94a06007decb07ca8986d32e9c6401dab291d3",
+        "sha256": "187ea0b75970c911e2c0c1ebd3db78ffa516a4fff6876db652b537ff275e4abd"
+      },
+      "crates/gpui_linux/src/linux/headless/window.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "35096d922b5b6093ed9999affe058e159a4bf57b",
+        "sha256": "7305a0c1a1d26752750f4b38cc8342570653c0ef9f9715f9062ec052a910fda9"
+      },
+      "crates/gpui_linux/src/linux/keyboard.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "d810a2f4f7d2659a768b767222c8cb2623319201",
+        "sha256": "9d25b21ec5530c3e66e40196a924f12aa89cfe6075b5a769feff65dfcfde0a88"
+      },
+      "crates/gpui_linux/src/linux/platform.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "7bf77a1bc35d09d255d124aaf76bf021e59f5cf6",
+        "sha256": "53716640ae3537282d704cf02bdf4930e0e0373f6bca1810ca4bb548e67d8d9c"
+      },
+      "crates/gpui_linux/src/linux/system_notifications.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "3530c6f3420987cda1b70809b33bd970baaaef5b",
+        "sha256": "49030ee41edb842c996d32870c4d9846f12bd8a50f4a6db0bea9dc658329f1b5"
+      },
+      "crates/gpui_linux/src/linux/text_system.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "d6571021e0647453844b7564c8cdac32926bc6a6",
+        "sha256": "afc6712696eed6749cc277b800cfb62690af9cbfe275961ad1df1c8d190d4028"
+      },
+      "crates/gpui_linux/src/linux/wayland.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "cbc962bcffe742c4a2f7ba84906eaf68aa3ff77d",
+        "sha256": "d8b52fcd37912d441ad1c9be3687422ccda2765e41ddc942b25400c89fd3cfe7"
+      },
+      "crates/gpui_linux/src/linux/wayland/client.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "469eb444710e9a418a64d044bf060373e5b12c52",
+        "sha256": "03a6ce8ceea63a69304e6fdf167e199ceac68c90d35c1d566cf0e924c97d8bd3"
+      },
+      "crates/gpui_linux/src/linux/wayland/clipboard.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "57ecd9345bf8c169059adaa337e9b02a5c242963",
+        "sha256": "c25034e76fa057354b77815c31ea71c37246c77be5f3a334d8aaedd96af19767"
+      },
+      "crates/gpui_linux/src/linux/wayland/cursor.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "2d66fed95c176c1d42e415d1b99085ee83df099d",
+        "sha256": "1645dc1e70fe9bb766ee65ab78fa6590538a7a52125de4d86dde18a26004c821"
+      },
+      "crates/gpui_linux/src/linux/wayland/display.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "8fa9122d6296b3750875d60d98f85e468ef052d9",
+        "sha256": "094a2649ea3cdc0c439748e0fd3b0ce40617379058ee254d88b20d1e65de4bf7"
+      },
+      "crates/gpui_linux/src/linux/wayland/layer_shell.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "a400552065df07fc38e98117e90be2a5795473d7",
+        "sha256": "d3b341e348e5f871e6ec0bdb03ea69601f9755a1843cadf46bc07426aee0f9cc"
+      },
+      "crates/gpui_linux/src/linux/wayland/popup.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "4a15e78211b7038f60ec550877ca002fc6cfd7dd",
+        "sha256": "d8afee747e08fb9166923d996597627a1d1fe3b502656f7dbd4453d7572f1011"
+      },
+      "crates/gpui_linux/src/linux/wayland/serial.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "9f5372a8a6723f3c7d569b1f0b3c50e317f302ca",
+        "sha256": "e45add908e937b0af6897e1a462357e0fc99dcc0c53c802d912c5659ffedc72c"
+      },
+      "crates/gpui_linux/src/linux/wayland/window.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "3f2671d5f595b2ef5cae926a8320242bf634df17",
+        "sha256": "074ea80a0c5a0aae333fd407e5b16a823001f802f98749a618eec83b1d152b15"
+      },
+      "crates/gpui_linux/src/linux/x11.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "5c7a0c2ac898a8391c8027c9c49890f2d59e1335",
+        "sha256": "5cab073560b517b961b9ffea154a5a915303fdad11c8f57502e7e30c26fff031"
+      },
+      "crates/gpui_linux/src/linux/x11/client.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "23a9a91a976bc4cfa5e45c18e11a8a341b53bfe3",
+        "sha256": "b6ae928c15ca84eb1cf728bb3cb6545803466482424e9b2aad064404f0edd0be"
+      },
+      "crates/gpui_linux/src/linux/x11/clipboard.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "706e7b0965886b848743bad04f9e9cebd8cc2b86",
+        "sha256": "341e44d6373e3e75df3928d0d24d7afc4437afde15d049faeaace181f38c61f9"
+      },
+      "crates/gpui_linux/src/linux/x11/display.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "582d76f7f6027294456900cad0d416bcda610491",
+        "sha256": "d3f88dd905b1b9601b52662ab8cf931f96d53e123d482ae75c7c06fa4fad6f63"
+      },
+      "crates/gpui_linux/src/linux/x11/event.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "3fb916425b78fc995ce84d42342917d87a51b7af",
+        "sha256": "6303b0fd823f7fd7bcdab70ec085b31705f1e82fc254c385a523df309462e5b5"
+      },
+      "crates/gpui_linux/src/linux/x11/window.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "efeb606b202d325f00221a8c604b506d627a6e6d",
+        "sha256": "1a7e0a30eec4870c62d662d995eefff9e18f6b548e3cbbe7e91057b0b8ca96ee"
+      },
+      "crates/gpui_linux/src/linux/x11/xim_handler.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "82b7c96312b3b0bdc95b42fd8acbd7b93acbfb06",
+        "sha256": "5a1f5b1a6a436a82c6bbbf9222a7470d537c5fac6b06da4e898aca497ee2adf2"
+      },
+      "crates/gpui_linux/src/linux/xdg_desktop_portal.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "9b5d72476b61e81ce1d90d79de9286539060c0ba",
+        "sha256": "8ccb67d26c784af8d382c97413ea998f8e313fb685376ff8734cc7722986d422"
+      },
+      "crates/gpui_macos/Cargo.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "a1571d13e0bc155059463e2c19e16b8a48215107",
+        "sha256": "42e193e3815628b9cccf818cfe2b5d5c1b13fa4d1d401ddc3579afcd4f291707"
+      },
+      "crates/gpui_macos/LICENSE-APACHE": {
+        "mode": "120000",
+        "type": "blob",
+        "git_blob": "1cd601d0a3affae83854be02a0afdec3b7a9ec4d",
+        "sha256": "9cff568488e9d56aae60f162404acdb15d8533a0202cf01f6eb0843b264f20ff"
+      },
+      "crates/gpui_macos/src/dispatcher.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "a50288cd64754e0c609a467043cfcc9c11edde84",
+        "sha256": "ca18890e8f5843112c383609ae7f205d1d1903ce42d2f020488f7c7025892af7"
+      },
+      "crates/gpui_macos/src/display.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "8e5db5893599665d8f4bf4acb859062eb6591b56",
+        "sha256": "b5434a2c041c97a239eba23eb6ee433244138f54f3fbf790b7bccdf5fa1c4624"
+      },
+      "crates/gpui_macos/src/display_link.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "5387cb6e35d209dc0a964bba06fd3695aefac629",
+        "sha256": "77a1dfdab87f6d84daca48780b6386429d899a7614a8e517c360cbde973aec8f"
+      },
+      "crates/gpui_macos/src/events.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "71bcb105e8aa8c6c43fd5b7864881535454c5ec3",
+        "sha256": "a4027cd12e14953b0954c5c04981148125ff85e8460a7219200dbcc3e93d50f7"
+      },
+      "crates/gpui_macos/src/gpui_macos.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "1e393e48759205bef240d067549f37708521f27a",
+        "sha256": "e8f79ead1633ffa1e75952b577cde5e8327b44b4300864d3b168548a2ac5161e"
+      },
+      "crates/gpui_macos/src/keyboard.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "2b5b644a3ae5c40ec416054a78d3b4d7385095b3",
+        "sha256": "d6cbb1b91f11a67836a094689989b1ea7d79df60d7fa7b1829e6e78e9a01ad2b"
+      },
+      "crates/gpui_macos/src/open_type.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "44891910380a2f66c4d62653ff97c0b47d6fe37a",
+        "sha256": "44e8e2180363111982ec6a0dcbcb7b75362806a40eadf4aff565c9a8943f357b"
+      },
+      "crates/gpui_macos/src/pasteboard.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "92a3c10af54877638b2ad842d7bb990691548d2d",
+        "sha256": "66744f8c74061c999547400dc9e3dccbc40ddd5c4749c60856ee3d5ce2b77a23"
+      },
+      "crates/gpui_macos/src/platform.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "9fdc3fa3d5e49d3c4917507c6aadce4d0c0d8fec",
+        "sha256": "884275c6ecea81d1c57cf37ceba11c85e8632d2022291ba2455fb9204aa73ae4"
+      },
+      "crates/gpui_macos/src/screen_capture.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "6545d473e7e087bb09c4e4b8b3d8b09f8ac222aa",
+        "sha256": "996c4308d93aea1c809e27baa2ac42b18d038a677cfdd599e481abf5ad200d4b"
+      },
+      "crates/gpui_macos/src/system_notifications.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "4bfd9522cacdef7cd1430a4e343c2dd98c7376f1",
+        "sha256": "df8374f075932996d58b99c043d97a82e1cefebab79e5b0f4648c8a3776ea5fe"
+      },
+      "crates/gpui_macos/src/text_system.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "fbc48864ce5216e03b93437fa85943d7e6a7dcb1",
+        "sha256": "727a9c1961c7cbc3991d223a5337a9b70e611b4eea4480ff755a2da9f22ebc46"
+      },
+      "crates/gpui_macos/src/window.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "6bb38bbc9d5cbb2f8835022a14e499d5b785157c",
+        "sha256": "471b2a6b8f85a1484d7e958c6237ca267e3482097f7a39a49f54791a54756668"
+      },
+      "crates/gpui_macos/src/window/popup.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "5417bac46924f053e69062393fff59059b371e24",
+        "sha256": "c29eabccf0b335088d01047272ce8b3bc684fd386f00dc12d5d719022fecc567"
+      },
+      "crates/gpui_macos/src/window_appearance.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "02704bb0fc22dd72de1dc9f92dc10c9cbdc0abf9",
+        "sha256": "b8a1950175c0184469606447fca9450ab39a194fde04b80da3f0ad468ce2bd03"
+      },
+      "crates/gpui_macos/tests/native_popup.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "e141cb9b8b6930a322d66164832175cfca3af4c6",
+        "sha256": "6867ff666dff8d656cb5de4e51d7a874cfa99609db58bba934c8190643a1c82e"
+      },
+      "crates/gpui_macos/tests/popup_decorations.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "08487ad7eabc4f237a53f318747d5f8699b0e7f2",
+        "sha256": "54e42853ad14ba02ff5d78001c65a4e5b7984203f96f2b586deb6526dd6d169e"
+      },
+      "crates/gpui_macros/Cargo.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "7e705a17b8f1c92351d2f7aef35ed0bdfd309092",
+        "sha256": "abb92f05b6920625b9fd06092877707331994ae321d00761da66e2eecb3a84cf"
+      },
+      "crates/gpui_macros/LICENSE-APACHE": {
+        "mode": "120000",
+        "type": "blob",
+        "git_blob": "1cd601d0a3affae83854be02a0afdec3b7a9ec4d",
+        "sha256": "9cff568488e9d56aae60f162404acdb15d8533a0202cf01f6eb0843b264f20ff"
+      },
+      "crates/gpui_macros/src/bench.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "8fea39ef0ec4530bf0e629b6987e3bace72f11b8",
+        "sha256": "86121b01ab1045084645e53cb90ae6408ee694a85c6d8fe0a95dd343526baa42"
+      },
+      "crates/gpui_macros/src/derive_action.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "4e6c6277e452189657b4725b4027780a54cfed1d",
+        "sha256": "8f6457d55dca41367f6e31f0dafc29aacbad82d77f748a6aaa76a541aa212e46"
+      },
+      "crates/gpui_macros/src/derive_app_context.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "451731479c20ac6bd04c828c8f55c84639533210",
+        "sha256": "f2beef11817c789ccbe019c13d11c89670f4d9f975ee4800cb009eafb8cd950d"
+      },
+      "crates/gpui_macros/src/derive_inspector_reflection.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "9c1cb503a87e5f726ba27d1868a6c053b36c6731",
+        "sha256": "b5e83bad5bab1046dcf9d072c7626b78fdcbf621c5e3addd472bcc7535e18a55"
+      },
+      "crates/gpui_macros/src/derive_into_element.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "33ff658b68de7cdeed377dd3156e01bbbb98dbec",
+        "sha256": "50a2fe2c858e9f5fc9f9694d91485ed60fc4dc6fc1ca0e44f4f3011a5c8d7c66"
+      },
+      "crates/gpui_macros/src/derive_render.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "3e0dcbc993d05a4a4359cd8e65c689c898741a1c",
+        "sha256": "30d5987bdc0033a18789666004a123fb1674bde317a61ba283c9c9b4cc8504b3"
+      },
+      "crates/gpui_macros/src/derive_visual_context.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "a639b6d2d6e9eda9f5f9a167a2366b243b4d5011",
+        "sha256": "3649dedd89ea8e329ddbc91c8db8b2a42167b4e9835f519d8387f30b63319365"
+      },
+      "crates/gpui_macros/src/gpui_macros.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "50305af752c3938f62bac067e1be25570eecb504",
+        "sha256": "9e1b672330062c14d03a38178cdbc9d9dee111dd5f4bbe559982883b9260cbc0"
+      },
+      "crates/gpui_macros/src/property_test.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "fe1585cc0672a1f62b152736615aa031c349e9b2",
+        "sha256": "50739110ab145857f1edcfc74236a4aa072467b21fcebb43ccd3a63124b3035f"
+      },
+      "crates/gpui_macros/src/register_action.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "ca36ce318699348e33dc86bac99ec90fea26444d",
+        "sha256": "a68705da162f2944994396800f5b88e5046edc24fa525d3c5cffb723b43171b8"
+      },
+      "crates/gpui_macros/src/styles.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "4a1bb5c98a3efbb8da8ab3274b8d8ef1e34a08d4",
+        "sha256": "5fbd5dac9b7cdc954860a018f6b6925e49c82b4dcfe29424ecea828d47a3ff40"
+      },
+      "crates/gpui_macros/src/test.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "087e01740d2ba48392afee0ed7e31cf0779b180d",
+        "sha256": "ae926426be2f9fabb29fd4cc1496f9541f3d3f0278ed58bd2e52ca33ccb5dcbb"
+      },
+      "crates/gpui_macros/tests/derive_context.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "6c122eff25ac7c4b50611a02c40a559d740b5133",
+        "sha256": "5ab297be108b4df4c27f3d7e3face8a9be1eecd2567d366f0608714d4b9a7013"
+      },
+      "crates/gpui_macros/tests/derive_inspector_reflection.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "92f4e56e9c0c48d9c9279e7bf1bb283eeb1139a7",
+        "sha256": "acea844c426da87a57ace4780bc03cfbb61fc879d3d0c402649a3fcd9316ab51"
+      },
+      "crates/gpui_macros/tests/render_test.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "98c9062381ef103ae20a11915e6b0ddaca0f3644",
+        "sha256": "d2460de4cfa37fd171c92ae18c9005e02a8ae394f5a612628cdba3c3b30c35ac"
+      },
+      "crates/gpui_platform/Cargo.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "ce2e057c4aee3194302cd2f7af2fe6bddeb2a7ea",
+        "sha256": "037b5c40ac726f5d7c2b53b8ea912f65daf69915f866eff5fd2d9b3bd17717d5"
+      },
+      "crates/gpui_platform/LICENSE-APACHE": {
+        "mode": "120000",
+        "type": "blob",
+        "git_blob": "1cd601d0a3affae83854be02a0afdec3b7a9ec4d",
+        "sha256": "9cff568488e9d56aae60f162404acdb15d8533a0202cf01f6eb0843b264f20ff"
+      },
+      "crates/gpui_platform/benches/inspector_render.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "811155ffb4ae86cfe7c473dfb3bc1aa12067ee8b",
+        "sha256": "b7b24b4965c9411a1325871e99cf7ccf9863ef24b57f9e40f36af2f1a6dd4f68"
+      },
+      "crates/gpui_platform/src/gpui_platform.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "5e165d5c4022ba9df0dd0bd96a27b2f96f29d868",
+        "sha256": "73c895d123466e175981db374f356cd9b11134e5641daa090b3c02873ab028b9"
+      },
+      "crates/gpui_shared_string/Cargo.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "c3ba8736215efe48b7e7917df87d82af4f714bfa",
+        "sha256": "835811b320efe255539e62c90dbce0eb3d0f89fcede8e5fc87a634485437ee6f"
+      },
+      "crates/gpui_shared_string/LICENSE-APACHE": {
+        "mode": "120000",
+        "type": "blob",
+        "git_blob": "1cd601d0a3affae83854be02a0afdec3b7a9ec4d",
+        "sha256": "9cff568488e9d56aae60f162404acdb15d8533a0202cf01f6eb0843b264f20ff"
+      },
+      "crates/gpui_shared_string/gpui_shared_string.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "8449c065ad20b96e1c09c5b7580b63805e112cd7",
+        "sha256": "14cea75f2e7c03d5f704321616f988021cc6d00a74039f6b0c32bf82ca5d2369"
+      },
+      "crates/gpui_util/Cargo.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "86843d64c0826f7c53cefca2d5c48cc95ff7fd2e",
+        "sha256": "d95627aa2496177d3bc11837d0617a4806973461ee7af9bf25e6717e9db62de2"
+      },
+      "crates/gpui_util/LICENSE-APACHE": {
+        "mode": "120000",
+        "type": "blob",
+        "git_blob": "1cd601d0a3affae83854be02a0afdec3b7a9ec4d",
+        "sha256": "9cff568488e9d56aae60f162404acdb15d8533a0202cf01f6eb0843b264f20ff"
+      },
+      "crates/gpui_util/src/arc_cow.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "41040671bc68910397fcff47170f043d950e1920",
+        "sha256": "d10dea6ce77e8374a8cbe8b24eae50b6c571d9173b9278c7971a5d52143ac5bf"
+      },
+      "crates/gpui_util/src/lib.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "37279de56e9524d9ddc2fc27d18e182442f0b6ac",
+        "sha256": "7f9c064f1172fbb89ee6be083fefdb9636b68b23b2296abb1c141839752b1e0c"
+      },
+      "crates/gpui_web/Cargo.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "80c4ca0decf4e3830a41dc407dde9b2f65cbe028",
+        "sha256": "42d9c0d7cfc4910d1af1c25706cc3fb23feb73ed9940b9a850269f8b20769266"
+      },
+      "crates/gpui_web/LICENSE-APACHE": {
+        "mode": "120000",
+        "type": "blob",
+        "git_blob": "1cd601d0a3affae83854be02a0afdec3b7a9ec4d",
+        "sha256": "9cff568488e9d56aae60f162404acdb15d8533a0202cf01f6eb0843b264f20ff"
+      },
+      "crates/gpui_web/examples/hello_web/.cargo/config.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "de4cb1a897249f8f2f8e27025ccb6d1a54f01c34",
+        "sha256": "8abd9e4b0c01c1e4b28f97791d912c41098bb0a71128b31984593723baa5c6bf"
+      },
+      "crates/gpui_web/examples/hello_web/.gitignore": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "2b1bc8d911302b667ef2cc4e795b80eb2dd5ba28",
+        "sha256": "45e90340cb87bc9251a4c295ba768ed20100b9eb5ddf4d0d252044f9b0fc29be"
+      },
+      "crates/gpui_web/examples/hello_web/Cargo.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "85450a97f5232d2e8efcc7ee38c6125a06934040",
+        "sha256": "87c976f45738a137edbe05a64ab9d9ea1bfb3eb76457a498093afedd4353d9dd"
+      },
+      "crates/gpui_web/examples/hello_web/LICENSE-APACHE": {
+        "mode": "120000",
+        "type": "blob",
+        "git_blob": "15824831a24d7753b6e945b8190dd7d15413aed1",
+        "sha256": "217dcb5d8f2422873ba7066f6d3ffd524f151c0a0c53ca885db4a0bd60dd1f18"
+      },
+      "crates/gpui_web/examples/hello_web/dynamic_fonts.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "33d4d6cc1721b24f86241ae53a417313c4ae0ed3",
+        "sha256": "e69c63f9a0d6218bd9eeb15e4c48437015c096f01dd2934d2400bad0e4463466"
+      },
+      "crates/gpui_web/examples/hello_web/font_fallback_test.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "039da244a5686f7d83893e53ff298b87faef5e12",
+        "sha256": "94f01025b26d17966930e4e1563f169e072d80e18a2fd78e61aff59b1cb3016f"
+      },
+      "crates/gpui_web/examples/hello_web/gallery.js": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "57b40f491f30c2155135cdf47592f073ff0d3f34",
+        "sha256": "c415f4740490ecdff76beb5964e3fccecf8c309150d44a59325f656fc2da988e"
+      },
+      "crates/gpui_web/examples/hello_web/index.html": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "62680135daefe66b888c484c732d37fe6aa4c903",
+        "sha256": "ade561da1a973145bc80e2c30cd26ea2e01ac7824e13863ca640ec44b9bd8d48"
+      },
+      "crates/gpui_web/examples/hello_web/main.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "31f30431e2a15963d7277047d0301e2510a90616",
+        "sha256": "f92b0ade326df06c343fe671ff014815ebee47c8e14d1113ccdebf7d1f25c67a"
+      },
+      "crates/gpui_web/examples/hello_web/queue_test.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "57f8e70660d5730d8a1b5da57a6dbfe358543bbd",
+        "sha256": "b254340a94f1fc0c0f25eec977a4a7ecad419c377b246f902f51ac0753a336f3"
+      },
+      "crates/gpui_web/examples/hello_web/rust-toolchain.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "8ea6df3d47dc12d2daa3d1b25431f2d636698dc4",
+        "sha256": "51b07c8d9f798d0cc170b1040149afaf2612fcb9862981c02372c324c12b61de"
+      },
+      "crates/gpui_web/examples/hello_web/test_canvas_fallback.mjs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "8e8ba607bf495c769c4932a2286874be8e61ca1e",
+        "sha256": "36428a8057d54340953184f15e758f00efd0862d7bc40a1fbfa1bef2413c53e1"
+      },
+      "crates/gpui_web/examples/hello_web/test_queue.mjs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "31f127e7739ac77aa9eb6ea6989f9de5079326e2",
+        "sha256": "438329b6779a06e5e70942f8f9cf96644f658b99475c78dc485486c244c334b3"
+      },
+      "crates/gpui_web/examples/hello_web/trunk.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "1ec4ed4daf1ddf48acfcb454bf64982b1f0d3d28",
+        "sha256": "ab5f7e01791ef60fd4c0f3c8071ee0464c71409a4d47a971c1a7d0da388aa7aa"
+      },
+      "crates/gpui_web/src/canvas_fallback.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "c852cea272705b026bbaa7bf14ceae4f33a8610c",
+        "sha256": "f23fef0d3b68fabe50dea4e32a63fa5b0bc0506f4e9e7e04ece8b563e05e20c4"
+      },
+      "crates/gpui_web/src/canvas_text.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "aab243b5f2f8e1840caa0061b4b66bfe861a9361",
+        "sha256": "da73053a7f087e78aefb873f23502189224e8572fc0de49d52689f049f0cbfb3"
+      },
+      "crates/gpui_web/src/dispatcher.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "721ce6f7c2399a72ba0a5ee2654a999c2dfcc7f7",
+        "sha256": "2278e642e620a30605fe3ed8c391b0d94151ca79981fbd4c76a2bd61c06e8bb9"
+      },
+      "crates/gpui_web/src/display.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "aaf70c67b5f167cf0fb667cdf889bf16219beff5",
+        "sha256": "e44576f49adf7731286c5c92fca5abf207d7415ff822c5cd2dda8977d811cb70"
+      },
+      "crates/gpui_web/src/events.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "bc854cca7d21ff213b82e5523b858b4a1d8d15cb",
+        "sha256": "42e340720387a6215a5e11b794043aa79bb04e7f228467ec8ce6a16a6d15d90b"
+      },
+      "crates/gpui_web/src/glyph_cache.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "8d0d3afed48f0c6a00227bc72f148c9039bad08d",
+        "sha256": "d9beafc7c2a8029171151249a4ecd13bf7419d1a22809abbf86d3e823b665793"
+      },
+      "crates/gpui_web/src/gpui_web.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "c915084325ed80344f9f7f5e36d279d0a51ea5bf",
+        "sha256": "51360d028a5f0e495557732e7e257ccfd5de960a17a9a57487aeaa8562b10979"
+      },
+      "crates/gpui_web/src/http_client.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "4a00324dc36455ea622dbd241172f8fea6558d63",
+        "sha256": "a001cf8dc29a6a2c0124fcfcb05eb427036faa27e1a0e1237a3f33a35d40d01f"
+      },
+      "crates/gpui_web/src/ime_mirror.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "5cb08b5a29699d49f93bdf658d1365a1cc8b4fd8",
+        "sha256": "4061ebd319b5928c2a25f659c4f1db9adb193d5873bbbfeba36468ca2706895d"
+      },
+      "crates/gpui_web/src/keyboard.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "51ed113c8c42fceb6e2cff1a4b54ddd88d3877ec",
+        "sha256": "f13f68ea0aed387146d2ff95892bdd4f14b2e0a46231a2b06ea6c7e674e11a5d"
+      },
+      "crates/gpui_web/src/logging.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "09aaab08d511088bc177e72e5ef9b5e6a83808c2",
+        "sha256": "2d464ead162a6eb83b8d22b435c83a557a8ad7c6776966ff92f3e2a82fdae1fb"
+      },
+      "crates/gpui_web/src/platform.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "d29dc347727cbe1678fe8a6c9f55f296dea8725b",
+        "sha256": "62c8ca81f42102b16b548b201645d01df6d2b3fa278a488c6e05f79c7d7dec5d"
+      },
+      "crates/gpui_web/src/run_replacements.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "2a190a2489621537c83c0e86d9e9b309cd7e3a90",
+        "sha256": "c00a0f957f156b3744a90d3687f773de0a0e259c6c8beb1c86bd3f17614c3f43"
+      },
+      "crates/gpui_web/src/text_system.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "e8ce869a8025a14852c64f5fa9f7d48c6d9aafb8",
+        "sha256": "50d2d9da4a628d4363264dee69ae7eb271655007ccd5ef1bfbdb88954315808f"
+      },
+      "crates/gpui_web/src/viewport.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "1e6582af13311998eab3453b41c146b8121f3e72",
+        "sha256": "2f64241c990f6de9a874e7680baafa61feba6db96228c48fab26ac7faaf623f5"
+      },
+      "crates/gpui_web/src/window.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "d503148fed5c978312e822103d8acb8b2f643905",
+        "sha256": "d92f156ecc34c5398f49ff0eaac3a75192a26a5ea648a7b8fa4a93ffa0ef783f"
+      },
+      "crates/gpui_wgpu/Cargo.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "a49cf7f3ae1feff41dff2c057fb8af0541a08b64",
+        "sha256": "ec6acc1911d04f4373e11bb8b906944c0358c53f8feb5d19002f140b32da71d0"
+      },
+      "crates/gpui_wgpu/LICENSE-APACHE": {
+        "mode": "120000",
+        "type": "blob",
+        "git_blob": "1cd601d0a3affae83854be02a0afdec3b7a9ec4d",
+        "sha256": "9cff568488e9d56aae60f162404acdb15d8533a0202cf01f6eb0843b264f20ff"
+      },
+      "crates/gpui_wgpu/benches/layout_line.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "6d66a7a2d556aa1685f868ef6bf46d6a29fef712",
+        "sha256": "635fda3c820ce35cdd7ac2e9c72f9aae3eba4cc9fd7c9e6325cc08fd2065f8ae"
+      },
+      "crates/gpui_wgpu/src/cosmic_text_system.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "0e4e3b11f235a4094d78b9c2830af4a7d29e7ba4",
+        "sha256": "44ff6a00b3db220ead411dc8599c0be6062e5c58df97b04ad429a140d53929e3"
+      },
+      "crates/gpui_wgpu/src/gpui_wgpu.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "29a79afc6e36fe0958b5089ba92ceab6d00033b5",
+        "sha256": "b51033ac07d187c89c4079f208d3a557c6fff309b1cd403927ce8974e795afa0"
+      },
+      "crates/gpui_wgpu/src/shaders.wgsl": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "718cb7595d86f73cd91a65bcbf42682004dbba4d",
+        "sha256": "1d91f2c8a1958a241f1b659a4137c160592c8076b9be09049db4c9fb9a344529"
+      },
+      "crates/gpui_wgpu/src/shaders_storage.wgsl": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "55b80802e6c0ccbd2b871ac36135ab921bd11e10",
+        "sha256": "5e7935445569ec610b2f7ab520c6d2b3ad8613248fc4465072e8dfae941017ca"
+      },
+      "crates/gpui_wgpu/src/shaders_subpixel.wgsl": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "8fd936469dc964bfb6b37d2fd0f276442ab3d33b",
+        "sha256": "0530095284595ac2338dd471317fd936f4f1bbe8cc9a9dcfe2b3abb39dc2f62d"
+      },
+      "crates/gpui_wgpu/src/shaders_webgl.wgsl": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "bf5f629cf9d1478a774dfba892f97bd0ca77c7d4",
+        "sha256": "e037e884b829600c48babc8415f855fb8bda58c858348ad3a555f2db949bb6cf"
+      },
+      "crates/gpui_wgpu/src/wgpu_atlas.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "b541607ba38ae9e123fc9c5c70f8f962000881e4",
+        "sha256": "a83974f0d64bf87bd5d763e1031dfb2ec845e3f100dc0efcafa8aca9129fe8c8"
+      },
+      "crates/gpui_wgpu/src/wgpu_context.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "4a6e9cbe0e41a4e0f1253923d225c8396fea2a1a",
+        "sha256": "e55ddbb0fc1f4fe00bd7f5a2da9fa8ab53f1b337297e86b62fb3e5ccf8f605e6"
+      },
+      "crates/gpui_wgpu/src/wgpu_renderer.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "9cb6cb496773e239aee5feb18265436fd362ba32",
+        "sha256": "9937748ae9e1b339f6dcb7d3061e60b7436fdc72b961fe883fc08179d88c906c"
+      },
+      "crates/gpui_windows/Cargo.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "3d6221a79a817f67910a0d60d3393dddde787744",
+        "sha256": "9b1c23b463781d0d8620e8f06b4211bd071e20a59f3573443f11345f523c1606"
+      },
+      "crates/gpui_windows/LICENSE-APACHE": {
+        "mode": "120000",
+        "type": "blob",
+        "git_blob": "1cd601d0a3affae83854be02a0afdec3b7a9ec4d",
+        "sha256": "9cff568488e9d56aae60f162404acdb15d8533a0202cf01f6eb0843b264f20ff"
+      },
+      "crates/gpui_windows/build.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "1db95715e26daf9ab0ca5097183a763cf3aa8340",
+        "sha256": "3192734d0448f3ec44525e3b55c025d30d9926edce6b24e5575ac27a1ab3ad06"
+      },
+      "crates/gpui_windows/src/alpha_correction.hlsl": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "5a34a4ebf28f5ea1a4f70581e10a23b5b12f01a9",
+        "sha256": "d37b106f1266b40a0e17478455dfaac1205214f597e23fbd0a26455c49806bf4"
+      },
+      "crates/gpui_windows/src/clipboard.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "cd0694ab3159984ee7e66f0d71f8c3a6c6ea16b6",
+        "sha256": "513125f0afe8c9393f02121310cd250784de0910adff7d77b31363992281fd4c"
+      },
+      "crates/gpui_windows/src/color_text_raster.hlsl": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "2fbc156ba5ea9e443366558d10d0b8791c2eb488",
+        "sha256": "53bb7f737dcf5b7c7a2c474cf6e7f649cc4e7d49b5526c2ac5f75f75086ce2b8"
+      },
+      "crates/gpui_windows/src/destination_list.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "d6967c01d2410fa5cfa6a5ed7b255a6a6872238f",
+        "sha256": "2f9bfdb5e7fdfdb2f72e4e150683677538b38dc4087390e916df765fab46a6e4"
+      },
+      "crates/gpui_windows/src/dialog.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "16866cfc35a9236a835d0095b5ee063421a1273d",
+        "sha256": "94f35e514b4f42ef96aa0a66934193a33534bd1536cc526e2be3547c745adb41"
+      },
+      "crates/gpui_windows/src/direct_manipulation.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "9adcbed343bec61530329a1673f0185cae41c115",
+        "sha256": "da83877b3e6c2d3f7d391eb151cc4cc56c70dbc95b261f5bda2e3e861d8aca1d"
+      },
+      "crates/gpui_windows/src/direct_write.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "dfe98a76be180240a2ec31ce0bcaff29ed16e4da",
+        "sha256": "ca1fc5e30e5af9b6da5f76d1919b4cb3b50e0e9471d97ce2043ec1bfbbdfe529"
+      },
+      "crates/gpui_windows/src/directx_atlas.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "622c1cb6040ae6817692fc9f4ffb89dcc43f142e",
+        "sha256": "eff897707e3b8b4e549cd247725a6cee9c14b6a8188e32d32ad6360d693ce455"
+      },
+      "crates/gpui_windows/src/directx_devices.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "8e65e6e626aa9bca9bdf60d268d2309ec4b4c1e1",
+        "sha256": "83372170f6225db45033473d118fc43708942ec9687467de09e2b5215c835cf1"
+      },
+      "crates/gpui_windows/src/directx_renderer.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "f8b86bc25bdebedf4f0399bc6f79c8248dea55e1",
+        "sha256": "4f4e51ce4ff30b1884d01179873a17483440e205c420d981bb2a5fa2155fa7b0"
+      },
+      "crates/gpui_windows/src/dispatcher.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "55f18b50c0716d55c283b3b840ab2030e891454d",
+        "sha256": "a24daa0105ceadc2a4d50f0d1afab5a4af441a6a1254412d9811a04095f8cdd4"
+      },
+      "crates/gpui_windows/src/display.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "ee02309d8c7f3c92938c2154d1db30721599993d",
+        "sha256": "763040fe7a9c29d78c46e42dd8c4ffaa8eb703d7cdba0748b709a8e76787f614"
+      },
+      "crates/gpui_windows/src/events.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "f1910b56b5013f16ba840664c3dcfcf88ed00a66",
+        "sha256": "7458a01f0b2c6569a251441054a8375cf3910e1d7399b3edad2ca80bc43b0f8c"
+      },
+      "crates/gpui_windows/src/gpui_windows.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "e7a45a034dc235dab7bc49cad209f9cdef143802",
+        "sha256": "75343c98433a942fa1f4a700592e11361edb9a236a5523fd9a6327523b0c9b6a"
+      },
+      "crates/gpui_windows/src/keyboard.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "8164bc1564d48b4adcb23deb40e91ee28a00a656",
+        "sha256": "4e373ce1a3f23b6527b1abb3051b59c96d5cc2b0f777d4d4097dd27dd1673516"
+      },
+      "crates/gpui_windows/src/platform.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "348aaa3f23f14c75eabbb221dec95979f2a07db7",
+        "sha256": "5f9da137f264b8e0ffadbbe6eb8edd83dcf38718f14e13eac52bfaad8b291fb4"
+      },
+      "crates/gpui_windows/src/shaders.hlsl": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "ba89c6873354fb7449b8294878e080a68c3dd29b",
+        "sha256": "16a7d6ba1e2095bf1aa53c4d91a3ba54282851c4c097dbaf3d688d6f6983c4fc"
+      },
+      "crates/gpui_windows/src/system_notifications.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "b0075f0e39d781761f0bd19ce6210ab0cff12bba",
+        "sha256": "d0159dbf6fd10622a5b106806ea2f57b3fe983eb6e2fc8635ab38bdf6529879d"
+      },
+      "crates/gpui_windows/src/system_settings.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "8cce544be1b910269ad42eb3e33a5a66cbef2056",
+        "sha256": "a9d22571c2405f610d44b85d86fbcf0356f7cc6aeeffad269a534b42eeffbdd9"
+      },
+      "crates/gpui_windows/src/util.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "b3badd84d104b123ab7e6cdb3129034641ead4f7",
+        "sha256": "e9bdd79c80149f7d60d2a35f4e86398343762a6c2549fd67de1de4de9ab65147"
+      },
+      "crates/gpui_windows/src/vsync.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "51fbdf6c5000937959c8048ff7f5918d4b112499",
+        "sha256": "2223e21da45cbefb3d427e5a804ac7367815db41e56d1d47f315ab0ad9efb675"
+      },
+      "crates/gpui_windows/src/window.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "73f56d7a54b68bfee17c7c0290babbe4c122bf0f",
+        "sha256": "35ca36a271ca0f3be6b8bcd9619d16763704abeab10d825c85a234c2cb208058"
+      },
+      "crates/gpui_windows/src/wrapper.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "60bbc433cabc1c6b7c72c9912196ad58f4093da7",
+        "sha256": "a17bfb94697904d650a0db4007880262256d06bf96cb00af387e73fde7536c8b"
+      },
+      "crates/http_client/Cargo.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "ba2282a0ca3231ceb8297a6d4f95fd3b09953d78",
+        "sha256": "aa6c67b9edfe147fefece0b553c28af7715cdf3b57d37c08dac07f06eb0cc512"
+      },
+      "crates/http_client/LICENSE-APACHE": {
+        "mode": "120000",
+        "type": "blob",
+        "git_blob": "1cd601d0a3affae83854be02a0afdec3b7a9ec4d",
+        "sha256": "9cff568488e9d56aae60f162404acdb15d8533a0202cf01f6eb0843b264f20ff"
+      },
+      "crates/http_client/src/async_body.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "a59a7339db1e4449b875e2c539e98c86b4279365",
+        "sha256": "d23ca96c4c3510d1b12dd63fa5d2cf2fe6123ac1a6b41f2524bced076b6e0e3d"
+      },
+      "crates/http_client/src/github.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "6cb2b794ea03a0d1239fa09c16333eb2f88de3f6",
+        "sha256": "13fee1f51a552a53c37a815059c6d074dbf1ce6d15210af19b89d8928fbc5318"
+      },
+      "crates/http_client/src/github_download.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "bbb85c524912b6c427bc06180f97ba3b1c87abcf",
+        "sha256": "092acf2b05eb78d83b891226246690542c2365b4b09b918fa6efc0d6fdf29a84"
+      },
+      "crates/http_client/src/http_client.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "fe2a3d0069d259b6db06c0d8196eaa5c9b0dafbd",
+        "sha256": "af365440ce66951d8bd48a2efe167797a0b560233a19a1ec241a1cfadd3d8dde"
+      },
+      "crates/http_client_tls/Cargo.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "3b2f456b3b76568aa28580339e9a99ef833a5424",
+        "sha256": "7db2cd8228bab27c068303f57b8936465b7fadaa619c0cd34692a8a270436eb5"
+      },
+      "crates/http_client_tls/LICENSE-APACHE": {
+        "mode": "120000",
+        "type": "blob",
+        "git_blob": "1cd601d0a3affae83854be02a0afdec3b7a9ec4d",
+        "sha256": "9cff568488e9d56aae60f162404acdb15d8533a0202cf01f6eb0843b264f20ff"
+      },
+      "crates/http_client_tls/src/http_client_tls.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "2e43ac29b2330cc120b8ae1b239113c3af1856bf",
+        "sha256": "86ffb6dfb0c9e7527326f01f935ad6c3e6361f73ad3181999665e41acb76ce96"
+      },
+      "crates/path/Cargo.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "f1668b78ced91697e2049013676ee82416b07335",
+        "sha256": "6f166334216d3a0e0d18547e07a4e9c04fb5a469ffd2ddc4d6cb900be9bcff44"
+      },
+      "crates/path/LICENSE-APACHE": {
+        "mode": "120000",
+        "type": "blob",
+        "git_blob": "1cd601d0a3affae83854be02a0afdec3b7a9ec4d",
+        "sha256": "9cff568488e9d56aae60f162404acdb15d8533a0202cf01f6eb0843b264f20ff"
+      },
+      "crates/path/src/abs_path.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "65f5c2832c5abd28deabe23902ab8f3445586538",
+        "sha256": "587305cd74bc2e6ffb3d2cd6674bbc8edaadb6bd1d44be90311c5d0990155f15"
+      },
+      "crates/path/src/path.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "83f386c756eb493cef170a70f1e75196b88210c1",
+        "sha256": "dfff12b3f624c091a0b70ce7a8fcb68b34beaef9150b33e04c943379562944e0"
+      },
+      "crates/path/src/rel_path.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "80d1d96f33873800c95cea57601b6483a44f7ccb",
+        "sha256": "1d20ea25e1ce2bf03a87719cdaf2d90cb5409c24f87a21388bc85fd5d187186d"
+      },
+      "crates/refineable/Cargo.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "98bfd84bb81c27139d82ccc90f4662cb5a3bbe36",
+        "sha256": "923a1042d03b9bb36ae27f9060af37f86412f2d31a7e85db525bfc04992fd744"
+      },
+      "crates/refineable/LICENSE-APACHE": {
+        "mode": "120000",
+        "type": "blob",
+        "git_blob": "1cd601d0a3affae83854be02a0afdec3b7a9ec4d",
+        "sha256": "9cff568488e9d56aae60f162404acdb15d8533a0202cf01f6eb0843b264f20ff"
+      },
+      "crates/refineable/derive_refineable/Cargo.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "8c3f7c1dfb03a2b702bb8127c9a956045c3c1ad2",
+        "sha256": "765b793fb4f0c89f8dba101f3675d66d0200212d97b0326ab6d2cf23a828492e"
+      },
+      "crates/refineable/derive_refineable/LICENSE-APACHE": {
+        "mode": "120000",
+        "type": "blob",
+        "git_blob": "6e2b1da8755027f853c1c399de84974538ece558",
+        "sha256": "4219cae644a01759f302a926799038c303bc3bcdd71e033d468a591ea014ae27"
+      },
+      "crates/refineable/derive_refineable/src/derive_refineable.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "c7c8a91ad9b05d054a94c8ca7f55a54c75150d81",
+        "sha256": "6cb36a5c1f83c3f6fb3e9019f8c1716ddb66ff4ba1c9285ebc3b2610bfd44aa3"
+      },
+      "crates/refineable/src/refineable.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "b2305d4b5a7c1e5e45287394a49a258d98767c66",
+        "sha256": "a09bd2dbf305208fdf698d24789764eb0154b17ded853fa5a29aff5ff02ee184"
+      },
+      "crates/reqwest_client/Cargo.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "066c1b0ef5765836839b63aa9aba3f8f74fc5165",
+        "sha256": "44c4b19e73510a23e27780513fa6b8ecef069dabcc29c81b90c97454206c9e95"
+      },
+      "crates/reqwest_client/LICENSE-APACHE": {
+        "mode": "120000",
+        "type": "blob",
+        "git_blob": "1cd601d0a3affae83854be02a0afdec3b7a9ec4d",
+        "sha256": "9cff568488e9d56aae60f162404acdb15d8533a0202cf01f6eb0843b264f20ff"
+      },
+      "crates/reqwest_client/src/reqwest_client.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "436ec60fe1f12f0a8fa02f1314a028c4b573f5c7",
+        "sha256": "50b3cd4deb02b5b9841658951d9dfa44aacaeac8dbd702cb6c7ae4ae0897005a"
+      },
+      "crates/scheduler/Cargo.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "bec534c98cfb64193d207e3c702bbbb54b835735",
+        "sha256": "466231bfc427ada26e65ad387bf8013df83a84a16950d9002654c7a6370b1994"
+      },
+      "crates/scheduler/LICENSE-APACHE": {
+        "mode": "120000",
+        "type": "blob",
+        "git_blob": "1cd601d0a3affae83854be02a0afdec3b7a9ec4d",
+        "sha256": "9cff568488e9d56aae60f162404acdb15d8533a0202cf01f6eb0843b264f20ff"
+      },
+      "crates/scheduler/src/clock.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "8c989165b679746c68e6c0295e8706ab77373d29",
+        "sha256": "80d2df56e160af015e4ac4e855996e16290627afb2b7dbd87f7eb934172f36fc"
+      },
+      "crates/scheduler/src/executor.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "ad2ea929dc1bb8fb5928e634c79e4d3202593509",
+        "sha256": "2bf416cad540aeaf49a0339eed0d1e2613f3b0343e37f2895dc27b641f2d4b28"
+      },
+      "crates/scheduler/src/scheduler.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "325ec7b2b57b652723fca0b645fc822fe095b34e",
+        "sha256": "8f6581b626bfbbec4b8a951baf8e305fd98df6ff7524d8323b66d4af18e82c28"
+      },
+      "crates/scheduler/src/test_scheduler.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "bd342037b9c9e0fb348f473509e6fcf506ed5836",
+        "sha256": "d0691d0223e0a8fba2dde7d06d15de4831e38de97896156f698eebd5cccf9b03"
+      },
+      "crates/scheduler/src/tests.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "c834707ce999a9e4e09e7bc09a667cf72362b108",
+        "sha256": "fc268a8ecfe19e00833c060ccf7b8b246a692bdc3e04727a03b6d39ac011d5fa"
+      },
+      "crates/sum_tree/Cargo.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "2872378cabab5c4b66fe1e637247bd1f0f7ae421",
+        "sha256": "e9fc02f616e2501341350019227181a04d0ef921a5fed0ac7f3ebc7ac6e2e8b0"
+      },
+      "crates/sum_tree/LICENSE-APACHE": {
+        "mode": "120000",
+        "type": "blob",
+        "git_blob": "1cd601d0a3affae83854be02a0afdec3b7a9ec4d",
+        "sha256": "9cff568488e9d56aae60f162404acdb15d8533a0202cf01f6eb0843b264f20ff"
+      },
+      "crates/sum_tree/src/cursor.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "06cbfd58746c29fa8b1d13f2a1ad34f50f99a005",
+        "sha256": "9fddbd1236f3547d15d72360f9ab33ba36e0eda6410bc6b9bd7c019683e54df1"
+      },
+      "crates/sum_tree/src/property_test.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "d6c6bd76f94704c60dfc6919fa02ba66c19f349d",
+        "sha256": "1781da188d48d78f9d212f491a93ddf4881d35c27a6c4b9f3d9b0b9db0de85ce"
+      },
+      "crates/sum_tree/src/sum_tree.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "352db3c65a3976e94ddbe6ba222c4d29d38202b0",
+        "sha256": "3db2a92a6910773bdbd2bff316ff3de1f487109e737f833e7543d47e5ab8a240"
+      },
+      "crates/sum_tree/src/tree_map.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "004ec918514e0ad18b3c1e55178a6527866d1bb1",
+        "sha256": "6846e0d1b9080bad1ce83bb66248a637c52ff465f1cb0d0afeadb29bd4e302e3"
+      },
+      "crates/util/Cargo.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "7ed25dd73f640e269d424b15cf3746288fdf8505",
+        "sha256": "4075f5da78542e8eb7cd342c7208c5fc0ee550de7a6b6596f21b6379bb594313"
+      },
+      "crates/util/LICENSE-APACHE": {
+        "mode": "120000",
+        "type": "blob",
+        "git_blob": "1cd601d0a3affae83854be02a0afdec3b7a9ec4d",
+        "sha256": "9cff568488e9d56aae60f162404acdb15d8533a0202cf01f6eb0843b264f20ff"
+      },
+      "crates/util/src/archive.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "7fe43a25c37afa0fa2487374c89a13945e54fc6c",
+        "sha256": "e84ff26aad46a131686521b4a704fa37b3ba697a9100be02bbc55a011f6ab75e"
+      },
+      "crates/util/src/command.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "846a857076071984cb388bfcd051d3ef007a02d9",
+        "sha256": "8691e42347d5f9e69c8860a34dc58eb8e808825625cffeecda7f2c91613c4149"
+      },
+      "crates/util/src/command/darwin.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "7b47795efa9626a6068fc8a8ef3ccb4757cf9661",
+        "sha256": "edbbe2ac59bde7569043ae4b39fcff27a6174cf97bf478f9b9a995665aa2882b"
+      },
+      "crates/util/src/disambiguate.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "490182598b52ab3419633d0c56700e85f91d81a9",
+        "sha256": "96e013bfd5b35931c865de2b60fbc7f22ed688d6452e78dbbd38359f874e805e"
+      },
+      "crates/util/src/fs.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "60aab4a2e746862c2e9b5b4933c0cf32c9d34310",
+        "sha256": "5a1ca82782b600396555c42bc3a27572e2c521e551e75d89d0b12995be7ed3c0"
+      },
+      "crates/util/src/markdown.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "92c3ffedc93d673d12ec807766d37d1d24141847",
+        "sha256": "f17c628d156068393889722b898ac637df4fe05f3c2ced3c4109e8975475969b"
+      },
+      "crates/util/src/path_list.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "af99f4c6570b35b004179afb87b737d3a4356489",
+        "sha256": "4a783f6479b1a6c60499ac5921222958478f2f4ac862fe286f7aa3ea1e78a101"
+      },
+      "crates/util/src/paths.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "42133b3df3e27ba02ace24590294155f428211a5",
+        "sha256": "bd3479febe93a3cefa5a9e3cb41a422905abf2621285ccf38760916bfec03668"
+      },
+      "crates/util/src/process.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "93cbe65ce58486fb7fa519f849ac79be8567252f",
+        "sha256": "0af08473e3c9e7e391d17311d49281e0a7e89c163a6aaf286dc737a470934d8b"
+      },
+      "crates/util/src/redact.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "a9a82bfb145550ddebc599580970fea8c0942e0e",
+        "sha256": "82841933273db55c6e1ac0eae43f559007397e9fdd6cef3e01ba30bd38061036"
+      },
+      "crates/util/src/schemars.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "8124ca8cfef62cb4ea320da6423d7ad95a09eb78",
+        "sha256": "949f5a50b16be133bb28bae871ec64b7f72085c9ff4e6b6ff3aae1a3f88bfa07"
+      },
+      "crates/util/src/serde.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "4aa4bb1a4996667a0b8d1f78fd59749fb911a734",
+        "sha256": "2f4e12eff943aea511b8a22f84e9a95349561a427fca895b8196f13a2356c03f"
+      },
+      "crates/util/src/shell.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "5b91ec575a037256468a15d4ddd282d198aa7ec9",
+        "sha256": "6ebaff21b40e486a2f3bed9df4fccca0c42e270ef728ebaf970fcaf3067942dc"
+      },
+      "crates/util/src/shell_builder.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "870bf85caffcb3a5e8bb1a734fac879c10250638",
+        "sha256": "486a4f5f0304ba88848749e5aa8b6a1ae5c30570c1340fe4cedd34ad6bbe9ae9"
+      },
+      "crates/util/src/shell_env.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "ee765a9a27c55368488fca412ad146d5168d19a6",
+        "sha256": "967713bd7bc85f3ff787ae03e6dd38c7bae805d0ddb8a838b3d166ba6e77b243"
+      },
+      "crates/util/src/size.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "c6ecebd548505de5ce60b433099b1e532a3308f9",
+        "sha256": "db42bf5e49d9816bf9cdce618ab6c8ff5e6209962a561e6baed1cdbceec09445"
+      },
+      "crates/util/src/test.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "68688ee2e2803a93d057c393de321ecc0761e8a8",
+        "sha256": "011b9a2d571bc91d84fec8736b4dfdbdf0c838cf96f35e8a8a0ce01e976cddcf"
+      },
+      "crates/util/src/test/assertions.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "afb1397fa9ea770c3fd37a460d33ad6b3fb99934",
+        "sha256": "2021ac591d0d2d6b31bbef30b226efdcbea72eb5c6fcea17ef8606867bc096e2"
+      },
+      "crates/util/src/test/marked_text.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "282a4779350f9d7a0266a06bd840e934a474e2d2",
+        "sha256": "9b382fb205bbd04edb62f60ef8a1a84ee8b85c9187cd4790da98e2f7540dec81"
+      },
+      "crates/util/src/time.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "092d447dabca64e3c789ebd75b96a22c8226a293",
+        "sha256": "121d762b0070954ce3f49b9d2a615bb1845a8b788414528aa93caa073f72c618"
+      },
+      "crates/util/src/util.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "f79a8b6c65298de2de936b563f3e79229d4ea283",
+        "sha256": "6428b6e0ea3f091765ea287f47b265fa1c4bbeabce48ae2fe62490d779c40970"
+      },
+      "crates/util_macros/Cargo.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "5eb4173eb7ecd1d1501b453e3cece58d19fbf194",
+        "sha256": "17991d0ca3a0406b4ef31333deb847bba157ab755773c183212fa51d62d953e2"
+      },
+      "crates/util_macros/LICENSE-APACHE": {
+        "mode": "120000",
+        "type": "blob",
+        "git_blob": "1cd601d0a3affae83854be02a0afdec3b7a9ec4d",
+        "sha256": "9cff568488e9d56aae60f162404acdb15d8533a0202cf01f6eb0843b264f20ff"
+      },
+      "crates/util_macros/src/util_macros.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "4973e41de2837645d29378ba2572430289c8ac86",
+        "sha256": "05eb38806327fafab5bd5b53f4c82b295d6842b97f1f3011e8317c6ada41b01d"
+      },
+      "crates/zlog/Cargo.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "b1a8ce3a4352298ef63c5f44f8e04217e38f93e0",
+        "sha256": "7dd704837b3765c2fd256d7c33ddef01fc450df7b0f750c8d16a26e4ddb3c2bd"
+      },
+      "crates/zlog/LICENSE-APACHE": {
+        "mode": "120000",
+        "type": "blob",
+        "git_blob": "1cd601d0a3affae83854be02a0afdec3b7a9ec4d",
+        "sha256": "9cff568488e9d56aae60f162404acdb15d8533a0202cf01f6eb0843b264f20ff"
+      },
+      "crates/zlog/README.md": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "6d0fef147cb0fb300e5a4cfd3936a97d0ee111fc",
+        "sha256": "f0e2bfed4f2aaa1cec2f130102f9184f7b542d5178ca2809c79c13e24ee70591"
+      },
+      "crates/zlog/src/env_config.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "38d3adc1795631e8a504e36787c9ded8ad88c51f",
+        "sha256": "63561cfb81f511fc6328a207b9a756de5b65fcdb106076e941820f9162f2ed76"
+      },
+      "crates/zlog/src/filter.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "afd1466d87556f84a7b4adf0d98d9917ef73797e",
+        "sha256": "c2c64466ff526cdccd87051e96b649093314efa2b2ce9887ef799608f55e7f39"
+      },
+      "crates/zlog/src/sink.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "2aea9c957756011689d81618eedcf22979ea2077",
+        "sha256": "2ef9a8b6ca5efc2f8ef5621e80b9d142f849bec6fde6ea872f3ebc3237bdc397"
+      },
+      "crates/zlog/src/zlog.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "3c154f790845da74dcf3a4f9bfdd830d2d32c9ec",
+        "sha256": "5e52f2b64b4a53facafd8cfd62302631a999b640549b7d5f8881497721bc9eac"
+      },
+      "crates/ztracing/Cargo.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "c08ca435cbcdcdc9d447c79ee2e7f33f0a774c52",
+        "sha256": "d902fb895646bb938e1f33a4e06465aea130e5236dc6b2b3daeb39448ff1bdbe"
+      },
+      "crates/ztracing/LICENSE-APACHE": {
+        "mode": "120000",
+        "type": "blob",
+        "git_blob": "1cd601d0a3affae83854be02a0afdec3b7a9ec4d",
+        "sha256": "9cff568488e9d56aae60f162404acdb15d8533a0202cf01f6eb0843b264f20ff"
+      },
+      "crates/ztracing/build.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "37e719320dc70a49db548ce568901780233a2f46",
+        "sha256": "a98e71800311237cfd568957ec402662848566325af1e6c837840cd28aceb3bd"
+      },
+      "crates/ztracing/src/lib.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "ea3c493b77113339931d98cb5e3d5f2d882ad47a",
+        "sha256": "e6c66a24b93df539ec02a2a1b1794b6fde23306340d59bb84cdf35ede839ed3d"
+      },
+      "crates/ztracing/src/web.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "96f33b7b3ab929ae509c9542ed862647933f40a6",
+        "sha256": "118e7ea02872b79721386fdfc98be02b70352e1890028516992c2d95c074aa39"
+      },
+      "crates/ztracing_macro/Cargo.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "78feebb87300bf972494bdb3976b3adda5348c99",
+        "sha256": "c5417b7b5fcdf20ce622bf68a1f9b8400d4174781beb410ef0495373afcae707"
+      },
+      "crates/ztracing_macro/LICENSE-APACHE": {
+        "mode": "120000",
+        "type": "blob",
+        "git_blob": "1cd601d0a3affae83854be02a0afdec3b7a9ec4d",
+        "sha256": "9cff568488e9d56aae60f162404acdb15d8533a0202cf01f6eb0843b264f20ff"
+      },
+      "crates/ztracing_macro/src/lib.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "d9b073ed130bdc829e4d5d943b6d4b6a6d802888",
+        "sha256": "b42eb20f84e45949bb78b121606b2ee02695ba7e1123bf206b635ce71bb122eb"
+      },
+      "tooling/perf/Cargo.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "1dc07d89b39865f02a212f011cbc513378e74b63",
+        "sha256": "389aec39608effd724b6f72388d3266f438fe43835473d59ac2ebce6eab099e9"
+      },
+      "tooling/perf/LICENSE-APACHE": {
+        "mode": "120000",
+        "type": "blob",
+        "git_blob": "1cd601d0a3affae83854be02a0afdec3b7a9ec4d",
+        "sha256": "9cff568488e9d56aae60f162404acdb15d8533a0202cf01f6eb0843b264f20ff"
+      },
+      "tooling/perf/src/implementation.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "c151dda91f0bec64e261738ea593b233dedd9b62",
+        "sha256": "f96fd7b56d90f09bf29094ef0e996ac68bd608f229ad30433f0d099eedd4e9bd"
+      },
+      "tooling/perf/src/lib.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "7933e66e799c66fa317d2e80e5393a21a6149af5",
+        "sha256": "99642ba124e5126214ac17f77d99e8897bc1468df4e48e489ea486761c41774b"
+      },
+      "tooling/perf/src/main.rs": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "78a56286d8d70d8bd27a9eff0e1cd5376071024b",
+        "sha256": "191346195037c3939d9e74db75e77da8168806ae0bba944d0d4bfdc09934f515"
+      }
+    }
+  },
+  "original_root_backups": {
+    "Cargo.toml": {
+      "matches_source": true,
+      "sha256": "dceb70075c8e01649750972f65718b0f3fbbce379784cf4f1d73506473131f4a"
+    },
+    "Cargo.lock": {
+      "matches_source": true,
+      "sha256": "9ff58114305da0bf66438fe64c571a64bfd65c05422960a20d4f2b1f20ff0e20"
+    },
+    ".cargo/config.toml": {
+      "matches_source": true,
+      "sha256": "bac3a152624488a520b492297901f8190a5acfc9dacb4cdda14b4c471fdca9ca"
+    },
+    "rust-toolchain.toml": {
+      "matches_source": true,
+      "sha256": "3d9002e97d5c3de93d49a1a36649153da4f40c29b061d0f2e09ea84ee143ba3e"
+    }
+  },
+  "workspace": {
+    "members_match_record": true,
+    "preserved_fields": {
+      "resolver": true,
+      "package": true,
+      "lints": true
+    },
+    "inherited_dependency_count": 147,
+    "inherited_dependency_changes": [],
+    "profiles": {
+      "dev": {
+        "split-debuginfo": "unpacked",
+        "incremental": true,
+        "codegen-units": 16,
+        "debug": "limited",
+        "build-override": {
+          "codegen-units": 16,
+          "split-debuginfo": "unpacked",
+          "debug": "limited"
+        }
+      },
+      "release": {
+        "debug": "limited",
+        "lto": "thin",
+        "codegen-units": 1
+      }
+    },
+    "original_profile_names": [
+      "dev",
+      "dbg",
+      "release",
+      "release-fast"
+    ]
+  },
+  "lock": {
+    "format": 4,
+    "original_format": 4,
+    "original_sha256": "9ff58114305da0bf66438fe64c571a64bfd65c05422960a20d4f2b1f20ff0e20",
+    "candidate_sha256": "f1b9fa1c2dd5ceabd9d3ff9a3e2b7aa8357d9b8ea25de9dd92126452af8b5547",
+    "original_package_count": 1824,
+    "candidate_package_count": 874,
+    "retained_package_count": 874,
+    "removed_package_count": 950,
+    "added_packages": [],
+    "checksum_changes": [],
+    "source_spelling_changes": [
+      {
+        "name": "calloop",
+        "version": "0.14.3",
+        "old": "git+https://github.com/zed-industries/calloop#eb6b4fd17b9af5ecc226546bdd04185391b3e265",
+        "new": "git+https://github.com/zed-industries/calloop?rev=eb6b4fd17b9af5ecc226546bdd04185391b3e265#eb6b4fd17b9af5ecc226546bdd04185391b3e265"
+      }
+    ],
+    "dependency_edge_changes": [
+      {
+        "package": [
+          "ahash",
+          "0.8.12",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "getrandom",
+            "0.3.4",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ],
+          [
+            "serde",
+            "1.0.229",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "async-std",
+          "1.13.2",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "async-attributes",
+            "1.1.2",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ],
+          [
+            "async-process",
+            "2.5.0",
+            "git+https://github.com/zed-industries/async-process.git#0b6d6713570af61806e1e5cb40e0f757cb93fd9d"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "aws-lc-rs",
+          "1.17.1",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "untrusted",
+            "0.7.1",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "bitflags",
+          "2.13.1",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "serde_core",
+            "1.0.229",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "borsh",
+          "1.5.7",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "borsh-derive",
+            "1.5.7",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "bstr",
+          "1.12.1",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "regex-automata",
+            "0.4.18",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "bumpalo",
+          "3.20.3",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "allocator-api2",
+            "0.2.21",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "clap_builder",
+          "4.5.49",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "terminal_size",
+            "0.4.3",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "deranged",
+          "0.5.4",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "serde_core",
+            "1.0.229",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "digest",
+          "0.10.7",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "const-oid",
+            "0.9.6",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "either",
+          "1.15.0",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "serde",
+            "1.0.229",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "futures-util",
+          "0.3.34",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "futures",
+            "0.1.31",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ],
+          [
+            "libc",
+            "0.2.186",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ],
+          [
+            "tokio-io",
+            "0.1.13",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "hashbrown",
+          "0.14.5",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "ahash",
+            "0.8.12",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ],
+          [
+            "allocator-api2",
+            "0.2.21",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "hashbrown",
+          "0.15.5",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "allocator-api2",
+            "0.2.21",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ],
+          [
+            "equivalent",
+            "1.0.2",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "hashbrown",
+          "0.17.1",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "allocator-api2",
+            "0.2.21",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ],
+          [
+            "equivalent",
+            "1.0.2",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ],
+          [
+            "foldhash",
+            "0.2.0",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ],
+          [
+            "serde",
+            "1.0.229",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ],
+          [
+            "serde_core",
+            "1.0.229",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "heck",
+          "0.4.1",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "unicode-segmentation",
+            "1.13.3",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "hyper-rustls",
+          "0.27.9",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "log",
+            "0.4.29",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "hyper-util",
+          "0.1.17",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "base64",
+            "0.22.1",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ],
+          [
+            "ipnet",
+            "2.11.0",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ],
+          [
+            "percent-encoding",
+            "2.3.2",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "icu_locale_core",
+          "2.3.0",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "serde",
+            "1.0.229",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "icu_normalizer",
+          "2.3.0",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "utf16_iter",
+            "1.0.5",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ],
+          [
+            "utf8_iter",
+            "1.0.4",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ],
+          [
+            "write16",
+            "1.0.0",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "icu_provider",
+          "2.3.0",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "serde",
+            "1.0.229",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ],
+          [
+            "stable_deref_trait",
+            "1.2.1",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "jiff",
+          "0.2.15",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "jiff-tzdb-platform",
+            "0.1.3",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ],
+          [
+            "windows-sys",
+            "0.59.0",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "lazy_static",
+          "1.5.0",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "spin",
+            "0.9.8",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "libredox",
+          "0.1.10",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "redox_syscall",
+            "0.5.18",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "mio",
+          "1.2.0",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "log",
+            "0.4.29",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "nix",
+          "0.30.1",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "memoffset",
+            "0.9.1",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "objc2-core-audio",
+          "0.3.2",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "objc2-foundation",
+            "0.3.2",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "objc2-core-foundation",
+          "0.3.2",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "block2",
+            "0.6.2",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ],
+          [
+            "libc",
+            "0.2.186",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "pathdiff",
+          "0.2.3",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "camino",
+            "1.2.6",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "potential_utf",
+          "0.1.3",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "serde",
+            "1.0.229",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "smallvec",
+          "1.16.1",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "serde",
+            "1.0.229",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "time",
+          "0.3.47",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "itoa",
+            "1.0.18",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ],
+          [
+            "libc",
+            "0.2.186",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ],
+          [
+            "num_threads",
+            "0.1.7",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ],
+          [
+            "time-macros",
+            "0.2.27",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "tinystr",
+          "0.8.4",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "serde_core",
+            "1.0.229",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "tokio",
+          "1.52.1",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "parking_lot",
+            "0.12.5",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ],
+          [
+            "signal-hook-registry",
+            "1.4.6",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ],
+          [
+            "tokio-macros",
+            "2.7.0",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "tokio-util",
+          "0.7.18",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "futures-io",
+            "0.3.34",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "tower",
+          "0.5.2",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "tokio-util",
+            "0.7.18",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ],
+          [
+            "tracing",
+            "0.1.43",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "tracing-subscriber",
+          "0.3.22",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "serde",
+            "1.0.229",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ],
+          [
+            "serde_json",
+            "1.0.151",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ],
+          [
+            "tracing-serde",
+            "0.2.0",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "web-time",
+          "1.1.0",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "serde",
+            "1.0.229",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "zerotrie",
+          "0.2.5",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "zerovec",
+            "0.11.8",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      },
+      {
+        "package": [
+          "zerovec",
+          "0.11.8",
+          "registry+https://github.com/rust-lang/crates.io-index"
+        ],
+        "added": [],
+        "removed": [
+          [
+            "serde",
+            "1.0.229",
+            "registry+https://github.com/rust-lang/crates.io-index"
+          ]
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "sha256": "35ab0affd5355211107c42024bf8473e17f6af3f941222c6a0dc630f72846f02",
+    "workspace_member_count": 26,
+    "package_count": 874,
+    "reachable_package_count": 874,
+    "patches": {
+      "async-process": {
+        "definition": {
+          "git": "https://github.com/zed-industries/async-process.git",
+          "rev": "0b6d6713570af61806e1e5cb40e0f757cb93fd9d"
+        },
+        "original_definition": {
+          "git": "https://github.com/zed-industries/async-process.git",
+          "rev": "0b6d6713570af61806e1e5cb40e0f757cb93fd9d"
+        },
+        "resolved": [
+          {
+            "version": "2.5.0",
+            "source": "git+https://github.com/zed-industries/async-process.git?rev=0b6d6713570af61806e1e5cb40e0f757cb93fd9d#0b6d6713570af61806e1e5cb40e0f757cb93fd9d"
+          }
+        ]
+      },
+      "async-task": {
+        "definition": {
+          "git": "https://github.com/smol-rs/async-task.git",
+          "rev": "b4486cd71e4e94fbda54ce6302444de14f4d190e"
+        },
+        "original_definition": {
+          "git": "https://github.com/smol-rs/async-task.git",
+          "rev": "b4486cd71e4e94fbda54ce6302444de14f4d190e"
+        },
+        "resolved": [
+          {
+            "version": "4.7.1",
+            "source": "git+https://github.com/smol-rs/async-task.git?rev=b4486cd71e4e94fbda54ce6302444de14f4d190e#b4486cd71e4e94fbda54ce6302444de14f4d190e"
+          }
+        ]
+      },
+      "calloop": {
+        "definition": {
+          "git": "https://github.com/zed-industries/calloop",
+          "rev": "eb6b4fd17b9af5ecc226546bdd04185391b3e265"
+        },
+        "original_definition": {
+          "git": "https://github.com/zed-industries/calloop"
+        },
+        "resolved": [
+          {
+            "version": "0.14.3",
+            "source": "git+https://github.com/zed-industries/calloop?rev=eb6b4fd17b9af5ecc226546bdd04185391b3e265#eb6b4fd17b9af5ecc226546bdd04185391b3e265"
+          }
+        ]
+      },
+      "windows-capture": {
+        "definition": {
+          "git": "https://github.com/zed-industries/windows-capture.git",
+          "rev": "f0d6c1b6691db75461b732f6d5ff56eed002eeb9"
+        },
+        "original_definition": {
+          "git": "https://github.com/zed-industries/windows-capture.git",
+          "rev": "f0d6c1b6691db75461b732f6d5ff56eed002eeb9"
+        },
+        "resolved": [
+          {
+            "version": "1.4.3",
+            "source": "git+https://github.com/zed-industries/windows-capture.git?rev=f0d6c1b6691db75461b732f6d5ff56eed002eeb9#f0d6c1b6691db75461b732f6d5ff56eed002eeb9"
+          }
+        ]
+      }
+    }
+  },
+  "toolchain": {
+    "source": {
+      "toolchain": {
+        "channel": "1.98.1",
+        "profile": "minimal",
+        "components": [
+          "rustfmt",
+          "clippy",
+          "rust-analyzer",
+          "rust-src"
+        ],
+        "targets": [
+          "wasm32-wasip2",
+          "wasm32-unknown-unknown",
+          "x86_64-unknown-linux-musl"
+        ]
+      }
+    },
+    "candidate": {
+      "toolchain": {
+        "channel": "1.98.1",
+        "profile": "minimal",
+        "components": [
+          "rustfmt",
+          "clippy"
+        ]
+      }
+    }
+  },
+  "cargo_config": {
+    "source": {
+      "target": {
+        "cfg(all())": {
+          "rustflags": [
+            "-C",
+            "symbol-mangling-version=v0",
+            "--cfg",
+            "tokio_unstable"
+          ]
+        },
+        "cfg(target_os = \"windows\")": {
+          "rustflags": [
+            "--cfg",
+            "windows_slim_errors",
+            "-C",
+            "target-feature=+crt-static"
+          ]
+        },
+        "aarch64-unknown-linux-gnu": {
+          "rustflags": [
+            "-C",
+            "link-arg=-fuse-ld=lld"
+          ]
+        }
+      },
+      "alias": {
+        "xtask": "run --package xtask --",
+        "perf-test": [
+          "test",
+          "--profile",
+          "release-fast",
+          "--lib",
+          "--bins",
+          "--tests",
+          "--all-features",
+          "--config",
+          "target.'cfg(true)'.runner='cargo run -p perf --release'",
+          "--config",
+          "target.'cfg(true)'.rustflags=[\"--cfg\", \"perf_enabled\"]"
+        ],
+        "perf-compare": [
+          "run",
+          "--profile",
+          "release-fast",
+          "-p",
+          "perf",
+          "--config",
+          "target.'cfg(true)'.rustflags=[\"--cfg\", \"perf_enabled\"]",
+          "--",
+          "compare"
+        ]
+      },
+      "env": {
+        "MACOSX_DEPLOYMENT_TARGET": "10.15.7"
+      }
+    },
+    "candidate": {
+      "target": {
+        "cfg(all())": {
+          "rustflags": [
+            "-C",
+            "symbol-mangling-version=v0",
+            "--cfg",
+            "tokio_unstable"
+          ]
+        },
+        "cfg(target_os = \"windows\")": {
+          "rustflags": [
+            "--cfg",
+            "windows_slim_errors"
+          ]
+        }
+      },
+      "env": {
+        "MACOSX_DEPLOYMENT_TARGET": "10.15.7"
+      }
+    }
+  },
+  "limitations": [
+    "Read-only tree and dependency audit. No Cargo command or build was run.",
+    "Metadata was supplied by the parent task. Metadata reachability does not prove platform builds.",
+    "The candidate is an uncommitted working tree; the report binds file and lock hashes, not a final snapshot commit."
+  ],
+  "fixed_git_verification": {
+    "checked_at_utc": "2026-10-03T13:25:42.465927+00:00",
+    "snapshot": "9d59ea617d75d02e4645eefd22844235431138c8",
+    "tree": "329c974731e4f75fa6f45868bbf0fdb1c59976a5",
+    "parents": [],
+    "source_revision": "d21987f81a013ec67945892506bcc6aae8a2db0f",
+    "payload_file_count": 430,
+    "payload_mode_counts": {
+      "100644": 403,
+      "120000": 27
+    },
+    "payload_git_entries_equal_D": true,
+    "payload_git_entries_equal_prior_audit": true,
+    "original_root_backups": {
+      "Cargo.toml": {
+        "matches_D": true,
+        "matches_prior_audit": true,
+        "sha256": "dceb70075c8e01649750972f65718b0f3fbbce379784cf4f1d73506473131f4a"
+      },
+      "Cargo.lock": {
+        "matches_D": true,
+        "matches_prior_audit": true,
+        "sha256": "9ff58114305da0bf66438fe64c571a64bfd65c05422960a20d4f2b1f20ff0e20"
+      },
+      ".cargo/config.toml": {
+        "matches_D": true,
+        "matches_prior_audit": true,
+        "sha256": "bac3a152624488a520b492297901f8190a5acfc9dacb4cdda14b4c471fdca9ca"
+      },
+      "rust-toolchain.toml": {
+        "matches_D": true,
+        "matches_prior_audit": true,
+        "sha256": "3d9002e97d5c3de93d49a1a36649153da4f40c29b061d0f2e09ea84ee143ba3e"
+      }
+    },
+    "source_record_sha256": "88a1781f7241d1f6a5f0f178a63230e0730085fce93c0f1049b66445a076615a",
+    "closure": {
+      "roots": [
+        "crates/gpui",
+        "crates/gpui_platform"
+      ],
+      "members": {
+        "crates/gpui_platform": "gpui_platform",
+        "crates/gpui_web": "gpui_web",
+        "crates/http_client": "http_client",
+        "crates/util": "util",
+        "crates/path": "path",
+        "crates/util_macros": "util_macros",
+        "tooling/perf": "perf",
+        "crates/collections": "collections",
+        "crates/gpui_util": "gpui_util",
+        "crates/gpui_wgpu": "gpui_wgpu",
+        "crates/gpui": "gpui",
+        "crates/reqwest_client": "reqwest_client",
+        "crates/http_client_tls": "http_client_tls",
+        "crates/scheduler": "scheduler",
+        "crates/sum_tree": "sum_tree",
+        "crates/zlog": "zlog",
+        "crates/ztracing": "ztracing",
+        "crates/ztracing_macro": "ztracing_macro",
+        "crates/refineable": "refineable",
+        "crates/refineable/derive_refineable": "derive_refineable",
+        "crates/gpui_shared_string": "gpui_shared_string",
+        "crates/gpui_macros": "gpui_macros",
+        "crates/gpui_linux": "gpui_linux",
+        "crates/gpui_windows": "gpui_windows",
+        "crates/gpui_macos": "gpui_macos",
+        "crates/gpui_apple": "gpui_apple"
+      },
+      "count": 26,
+      "matches_workspace_and_source_record": true
+    },
+    "root_files": {
+      "Cargo.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "5afb5a2fe09a0def381fd5bb8df87c1356138872",
+        "sha256": "0452c6b59bc879e6fe797a19011c5e0162d6e74ea6aec0f8bfdd5431a73c8ed2"
+      },
+      "Cargo.lock": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "a5834f59ec5ad6256ce5bd39db2cdc9235cdbc03",
+        "sha256": "f1b9fa1c2dd5ceabd9d3ff9a3e2b7aa8357d9b8ea25de9dd92126452af8b5547"
+      },
+      ".cargo/config.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "74f025525a543b0150e39b65d072f6f3acf3dfe3",
+        "sha256": "b341c65c1a18dd332f59d6b0cacc764594f17d96ca84f1e471d6749400758e0c"
+      },
+      "rust-toolchain.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "c3f67b6771b777215340531caf051bc25cef066c",
+        "sha256": "887f9be066a15585a2c583578e84b0fcb541126d81546276bad3d2ff00d61167"
+      },
+      "ALLOY-SOURCE.json": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "f928d3fad967bdecbf12687062e57d7b1794c6bf",
+        "sha256": "8114835e4400468cf615802262bd54c5f09522b6687a126dea5b0302ef216d30"
+      },
+      "script/gpui_snapshot.py": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "f0e99a74455462a6a909b86bed82e03e034d39ce",
+        "sha256": "9a82458aa24bedaaf9f592f57d2f956e612dfab1dc31265190e7624bebb69d45"
+      },
+      "script/check": {
+        "mode": "100755",
+        "type": "blob",
+        "git_blob": "ebebb7d6a4179fd48b46eb2a663669a330da8443",
+        "sha256": "c2af1bd820ed31a2e3dcdb30d836f3696767e5773227f158925e59065b296837"
+      },
+      "script/clippy": {
+        "mode": "100755",
+        "type": "blob",
+        "git_blob": "f3d3753efb19f59b5b118a5b76198e6f96a0c28e",
+        "sha256": "e81b8d52459bb3b2134d6b5e8ed5af118a09245e87e20204a45240dff9cfb720"
+      },
+      "rustfmt.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "7a89b919fc0132274b4427a6b6ad812fbfe3ca2a",
+        "sha256": "4f98507a616a96622e10d1544258462a88bbf10684ac4f6b76792ebfbc6b7908"
+      },
+      "clippy.toml": {
+        "mode": "100644",
+        "type": "blob",
+        "git_blob": "10b102f5abe400f15ee951720c2b7e91bc3f5a39",
+        "sha256": "c993b69bf5247359a6ca3b7c1dc899a92eef5c2a9f043921ee1a114cc82601f0"
+      }
+    },
+    "root_lock_matches_prior_audit": true,
+    "root_manifest_workspace_and_profiles_match_prior_audit": true,
+    "root_config_and_toolchain_values_match_prior_audit": true,
+    "original_exporter_sha256": "fa10e78736b16d03c92c6740850a5845c18ffc21b101b61cb885da370831c000",
+    "standalone_exporter_sha256": "9a82458aa24bedaaf9f592f57d2f956e612dfab1dc31265190e7624bebb69d45",
+    "reachable_from_S": [
+      "9d59ea617d75d02e4645eefd22844235431138c8"
+    ],
+    "U_and_D_absent_from_all_current_refs": true,
+    "current_all_refs_reachable_commit_count": 1,
+    "method": "Read fixed Git tree/blob objects only; recompute all target/optional/build/dev path dependency closure without Cargo.",
+    "limitations": [
+      "The standalone exporter SHA is first bound by this fixed-S audit; the earlier working-tree audit did not hash that exporter.",
+      "No Cargo, build, ref update, repository file edit, or signature operation was performed."
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "standalone_checkout": "/Users/Xuan/Developer/AprilNEA/gpui-alloy",
+  "full_history_archive_checkout": "/Users/Xuan/Developer/AprilNEA/gpui-alloy-archive",
+  "archive_worktrees_before": {
+    "/Users/Xuan/Developer/AprilNEA/gpui-alloy": "3ec8404e11262fb038e15b583724e2a35809dfae",
+    "/private/tmp/gpui-alloy-migration.wjfUV4/decorations": "02c9bcf88b50768302b3ba95ca1cc8f52d345576",
+    "/private/tmp/gpui-alloy-migration.wjfUV4/inert": "445e4f9af7b6da4b3dcd52db4e0374a7a8a9942d",
+    "/private/tmp/gpui-alloy-migration.wjfUV4/integration": "d21987f81a013ec67945892506bcc6aae8a2db0f",
+    "/private/tmp/gpui-alloy-migration.wjfUV4/popup": "459b3648bf99f6cc5cd149a6d3e695bb476f3fec",
+    "/private/tmp/gpui-alloy-migration.wjfUV4/render": "271ec2547b5f81740cd1f1855ec647e50b98a852",
+    "/private/tmp/gpui-alloy-migration.wjfUV4/simple": "98c107d7bcc00df80a64ca68385aaf332943a99a"
+  },
+  "archive_worktrees_after": {
+    "/Users/Xuan/Developer/AprilNEA/gpui-alloy-archive": "3ec8404e11262fb038e15b583724e2a35809dfae",
+    "/private/tmp/gpui-alloy-migration.wjfUV4/decorations": "02c9bcf88b50768302b3ba95ca1cc8f52d345576",
+    "/private/tmp/gpui-alloy-migration.wjfUV4/inert": "445e4f9af7b6da4b3dcd52db4e0374a7a8a9942d",
+    "/private/tmp/gpui-alloy-migration.wjfUV4/integration": "d21987f81a013ec67945892506bcc6aae8a2db0f",
+    "/private/tmp/gpui-alloy-migration.wjfUV4/popup": "459b3648bf99f6cc5cd149a6d3e695bb476f3fec",
+    "/private/tmp/gpui-alloy-migration.wjfUV4/render": "271ec2547b5f81740cd1f1855ec647e50b98a852",
+    "/private/tmp/gpui-alloy-migration.wjfUV4/simple": "98c107d7bcc00df80a64ca68385aaf332943a99a"
+  },
+  "result": "Repository contents and worktree commit identities preserved; linked worktree pointers repaired."
+}

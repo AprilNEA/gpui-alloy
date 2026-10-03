@@ -1,6 +1,6 @@
 # GPUI Alloy maintenance
 
-The next snapshot is `gpui-alloy/20261003.2`. Its standalone commit S and consumer import V are pending. The final section records acceptance and publication after those commits exist.
+Use the validated snapshot [gpui-alloy/20261003.2](https://github.com/AprilNEA/gpui-alloy/tree/gpui-alloy/20261003.2), which identifies S `9d59ea617d75d02e4645eefd22844235431138c8`. Pin that full commit SHA in dependencies and exports. The `main` branch also carries later documentation commits and acceptance records.
 
 ## Repository roles
 
@@ -25,8 +25,8 @@ The source notices that link to this document remain valid. Keep those notices u
 | --- | --- | --- |
 | U | Fixed upstream baseline in the full source repository. | `4c841aaf1c4fa613e89a5d77096523d0ff593b56` |
 | D | Full source integration commit containing the downstream patches. | `d21987f81a013ec67945892506bcc6aae8a2db0f` |
-| S | Independently versioned standalone commit projected from D. | Pending for `gpui-alloy/20261003.2`. |
-| V | Consumer commit that imports an export of S. | Pending for this standalone snapshot. |
+| S | Independently versioned standalone commit projected from D. | `9d59ea617d75d02e4645eefd22844235431138c8` |
+| V | Consumer commit that imports an export of S. | `3208e4fb8e751b6619e5b25997893618011b2809` |
 
 U must be an ancestor of D in `AprilNEA/zed`. D → S is a source projection, not a Git ancestry relationship. S → V is a fixed Git tree export followed by a consumer import.
 
@@ -65,13 +65,13 @@ Sign new authored commits and annotated snapshot or archive tags. Preserve upstr
 
 Published snapshot tags are immutable. Never move a published tag to another commit or replace its tag object. If a correction is required, create a new snapshot number. The one-time signing conversion before the first remote publication does not authorize later history rewrites.
 
-Create a release tag only after both validation layers pass: the exact GPUI candidate and the consumer using its exact export. Verify the commit and tag signatures before publication. Confirm the remote object IDs after publication.
+Create a release tag only after both validation layers pass: the exact GPUI revision and the consumer using its exact export. Verify the commit and tag signatures before publication. Confirm the remote object IDs after publication.
 
 Keep licenses and attribution. Every modified Apache-2.0 file must carry a prominent modification notice. A repository-level notice alone is insufficient. Add new notices in the downstream integration when needed; keep existing notices through export.
 
 ## Current patch ledger
 
-AprilNEA maintains all eleven patches. D contains all eleven topics. The following full heads identify the signed source branches for migration to `AprilNEA/zed`. Remote publication confirmation belongs in the final acceptance record.
+AprilNEA maintains all eleven patches. D contains all eleven topics. The following signed source branches are published in `AprilNEA/zed`. The final acceptance record links the remote verification evidence.
 
 Unless a dependency is listed, each topic is based on U. GPUI-005 does not depend on GPUI-003. GPUI-010 contains the native popup adaptation and a later hidden-popup lifecycle fix.
 
@@ -118,7 +118,7 @@ The [fixed archive ledger](https://github.com/AprilNEA/gpui-alloy-archive/blob/3
 
 ## Standalone workspace projection
 
-The candidate contains 26 complete crate directories, `assets/fonts`, and the root licenses. The source audit compared 430 production, resource, and license entries against D. All bytes and Git modes matched, including 27 symlinks. No selected file was missing or extra.
+S contains 26 complete crate directories, `assets/fonts`, and the root licenses. The source audit compared 430 production, resource, and license entries against D. All bytes and Git modes matched, including 27 symlinks. No selected file was missing or extra.
 
 The original export inventory contains 436 entries. That inventory also includes the generated root manifest and README, plus four preserved source controls. Keep the original inventory intact. Record standalone root changes separately.
 
@@ -139,11 +139,11 @@ The standalone workspace preserves the source resolver, workspace package values
 | `calloop` | `0.14.3` | `eb6b4fd17b9af5ecc226546bdd04185391b3e265` |
 | `windows-capture` | `1.4.3` | `f0d6c1b6691db75461b732f6d5ff56eed002eeb9` |
 
-The candidate lockfile retains 874 of the original 1,824 packages. No retained version, registry checksum, or Git commit changed. The only source-string change makes the existing `calloop` revision explicit. The smaller workspace removes 65 dependency edges from 40 retained packages and adds no edges. This is dependency pruning, not an identical full dependency graph.
+The standalone lockfile retains 874 of the original 1,824 packages. No retained version, registry checksum, or Git commit changed. The only source-string change makes the existing `calloop` revision explicit. The smaller workspace removes 65 dependency edges from 40 retained packages and adds no edges. This is dependency pruning, not an identical full dependency graph.
 
 The audited root `Cargo.lock` has SHA-256 `f1b9fa1c2dd5ceabd9d3ff9a3e2b7aa8357d9b8ea25de9dd92126452af8b5547`. The preserved source lockfile has SHA-256 `9ff58114305da0bf66438fe64c571a64bfd65c05422960a20d4f2b1f20ff0e20`.
 
-The final evidence directory is [docs/validation/20261003-standalone](docs/validation/20261003-standalone/). The [projection report](docs/validation/20261003-standalone/source-projection-review.md) and [structured comparison](docs/validation/20261003-standalone/source-projection-review.json) will be added with the acceptance record. The initial audit binds candidate file digests; the final record must also bind those results to exact S.
+The evidence directory is [docs/validation/20261003-standalone](docs/validation/20261003-standalone/). The [projection report](docs/validation/20261003-standalone/source-projection-review.md) and [structured comparison](docs/validation/20261003-standalone/source-projection-review.json) bind the source comparison to exact S. The `fixed_git_verification` record reads committed tree and blob objects. The record confirms that S has no parents, that the selected source matches D, and that the audited root configuration matches S.
 
 ## Export a fixed standalone commit
 
@@ -181,7 +181,7 @@ First, the checker reconstructs the expected export from S. The checker compares
 
 Next, the checker runs fresh `cargo metadata --format-version 1 --locked --all-features` in the consumer. `--target` selects Cargo's `--filter-platform`; omit the option to inspect all target dependencies. Saved metadata is not accepted as current evidence.
 
-GPUI must be reachable from the consumer workspace. Every reachable exported package name must resolve to one package identity, with no registry or Git source, at its exact canonical vendor manifest path. This strict collision policy also applies to shared names such as `util`, `paths`, and `collections`. A target-filtered graph need not reach every exported crate.
+GPUI must be reachable from the consumer workspace. Every reachable exported package name must resolve to one package identity, with no registry or Git source, at its exact canonical vendor manifest path. This strict collision policy also applies to shared names such as `util`, `path`, and `collections`. A target-filtered graph need not reach every exported crate.
 
 The source check detects stale vendor files, mixed GPUI copies, changed files, and wrong dependency paths. The source check does not replace compilation or behavior tests. Run the consumer's formatter, linter, and relevant tests after the source check.
 
@@ -242,23 +242,34 @@ No acceptance claim covers HDR/EDR, active Clear, transparent desktop sampling, 
 
 ## 20261003.2 acceptance record
 
-The candidate workspace completed `./script/check` with exit status 0: 517 numerical tests and 2 native harnesses passed. Workspace formatting and Clippy passed. Ruff and 4 Python regression tests also passed. Exact S, the new consumer import, and publication remain pending.
+The standalone checks passed for the source and configuration committed in S. `./script/check` completed with exit status 0. The suite passed 517 tests and 2 native harnesses: 491 library tests, 5 scene tests, 17 Metal tests, 1 popup example test, and 3 compiled-shader tests. Workspace formatting and Clippy passed. Ruff and all 4 Python regression tests passed.
 
-The following evidence files are reserved for the later documentation commit. Do not treat a pending entry as a completed check.
+The clean consumer checkout at V passed source verification for 18 resolved packages on `aarch64-apple-darwin`. Consumer formatting, Clippy, and all 64 tests passed. The original consumer worktree also completed `devenv test` with exit status 0. The worktree log reports completion without a test count; the clean checkout log provides the 64-test result.
 
-| Record | Status or evidence |
+The consumer import preserved unrelated staged work. The non-vendor staged diff retained SHA-256 `866e25b09971ab69601bd8e6bf2a2fc8ce76bf4524a41e82f64c0b22d1e17619`. Existing Cocoa dependency deprecation warnings and the `block` future-incompatibility warning remain in the logs. No new lint suppression was added.
+
+| Record | Fixed value or evidence |
 | --- | --- |
-| Source U / D | Fixed above. D tree: `fbb778e445fcd9d4d9bc5d6150fa570f6a743485`. |
-| Standalone S | Pending signed commit and binding of the tested candidate tree. |
-| Snapshot tag | Planned `gpui-alloy/20261003.2`; create only after consumer acceptance. Tag object pending. |
-| New consumer V | Pending. Previous import: `ea9cc093403f45a26f32d0ae415007fef95e3b09`. |
-| D → S projection | Candidate comparison passed; exact S binding pending. [Report](docs/validation/20261003-standalone/source-projection-review.md), [JSON](docs/validation/20261003-standalone/source-projection-review.json). |
-| Standalone checks | Candidate suite passed. [Log](docs/validation/20261003-standalone/standalone-check.log) pending archival. |
-| Python checks | Ruff and 4 regression tests passed. [Log](docs/validation/20261003-standalone/python-check.log) pending archival. |
-| Consumer source check | Pending. [Log](docs/validation/20261003-standalone/consumer-source.log). |
-| Consumer behavior checks | Pending. [Log](docs/validation/20261003-standalone/consumer-check.log). |
-| Signatures and remote publication | Pending. [Publication record](docs/validation/20261003-standalone/publication.json). |
+| Source U | `4c841aaf1c4fa613e89a5d77096523d0ff593b56`. |
+| Source D | `d21987f81a013ec67945892506bcc6aae8a2db0f`; tree `fbb778e445fcd9d4d9bc5d6150fa570f6a743485`. |
+| Standalone S | `9d59ea617d75d02e4645eefd22844235431138c8`; tree `329c974731e4f75fa6f45868bbf0fdb1c59976a5`. |
+| Snapshot tag | `gpui-alloy/20261003.2`; annotated tag object `ac8aa77ee84b5ff5482ac6302dd58e9ad72ca8bc`, which resolves to S. |
+| Consumer V | `3208e4fb8e751b6619e5b25997893618011b2809` in `AprilNEA/gpui-cupertino`. |
+| Previous consumer import | `ea9cc093403f45a26f32d0ae415007fef95e3b09`. |
+| D → S projection | Passed against fixed Git objects. [Report](docs/validation/20261003-standalone/source-projection-review.md), [JSON](docs/validation/20261003-standalone/source-projection-review.json). |
+| Standalone checks | Formatting, Clippy, 517 tests, and 2 native harnesses passed. [Log](docs/validation/20261003-standalone/standalone-check.log). |
+| Python checks | Ruff and 4 regression tests passed. [Log](docs/validation/20261003-standalone/python-check.log). |
+| Consumer source check | Fixed S and 18 resolved packages verified. [Log](docs/validation/20261003-standalone/consumer-source.log). |
+| Clean V checks | Source verification, formatting, Clippy, and 64 tests passed. [Log](docs/validation/20261003-standalone/consumer-clean-check.log). |
+| Original consumer worktree | `devenv test` completed with exit status 0. [Log](docs/validation/20261003-standalone/consumer-check.log). |
+| Signatures and remote publication | Object IDs, signature results, repository state, and published refs are recorded in [publication.json](docs/validation/20261003-standalone/publication.json). |
 
-The publication record must confirm the original 15 archive heads and 19 tag objects remain unchanged. The record must confirm the twelve source refs match their recorded heads, while the existing source `main` and two PR refs remain unchanged. The record must also confirm that no ref in the standalone repository reaches U or D.
+The format 2 consumer export contains 26 packages and 438 inventory entries. The outer record excludes itself from that inventory. The export record SHA-256 is `e1cf291d98001e41b5cac87c8d81f832ac533b504a0cf33ca9b32265764ce34b`. The exporter SHA-256 is `9a82458aa24bedaaf9f592f57d2f956e612dfab1dc31265190e7624bebb69d45`.
 
-The earlier publication evidence remains at the [fixed archive publication record](https://github.com/AprilNEA/gpui-alloy-archive/blob/3ec8404e11262fb038e15b583724e2a35809dfae/alloy-validation/20261003/publication.json). Preserve that record independently of this new release.
+The source fork now has the eleven topic branches and `downstream/gpui` at the recorded heads. The source fork's existing `main` and two PR branches remain unchanged. The renamed archive has `archived = true`; all original 15 branch heads and 19 annotated tag objects remain unchanged.
+
+The new standalone repository is public. Its initial published `main` identifies S, and its published snapshot tag matches the tag object above. GitHub Actions is disabled. Consumer V is published on `AprilNEA/gpui-cupertino:feat/component-library`. GitHub reports valid signatures for S, V, and the snapshot tag. The source projection audit confirms that no standalone ref reaches U or D. Later documentation commits retain that independent history and do not move the snapshot tag.
+
+The earlier publication evidence remains at the [fixed archive publication record](https://github.com/AprilNEA/gpui-alloy-archive/blob/3ec8404e11262fb038e15b583724e2a35809dfae/alloy-validation/20261003/publication.json). Preserve that record independently of this release.
+
+The standalone checkout is `/Users/Xuan/Developer/AprilNEA/gpui-alloy`. The full-history checkout is `/Users/Xuan/Developer/AprilNEA/gpui-alloy-archive`. All six linked source worktrees retain their commit identities after repair. See the [local layout record](docs/validation/20261003-standalone/local-layout.json).
