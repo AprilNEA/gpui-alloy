@@ -4,7 +4,7 @@ The release is partially published. Six of 31 packages are confirmed in [publica
 
 Crates.io permits an initial burst of five new crates and then restores one new-crate allowance every ten minutes. Follow the retry time in each server response. See the [official rate-limit documentation source](https://github.com/rust-lang/crates.io/blob/main/svelte/src/routes/docs/rate-limits/+page.svelte).
 
-No automatic continuation has been configured. The user has been asked whether to schedule continuation. Do not infer approval from that pending question.
+The user approved automatic continuation. The active chat schedule `gpui-alloy-cupertino` runs every ten minutes and publishes at most one new crate per run. After all 31 packages are verified in crates.io, the schedule completes Cupertino registry acceptance and stops. Keep the computer on and the Codex desktop app running for the local schedule.
 
 ## Fixed local inputs
 

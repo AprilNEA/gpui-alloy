@@ -146,5 +146,14 @@
   },
   "latest_upload_log_completed_at": "2026-10-03T15:28:26.186689+00:00",
   "conservative_next_attempt_at": "2026-10-03T15:38:26.186689+00:00",
-  "automatic_continuation_configured": false
+  "automatic_continuation_configured": true,
+  "automatic_continuation": {
+    "automation_id": "gpui-alloy-cupertino",
+    "name": "GPUI Alloy \u53d1\u5e03\u4e0e Cupertino \u63a5\u5165",
+    "kind": "heartbeat",
+    "status": "ACTIVE",
+    "interval_minutes": 10,
+    "maximum_new_crates_per_run": 1,
+    "stop_condition": "All 31 packages are verified in crates.io and Cupertino registry acceptance is complete."
+  }
 }
