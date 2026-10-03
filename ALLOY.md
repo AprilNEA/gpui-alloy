@@ -103,6 +103,10 @@ Exact internal requirements select the tested family. Conflicting exact requirem
 
 Keep upstream package names and versions unchanged in S. Apply registry package names, versions, publish flags, and dependency metadata through a reproducible packaging projection. Record every changed manifest field. Preserve production implementation, resources, licenses, and the six provenance files. Implementation changes must still enter through a source topic branch and a new D.
 
+A registry packaging projection may adapt a build script only to locate byte-identical build inputs inside its package. Record the exact adapter diff and input digests. Keep the original build script unchanged in S. Materialize package-external license links with the same license bytes. Omit development dependencies and source-only test, example, and benchmark targets from registry manifests; retain their sources and validation in S. Preserve public library features.
+
+When a fixed external Git dependency differs from its registry release, publish the required fixed source as an additional Alloy package. Record its own repository, full revision, original package identity, and licenses. Include that package in the shared release version and exact internal dependency rules. An audited equivalent registry package may replace a Git dependency; record the source and dependency comparison. Root workspace patches do not propagate to registry consumers, so validate and record the resolved registry graph separately.
+
 Use a signed annotated `vVERSION` tag for a registry release, including a candidate release. The tag must identify a signed release commit that fixes S and the packaging tool revision. Preserve `gpui-alloy/YYYYMMDD.N` tags as source snapshot identities; do not move or reuse a snapshot tag for a registry release.
 
 Record U, D, S, the release commit, the packaging tool revision, the source-to-registry package name map, and the complete package list. Record each uploaded archive's SHA-256, compatibility decision, validation results, and final tag object in the release record. Add commit and tag identities in a later documentation commit, as required by the source contract.
@@ -116,6 +120,27 @@ Record U, D, S, the release commit, the packaging tool revision, the source-to-r
 5. If any package needs different contents, mark the release incomplete and select a new version under the compatibility rules. Publish the complete family under the new version. Preserve the partial publication record; yanking a package does not free its version number.
 6. After all packages are available, validate a clean consumer that resolves the Alloy family from crates.io without local path, Git, or workspace patch overrides. Record the resolved package identities and platform scope. The vendor-only source verifier cannot establish registry acceptance.
 7. After all checks pass, create the signed registry release tag and mark the release complete. Preserve published package versions and tags permanently.
+
+## Prepare a registry release
+
+The registry projector reads a fixed S and the audited dependency mappings. The output directory must not exist. Provide local Git checkouts for the external sources in `extra-members.json`; keep each recorded repository URL and full revision unchanged.
+
+```sh
+python3 script/gpui_registry.py \
+  --revision 9d59ea617d75d02e4645eefd22844235431138c8 \
+  --version 0.1.0 \
+  --git-overrides docs/releases/0.1.0/git-overrides.json \
+  --extra-members docs/releases/0.1.0/extra-members.json \
+  --output /new/registry-workspace
+```
+
+The `0.1.0` candidate contains 29 packages: the 26 standalone crates and fixed `async-tar`, `reqwest`, and `font-kit` sources. The additional packages retain behavior or dependency declarations absent from the corresponding registry releases. See the [dependency audit](docs/releases/0.1.0/dependency-audit.json), [Git mappings](docs/releases/0.1.0/git-overrides.json), and [projection record](docs/releases/0.1.0/projection.json).
+
+The projector preserves original Rust library names and dependency aliases. Consumer manifests must use aliases such as `gpui = { package = "gpui-alloy", version = "=0.1.0" }`. Package names alone do not make separately resolved GPUI types interchangeable.
+
+The projection record includes all manifest diffs, source and generated file inventories, license link materializations, build input copies, and dependency order. Every generated package also contains `ALLOY-REGISTRY-SOURCE.json` with its own source identity and generator digests. A projection record does not establish publication or consumer acceptance.
+
+Run Cargo package checks and validate the generated package set before uploading. Keep build output outside the generated workspace. After publication, validate the registry consumer under the publication procedure above. Record archive checksums and results with the release; do not infer acceptance from the projector's unit tests.
 
 ## Current patch ledger
 
@@ -272,12 +297,12 @@ Run the existing macOS suite from the standalone root:
 
 The library suite uses one test thread. A historical parallel profiler failure remains in the [archive failure log](https://github.com/AprilNEA/gpui-alloy-archive/blob/3ec8404e11262fb038e15b583724e2a35809dfae/alloy-validation/20261003/gpui-parallel-failure.txt). Do not describe the default parallel suite as passing.
 
-For snapshot tool changes, run:
+For Python tool changes, run these commands with Cargo available:
 
 ```sh
-ruff format --check script/gpui_snapshot.py script/test_gpui_snapshot.py
-ruff check script/gpui_snapshot.py script/test_gpui_snapshot.py
-python3 -B -m unittest discover -s script -p test_gpui_snapshot.py -v
+ruff format --check script/gpui_snapshot.py script/test_gpui_snapshot.py script/gpui_registry.py script/test_gpui_registry.py
+ruff check script/gpui_snapshot.py script/test_gpui_snapshot.py script/gpui_registry.py script/test_gpui_registry.py
+python3 -B -m unittest discover -s script -p 'test_gpui_*.py' -v
 ```
 
 The original signed D passed 491 library tests, 5 scene tests, 17 Metal tests, 1 popup example test, 3 compiled-shader tests, and 2 native harnesses. The [signed source log](https://github.com/AprilNEA/gpui-alloy-archive/blob/3ec8404e11262fb038e15b583724e2a35809dfae/alloy-validation/20261003/gpui-signed.txt) records those results. The [signed consumer log](https://github.com/AprilNEA/gpui-alloy-archive/blob/3ec8404e11262fb038e15b583724e2a35809dfae/alloy-validation/20261003/consumer-signed.txt) records the earlier Cupertino import. Those results are historical evidence, not acceptance of S.

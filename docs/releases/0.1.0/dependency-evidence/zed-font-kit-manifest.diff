@@ -1,0 +1,11 @@
+--- registry
++++ fixed-git
+@@ -48,7 +48,7 @@
+     },
+     "cfg(not(any(target_arch = \"wasm32\", target_family = \"windows\", target_os = \"android\", target_env = \"ohos\")))": {
+       "dependencies": {
+-        "dirs": "5.0"
++        "dirs": "6.0"
+       }
+     },
+     "cfg(not(any(target_family = \"windows\", target_os = \"macos\", target_os = \"ios\")))": {

@@ -1,0 +1,42 @@
+[
+  {
+    "path": "examples/simple.rs",
+    "registry_sha256": "857bf7c44683c170bf764b87c0952481b01e2a1ff3a85b9ca438c5e7161b4f4d",
+    "git_sha256": "857bf7c44683c170bf764b87c0952481b01e2a1ff3a85b9ca438c5e7161b4f4d"
+  },
+  {
+    "path": "src/lib.rs",
+    "registry_sha256": "b60830e3016753826285cadc248059e30d386af934c5dc110450e5f6f2ec08f7",
+    "git_sha256": "b60830e3016753826285cadc248059e30d386af934c5dc110450e5f6f2ec08f7"
+  },
+  {
+    "path": "src/wasm32/mod.rs",
+    "registry_sha256": "281a4aeb589a141e50ea704c5f5c49e6237a700ea8c6e6bcb05b015853ac0649",
+    "git_sha256": "281a4aeb589a141e50ea704c5f5c49e6237a700ea8c6e6bcb05b015853ac0649"
+  },
+  {
+    "path": "src/wasm32/scoped.rs",
+    "registry_sha256": "44bdb2852e308ea1a864f16f0a8011afdb8cdaa40f6cf08df76a225b35839d4e",
+    "git_sha256": "44bdb2852e308ea1a864f16f0a8011afdb8cdaa40f6cf08df76a225b35839d4e"
+  },
+  {
+    "path": "src/wasm32/signal.rs",
+    "registry_sha256": "372aa915d603f6e3364ae6d308b155975acc56b9058aad2a8a8ea1b7f8ad1d7e",
+    "git_sha256": "372aa915d603f6e3364ae6d308b155975acc56b9058aad2a8a8ea1b7f8ad1d7e"
+  },
+  {
+    "path": "src/wasm32/utils.rs",
+    "registry_sha256": "ccfa755dbffc67cef20a06e9b817d585783afc7cbb8d9290622a6ee472e09810",
+    "git_sha256": "ccfa755dbffc67cef20a06e9b817d585783afc7cbb8d9290622a6ee472e09810"
+  },
+  {
+    "path": "tests/native.rs",
+    "registry_sha256": "b2e77d7e679ca9ef202c3b452c3abf79ad40b8daa7db14d6a97563b1b472de83",
+    "git_sha256": "b2e77d7e679ca9ef202c3b452c3abf79ad40b8daa7db14d6a97563b1b472de83"
+  },
+  {
+    "path": "tests/wasm.rs",
+    "registry_sha256": "6389e959fa8724a919705ceaf2ab4de97a747d34f4c2f6ee4e893f26b7509728",
+    "git_sha256": "6389e959fa8724a919705ceaf2ab4de97a747d34f4c2f6ee4e893f26b7509728"
+  }
+]

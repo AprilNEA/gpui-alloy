@@ -1,0 +1,11 @@
+--- registry
++++ fixed-git
+@@ -456,7 +456,7 @@
+       "dependencies": {
+         "system-configuration": {
+           "optional": true,
+-          "version": "0.6.0"
++          "version": "0.8.0"
+         }
+       }
+     },

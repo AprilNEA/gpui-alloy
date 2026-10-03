@@ -1,0 +1,67 @@
+[
+  {
+    "path": "benches/rw.rs",
+    "registry_sha256": "4edf25c72941213c4a82d95144d2a7f7a80e0a60cf626fa135c5e824e715a8e5",
+    "git_sha256": "4edf25c72941213c4a82d95144d2a7f7a80e0a60cf626fa135c5e824e715a8e5"
+  },
+  {
+    "path": "examples/util/handler.rs",
+    "registry_sha256": "ee070fbe8ee7fdb4877aa0501255382bfe77f895fc1929625ae73f8103eddea5",
+    "git_sha256": "ee070fbe8ee7fdb4877aa0501255382bfe77f895fc1929625ae73f8103eddea5"
+  },
+  {
+    "path": "examples/x11rb_client.rs",
+    "registry_sha256": "9e1d6c2ff1187793d2732de5bf7dc06beb2f7f49b118a757819bdd3be0dfca3b",
+    "git_sha256": "9e1d6c2ff1187793d2732de5bf7dc06beb2f7f49b118a757819bdd3be0dfca3b"
+  },
+  {
+    "path": "examples/x11rb_server.rs",
+    "registry_sha256": "ca8e84cf8406805b4e20c9cddc62da564dfeb18a8cc0ab609059888da006d505",
+    "git_sha256": "ca8e84cf8406805b4e20c9cddc62da564dfeb18a8cc0ab609059888da006d505"
+  },
+  {
+    "path": "examples/xlib_client.rs",
+    "registry_sha256": "36cab9444d991b8f135e3b67bf9769d346d8b44315aeff73fb0611e7a3fb2c89",
+    "git_sha256": "36cab9444d991b8f135e3b67bf9769d346d8b44315aeff73fb0611e7a3fb2c89"
+  },
+  {
+    "path": "src/client/attribute_builder.rs",
+    "registry_sha256": "9f3cb7923bb2a38e2e76e81075abbe7c1a7236970dddac910d25f8eb68cc400c",
+    "git_sha256": "9f3cb7923bb2a38e2e76e81075abbe7c1a7236970dddac910d25f8eb68cc400c"
+  },
+  {
+    "path": "src/client.rs",
+    "registry_sha256": "b16c37b3281f0d86fda1cdf8db77537496bbc270d95c4181568e8520233872f4",
+    "git_sha256": "b16c37b3281f0d86fda1cdf8db77537496bbc270d95c4181568e8520233872f4"
+  },
+  {
+    "path": "src/lib.rs",
+    "registry_sha256": "b68b598f010e7278313b5bf1e460648fcde3d2187fb9b6a6ead653fd0e18402e",
+    "git_sha256": "b68b598f010e7278313b5bf1e460648fcde3d2187fb9b6a6ead653fd0e18402e"
+  },
+  {
+    "path": "src/server/connection/im_vec.rs",
+    "registry_sha256": "28b24c250237b291e31f3559df276fa489f9dab203fb5358edece9b27039e898",
+    "git_sha256": "28b24c250237b291e31f3559df276fa489f9dab203fb5358edece9b27039e898"
+  },
+  {
+    "path": "src/server/connection.rs",
+    "registry_sha256": "4ed777df1446253cb41adafba9507af1c31d0d75ad61b1435d3e3dca460174b0",
+    "git_sha256": "4ed777df1446253cb41adafba9507af1c31d0d75ad61b1435d3e3dca460174b0"
+  },
+  {
+    "path": "src/server.rs",
+    "registry_sha256": "ce28c50ce821ebabb430935f3b5d17fae79ddf2817205ffa8252821345558da5",
+    "git_sha256": "ce28c50ce821ebabb430935f3b5d17fae79ddf2817205ffa8252821345558da5"
+  },
+  {
+    "path": "src/x11rb.rs",
+    "registry_sha256": "259adcd1a76d4e065c77f39bd736d3363f945700024eb142dbe3381a32717ab3",
+    "git_sha256": "259adcd1a76d4e065c77f39bd736d3363f945700024eb142dbe3381a32717ab3"
+  },
+  {
+    "path": "src/xlib.rs",
+    "registry_sha256": "0595e5076c1f433817b132fb8fa17c9b52d18eb576b9df7c1d24ffecd108c1d3",
+    "git_sha256": "0595e5076c1f433817b132fb8fa17c9b52d18eb576b9df7c1d24ffecd108c1d3"
+  }
+]

@@ -9,7 +9,8 @@
 - Run `cargo fmt --all -- --check` before committing Rust changes.
 - Run `./script/clippy` for Rust lint checks.
 - Run `./script/check` for the macOS validation suite.
-- Run Ruff and the snapshot tool tests before committing Python changes.
+- Run Ruff and the Python tool tests before committing Python changes.
+- Keep registry packaging changes in generated publication directories and record each transformation.
 - Keep build output outside exported consumer snapshots.
 - Record each validated standalone revision and consumer import in `ALLOY.md`.
 - Keep the root README review marker until the human author removes the marker.

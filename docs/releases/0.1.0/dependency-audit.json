@@ -1,0 +1,473 @@
+{
+  "format": 1,
+  "registry_query_date": "2026-10-03",
+  "scope": "Read-only audit. No packages uploaded and no repository files edited. Comparisons cover published Rust files and original dependency/feature manifest sections; not a claim of identical complete dependency graphs.",
+  "packages": [
+    {
+      "original_package": "async-tar",
+      "fixed_git": {
+        "repository": "https://github.com/zed-industries/async-tar",
+        "revision": "bd3ad6f89df9a9da7a8535958756d6bf465936a0",
+        "checkout": "/Users/Xuan/.cargo/git/checkouts/async-tar-f6807244e52310d1/bd3ad6f",
+        "package_directory": "/Users/Xuan/.cargo/git/checkouts/async-tar-f6807244e52310d1/bd3ad6f",
+        "tracked_files_match_revision": true
+      },
+      "registry": {
+        "package": "async-tar",
+        "version": "0.6.1",
+        "verified_by": "cargo info --registry crates-io async-tar",
+        "source_directory": "/Users/Xuan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/async-tar-0.6.1",
+        "archive_vcs": {
+          "git": {
+            "sha1": "438d42f7aed02c53524cf7b5562631cba1cbc798"
+          },
+          "path_in_vcs": ""
+        }
+      },
+      "comparison": {
+        "published_rust_file_count": 15,
+        "changed_published_rust_files": [
+          "src/pax.rs"
+        ],
+        "dependency_and_feature_manifest_equal": true,
+        "registry_manifest_sha256": "cdd6fdd9b4ea74c73ccaf086dd5e56007f20c25e8e3119bc793422f7976ab4e7",
+        "git_manifest_sha256": "cdd6fdd9b4ea74c73ccaf086dd5e56007f20c25e8e3119bc793422f7976ab4e7",
+        "rust_digests": "dependency-evidence/async-tar-rust-digests.json",
+        "rust_digests_sha256": "543e6ddd53f0b290bf0cb0f880d5f57063233e565ffc60834e20a78ead296c1a",
+        "source_diff": "dependency-evidence/async-tar-source.diff",
+        "manifest_diff": "dependency-evidence/async-tar-manifest.diff"
+      },
+      "proposed_registry_package": {
+        "name": "gpui-alloy-async-tar",
+        "version": "0.1.0",
+        "lib_name": "async_tar"
+      },
+      "additional_unpublished_dependencies": [],
+      "licenses": [
+        "LICENSE-APACHE",
+        "LICENSE-MIT"
+      ],
+      "root_build_script": null
+    },
+    {
+      "original_package": "zed-reqwest",
+      "fixed_git": {
+        "repository": "https://github.com/zed-industries/reqwest.git",
+        "revision": "33bc764aa15ff7b200bf7c93bd96e24878d53e14",
+        "checkout": "/Users/Xuan/.cargo/git/checkouts/reqwest-dc13ba947e7b959e/33bc764",
+        "package_directory": "/Users/Xuan/.cargo/git/checkouts/reqwest-dc13ba947e7b959e/33bc764",
+        "tracked_files_match_revision": true
+      },
+      "registry": {
+        "package": "zed-reqwest",
+        "version": "0.12.15-zed",
+        "verified_by": "cargo info --registry crates-io zed-reqwest",
+        "source_directory": "/Users/Xuan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zed-reqwest-0.12.15-zed",
+        "archive_vcs": {
+          "git": {
+            "sha1": "c15662463bda39148ba154100dd44d3fba5873a4"
+          },
+          "path_in_vcs": ""
+        }
+      },
+      "comparison": {
+        "published_rust_file_count": 67,
+        "changed_published_rust_files": [
+          "src/proxy.rs"
+        ],
+        "dependency_and_feature_manifest_equal": false,
+        "registry_manifest_sha256": "ad276b0ce2a9287db292c6457cabbbd1ced4e2622f4a87c7b4228682630e560b",
+        "git_manifest_sha256": "5a57f4ad320d9571591af9b553757e127b08981d285e4c6897c591ba16764c6a",
+        "rust_digests": "dependency-evidence/zed-reqwest-rust-digests.json",
+        "rust_digests_sha256": "fa924ad2c7f4cc4035e8338b5db3c5d0196de8d89ef96f82fccd957a5e295471",
+        "source_diff": "dependency-evidence/zed-reqwest-source.diff",
+        "manifest_diff": "dependency-evidence/zed-reqwest-manifest.diff"
+      },
+      "proposed_registry_package": {
+        "name": "gpui-alloy-reqwest",
+        "version": "0.1.0",
+        "lib_name": "zed_reqwest"
+      },
+      "additional_unpublished_dependencies": [],
+      "licenses": [
+        "LICENSE-APACHE",
+        "LICENSE-MIT"
+      ],
+      "root_build_script": null
+    },
+    {
+      "original_package": "zed-font-kit",
+      "fixed_git": {
+        "repository": "https://github.com/zed-industries/font-kit",
+        "revision": "94b0f28166665e8fd2f53ff6d268a14955c82269",
+        "checkout": "/Users/Xuan/.cargo/git/checkouts/font-kit-2de8721bb3347bf4/94b0f28",
+        "package_directory": "/Users/Xuan/.cargo/git/checkouts/font-kit-2de8721bb3347bf4/94b0f28",
+        "tracked_files_match_revision": true
+      },
+      "registry": {
+        "package": "zed-font-kit",
+        "version": "0.14.1-zed",
+        "verified_by": "cargo info --registry crates-io zed-font-kit",
+        "source_directory": "/Users/Xuan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zed-font-kit-0.14.1-zed",
+        "archive_vcs": {
+          "git": {
+            "sha1": "110523127440aefb11ce0cf280ae7c5071337ec5"
+          },
+          "path_in_vcs": ""
+        }
+      },
+      "comparison": {
+        "published_rust_file_count": 35,
+        "changed_published_rust_files": [],
+        "dependency_and_feature_manifest_equal": false,
+        "registry_manifest_sha256": "976b828b510315f858f542354d6fef424bdd76754e0d3f1dcfa130777604e4e2",
+        "git_manifest_sha256": "5db292610918339fc550d5654b983d8fe7f3cd0bbfc8b6ab7bb37b656fe25fbb",
+        "rust_digests": "dependency-evidence/zed-font-kit-rust-digests.json",
+        "rust_digests_sha256": "f06e5e90d1c2a94d0fc968e15d1f8e2e2b34a0cd25d306dd617d23ef6811df06",
+        "source_diff": "dependency-evidence/zed-font-kit-source.diff",
+        "manifest_diff": "dependency-evidence/zed-font-kit-manifest.diff"
+      },
+      "proposed_registry_package": {
+        "name": "gpui-alloy-font-kit",
+        "version": "0.1.0",
+        "lib_name": "zed_font_kit"
+      },
+      "additional_unpublished_dependencies": [],
+      "licenses": [
+        "LICENSE-APACHE",
+        "LICENSE-MIT"
+      ],
+      "root_build_script": "/Users/Xuan/.cargo/git/checkouts/font-kit-2de8721bb3347bf4/94b0f28/build.rs"
+    },
+    {
+      "original_package": "proptest",
+      "fixed_git": {
+        "repository": "https://github.com/proptest-rs/proptest",
+        "revision": "3dca198a8fef1b32e3a66f1e1897c955b4dc5b5b",
+        "checkout": "/Users/Xuan/.cargo/git/checkouts/proptest-1f80a76f161d5085/3dca198",
+        "package_directory": "/Users/Xuan/.cargo/git/checkouts/proptest-1f80a76f161d5085/3dca198/proptest",
+        "tracked_files_match_revision": true
+      },
+      "registry": {
+        "package": "proptest",
+        "version": "1.10.0",
+        "verified_by": "cargo info --registry crates-io proptest@1.10.0",
+        "source_directory": "/Users/Xuan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proptest-1.10.0",
+        "archive_vcs": {
+          "git": {
+            "sha1": "4814e510f61b402c94d7063086ed61fda732736f"
+          },
+          "path_in_vcs": "proptest"
+        }
+      },
+      "comparison": {
+        "published_rust_file_count": 101,
+        "changed_published_rust_files": [],
+        "dependency_and_feature_manifest_equal": true,
+        "registry_manifest_sha256": "c806c9e6c57fdefb7e5d98e0f489d34703f10154006693a0b584858977fd1b2c",
+        "git_manifest_sha256": "c806c9e6c57fdefb7e5d98e0f489d34703f10154006693a0b584858977fd1b2c",
+        "rust_digests": "dependency-evidence/proptest-rust-digests.json",
+        "rust_digests_sha256": "b9132202414fe980bb37d2ea42e9964e1453d1a2fe7c06da5c5eb83ffae2b8d7",
+        "source_diff": "dependency-evidence/proptest-source.diff",
+        "manifest_diff": "dependency-evidence/proptest-manifest.diff"
+      },
+      "proposed_registry_package": null,
+      "additional_unpublished_dependencies": [
+        {
+          "table": "dependencies",
+          "name": "bitflags",
+          "spec": {
+            "workspace": true
+          }
+        },
+        {
+          "table": "dependencies",
+          "name": "unarray",
+          "spec": {
+            "workspace": true
+          }
+        },
+        {
+          "table": "dependencies",
+          "name": "proptest-macro",
+          "spec": {
+            "workspace": true,
+            "optional": true
+          }
+        },
+        {
+          "table": "dependencies",
+          "name": "num-traits",
+          "spec": {
+            "workspace": true
+          }
+        },
+        {
+          "table": "dependencies",
+          "name": "regex-syntax",
+          "spec": {
+            "workspace": true,
+            "optional": true
+          }
+        },
+        {
+          "table": "dependencies",
+          "name": "bit-set",
+          "spec": {
+            "workspace": true,
+            "optional": true
+          }
+        },
+        {
+          "table": "dependencies",
+          "name": "bit-vec",
+          "spec": {
+            "workspace": true,
+            "optional": true
+          }
+        },
+        {
+          "table": "dependencies",
+          "name": "rand",
+          "spec": {
+            "workspace": true,
+            "features": [
+              "alloc"
+            ]
+          }
+        },
+        {
+          "table": "dependencies",
+          "name": "rand_xorshift",
+          "spec": {
+            "workspace": true
+          }
+        },
+        {
+          "table": "dependencies",
+          "name": "rand_chacha",
+          "spec": {
+            "workspace": true
+          }
+        },
+        {
+          "table": "dependencies",
+          "name": "rusty-fork",
+          "spec": {
+            "workspace": true,
+            "optional": true
+          }
+        },
+        {
+          "table": "dependencies",
+          "name": "tempfile",
+          "spec": {
+            "workspace": true,
+            "optional": true
+          }
+        },
+        {
+          "table": "dependencies",
+          "name": "x86",
+          "spec": {
+            "workspace": true,
+            "optional": true
+          }
+        },
+        {
+          "table": "dev-dependencies",
+          "name": "regex",
+          "spec": {
+            "workspace": true
+          }
+        },
+        {
+          "table": "dev-dependencies",
+          "name": "trybuild",
+          "spec": {
+            "workspace": true
+          }
+        }
+      ],
+      "licenses": [
+        "LICENSE-APACHE",
+        "LICENSE-MIT"
+      ],
+      "root_build_script": null
+    },
+    {
+      "original_package": "zed-scap",
+      "fixed_git": {
+        "repository": "https://github.com/zed-industries/scap",
+        "revision": "4afea48c3b002197176fb19cd0f9b180dd36eaac",
+        "checkout": "/Users/Xuan/.cargo/git/checkouts/scap-40ad33e1dd47aaea/4afea48",
+        "package_directory": "/Users/Xuan/.cargo/git/checkouts/scap-40ad33e1dd47aaea/4afea48",
+        "tracked_files_match_revision": true
+      },
+      "registry": {
+        "package": "zed-scap",
+        "version": "0.0.8-zed",
+        "verified_by": "cargo info --registry crates-io zed-scap",
+        "source_directory": "/Users/Xuan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zed-scap-0.0.8-zed",
+        "archive_vcs": {
+          "git": {
+            "sha1": "4afea48c3b002197176fb19cd0f9b180dd36eaac"
+          },
+          "path_in_vcs": ""
+        }
+      },
+      "comparison": {
+        "published_rust_file_count": 24,
+        "changed_published_rust_files": [],
+        "dependency_and_feature_manifest_equal": true,
+        "registry_manifest_sha256": "b1098cdc8805bb7fd8addb94d615f084de8f5b43797d7250919ec2c2ad4384c4",
+        "git_manifest_sha256": "b1098cdc8805bb7fd8addb94d615f084de8f5b43797d7250919ec2c2ad4384c4",
+        "rust_digests": "dependency-evidence/zed-scap-rust-digests.json",
+        "rust_digests_sha256": "37b0f609b89f7d00b5b8282c8896d316497b62753bb318dd2bc2b3ba0e9f32dc",
+        "source_diff": "dependency-evidence/zed-scap-source.diff",
+        "manifest_diff": "dependency-evidence/zed-scap-manifest.diff"
+      },
+      "proposed_registry_package": null,
+      "additional_unpublished_dependencies": [],
+      "licenses": [
+        "LICENSE"
+      ],
+      "root_build_script": null
+    },
+    {
+      "original_package": "zed-xim",
+      "fixed_git": {
+        "repository": "https://github.com/zed-industries/xim-rs.git",
+        "revision": "16f35a2c881b815a2b6cdfd6687988e84f8447d8",
+        "checkout": "/Users/Xuan/.cargo/git/checkouts/xim-rs-f2169dfc4c0688a9/16f35a2",
+        "package_directory": "/Users/Xuan/.cargo/git/checkouts/xim-rs-f2169dfc4c0688a9/16f35a2",
+        "tracked_files_match_revision": true
+      },
+      "registry": {
+        "package": "zed-xim",
+        "version": "0.4.0-zed",
+        "verified_by": "cargo info --registry crates-io zed-xim",
+        "source_directory": "/Users/Xuan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zed-xim-0.4.0-zed",
+        "archive_vcs": {
+          "git": {
+            "sha1": "471c10cdf97b3fcc2b7e0b3060f0085d1a7a27ec"
+          },
+          "path_in_vcs": ""
+        }
+      },
+      "comparison": {
+        "published_rust_file_count": 13,
+        "changed_published_rust_files": [],
+        "dependency_and_feature_manifest_equal": true,
+        "registry_manifest_sha256": "9fb4abb3c1242c2f4f1ce973ec834f81d7a7f189e0515427e419b39f1cb84168",
+        "git_manifest_sha256": "9fb4abb3c1242c2f4f1ce973ec834f81d7a7f189e0515427e419b39f1cb84168",
+        "rust_digests": "dependency-evidence/zed-xim-rust-digests.json",
+        "rust_digests_sha256": "af16974b8d09efd05f41025f8d2c4f68a36bca83f67e2f801f027711b7c8274d",
+        "source_diff": "dependency-evidence/zed-xim-source.diff",
+        "manifest_diff": "dependency-evidence/zed-xim-manifest.diff"
+      },
+      "proposed_registry_package": null,
+      "additional_unpublished_dependencies": [
+        {
+          "table": "dependencies",
+          "name": "xim-parser",
+          "spec": {
+            "path": "./xim-parser",
+            "version": "0.2.0",
+            "default-features": false
+          }
+        },
+        {
+          "table": "dependencies",
+          "name": "xim-ctext",
+          "spec": {
+            "path": "./xim-ctext",
+            "version": "0.3.0",
+            "default-features": false
+          }
+        }
+      ],
+      "licenses": [
+        "LICENSE"
+      ],
+      "root_build_script": null
+    },
+    {
+      "original_package": "wasm_thread",
+      "fixed_git": {
+        "repository": "https://github.com/zed-industries/wasm_thread",
+        "revision": "0cf96c7708dfb97ccf3da50347e25edcf75d6937",
+        "checkout": "/Users/Xuan/.cargo/git/checkouts/wasm_thread-586cb4b723c583fe/0cf96c7",
+        "package_directory": "/Users/Xuan/.cargo/git/checkouts/wasm_thread-586cb4b723c583fe/0cf96c7",
+        "tracked_files_match_revision": true
+      },
+      "registry": {
+        "package": "wasm_thread",
+        "version": "0.3.3",
+        "verified_by": "cargo info --registry crates-io wasm_thread",
+        "source_directory": "/Users/Xuan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm_thread-0.3.3",
+        "archive_vcs": {
+          "git": {
+            "sha1": "7ec48686bb1a0d9bd42cf16e46622746e4d12ab3"
+          },
+          "path_in_vcs": ""
+        }
+      },
+      "comparison": {
+        "published_rust_file_count": 8,
+        "changed_published_rust_files": [],
+        "dependency_and_feature_manifest_equal": true,
+        "registry_manifest_sha256": "6e9fa78cfa2a021ba5475f7bc7093d32b25f78e70e44100408b92b288c701159",
+        "git_manifest_sha256": "6e9fa78cfa2a021ba5475f7bc7093d32b25f78e70e44100408b92b288c701159",
+        "rust_digests": "dependency-evidence/wasm_thread-rust-digests.json",
+        "rust_digests_sha256": "9fa06e55a95b38c84b33c0c5503014122d849b56fd471b231a2ad8f298c19ef8",
+        "source_diff": "dependency-evidence/wasm_thread-source.diff",
+        "manifest_diff": "dependency-evidence/wasm_thread-manifest.diff"
+      },
+      "proposed_registry_package": null,
+      "additional_unpublished_dependencies": [],
+      "licenses": [
+        "LICENSE-APACHE",
+        "LICENSE-MIT"
+      ],
+      "root_build_script": null
+    }
+  ],
+  "additional_registry_queries": {
+    "proptest": {
+      "latest": "1.11.0",
+      "attr-macro_supported": [
+        "1.10.0",
+        "1.11.0"
+      ],
+      "rust_version": {
+        "1.10.0": "1.84",
+        "1.11.0": "1.85"
+      }
+    },
+    "gpui-pre-reqwest": {
+      "version": "0.12.15",
+      "same_difference_from_fixed_git_as_zed_reqwest": true
+    },
+    "system-configuration": {
+      "version": "0.8.0",
+      "required_by_fixed_reqwest": true
+    }
+  },
+  "root_patches": {
+    "policy": "Omit in published registry packages and validate the ordinary registry graph, matching the existing Cupertino non-inherited root-patch behavior.",
+    "names": [
+      "async-process",
+      "async-task",
+      "calloop",
+      "windows-capture"
+    ]
+  },
+  "decisions": {
+    "async-tar": "Republish fixed fork to preserve length-based PAX parsing and http_client/github-download.",
+    "reqwest": "Republish fixed fork to preserve system-configuration 0.8.0 and Option handling.",
+    "font-kit": "Republish fixed fork to preserve dirs 6.0 rather than registry dirs 5.0.",
+    "proptest": "Registry 1.10.0 matches fixed Git published Rust files and dependency/feature declarations. Retain attr-macro.",
+    "font-kit_nested_crate": "The c/ package is a consumer of font-kit, not a dependency of the root package; it is not part of the publication closure."
+  }
+}

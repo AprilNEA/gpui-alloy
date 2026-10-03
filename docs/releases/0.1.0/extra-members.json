@@ -1,0 +1,20 @@
+[
+  {
+    "package": "gpui-alloy-async-tar",
+    "repo": "/Users/Xuan/.cargo/git/checkouts/async-tar-f6807244e52310d1/bd3ad6f",
+    "repository": "https://github.com/zed-industries/async-tar",
+    "revision": "bd3ad6f89df9a9da7a8535958756d6bf465936a0"
+  },
+  {
+    "package": "gpui-alloy-reqwest",
+    "repo": "/Users/Xuan/.cargo/git/checkouts/reqwest-dc13ba947e7b959e/33bc764",
+    "repository": "https://github.com/zed-industries/reqwest.git",
+    "revision": "33bc764aa15ff7b200bf7c93bd96e24878d53e14"
+  },
+  {
+    "package": "gpui-alloy-font-kit",
+    "repo": "/Users/Xuan/.cargo/git/checkouts/font-kit-2de8721bb3347bf4/94b0f28",
+    "repository": "https://github.com/zed-industries/font-kit",
+    "revision": "94b0f28166665e8fd2f53ff6d268a14955c82269"
+  }
+]
