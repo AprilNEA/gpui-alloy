@@ -43,4 +43,6 @@ The initial workspace publish uploaded five packages and then received HTTP 429.
 5. Update the pending consumer documents. Create signed commits and verify signatures with the existing 1Password SSH key. Recheck the original Cupertino branch before integrating the completed worktree changes. Preserve unrelated user work.
 6. Record registry acceptance and create the signed immutable `v0.1.0` tag. Keep existing snapshot tags unchanged. Leave Git pushing to the user under the current user instructions.
 
-The signing configuration is working. Verification used the configured public key in a temporary `allowed_signers` file. No global trust configuration or new key is required.
+The latest release-record commit is blocked because the 1Password SSH signing agent returned an error on repeated attempts. See `record_commit` in [publication.json](publication.json) and its signing log. Before another package upload, restore access to the existing signing agent, sign the pending release-record commit, and verify the signature. The latest package upload and registry checksum verification succeeded.
+
+Previous signature verification used the configured public key in a temporary `allowed_signers` file. No global trust configuration or new key is required.

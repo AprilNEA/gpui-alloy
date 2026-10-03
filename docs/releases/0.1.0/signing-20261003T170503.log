@@ -1,0 +1,25 @@
+Command: git commit -m 'docs(release): record refineable publication'
+Attempt 1: exit 128
+error: 1Password: agent returned an error
+fatal: failed to write commit object
+Attempt 2: exit 128
+error: 1Password: agent returned an error
+fatal: failed to write commit object
+
+Heartbeat: 2026-10-03T17:15:04.185Z
+Attempt 3: exit 128
+error: 1Password: agent returned an error
+fatal: failed to write commit object
+No package upload attempted.
+
+Heartbeat: 2026-10-03T17:25:03.487Z
+Attempt 4: exit 128
+error: 1Password: agent returned an error
+fatal: failed to write commit object
+No package upload attempted.
+
+Heartbeat: 2026-10-03T17:45:04.520Z
+Attempt 5: exit 128
+error: 1Password: agent returned an error
+fatal: failed to write commit object
+No package upload attempted.

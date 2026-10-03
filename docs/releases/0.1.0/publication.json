@@ -1,7 +1,7 @@
 {
   "format": 1,
   "kind": "partial-publication-verification",
-  "checked_at": "2026-10-03T16:52:25.570101+00:00",
+  "checked_at": "2026-10-03T17:07:09.275007+00:00",
   "archive_manifest_sha256": "78428ea3d01a6a55b6a1abefc4299ef7385434b4057bdaef5902c1de3cbcd5b0",
   "packages": [
     {
@@ -218,6 +218,23 @@
         "crates-io"
       ],
       "evidence_log": "publish-20261003T164648.log"
+    },
+    {
+      "name": "gpui-alloy-refineable",
+      "version": "0.1.0",
+      "archive_sha256": "ef634fe1a0b8889e80ca35d41b0861f7baa3515438a0e670dfd5e9e198763fd9",
+      "index_checksum": "ef634fe1a0b8889e80ca35d41b0861f7baa3515438a0e670dfd5e9e198763fd9",
+      "frozen_sha256": "ef634fe1a0b8889e80ca35d41b0861f7baa3515438a0e670dfd5e9e198763fd9",
+      "archive_path": "/Users/Xuan/.cargo/registry/cache/index.crates.io-1949cf8c6b5b557f/gpui-alloy-refineable-0.1.0.crate",
+      "index_cache_path": "/Users/Xuan/.cargo/registry/index/index.crates.io-1949cf8c6b5b557f/.cache/gp/ui/gpui-alloy-refineable",
+      "command": [
+        "cargo",
+        "info",
+        "gpui-alloy-refineable@0.1.0",
+        "--registry",
+        "crates-io"
+      ],
+      "evidence_log": "publish-20261003T170503.log"
     }
   ],
   "exclude": [
@@ -233,13 +250,13 @@
     "gpui-alloy-path",
     "gpui-alloy-reqwest",
     "gpui-alloy-ztracing-macro",
-    "gpui-alloy-collections"
+    "gpui-alloy-collections",
+    "gpui-alloy-refineable"
   ],
   "status": "partially-published",
-  "published_package_count": 13,
+  "published_package_count": 14,
   "total_package_count": 31,
   "remaining_packages": [
-    "gpui-alloy-refineable",
     "gpui-alloy-smol",
     "gpui-alloy-perf",
     "gpui-alloy-zlog",
@@ -263,7 +280,7 @@
     "new_crate_refill_seconds": 600,
     "source": "https://github.com/rust-lang/crates.io/blob/main/svelte/src/routes/docs/rate-limits/+page.svelte"
   },
-  "latest_upload_log_completed_at": "2026-10-03T16:50:39.183824+00:00",
+  "latest_upload_log_completed_at": "2026-10-03T17:06:59.552023+00:00",
   "automatic_continuation_configured": true,
   "automatic_continuation": {
     "automation_id": "gpui-alloy-cupertino",
@@ -275,17 +292,25 @@
     "stop_condition": "All 31 packages are verified in crates.io and Cupertino registry acceptance is complete."
   },
   "server_retry_after": null,
-  "next_scheduled_check_at": "2026-10-03T16:56:48.392000+00:00",
+  "next_scheduled_check_at": "2026-10-03T17:15:03.390000+00:00",
   "latest_run": {
-    "scheduled_at": "2026-10-03T16:46:48.392Z",
+    "scheduled_at": "2026-10-03T17:05:03.390Z",
     "new_packages_published": [
-      "gpui-alloy-collections"
+      "gpui-alloy-refineable"
     ],
     "exit_code": 0,
-    "log": "publish-20261003T164648.log",
-    "log_sha256": "1234a0469cf0018035648ef9ed7c3d4dab37e4cc2fa433d6a53d47f26e43775d",
+    "log": "publish-20261003T170503.log",
+    "log_sha256": "bc9a03c183f20d37a029e9919d31e455f938ed2eda8041e44795fe9d015847af",
     "package_verification_enabled": true,
     "frozen_archive_comparison_passed_before_upload": true,
     "registry_archive_and_index_checksum_match": true
+  },
+  "record_commit": {
+    "status": "blocked",
+    "checked_at": "2026-10-03T17:46:19.761379+00:00",
+    "reason": "The 1Password SSH signing agent returned an error on five commit attempts.",
+    "evidence_log": "signing-20261003T170503.log",
+    "required_action": "Unlock or authorize the existing 1Password SSH signing agent. Sign and verify the pending release-record commit before another package upload.",
+    "last_retry_scheduled_at": "2026-10-03T17:45:04.520Z"
   }
 }
