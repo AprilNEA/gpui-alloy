@@ -510,27 +510,35 @@
     "registry_archive_and_index_checksum_match": true
   },
   "record_commit": {
-    "status": "blocked",
-    "checked_at": "2026-10-03T20:40:20.249782+00:00",
-    "scheduled_at": "2026-10-03T20:36:40.982Z",
-    "error": "1Password: agent returned an error; Git could not write the signed commit object.",
-    "log": "signing-20261003T203640.log",
-    "log_sha256": "83e334550d310bfdd2b8aba275d68cea32479b85d881646d4d44a468a09f04b7",
-    "required_action": "Unlock 1Password and allow the configured SSH key to sign Git commits. Retry the pending release-record commit before another publication.",
-    "previous_verified_recovery": {
-      "status": "verified",
-      "checked_at": "2026-10-03T18:37:14.898334+00:00",
-      "commit": "e059002cf2890d6c780057ed55dfe8562789cc67",
-      "signing_key_fingerprint": "SHA256:X/k8e9F//KEmSaoFv1H11/DPGw8CaMR2pDGvFhRbjaw",
-      "previous_failure_log": "signing-20261003T170503.log",
-      "recovery_scheduled_at": "2026-10-03T18:35:06.495Z"
-    },
-    "last_retry": {
-      "scheduled_at": "2026-10-04T03:46:42.425Z",
-      "checked_at": "2026-10-04T03:48:47.691824+00:00",
-      "exit_code": 128,
-      "log": "signing-20261004T034642.log",
-      "log_sha256": "9c0391db9776998d95eeca1ddb6b00e1b2c809c374889415cd04e487ba1dd6f9"
+    "status": "verified",
+    "checked_at": "2026-10-04T09:51:44.934050+00:00",
+    "commit": "8969b0064c9945252eb2eab74b6ba783e3d02ae4",
+    "signing_key_fingerprint": "SHA256:X/k8e9F//KEmSaoFv1H11/DPGw8CaMR2pDGvFhRbjaw",
+    "log": "signature-recovery-8969b00.log",
+    "log_sha256": "20ad80fa560ed4193b558f7a2eca0794a5012566f7fcf84985d01d4e99882f66",
+    "previous_blocker": {
+      "status": "blocked",
+      "checked_at": "2026-10-03T20:40:20.249782+00:00",
+      "scheduled_at": "2026-10-03T20:36:40.982Z",
+      "error": "1Password: agent returned an error; Git could not write the signed commit object.",
+      "log": "signing-20261003T203640.log",
+      "log_sha256": "83e334550d310bfdd2b8aba275d68cea32479b85d881646d4d44a468a09f04b7",
+      "required_action": "Unlock 1Password and allow the configured SSH key to sign Git commits. Retry the pending release-record commit before another publication.",
+      "previous_verified_recovery": {
+        "status": "verified",
+        "checked_at": "2026-10-03T18:37:14.898334+00:00",
+        "commit": "e059002cf2890d6c780057ed55dfe8562789cc67",
+        "signing_key_fingerprint": "SHA256:X/k8e9F//KEmSaoFv1H11/DPGw8CaMR2pDGvFhRbjaw",
+        "previous_failure_log": "signing-20261003T170503.log",
+        "recovery_scheduled_at": "2026-10-03T18:35:06.495Z"
+      },
+      "last_retry": {
+        "scheduled_at": "2026-10-04T03:46:42.425Z",
+        "checked_at": "2026-10-04T03:48:47.691824+00:00",
+        "exit_code": 128,
+        "log": "signing-20261004T034642.log",
+        "log_sha256": "9c0391db9776998d95eeca1ddb6b00e1b2c809c374889415cd04e487ba1dd6f9"
+      }
     }
   },
   "local_inputs": {
