@@ -1,6 +1,6 @@
 # GPUI Alloy 0.1.0
 
-**Release status: partially published (25/31 packages).** Crates.io has accepted the frozen packages listed in the publication record. The new-crate rate limit controls the remaining uploads. Registry consumer acceptance and the release tag remain pending. See the [publication record](publication.json) and [continuation instructions](RESUME.md).
+**Release status: partially published (26/31 packages).** Crates.io has accepted the frozen packages listed in the publication record. The new-crate rate limit controls the remaining uploads. Registry consumer acceptance and the release tag remain pending. See the [publication record](publication.json) and [continuation instructions](RESUME.md).
 
 | Identity | Fixed commit |
 | --- | --- |

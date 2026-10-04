@@ -1,0 +1,5 @@
+Command: git commit -m 'docs(release): record wgpu crate publication'
+Exit code: 128
+error: 1Password: agent returned an error
+
+fatal: failed to write commit object

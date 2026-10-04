@@ -1,0 +1,13 @@
+{
+  "scheduled_at": "2026-10-04T09:42:11.762Z",
+  "checked_at": "2026-10-04T09:46:12.130478+00:00",
+  "checked_with_escalation": true,
+  "path_exists": {
+    "/private/tmp/alloy-registry-packager/staging-process-31": false,
+    "/private/tmp/gpui-alloy-0.1.0-frozen": false,
+    "/private/tmp/gpui-alloy-registry-target": false,
+    "/private/tmp/alloy-complete-family-probe-0.1.0": false,
+    "/Users/Xuan/.codex/worktrees/gpui-alloy-registry/gpui-cupertino": true
+  },
+  "new_packages_published": []
+}

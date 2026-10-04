@@ -1,7 +1,7 @@
 {
   "format": 1,
   "kind": "partial-publication-verification",
-  "checked_at": "2026-10-03T20:28:55.813484+00:00",
+  "checked_at": "2026-10-03T20:38:55.135124+00:00",
   "archive_manifest_sha256": "78428ea3d01a6a55b6a1abefc4299ef7385434b4057bdaef5902c1de3cbcd5b0",
   "packages": [
     {
@@ -422,6 +422,23 @@
         "crates-io"
       ],
       "evidence_log": "publish-20261003T202640.log"
+    },
+    {
+      "name": "gpui-alloy-wgpu",
+      "version": "0.1.0",
+      "archive_sha256": "e4bc37a8fd8a8e5d53b7709a800de1c57833f98e9ef1dc3bacbbb47f9e2ad4f2",
+      "index_checksum": "e4bc37a8fd8a8e5d53b7709a800de1c57833f98e9ef1dc3bacbbb47f9e2ad4f2",
+      "frozen_sha256": "e4bc37a8fd8a8e5d53b7709a800de1c57833f98e9ef1dc3bacbbb47f9e2ad4f2",
+      "archive_path": "/Users/Xuan/.cargo/registry/cache/index.crates.io-1949cf8c6b5b557f/gpui-alloy-wgpu-0.1.0.crate",
+      "index_cache_path": "/Users/Xuan/.cargo/registry/index/index.crates.io-1949cf8c6b5b557f/.cache/gp/ui/gpui-alloy-wgpu",
+      "command": [
+        "cargo",
+        "info",
+        "gpui-alloy-wgpu@0.1.0",
+        "--registry",
+        "crates-io"
+      ],
+      "evidence_log": "publish-20261003T203640.log"
     }
   ],
   "exclude": [
@@ -449,13 +466,13 @@
     "gpui-alloy-http-client",
     "gpui-alloy",
     "gpui-alloy-reqwest-client",
-    "gpui-alloy-apple"
+    "gpui-alloy-apple",
+    "gpui-alloy-wgpu"
   ],
   "status": "partially-published",
-  "published_package_count": 25,
+  "published_package_count": 26,
   "total_package_count": 31,
   "remaining_packages": [
-    "gpui-alloy-wgpu",
     "gpui-alloy-windows",
     "gpui-alloy-macos",
     "gpui-alloy-linux",
@@ -467,7 +484,7 @@
     "new_crate_refill_seconds": 600,
     "source": "https://github.com/rust-lang/crates.io/blob/main/svelte/src/routes/docs/rate-limits/+page.svelte"
   },
-  "latest_upload_log_completed_at": "2026-10-03T20:28:38.176079+00:00",
+  "latest_upload_log_completed_at": "2026-10-03T20:38:36.599272+00:00",
   "automatic_continuation_configured": true,
   "automatic_continuation": {
     "automation_id": "gpui-alloy-cupertino",
@@ -479,25 +496,58 @@
     "stop_condition": "All 31 packages are verified in crates.io and Cupertino registry acceptance is complete."
   },
   "server_retry_after": null,
-  "next_scheduled_check_at": "2026-10-03T20:36:40.981000+00:00",
+  "next_scheduled_check_at": "2026-10-03T20:46:40.982000+00:00",
   "latest_run": {
-    "scheduled_at": "2026-10-03T20:26:40.981Z",
+    "scheduled_at": "2026-10-03T20:36:40.982Z",
     "new_packages_published": [
-      "gpui-alloy-apple"
+      "gpui-alloy-wgpu"
     ],
     "exit_code": 0,
-    "log": "publish-20261003T202640.log",
-    "log_sha256": "b0adeb5fbe5e1ada65ae033d5dba60028af8be8481a81d511e980e6376ecd18f",
+    "log": "publish-20261003T203640.log",
+    "log_sha256": "3c9773e2ddf52b8fc9dfacbe4cbcb5a7ec7d9c041046918f2a7f11b64c82c8c7",
     "package_verification_enabled": true,
     "frozen_archive_comparison_passed_before_upload": true,
     "registry_archive_and_index_checksum_match": true
   },
   "record_commit": {
-    "status": "verified",
-    "checked_at": "2026-10-03T18:37:14.898334+00:00",
-    "commit": "e059002cf2890d6c780057ed55dfe8562789cc67",
-    "signing_key_fingerprint": "SHA256:X/k8e9F//KEmSaoFv1H11/DPGw8CaMR2pDGvFhRbjaw",
-    "previous_failure_log": "signing-20261003T170503.log",
-    "recovery_scheduled_at": "2026-10-03T18:35:06.495Z"
+    "status": "blocked",
+    "checked_at": "2026-10-03T20:40:20.249782+00:00",
+    "scheduled_at": "2026-10-03T20:36:40.982Z",
+    "error": "1Password: agent returned an error; Git could not write the signed commit object.",
+    "log": "signing-20261003T203640.log",
+    "log_sha256": "83e334550d310bfdd2b8aba275d68cea32479b85d881646d4d44a468a09f04b7",
+    "required_action": "Unlock 1Password and allow the configured SSH key to sign Git commits. Retry the pending release-record commit before another publication.",
+    "previous_verified_recovery": {
+      "status": "verified",
+      "checked_at": "2026-10-03T18:37:14.898334+00:00",
+      "commit": "e059002cf2890d6c780057ed55dfe8562789cc67",
+      "signing_key_fingerprint": "SHA256:X/k8e9F//KEmSaoFv1H11/DPGw8CaMR2pDGvFhRbjaw",
+      "previous_failure_log": "signing-20261003T170503.log",
+      "recovery_scheduled_at": "2026-10-03T18:35:06.495Z"
+    },
+    "last_retry": {
+      "scheduled_at": "2026-10-04T03:46:42.425Z",
+      "checked_at": "2026-10-04T03:48:47.691824+00:00",
+      "exit_code": 128,
+      "log": "signing-20261004T034642.log",
+      "log_sha256": "9c0391db9776998d95eeca1ddb6b00e1b2c809c374889415cd04e487ba1dd6f9"
+    }
+  },
+  "local_inputs": {
+    "status": "blocked",
+    "scheduled_at": "2026-10-04T09:42:11.762Z",
+    "checked_at": "2026-10-04T09:46:12.130478+00:00",
+    "checked_with_escalation": true,
+    "path_exists": {
+      "/private/tmp/alloy-registry-packager/staging-process-31": false,
+      "/private/tmp/gpui-alloy-0.1.0-frozen": false,
+      "/private/tmp/gpui-alloy-registry-target": false,
+      "/private/tmp/alloy-complete-family-probe-0.1.0": false,
+      "/Users/Xuan/.codex/worktrees/gpui-alloy-registry/gpui-cupertino": true
+    },
+    "new_packages_published": [],
+    "log": "local-inputs-20261004T094211.log",
+    "log_sha256": "c51f82026c423ec74c6e79e67dcc4533102d2e0a6adcad3a37bb88626259c838",
+    "required_action": "Restore the frozen candidate, archives, and full-family registry probe. Verify the recorded archive, projection, and lockfile hashes before publication resumes."
   }
 }

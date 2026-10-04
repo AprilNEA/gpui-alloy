@@ -43,6 +43,12 @@ The initial workspace publish uploaded five packages and then received HTTP 429.
 5. Update the pending consumer documents. Create signed commits and verify signatures with the existing 1Password SSH key. Recheck the original Cupertino branch before integrating the completed worktree changes. Preserve unrelated user work.
 6. Record registry acceptance and create the signed immutable `v0.1.0` tag. Keep existing snapshot tags unchanged. Leave Git pushing to the user under the current user instructions.
 
-The 1Password SSH signing agent has recovered. The pending refineable publication record was committed and its signature was verified. See `record_commit` in [publication.json](publication.json) for the verified commit and the previous failure log. Publication may continue from the first unpublished package.
+The 1Password SSH signing agent returned an error after the wgpu package was published and verified. The release record contains 26 verified packages. The signed record commit remains pending. Stop publication until the configured signing key can sign the pending commit. Unlock 1Password and allow Git signing, then retry the pending commit and verify its signature. See `record_commit` in [publication.json](publication.json) for the failure log and the previous verified recovery.
 
 Previous signature verification used the configured public key in a temporary `allowed_signers` file. No global trust configuration or new key is required.
+
+## Missing local release inputs
+
+At the 2026-10-04 09:42 UTC check, the candidate workspace, frozen archive directory, Cargo target directory, and full-family registry probe were absent. An escalated filesystem check confirmed the missing directories. The Cupertino integration worktree still exists. No package was published during this check. See `local_inputs` in [publication.json](publication.json) for the path observations and evidence log.
+
+Stop publication while the frozen candidate or archives are missing. Restore the fixed local inputs before publication resumes. Verify restored or reconstructed archives against the original checksums in `archives.json`. Verify the recorded projection and workspace lockfile hashes. Preserve published versions and tags. The pending 1Password signature blocker also remains unresolved.
