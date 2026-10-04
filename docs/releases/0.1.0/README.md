@@ -34,7 +34,7 @@ No root `[patch.crates-io]` table is propagated. The required `async-process` im
 | Locked package verification and frozen archives | Passed for all 31 packages; see [the final package log](preflight-3.log), [archive checksums](archives.json), and [release lockfile](registry.Cargo.lock). |
 | Crates.io uploads and checksum verification | Published packages are independently checksum-verified; see [publication.json](publication.json). All 31 publication archives reproduced the frozen hashes before the first upload; see the [pre-upload check](pre-upload-check.json). |
 | Clean Cupertino consumer resolving only crates.io Alloy packages | Pending. |
-| Consumer integration commit | Pending. |
+| Consumer integration commit | Blocked: current Cupertino requires GPUI-012, which is absent from frozen 0.1.0. See the [integration hold](RESUME.md#current-cupertino-integration-hold). |
 | Signed `v0.1.0` tag, signature verification, and remote object IDs | Pending. |
 
 Validation scope is macOS on `aarch64-apple-darwin`. This record does not establish Linux, Windows, FreeBSD, or Web compilation or runtime support. Historical vendor consumer checks do not establish registry consumer acceptance.

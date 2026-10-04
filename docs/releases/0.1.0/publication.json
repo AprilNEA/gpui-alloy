@@ -557,5 +557,17 @@
     "log": "local-inputs-20261004T094211.log",
     "log_sha256": "c51f82026c423ec74c6e79e67dcc4533102d2e0a6adcad3a37bb88626259c838",
     "required_action": "Restore the frozen candidate, archives, and full-family registry probe. Verify the recorded archive, projection, and lockfile hashes before publication resumes."
+  },
+  "consumer_integration": {
+    "status": "blocked-by-newer-consumer-patch",
+    "checked_at": "2026-10-04T10:08:29.623298+00:00",
+    "consumer_head": "1e3ed1fb900976139e7b1c9a138ddaf1b4a78723",
+    "consumer_patch": "GPUI-012",
+    "consumer_patch_commit": "c13304e585f6442da5b22cf45198c16fa6aa2185",
+    "consumer_source_revision": "1a77576c8ef715f2ceaece8af18017cb360434c9",
+    "frozen_source_revision": "9d59ea617d75d02e4645eefd22844235431138c8",
+    "reason": "Current Cupertino includes macOS native accessibility focus forwarding. Frozen Alloy 0.1.0 lacks this fix. Direct integration would regress the current consumer.",
+    "required_action": "Preserve the current consumer vendor and user changes. Validate a later Alloy release containing GPUI-012 before integrating registry dependencies into the current consumer.",
+    "isolated_0_1_0_acceptance": "The existing integration worktree may validate the frozen release. Passing that worktree does not authorize replacing the newer consumer vendor."
   }
 }

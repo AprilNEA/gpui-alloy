@@ -52,3 +52,9 @@ Previous signature verification used the configured public key in a temporary `a
 At the 2026-10-04 09:42 UTC check, the candidate workspace, frozen archive directory, Cargo target directory, and full-family registry probe were absent. An escalated filesystem check confirmed the missing directories. The Cupertino integration worktree still exists. No package was published during this check. See `local_inputs` in [publication.json](publication.json) for the path observations and evidence log.
 
 Stop publication while the frozen candidate or archives are missing. Restore the fixed local inputs before publication resumes. Verify restored or reconstructed archives against the original checksums in `archives.json`. Verify the recorded projection and workspace lockfile hashes. Preserve published versions and tags. The 1Password signature blocker is resolved.
+
+## Current Cupertino integration hold
+
+Current Cupertino includes GPUI-012 from standalone source `1a77576c8ef715f2ceaece8af18017cb360434c9`. GPUI-012 adds macOS native accessibility focus forwarding. The frozen 0.1.0 source `9d59ea617d75d02e4645eefd22844235431138c8` does not include this fix. Switching the current consumer to 0.1.0 would regress native focus behavior. The GPUI-012 native harness is outside the ordinary workspace tests. The earlier 119-test preflight cannot establish compatibility with GPUI-012.
+
+Complete the immutable 0.1.0 publication and isolated registry acceptance. Preserve the current Cupertino vendor, its later commits, and all uncommitted user changes. Do not integrate the older registry candidate into the current consumer. Validate a later release containing GPUI-012 before the current consumer switches to registry dependencies. Record the final integration separately. See `consumer_integration` in [publication.json](publication.json).
