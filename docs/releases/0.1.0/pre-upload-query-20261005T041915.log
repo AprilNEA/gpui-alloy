@@ -1,0 +1,23 @@
+• Validating lock
+✓ Validating lock in 3.79ms
+• Configuring shell
+• Configuring cachix
+✓ Configuring cachix in 3.10ms
+• Evaluating shell
+✓ Evaluating shell in 58.2ms (cached)
+✓ Configuring shell in 67.3ms
+• Loading tasks
+• Evaluating devenv.config.task.config
+✓ Evaluating devenv.config.task.config in 2.24ms (cached)
+✓ Loading tasks in 3.99ms
+• Running tasks
+• Running devenv:files:cleanup
+✓ Running devenv:files:cleanup in 141ms
+• Running devenv:enterShell
+✓ Running devenv:enterShell in 71.5ms
+• Running devenv:enterTest
+✓ Running devenv:enterTest in 78.1µs (no command)
+✓ Running tasks in 212ms
+✨ devenv 2.1.2 is out of date. Please update to 2.4.0: https://devenv.sh/getting-started/#installation
+    Updating crates.io index
+error: could not find `gpui-alloy-windows@0.1.0` in registry `https://github.com/rust-lang/crates.io-index`
