@@ -1,0 +1,453 @@
+• Validating lock
+✓ Validating lock in 387µs
+• Configuring shell
+• Configuring cachix
+✓ Configuring cachix in 1.31ms
+• Evaluating shell
+✓ Evaluating shell in 41.4ms (cached)
+✓ Configuring shell in 44.5ms
+• Loading tasks
+• Evaluating devenv.config.task.config
+✓ Evaluating devenv.config.task.config in 631µs (cached)
+✓ Loading tasks in 1.16ms
+• Running tasks
+• Running devenv:files:cleanup
+✓ Running devenv:files:cleanup in 9.54ms
+• Running devenv:enterShell
+✓ Running devenv:enterShell in 12.8ms
+• Running devenv:enterTest
+✓ Running devenv:enterTest in 19.3µs (no command)
+✓ Running tasks in 22.4ms
+✨ devenv 2.1.2 is out of date. Please update to 2.4.0: https://devenv.sh/getting-started/#installation
+cargo 1.98.1 (797e8a9bc 2026-08-05)
+    Updating crates.io index
+gpui-alloy-async-process #process #spawn #command #subprocess #child
+Async interface for working with processes
+version: 0.1.0
+license: Apache-2.0 OR MIT
+rust-version: 1.71
+documentation: https://docs.rs/gpui-alloy-async-process/0.1.0
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-async-process/0.1.0
+features:
+  tracing = [dep:tracing]
+    Updating crates.io index
+gpui-alloy-async-tar #tar #tarfile #encoding
+A Rust implementation of an async TAR file reader and writer. This library does not
+currently handle compression, but it is abstract over all I/O readers and
+writers. Additionally, great lengths are taken to ensure that the entire
+contents are never required to be entirely resident in memory all at once.
+version: 0.1.0
+license: MIT/Apache-2.0
+rust-version: 1.85
+documentation: https://docs.rs/async-tar
+homepage: https://github.com/dignifiedquire/async-tar
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-async-tar/0.1.0
+features:
+ +default           = [xattr, runtime-async-std]
+  async-std         = [dep:async-std]
+  runtime-async-std = [async-std]
+  xattr             = [dep:xattr]
+  runtime-tokio     = [tokio, tokio-stream]
+  tokio             = [dep:tokio]
+  tokio-stream      = [dep:tokio-stream]
+    Updating crates.io index
+gpui-alloy-derive-refineable
+A derive macro for creating refinement types in Rust
+version: 0.1.0
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-derive-refineable/0.1.0
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-derive-refineable/0.1.0
+    Updating crates.io index
+gpui-alloy-font-kit
+A cross-platform font loading library
+version: 0.1.0
+license: MIT OR Apache-2.0
+rust-version: 1.77
+documentation: https://docs.rs/gpui-alloy-font-kit/0.1.0
+homepage: https://github.com/servo/font-kit
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-font-kit/0.1.0
+features:
+ +default                   = [source]
+  source                    = []
+  freetype                  = [dep:freetype]
+  loader-freetype           = [freetype]
+  loader-freetype-default   = [loader-freetype]
+  source-fontconfig         = [yeslogic-fontconfig-sys]
+  source-fontconfig-default = [source-fontconfig]
+  source-fontconfig-dlopen  = [yeslogic-fontconfig-sys/dlopen]
+  yeslogic-fontconfig-sys   = [dep:yeslogic-fontconfig-sys]
+    Updating crates.io index
+gpui-alloy-http-client-tls
+GPUI Alloy distribution of http_client_tls
+version: 0.1.0
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-http-client-tls/0.1.0
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-http-client-tls/0.1.0
+features:
+  test-support = []
+    Updating crates.io index
+gpui-alloy-macros
+Macros used by gpui
+version: 0.1.0
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-macros/0.1.0
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-macros/0.1.0
+features:
+  inspector = []
+    Updating crates.io index
+gpui-alloy-util
+GPUI Alloy distribution of gpui_util
+version: 0.1.0
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-util/0.1.0
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-util/0.1.0
+    Updating crates.io index
+gpui-alloy-shared-string
+GPUI Alloy distribution of gpui_shared_string
+version: 0.1.0
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-shared-string/0.1.0
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-shared-string/0.1.0
+    Updating crates.io index
+gpui-alloy-scheduler
+GPUI Alloy distribution of scheduler
+version: 0.1.0
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-scheduler/0.1.0
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-scheduler/0.1.0
+features:
+  test-support = []
+  wasm-threads = [dep:wasm_thread, flume/spin]
+    Updating crates.io index
+gpui-alloy-path
+GPUI Alloy distribution of path
+version: 0.1.0
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-path/0.1.0
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-path/0.1.0
+features:
+  serde        = [dep:serde]
+  test-support = []
+    Updating crates.io index
+gpui-alloy-reqwest #http #request #client
+higher level HTTP client library
+version: 0.1.0
+license: MIT OR Apache-2.0
+rust-version: 1.64.0
+documentation: https://docs.rs/reqwest
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-reqwest/0.1.0
+features:
+ +default                             = [default-tls, charset, http2, macos-system-configuration]
+  __tls                               = [dep:rustls-pemfile, tokio/io-util]
+  charset                             = [dep:encoding_rs]
+  default-tls                         = [dep:hyper-tls, dep:native-tls-crate, __tls, dep:tokio-native-tls]
+  h2                                  = [dep:h2]
+  http2                               = [h2, hyper/http2, hyper-util/http2, hyper-rustls?/http2]
+  macos-system-configuration          = [dep:system-configuration]
+  26 deactivated features
+    Updating crates.io index
+gpui-alloy-ztracing-macro
+GPUI Alloy distribution of ztracing_macro
+version: 0.1.0
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-ztracing-macro/0.1.0
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-ztracing-macro/0.1.0
+    Updating crates.io index
+gpui-alloy-collections
+Standard collection types used by Zed and GPUI
+version: 0.1.0
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-collections/0.1.0
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-collections/0.1.0
+features:
+  test-support = []
+    Updating crates.io index
+gpui-alloy-refineable
+A macro for creating 'refinement' types that can be used to partially initialize or mutate a complex struct
+version: 0.1.0
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-refineable/0.1.0
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-refineable/0.1.0
+    Updating crates.io index
+gpui-alloy-smol #async #await #future #io #networking
+A small and fast async runtime
+version: 0.1.0
+license: Apache-2.0 OR MIT
+rust-version: 1.63
+documentation: https://docs.rs/gpui-alloy-smol/0.1.0
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-smol/0.1.0
+    Updating crates.io index
+gpui-alloy-perf
+A tool for measuring Zed test performance, with too many Clippy lints
+version: 0.1.0
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-perf/0.1.0
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-perf/0.1.0
+    Updating crates.io index
+gpui-alloy-zlog
+GPUI Alloy distribution of zlog
+version: 0.1.0
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-zlog/0.1.0
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-zlog/0.1.0
+features:
+ +default = []
+    Updating crates.io index
+gpui-alloy-util-macros
+Utility macros for Zed
+version: 0.1.0
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-util-macros/0.1.0
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-util-macros/0.1.0
+features:
+  perf-enabled = []
+    Updating crates.io index
+gpui-alloy-ztracing
+GPUI Alloy distribution of ztracing
+version: 0.1.0
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-ztracing/0.1.0
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-ztracing/0.1.0
+features:
+  tracing-tracy = [dep:tracing-tracy]
+  tracy         = [tracing-tracy, tracy-client]
+  tracy-client  = [dep:tracy-client]
+  web           = [dep:async-channel, dep:js-sys, dep:wasm-bindgen, dep:web-sys]
+    Updating crates.io index
+gpui-alloy-zed-util
+A collection of utility structs and functions used by Zed and GPUI
+version: 0.1.0
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-zed-util/0.1.0
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-zed-util/0.1.0
+features:
+  debug-embed  = [rust-embed/debug-embed]
+  rand         = [dep:rand]
+  test-support = [rand, util_macros, path/test-support]
+  util_macros  = [dep:util_macros]
+    Updating crates.io index
+gpui-alloy-sum-tree
+A sum tree data structure, a concurrency-friendly B-tree
+version: 0.1.0
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-sum-tree/0.1.0
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-sum-tree/0.1.0
+features:
+  proptest     = [dep:proptest]
+  test-support = [proptest]
+    Updating crates.io index
+gpui-alloy-http-client
+A HTTP client library for Zed and GPUI
+version: 0.1.0
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-http-client/0.1.0
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-http-client/0.1.0
+features:
+  github-download = [dep:async-fs, dep:async-tar, dep:sha2, dep:tempfile, dep:util]
+  test-support    = []
+    Updating crates.io index
+gpui-alloy #desktop #gui #immediate
+Zed's GPU-accelerated UI framework
+version: 0.1.0
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy/0.1.0
+homepage: https://gpui.rs
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy/0.1.0
+features:
+ +default          = [font-kit, wayland, x11, windows-manifest]
+  font-kit         = [dep:font-kit]
+  wayland          = []
+  windows-manifest = [dep:embed-resource]
+  x11              = [scap?/x11]
+  backtrace        = [dep:backtrace]
+  bench            = [bench-support]
+  bench-support    = [profiler, dep:criterion]
+  inspector        = [gpui_macros/inspector]
+  leak-detection   = [backtrace]
+  objc2            = [dep:objc2]
+  objc2-metal      = [dep:objc2-metal]
+  profiler         = [dep:hdrhistogram]
+  proptest         = [dep:proptest]
+  scap             = [dep:scap]
+  screen-capture   = [scap]
+  stacker          = [dep:stacksafe]
+  test-support     = [leak-detection, collections/test-support, http_client/test-support, wayland, x11, proptest]
+    Updating crates.io index
+gpui-alloy-reqwest-client
+GPUI Alloy distribution of reqwest_client
+version: 0.1.0
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-reqwest-client/0.1.0
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-reqwest-client/0.1.0
+features:
+  test-support = []
+    Updating crates.io index
+gpui-alloy-apple
+GPUI Alloy distribution of gpui_apple
+version: 0.1.0
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-apple/0.1.0
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-apple/0.1.0
+features:
+ +default         = []
+  bench-support   = [gpui/bench-support]
+  runtime_shaders = []
+  test-support    = [gpui/test-support]
+    Updating crates.io index
+gpui-alloy-wgpu
+GPUI Alloy distribution of gpui_wgpu
+version: 0.1.0
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-wgpu/0.1.0
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-wgpu/0.1.0
+features:
+ +default       = []
+  bench-support = [gpui/bench-support, dep:image]
+  font-kit      = [dep:font-kit]
+  test-support  = [gpui/test-support, dep:image]
+    Updating crates.io index
+gpui-alloy-windows
+GPUI Alloy distribution of gpui_windows
+version: 0.1.0
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-windows/0.1.0
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-windows/0.1.0
+features:
+ +default        = [gpui/default]
+  scap           = [dep:scap]
+  screen-capture = [gpui/screen-capture, scap]
+  test-support   = [gpui/test-support]
+    Updating crates.io index
+gpui-alloy-macos
+GPUI Alloy distribution of gpui_macos
+version: 0.1.0
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-macos/0.1.0
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-macos/0.1.0
+features:
+ +default         = [gpui/default]
+  bench-support   = [gpui/bench-support, gpui_apple/bench-support]
+  font-kit        = [dep:font-kit]
+  runtime_shaders = [gpui_apple/runtime_shaders]
+  screen-capture  = [gpui/screen-capture]
+  test-support    = [gpui/test-support, gpui_apple/test-support]
+    Updating crates.io index
+gpui-alloy-linux
+GPUI Alloy distribution of gpui_linux
+version: 0.1.0
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-linux/0.1.0
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-linux/0.1.0
+features:
+ +default                  = [wayland, x11]
+  as-raw-xcb-connection    = [dep:as-raw-xcb-connection]
+  ashpd                    = [dep:ashpd]
+  bitflags                 = [dep:bitflags]
+  calloop-wayland-source   = [dep:calloop-wayland-source]
+  filedescriptor           = [dep:filedescriptor]
+  gpui_wgpu                = [dep:gpui_wgpu]
+  open                     = [dep:open]
+  wayland                  = [bitflags, gpui_wgpu, ashpd/wayland, calloop-wayland-source, wayland-backend, wayland-client, wayland-cursor, wayland-protocols, wayland-protocols-plasma, wayland-protocols-wlr, filedescriptor, xkbcommon/wayland, open, gpui/wayland]
+  wayland-backend          = [dep:wayland-backend]
+  wayland-client           = [dep:wayland-client]
+  wayland-cursor           = [dep:wayland-cursor]
+  wayland-protocols        = [dep:wayland-protocols]
+  wayland-protocols-plasma = [dep:wayland-protocols-plasma]
+  wayland-protocols-wlr    = [dep:wayland-protocols-wlr]
+  x11                      = [gpui_wgpu, ashpd, as-raw-xcb-connection, x11rb, xkbcommon/x11, xim, x11-clipboard, filedescriptor, open, scap?/x11]
+  x11-clipboard            = [dep:x11-clipboard]
+  x11rb                    = [dep:x11rb]
+  xim                      = [dep:xim]
+  scap                     = [dep:scap]
+  screen-capture           = [gpui/screen-capture, scap]
+  test-support             = [gpui/test-support]
+  xkbcommon                = [dep:xkbcommon]
+Verified all 31 frozen archives, 29 registry checksums, and Web dependency readiness.
+   Packaging gpui-alloy-web v0.1.0 (/private/tmp/alloy-registry-packager/staging-process-31/crates/gpui_web)
+    Updating crates.io index
+    Packaged 21 files, 397.7KiB (100.2KiB compressed)
+   Verifying gpui-alloy-web v0.1.0 (/private/tmp/alloy-registry-packager/staging-process-31/crates/gpui_web)
+   Compiling unicode-properties v0.1.3
+   Compiling unicode-segmentation v1.13.3
+   Compiling gpui-alloy-web v0.1.0 (/private/tmp/gpui-alloy-registry-target/package/gpui-alloy-web-0.1.0)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 6.30s
+    Updating crates.io index
+   Packaging gpui-alloy-web v0.1.0 (/private/tmp/alloy-registry-packager/staging-process-31/crates/gpui_web)
+    Updating crates.io index
+    Packaged 21 files, 397.7KiB (100.2KiB compressed)
+   Verifying gpui-alloy-web v0.1.0 (/private/tmp/alloy-registry-packager/staging-process-31/crates/gpui_web)
+   Compiling gpui-alloy-web v0.1.0 (/private/tmp/gpui-alloy-registry-target/package/gpui-alloy-web-0.1.0)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2.63s
+   Uploading gpui-alloy-web v0.1.0 (/private/tmp/alloy-registry-packager/staging-process-31/crates/gpui_web)
+    Uploaded gpui-alloy-web v0.1.0 to registry `crates-io`
+note: waiting for gpui-alloy-web v0.1.0 to be available at registry `crates-io`
+help: you may press ctrl-c to skip waiting; the crate should be available shortly
+   Published gpui-alloy-web v0.1.0 at registry `crates-io`
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded gpui-alloy-web v0.1.0
+gpui-alloy-web
+GPUI Alloy distribution of gpui_web
+version: 0.1.0
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-web/0.1.0
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-web/0.1.0
+features:
+ +default       = [multithreaded]
+  multithreaded = [dep:wasm_thread, scheduler/wasm-threads]
+Web registry archive and index checksum match the original frozen archive.
