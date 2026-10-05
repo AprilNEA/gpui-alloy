@@ -672,5 +672,14 @@
     "reason": "Current Cupertino includes macOS native accessibility focus forwarding. Frozen Alloy 0.1.0 lacks this fix. Direct integration would regress the current consumer.",
     "required_action": "Preserve the current consumer vendor and user changes. Validate a later Alloy release containing GPUI-012 before integrating registry dependencies into the current consumer.",
     "isolated_0_1_0_acceptance": "The existing integration worktree may validate the frozen release. Passing that worktree does not authorize replacing the newer consumer vendor."
+  },
+  "family_registry_acceptance": {
+    "status": "verified",
+    "checked_at": "2026-10-05T05:44:17.672446+00:00",
+    "package_count": 31,
+    "target": "aarch64-apple-darwin",
+    "report": "family-registry-verification.json",
+    "report_sha256": "f61561f67cd72af501b360d083cd75298104807d5e9a72ed45497c6ac0055ef7",
+    "log": "family-registry-verification.log"
   }
 }
