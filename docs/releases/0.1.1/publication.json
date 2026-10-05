@@ -1,0 +1,18 @@
+{
+  "version": "0.1.1",
+  "status": "frozen-awaiting-publication",
+  "source_revision": "1a77576c8ef715f2ceaece8af18017cb360434c9",
+  "source_integration": "f7ecd66e516734656bf72e2b6f876ec6d977c633",
+  "patch": "GPUI-012",
+  "user_authorized": true,
+  "published_package_count": 0,
+  "total_package_count": 31,
+  "source_check_session": 70371,
+  "package_session": 30785,
+  "source_check_log": "/private/tmp/gpui-alloy-0.1.1-source-check.log",
+  "package_log": "/private/tmp/gpui-alloy-0.1.1-package.log",
+  "candidate": "/private/tmp/gpui-alloy-0.1.1-candidate",
+  "source_validation": "passed",
+  "package_validation": "passed",
+  "frozen_directory": "/Users/Xuan/.local/share/gpui-alloy/releases/0.1.1/frozen"
+}

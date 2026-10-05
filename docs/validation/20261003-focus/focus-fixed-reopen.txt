@@ -1,0 +1,5 @@
+The following is a diff from the previous accessibility tree for Window: "Cupertino Components" with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
++		37 dialog Edit profile note
++			38 text field (settable) Profile note, Value: Native focus, Placeholder: Add a short note
++			39 button Done
+The focused UI element is 38 text field (settable) Profile note, Value: Native focus, Placeholder: Add a short note

@@ -1,0 +1,4 @@
+The following is a diff from the previous accessibility tree for Window: "Cupertino Components" with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 37-39
+~					8 progress indicator (settable, float) Profile completion, Value: 1
+The focused UI element is 7 button Edit note…

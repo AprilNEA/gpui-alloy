@@ -1,0 +1,1726 @@
+• Validating lock
+✓ Validating lock in 3.67ms
+• Configuring shell
+• Configuring cachix
+✓ Configuring cachix in 2.28ms
+• Evaluating shell
+✓ Evaluating shell in 57.2ms (cached)
+✓ Configuring shell in 64.5ms
+• Loading tasks
+• Evaluating devenv.config.task.config
+✓ Evaluating devenv.config.task.config in 6.07ms (cached)
+✓ Loading tasks in 7.79ms
+• Running tasks
+• Running devenv:files:cleanup
+✓ Running devenv:files:cleanup in 128ms
+• Running devenv:enterShell
+✓ Running devenv:enterShell in 74.9ms
+• Running devenv:enterTest
+✓ Running devenv:enterTest in 12.9µs (no command)
+✓ Running tasks in 203ms
+✨ devenv 2.1.2 is out of date. Please update to 2.4.0: https://devenv.sh/getting-started/#installation
+   Compiling proc-macro2 v1.0.107
+   Compiling quote v1.0.47
+   Compiling unicode-ident v1.0.24
+   Compiling serde_core v1.0.229
+   Compiling serde v1.0.229
+   Compiling libc v0.2.186
+   Compiling typeid v1.0.3
+   Compiling erased-serde v0.4.9
+    Checking cfg-if v1.0.4
+   Compiling libm v0.2.16
+   Compiling autocfg v1.5.0
+    Checking bitflags v2.13.1
+   Compiling shlex v2.0.1
+   Compiling find-msvc-tools v0.1.11
+   Compiling crossbeam-utils v0.8.21
+    Checking memchr v2.8.3
+    Checking pin-project-lite v0.2.16
+    Checking equivalent v1.0.2
+   Compiling anyhow v1.0.104
+   Compiling zerocopy v0.8.27
+   Compiling crc32fast v1.5.0
+    Checking futures-core v0.3.34
+    Checking once_cell v1.21.4
+    Checking smallvec v1.16.1
+   Compiling version_check v0.9.5
+   Compiling num-traits v0.2.19
+    Checking hashbrown v0.17.1
+   Compiling zmij v1.0.23
+   Compiling pkg-config v0.3.32
+   Compiling getrandom v0.3.4
+    Checking core-foundation-sys v0.8.7
+    Checking futures-io v0.3.34
+   Compiling serde_json v1.0.151
+    Checking fastrand v2.3.0
+    Checking slab v0.4.11
+   Compiling getrandom v0.4.1
+   Compiling objc2 v0.6.3
+    Checking itoa v1.0.18
+   Compiling rustix v1.1.4
+    Checking simd-adler32 v0.3.7
+   Compiling cfg_aliases v0.2.1
+    Checking parking v2.2.1
+   Compiling typenum v1.19.0
+   Compiling jobserver v0.1.34
+   Compiling cc v1.4.3
+   Compiling syn v2.0.117
+   Compiling syn v3.0.3
+    Checking indexmap v2.14.0
+    Checking objc2-encode v4.1.0
+    Checking stable_deref_trait v1.2.1
+    Checking concurrent-queue v2.5.0
+   Compiling generic-array v0.14.7
+   Compiling icu_properties_data v2.3.0
+    Checking adler2 v2.0.1
+    Checking futures-sink v0.3.34
+   Compiling parking_lot_core v0.9.12
+   Compiling icu_normalizer_data v2.3.0
+    Checking miniz_oxide v0.8.9
+   Compiling zstd-sys v2.0.16+zstd.1.5.7
+   Compiling synstructure v0.13.2
+   Compiling thiserror v2.0.17
+    Checking foldhash v0.2.0
+    Checking allocator-api2 v0.2.21
+    Checking errno v0.3.14
+    Checking core-foundation v0.10.0
+    Checking futures-lite v2.6.1
+   Compiling serde_derive v1.0.229
+   Compiling zerovec-derive v0.11.5
+   Compiling futures-macro v0.3.34
+   Compiling zerocopy-derive v0.8.27
+   Compiling zerofrom-derive v0.1.6
+   Compiling yoke-derive v0.8.2
+   Compiling displaydoc v0.2.5
+   Compiling bytemuck_derive v1.10.2
+    Checking hashbrown v0.16.1
+   Compiling aho-corasick v1.1.3
+   Compiling regex-syntax v0.8.11
+    Checking rustc-hash v2.1.1
+    Checking arrayvec v0.7.6
+    Checking zerofrom v0.1.6
+    Checking atomic-waker v1.1.2
+   Compiling thiserror-impl v2.0.17
+    Checking futures-channel v0.3.34
+   Compiling tracing-attributes v0.1.31
+    Checking event-listener v5.4.1
+    Checking bytemuck v1.24.0
+   Compiling unicode-segmentation v1.13.3
+   Compiling regex-automata v0.4.18
+    Checking bytes v1.11.1
+    Checking futures-task v0.3.34
+   Compiling zstd-safe v7.3.0
+   Compiling ref-cast v1.0.25
+    Checking futures-util v0.3.34
+    Checking event-listener-strategy v0.5.4
+    Checking flate2 v1.1.8
+    Checking either v1.15.0
+    Checking async-task v4.7.1 (https://github.com/smol-rs/async-task.git?rev=b4486cd71e4e94fbda54ce6302444de14f4d190e#b4486cd7)
+   Compiling thiserror v1.0.69
+    Checking scopeguard v1.2.0
+    Checking fnv v1.0.7
+   Compiling rayon-core v1.13.0
+   Compiling ref-cast-impl v1.0.25
+    Checking lock_api v0.4.14
+   Compiling pin-project-internal v1.1.10
+   Compiling slotmap v1.0.7
+    Checking tracing-core v0.1.35
+   Compiling async-io v2.6.0
+    Checking polling v3.11.0
+   Compiling thiserror-impl v1.0.69
+   Compiling serde_derive_internals v0.29.1
+    Checking writeable v0.6.4
+    Checking litemap v0.8.0
+    Checking rand_core v0.9.3
+   Compiling schemars_derive v1.0.4
+    Checking async-channel v2.5.0
+    Checking piper v0.2.4
+    Checking objc2-core-foundation v0.3.2
+    Checking block2 v0.6.2
+   Compiling object v0.37.3
+    Checking utf8_iter v1.0.4
+    Checking ppv-lite86 v0.2.21
+    Checking yoke v0.8.3
+    Checking rand_chacha v0.9.0
+    Checking half v2.7.1
+    Checking blocking v1.6.2
+    Checking async-lock v3.4.2
+   Compiling foreign-types-macros v0.2.3
+   Compiling no_std_io2 v0.9.4
+   Compiling rle-decode-fast v1.0.3
+   Compiling libflate_lz77 v2.3.0
+    Checking serde_fmt v1.0.3
+    Checking rand v0.9.4
+    Checking value-bag-serde1 v1.12.0
+    Checking value-bag v1.12.0
+    Checking objc2-foundation v0.3.2
+    Checking log v0.4.29
+    Checking gpui_util v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui_util)
+    Checking collections v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/collections)
+    Checking tracing v0.1.43
+    Checking http v1.3.1
+   Compiling glob v0.3.3
+    Checking same-file v1.0.6
+   Compiling adler32 v1.2.0
+   Compiling dary_heap v0.3.9
+   Compiling libflate v2.3.1
+    Checking walkdir v2.5.0
+    Checking futures-executor v0.3.34
+   Compiling clang-sys v1.8.1
+    Checking async-executor v1.13.3
+   Compiling convert_case v0.10.0
+   Compiling proc-macro-error-attr3 v3.1.1
+   Compiling cpufeatures v0.2.17
+   Compiling bstr v1.12.1
+    Checking libbz2-rs-sys v0.2.2
+   Compiling prettyplease v0.2.37
+    Checking percent-encoding v2.3.2
+   Compiling winnow v0.7.13
+   Compiling unicode-xid v0.2.6
+   Compiling derive_more-impl v2.1.1
+    Checking form_urlencoded v1.2.2
+    Checking bzip2 v0.6.1
+   Compiling proc-macro-error3 v3.1.1
+    Checking crypto-common v0.1.6
+   Compiling block-buffer v0.10.4
+   Compiling digest v0.10.7
+   Compiling sha2 v0.10.9
+   Compiling globset v0.4.17
+   Compiling perf v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/tooling/perf)
+    Checking futures v0.3.34
+    Checking http-body v1.0.1
+    Checking regex v1.12.3
+    Checking tempfile v3.27.0
+    Checking pin-project v1.1.10
+    Checking core_maths v0.1.1
+    Checking signal-hook-registry v1.4.6
+   Compiling semver v1.0.28
+   Compiling nix v0.30.1
+    Checking iana-time-zone v0.1.64
+   Compiling minimal-lexical v0.2.1
+    Checking parking_lot v0.12.5
+    Checking option-ext v0.2.0
+    Checking ryu v1.0.23
+   Compiling heapless v0.9.2
+    Checking dyn-clone v1.0.20
+    Checking deflate64 v0.1.10
+    Checking compression-core v0.4.29
+    Checking dirs-sys v0.5.0
+    Checking compression-codecs v0.4.31
+   Compiling nom v7.1.3
+   Compiling rustc_version v0.4.1
+    Checking chrono v0.4.42
+    Checking async-signal v0.2.13
+   Compiling util_macros v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/util_macros)
+   Compiling rust-embed-utils v8.11.0
+    Checking dispatch2 v0.3.1
+   Compiling fax_derive v0.2.0
+    Checking zerovec v0.11.8
+    Checking zerotrie v0.2.5
+   Compiling profiling-procmacros v1.0.17
+   Compiling tracy-client-sys v0.27.0
+    Checking crossbeam-epoch v0.9.18
+   Compiling libloading v0.8.9
+   Compiling paste v1.0.15
+    Checking unicase v2.8.1
+   Compiling ztracing_macro v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/ztracing_macro)
+   Compiling bindgen v0.72.1
+   Compiling serde_json_lenient v0.2.4
+    Checking dunce v1.0.5
+    Checking lazy_static v1.5.0
+   Compiling itertools v0.11.0
+    Checking crossbeam-deque v0.8.6
+   Compiling cexpr v0.6.0
+   Compiling rust-embed-impl v8.11.0
+    Checking async-process v2.5.0 (https://github.com/zed-industries/async-process.git?rev=0b6d6713570af61806e1e5cb40e0f757cb93fd9d#0b6d6713)
+    Checking async-compression v0.4.32
+    Checking dirs v6.0.0
+    Checking async-net v2.0.0
+    Checking async-fs v2.2.0
+   Compiling convert_case v0.11.0
+    Checking euclid v0.22.14
+    Checking core-graphics-types v0.2.0
+   Compiling shlex v1.3.0
+    Checking foreign-types-shared v0.3.1
+    Checking event-listener v2.5.3
+    Checking foreign-types v0.5.0
+   Compiling proptest-macro v0.5.0 (https://github.com/proptest-rs/proptest?rev=3dca198a8fef1b32e3a66f1e1897c955b4dc5b5b#3dca198a)
+    Checking async-channel v1.9.0
+    Checking smol v2.0.2
+    Checking sharded-slab v0.1.7
+    Checking path v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/path)
+    Checking objc2-metal v0.3.2
+    Checking async-global-executor v2.4.1
+    Checking kv-log-macro v1.0.7
+    Checking tracing-log v0.2.0
+    Checking itertools v0.14.0
+   Compiling enumn v0.1.14
+    Checking which v8.0.5
+    Checking mach2 v0.5.0
+    Checking thread_local v1.1.9
+    Checking byteorder v1.5.0
+    Checking raw-window-handle v0.6.2
+    Checking take-until v0.2.0
+    Checking nu-ansi-term v0.50.3
+    Checking pin-utils v0.1.0
+   Compiling heck v0.5.0
+    Checking async-std v1.13.2
+    Checking tracing-subscriber v0.3.22
+   Compiling ar_archive_writer v0.5.1
+    Checking async_zip v0.0.18
+    Checking lyon_geom v1.0.17
+    Checking serde_urlencoded v0.7.1
+    Checking ttf-parser v0.25.1
+    Checking xattr v1.6.1
+   Compiling derive_refineable v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/refineable/derive_refineable)
+    Checking malloc_buf v0.0.6
+    Checking filetime v0.2.29
+    Checking fdeflate v0.3.7
+    Checking base64 v0.22.1
+    Checking tinyvec_macros v0.1.1
+    Checking unicode-script v0.5.8
+   Compiling linktime-proc-macro v0.2.2
+    Checking command-fds v0.3.2
+    Checking anstyle v1.0.13
+   Compiling ztracing v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/ztracing)
+    Checking float-cmp v0.9.0
+    Checking block v0.1.6
+    Checking strict-num v0.1.1
+    Checking tinyvec v1.10.0
+    Checking async-tar v0.6.1 (https://github.com/zed-industries/async-tar?rev=bd3ad6f89df9a9da7a8535958756d6bf465936a0#bd3ad6f8)
+    Checking objc v0.2.7
+   Compiling psm v0.1.30
+    Checking lyon_path v1.0.16
+   Compiling strum_macros v0.28.0
+    Checking tinystr v0.8.4
+    Checking potential_utf v0.1.3
+    Checking icu_collections v2.3.0
+    Checking profiling v1.0.17
+    Checking icu_locale_core v2.3.0
+    Checking zlog v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/zlog)
+   Compiling pathfinder_simd v0.5.6
+    Checking derive_more v2.1.1
+    Checking icu_provider v2.3.0
+   Compiling toml_parser v1.0.4
+    Checking icu_normalizer v2.3.0
+    Checking icu_properties v2.3.0
+    Checking polycool v0.4.0
+    Checking memmap2 v0.9.8
+    Checking wait-timeout v0.2.1
+   Compiling toml_datetime v0.7.3
+   Compiling serde_spanned v1.0.3
+    Checking unicode-properties v0.1.3
+    Checking quick-error v1.2.3
+    Checking arrayref v0.3.9
+    Checking weezl v0.1.10
+    Checking zune-core v0.5.1
+    Checking gimli v0.32.3
+    Checking idna_adapter v1.2.1
+    Checking idna v1.1.0
+   Compiling toml_writer v1.0.4
+    Checking bit-vec v0.8.0
+    Checking sha1_smol v1.0.1
+    Checking quick-error v2.0.1
+    Checking bit-set v0.8.0
+    Checking url v2.5.7
+   Compiling toml v0.9.8
+    Checking uuid v1.18.1
+    Checking zune-jpeg v0.5.15
+    Checking rusty-fork v0.3.1
+    Checking tiny-skia-path v0.11.4
+    Checking kurbo v0.13.1
+    Checking rayon v1.11.0
+    Checking addr2line v0.25.1
+    Checking hash32 v0.3.1
+    Checking core-graphics v0.24.0
+    Checking rand_xorshift v0.4.0
+    Checking spin v0.9.8
+   Compiling stacker v0.1.25
+    Checking siphasher v1.0.1
+    Checking ciborium-io v0.2.2
+    Checking unarray v0.1.4
+    Checking unicode-bidi-mirroring v0.4.0
+    Checking plotters-backend v0.3.7
+    Checking smol_str v0.3.6
+    Checking unicode-bidi v0.3.18
+    Checking rustc-demangle v0.1.26
+    Checking schemars v1.0.4
+    Checking unicode-ccc v0.4.0
+    Checking clap_lex v0.7.6
+    Checking leak v0.1.2
+    Checking bitflags v1.3.2
+    Checking color_quant v1.1.0
+    Checking byteorder-lite v0.1.0
+    Checking png v0.17.16
+    Checking leaky-cow v0.1.1
+    Checking gif v0.14.2
+    Checking clap_builder v4.5.49
+    Checking image-webp v0.2.4
+    Checking rustybuzz v0.20.1
+    Checking fontdb v0.23.0
+    Checking plotters-svg v0.3.7
+    Checking proptest v1.10.0 (https://github.com/proptest-rs/proptest?rev=3dca198a8fef1b32e3a66f1e1897c955b4dc5b5b#3dca198a)
+    Checking ciborium-ll v0.2.2
+    Checking svgtypes v0.16.1
+    Checking flume v0.12.0
+   Compiling embed-resource v3.0.6
+    Checking accesskit v0.24.1
+   Compiling gpui_macros v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui_macros)
+    Checking fax v0.2.6
+    Checking simplecss v0.2.2
+    Checking objc2-core-video v0.3.2
+    Checking itertools v0.10.5
+    Checking pxfm v0.1.25
+    Checking cgl v0.3.2
+    Checking zune-inflate v0.2.54
+    Checking roxmltree v0.21.1
+    Checking bit_field v0.10.3
+    Checking unicode-vo v0.1.0
+    Checking link-section v0.19.2
+   Compiling zed-font-kit v0.14.1-zed (https://github.com/zed-industries/font-kit?rev=94b0f28166665e8fd2f53ff6d268a14955c82269#94b0f281)
+    Checking cast v0.3.0
+    Checking xmlwriter v0.1.0
+    Checking float_next_after v1.0.0
+    Checking tracy-client v0.18.3
+    Checking lebe v0.5.3
+    Checking imagesize v0.14.0
+    Checking data-url v0.3.2
+    Checking tracing-tracy v0.11.4
+    Checking static_assertions v1.1.0
+    Checking pico-args v0.5.0
+    Checking web-time v1.1.0
+    Checking exr v1.74.0
+   Compiling gpui v0.2.2 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui)
+    Checking usvg v0.46.0
+    Checking backtrace v0.3.76
+    Checking lyon_tessellation v1.0.16
+    Checking moxcms v0.8.1
+    Checking criterion-plot v0.5.0
+    Checking ctor v1.0.12
+    Checking io-surface v0.16.1
+    Checking lyon_extra v1.0.3
+    Checking ciborium v0.2.2
+    Checking clap v4.5.49
+    Checking plotters v0.3.7
+    Checking tiny-skia v0.11.4
+    Checking pathfinder_geometry v0.5.1
+    Checking core-text v21.0.0
+    Checking metal v0.33.0
+    Checking lyon_algorithms v1.0.16
+    Checking core-graphics2 v0.5.2
+    Checking png v0.18.0
+    Checking tinytemplate v1.2.1
+    Checking qoi v0.4.1
+    Checking rgb v0.8.52
+   Compiling stacksafe-macro v1.0.3
+    Checking is-terminal v0.4.16
+    Checking crossbeam-queue v0.3.12
+    Checking pollster v0.2.5
+    Checking oorandom v11.1.5
+    Checking float-ord v0.3.2
+    Checking atomic v0.5.3
+    Checking svg_fmt v0.4.5
+    Checking anes v0.1.6
+    Checking fixedbitset v0.5.7
+    Checking etagere v0.2.15
+    Checking criterion v0.5.1
+    Checking futures-concurrency v7.7.1
+    Checking postage v0.5.0
+    Checking resvg v0.46.0
+    Checking lyon v1.0.16
+    Checking scheduler v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/scheduler)
+    Checking taffy v0.13.0
+    Checking strum v0.28.0
+    Checking gpui_shared_string v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui_shared_string)
+    Checking refineable v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/refineable)
+    Checking hdrhistogram v7.5.4
+    Checking spin v0.10.0
+    Checking num_cpus v1.17.0
+    Checking pollster v0.4.0
+    Checking seahash v4.1.0
+    Checking inventory v0.3.21
+    Checking stacksafe v1.0.3
+    Checking waker-fn v1.2.0
+   Compiling serde_spanned v0.6.9
+   Compiling toml_datetime v0.6.11
+   Compiling toml_write v0.1.2
+   Compiling toml_edit v0.22.27
+   Compiling cbindgen v0.28.0
+   Compiling cmake v0.1.56
+   Compiling fs_extra v1.3.0
+   Compiling heck v0.4.1
+   Compiling aws-lc-sys v0.42.0
+   Compiling toml v0.8.23
+    Checking zeroize v1.8.2
+    Checking cocoa-foundation v0.2.0
+    Checking rustls-pki-types v1.12.0
+   Compiling ring v0.17.14
+   Compiling aws-lc-rs v1.17.1
+    Checking mio v1.2.0
+    Checking cocoa v0.26.0
+    Checking socket2 v0.6.5
+    Checking tiff v0.11.3
+    Checking tokio v1.52.1
+    Checking getrandom v0.2.16
+    Checking untrusted v0.9.0
+   Compiling objc-sys v0.3.5
+   Compiling zstd v0.13.3
+    Checking image v0.25.10
+   Compiling include-flate-compress v0.3.4
+   Compiling include-flate-codegen v0.3.4
+   Compiling rustls v0.23.40
+    Checking security-framework-sys v2.15.0
+    Checking subtle v2.6.1
+    Checking security-framework v3.5.1
+   Compiling httparse v1.10.1
+    Checking try-lock v0.2.5
+    Checking want v0.3.1
+    Checking sum_tree v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/sum_tree)
+    Checking accesskit_consumer v0.38.0
+    Checking objc2-core-media v0.3.2
+    Checking objc2-core-location v0.3.2
+    Checking objc2-core-graphics v0.3.2
+    Checking tower-service v0.3.3
+   Compiling system-configuration-sys v0.6.0
+    Checking objc2-screen-capture-kit v0.3.2
+   Compiling mime_guess v2.0.5
+    Checking tokio-util v0.7.18
+    Checking objc2-user-notifications v0.3.2
+    Checking objc2-app-kit v0.3.2
+    Checking h2 v0.4.19
+    Checking rustls-native-certs v0.8.3
+    Checking webpki-roots v1.0.8
+    Checking sync_wrapper v1.0.2
+    Checking mime v0.3.17
+    Checking tower-layer v0.3.3
+    Checking tokio-socks v0.5.2
+    Checking tower v0.5.2
+    Checking rustls-pemfile v2.2.0
+    Checking http-body-util v0.1.3
+    Checking encoding_rs v0.8.35
+    Checking utf8parse v0.2.2
+    Checking ipnet v2.11.0
+    Checking anstyle-parse v0.2.7
+    Checking is_terminal_polyfill v1.70.1
+    Checking colorchoice v1.0.4
+    Checking anstyle-query v1.1.4
+    Checking env_filter v0.1.4
+    Checking anstream v0.6.21
+    Checking jiff v0.2.15
+    Checking core-video v0.5.2
+   Compiling naga v29.0.4
+    Checking bit-vec v0.9.1
+    Checking unicode-width v0.2.2
+    Checking bit-set v0.9.1
+    Checking codespan-reporting v0.13.0
+    Checking env_logger v0.11.8
+    Checking hexf-parse v0.2.1
+    Checking rustc-hash v1.1.0
+    Checking objc2-quartz-core v0.3.2
+    Checking wgpu-types v29.0.4
+   Compiling wgpu-hal v29.0.4
+    Checking raw-window-metal v1.1.0
+    Checking font-types v0.10.0
+    Checking font-types v0.11.0
+    Checking read-fonts v0.37.0
+    Checking read-fonts v0.35.0
+   Compiling wgpu-core v29.0.4
+   Compiling litrs v1.0.0
+    Checking objc2 v0.5.2
+   Compiling document-features v0.2.12
+    Checking include-flate v0.3.4
+    Checking objc2-foundation v0.2.2
+    Checking hyper v1.11.1
+   Compiling gpui_apple v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui_apple)
+   Compiling wgpu v29.0.4
+    Checking system-configuration v0.8.0
+    Checking hyper-util v0.1.17
+    Checking zeno v0.3.3
+    Checking yazi v0.2.1
+    Checking objc2-app-kit v0.2.2
+    Checking skrifa v0.37.0
+    Checking skrifa v0.40.0
+    Checking harfrust v0.5.0
+    Checking accesskit_macos v0.26.3
+    Checking swash v0.2.6
+    Checking sys-locale v0.3.2
+    Checking unicode-linebreak v0.1.5
+    Checking rangemap v1.7.1
+    Checking rust-embed v8.11.0
+    Checking self_cell v1.2.2
+    Checking linebender_resource_handle v0.1.1
+    Checking cosmic-text v0.19.0
+   Compiling gpui_windows v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui_windows)
+    Checking wgpu-naga-bridge v29.0.4
+    Checking http_client v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/http_client)
+    Checking util v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/util)
+    Checking yansi v1.0.1
+    Checking diff v0.1.13
+    Checking pretty_assertions v1.4.1
+    Checking gpui_web v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui_web)
+    Checking gpui_linux v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui_linux)
+    Checking wgpu-core-deps-apple v29.0.4
+    Checking gpui_wgpu v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui_wgpu)
+    Checking gpui_macos v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui_macos)
+    Checking gpui_platform v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui_platform)
+    Checking rustls-webpki v0.103.13
+    Checking rustls-platform-verifier v0.7.0
+    Checking tokio-rustls v0.26.4
+    Checking http_client_tls v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/http_client_tls)
+    Checking hyper-rustls v0.27.9
+    Checking zed-reqwest v0.12.15-zed (https://github.com/zed-industries/reqwest.git?rev=33bc764aa15ff7b200bf7c93bd96e24878d53e14#33bc764a)
+    Checking reqwest_client v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/reqwest_client)
+    Finished `release` profile [optimized + debuginfo] target(s) in 1m 18s
+warning: the following packages contain code that will be rejected by a future version of Rust: block v0.1.6
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`
+   Compiling cfg-if v1.0.4
+   Compiling bitflags v2.13.1
+   Compiling smallvec v1.16.1
+   Compiling memchr v2.8.3
+   Compiling core-foundation-sys v0.8.7
+   Compiling pin-project-lite v0.2.16
+   Compiling libc v0.2.186
+   Compiling once_cell v1.21.4
+   Compiling serde_core v1.0.229
+   Compiling libm v0.2.16
+   Compiling typeid v1.0.3
+   Compiling objc2-encode v4.1.0
+   Compiling futures-core v0.3.34
+   Compiling hashbrown v0.17.1
+   Compiling equivalent v1.0.2
+   Compiling bytemuck v1.24.0
+   Compiling serde v1.0.229
+   Compiling arrayvec v0.7.6
+   Compiling zerocopy v0.8.27
+   Compiling stable_deref_trait v1.2.1
+   Compiling simd-adler32 v0.3.7
+   Compiling futures-sink v0.3.34
+   Compiling zerofrom v0.1.6
+   Compiling itoa v1.0.18
+   Compiling adler2 v2.0.1
+   Compiling bytes v1.11.1
+   Compiling futures-io v0.3.34
+   Compiling crossbeam-utils v0.8.21
+   Compiling slab v0.4.11
+   Compiling objc2 v0.6.3
+   Compiling yoke v0.8.3
+   Compiling miniz_oxide v0.8.9
+   Compiling futures-channel v0.3.34
+   Compiling scopeguard v1.2.0
+   Compiling crc32fast v1.5.0
+   Compiling fnv v1.0.7
+   Compiling lock_api v0.4.14
+   Compiling futures-task v0.3.34
+   Compiling zerovec v0.11.8
+   Compiling tracing-core v0.1.35
+   Compiling litemap v0.8.0
+   Compiling either v1.15.0
+   Compiling writeable v0.6.4
+   Compiling futures-util v0.3.34
+   Compiling zerotrie v0.2.5
+   Compiling semver v1.0.28
+   Compiling http v1.3.1
+   Compiling flate2 v1.1.8
+   Compiling num-traits v0.2.19
+   Compiling core_maths v0.1.1
+   Compiling utf8_iter v1.0.4
+   Compiling rustc_version v0.4.1
+   Compiling tracing v0.1.43
+   Compiling core-foundation v0.10.0
+   Compiling getrandom v0.3.4
+   Compiling parking_lot_core v0.9.12
+   Compiling zmij v1.0.23
+   Compiling tinystr v0.8.4
+   Compiling potential_utf v0.1.3
+   Compiling anyhow v1.0.104
+   Compiling icu_properties_data v2.3.0
+   Compiling parking_lot v0.12.5
+   Compiling objc2-core-foundation v0.3.2
+   Compiling block2 v0.6.2
+   Compiling icu_collections v2.3.0
+   Compiling icu_locale_core v2.3.0
+   Compiling core-graphics-types v0.2.0
+   Compiling icu_normalizer_data v2.3.0
+   Compiling crossbeam-epoch v0.9.18
+   Compiling serde_json v1.0.151
+   Compiling foreign-types-shared v0.3.1
+   Compiling euclid v0.22.14
+   Compiling http-body v1.0.1
+   Compiling regex-syntax v0.8.11
+   Compiling fastrand v2.3.0
+   Compiling dispatch2 v0.3.1
+   Compiling foreign-types v0.5.0
+   Compiling half v2.7.1
+   Compiling crossbeam-deque v0.8.6
+   Compiling thiserror v1.0.69
+   Compiling thiserror v2.0.17
+   Compiling aho-corasick v1.1.3
+   Compiling raw-window-handle v0.6.2
+   Compiling zeroize v1.8.2
+   Compiling foldhash v0.2.0
+   Compiling percent-encoding v2.3.2
+   Compiling rayon-core v1.13.0
+   Compiling slotmap v1.0.7
+   Compiling rand_core v0.9.3
+   Compiling malloc_buf v0.0.6
+   Compiling erased-serde v0.4.9
+   Compiling indexmap v2.14.0
+   Compiling form_urlencoded v1.2.2
+   Compiling hashbrown v0.16.1
+   Compiling lyon_geom v1.0.17
+   Compiling ttf-parser v0.25.1
+   Compiling fdeflate v0.3.7
+   Compiling serde_fmt v1.0.3
+   Compiling objc2-foundation v0.3.2
+   Compiling icu_provider v2.3.0
+   Compiling iana-time-zone v0.1.64
+   Compiling value-bag-serde1 v1.12.0
+   Compiling anstyle v1.0.13
+   Compiling value-bag v1.12.0
+   Compiling block v0.1.6
+   Compiling icu_normalizer v2.3.0
+   Compiling icu_properties v2.3.0
+   Compiling tinyvec_macros v0.1.1
+   Compiling lazy_static v1.5.0
+   Compiling parking v2.2.1
+   Compiling float-cmp v0.9.0
+   Compiling libbz2-rs-sys v0.2.2
+   Compiling rustc-hash v2.1.1
+   Compiling log v0.4.29
+   Compiling byteorder v1.5.0
+   Compiling strict-num v0.1.1
+   Compiling tinyvec v1.10.0
+   Compiling lyon_path v1.0.16
+   Compiling regex-automata v0.4.18
+   Compiling futures-executor v0.3.34
+   Compiling chrono v0.4.42
+   Compiling bzip2 v0.6.1
+   Compiling futures v0.3.34
+   Compiling profiling v1.0.17
+   Compiling objc v0.2.7
+   Compiling rustls-pki-types v1.12.0
+   Compiling gpui_util v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui_util)
+   Compiling idna_adapter v1.2.1
+   Compiling ppv-lite86 v0.2.21
+   Compiling pathfinder_simd v0.5.6
+   Compiling mio v1.2.0
+   Compiling idna v1.1.0
+   Compiling socket2 v0.6.5
+   Compiling errno v0.3.14
+   Compiling memmap2 v0.9.8
+   Compiling rustix v1.1.4
+   Compiling polycool v0.4.0
+   Compiling ryu v1.0.23
+   Compiling zune-core v0.5.1
+   Compiling unicode-script v0.5.8
+   Compiling compression-core v0.4.29
+   Compiling sha1_smol v1.0.1
+   Compiling quick-error v2.0.1
+   Compiling weezl v0.1.10
+   Compiling base64 v0.22.1
+   Compiling arrayref v0.3.9
+   Compiling zune-jpeg v0.5.15
+   Compiling compression-codecs v0.4.31
+   Compiling tiny-skia-path v0.11.4
+   Compiling uuid v1.18.1
+   Compiling itertools v0.11.0
+   Compiling serde_urlencoded v0.7.1
+   Compiling kurbo v0.13.1
+   Compiling tokio v1.52.1
+   Compiling url v2.5.7
+   Compiling fontdb v0.23.0
+   Compiling getrandom v0.4.1
+   Compiling rand_chacha v0.9.0
+   Compiling regex v1.12.3
+   Compiling collections v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/collections)
+   Compiling tracing-log v0.2.0
+   Compiling sharded-slab v0.1.7
+   Compiling rayon v1.11.0
+   Compiling serde_spanned v0.6.9
+   Compiling toml_datetime v0.6.11
+   Compiling core-graphics v0.24.0
+   Compiling concurrent-queue v2.5.0
+   Compiling thread_local v1.1.9
+   Compiling objc2-metal v0.3.2
+   Compiling option-ext v0.2.0
+   Compiling nu-ansi-term v0.50.3
+   Compiling leak v0.1.2
+   Compiling color_quant v1.1.0
+   Compiling clap_lex v0.7.6
+   Compiling ztracing v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/ztracing)
+   Compiling unicode-bidi v0.3.18
+   Compiling siphasher v1.0.1
+   Compiling unicode-ccc v0.4.0
+   Compiling unicode-bidi-mirroring v0.4.0
+   Compiling byteorder-lite v0.1.0
+   Compiling bitflags v1.3.2
+   Compiling ciborium-io v0.2.2
+   Compiling unicode-properties v0.1.3
+   Compiling plotters-backend v0.3.7
+   Compiling gimli v0.32.3
+   Compiling same-file v1.0.6
+   Compiling bindgen v0.72.1
+   Compiling ciborium-ll v0.2.2
+   Compiling png v0.17.16
+   Compiling svgtypes v0.16.1
+   Compiling image-webp v0.2.4
+   Compiling walkdir v2.5.0
+   Compiling rustybuzz v0.20.1
+   Compiling plotters-svg v0.3.7
+   Compiling toml_edit v0.22.27
+   Compiling clap_builder v4.5.49
+   Compiling tracing-subscriber v0.3.22
+   Compiling gif v0.14.2
+   Compiling leaky-cow v0.1.1
+   Compiling dirs-sys v0.5.0
+   Compiling event-listener v5.4.1
+   Compiling fax v0.2.6
+   Compiling pin-project v1.1.10
+   Compiling ref-cast v1.0.25
+   Compiling accesskit v0.24.1
+   Compiling tempfile v3.27.0
+   Compiling psm v0.1.30
+   Compiling zlog v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/zlog)
+   Compiling rand v0.9.4
+   Compiling object v0.37.3
+   Compiling embed-resource v3.0.6
+   Compiling async-compression v0.4.32
+   Compiling derive_more v2.1.1
+   Compiling simplecss v0.2.2
+   Compiling hash32 v0.3.1
+   Compiling objc2-core-video v0.3.2
+   Compiling addr2line v0.25.1
+   Compiling aws-lc-sys v0.42.0
+   Compiling pxfm v0.1.25
+   Compiling wait-timeout v0.2.1
+   Compiling cgl v0.3.2
+   Compiling getrandom v0.2.16
+   Compiling itertools v0.10.5
+   Compiling spin v0.9.8
+   Compiling roxmltree v0.21.1
+   Compiling zune-inflate v0.2.54
+   Compiling imagesize v0.14.0
+   Compiling smol_str v0.3.6
+   Compiling ztracing_macro v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/ztracing_macro)
+   Compiling float_next_after v1.0.0
+   Compiling xmlwriter v0.1.0
+   Compiling untrusted v0.9.0
+   Compiling bit_field v0.10.3
+   Compiling bit-vec v0.8.0
+   Compiling unicode-vo v0.1.0
+   Compiling dyn-clone v1.0.20
+   Compiling data-url v0.3.2
+   Compiling cast v0.3.0
+   Compiling pico-args v0.5.0
+   Compiling static_assertions v1.1.0
+   Compiling lebe v0.5.3
+   Compiling rustc-demangle v0.1.26
+   Compiling quick-error v1.2.3
+   Compiling schemars v1.0.4
+   Compiling usvg v0.46.0
+   Compiling exr v1.74.0
+   Compiling bit-set v0.8.0
+   Compiling rusty-fork v0.3.1
+   Compiling criterion-plot v0.5.0
+   Compiling ring v0.17.14
+   Compiling lyon_tessellation v1.0.16
+   Compiling flume v0.12.0
+   Compiling aws-lc-rs v1.17.1
+   Compiling io-surface v0.16.1
+   Compiling heapless v0.9.2
+   Compiling moxcms v0.8.1
+   Compiling http_client v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/http_client)
+   Compiling toml v0.8.23
+   Compiling clap v4.5.49
+   Compiling backtrace v0.3.76
+   Compiling metal v0.33.0
+   Compiling pathfinder_geometry v0.5.1
+   Compiling stacker v0.1.25
+   Compiling gpui v0.2.2 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui)
+   Compiling perf v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/tooling/perf)
+   Compiling tiff v0.11.3
+   Compiling event-listener-strategy v0.5.4
+   Compiling tiny-skia v0.11.4
+   Compiling dirs v6.0.0
+   Compiling plotters v0.3.7
+   Compiling ciborium v0.2.2
+   Compiling core-text v21.0.0
+   Compiling tinytemplate v1.2.1
+   Compiling lyon_algorithms v1.0.16
+   Compiling lyon_extra v1.0.3
+   Compiling futures-lite v2.6.1
+   Compiling core-graphics2 v0.5.2
+   Compiling png v0.18.0
+   Compiling rand_xorshift v0.4.0
+   Compiling is-terminal v0.4.16
+   Compiling crossbeam-queue v0.3.12
+   Compiling qoi v0.4.1
+   Compiling rgb v0.8.52
+   Compiling derive_refineable v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/refineable/derive_refineable)
+   Compiling float-ord v0.3.2
+   Compiling link-section v0.19.2
+   Compiling web-time v1.1.0
+   Compiling anes v0.1.6
+   Compiling svg_fmt v0.4.5
+   Compiling unarray v0.1.4
+   Compiling oorandom v11.1.5
+   Compiling async-task v4.7.1 (https://github.com/smol-rs/async-task.git?rev=b4486cd71e4e94fbda54ce6302444de14f4d190e#b4486cd7)
+   Compiling fixedbitset v0.5.7
+   Compiling atomic v0.5.3
+   Compiling pollster v0.2.5
+   Compiling ctor v1.0.12
+   Compiling criterion v0.5.1
+   Compiling etagere v0.2.15
+   Compiling scheduler v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/scheduler)
+   Compiling proptest v1.10.0 (https://github.com/proptest-rs/proptest?rev=3dca198a8fef1b32e3a66f1e1897c955b4dc5b5b#3dca198a)
+   Compiling postage v0.5.0
+   Compiling image v0.25.10
+   Compiling futures-concurrency v7.7.1
+   Compiling resvg v0.46.0
+   Compiling zed-font-kit v0.14.1-zed (https://github.com/zed-industries/font-kit?rev=94b0f28166665e8fd2f53ff6d268a14955c82269#94b0f281)
+   Compiling cbindgen v0.28.0
+   Compiling stacksafe v1.0.3
+   Compiling lyon v1.0.16
+   Compiling strum v0.28.0
+   Compiling refineable v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/refineable)
+   Compiling core-video v0.5.2
+   Compiling util_macros v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/util_macros)
+   Compiling async-channel v2.5.0
+   Compiling rustls-webpki v0.103.13
+   Compiling sum_tree v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/sum_tree)
+   Compiling gpui_shared_string v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui_shared_string)
+   Compiling objc-sys v0.3.5
+   Compiling gpui_macros v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui_macros)
+   Compiling hdrhistogram v7.5.4
+   Compiling taffy v0.13.0
+   Compiling num_cpus v1.17.0
+   Compiling security-framework-sys v2.15.0
+   Compiling itertools v0.14.0
+   Compiling spin v0.10.0
+   Compiling seahash v4.1.0
+   Compiling pollster v0.4.0
+   Compiling unicode-width v0.2.2
+   Compiling waker-fn v1.2.0
+   Compiling bit-vec v0.9.1
+   Compiling subtle v2.6.1
+   Compiling inventory v0.3.21
+   Compiling security-framework v3.5.1
+   Compiling objc2 v0.5.2
+   Compiling codespan-reporting v0.13.0
+   Compiling rustls v0.23.40
+   Compiling tokio-util v0.7.18
+   Compiling bit-set v0.9.1
+   Compiling cocoa-foundation v0.2.0
+   Compiling atomic-waker v1.1.2
+   Compiling unicode-ident v1.0.24
+   Compiling try-lock v0.2.5
+   Compiling hexf-parse v0.2.1
+   Compiling rustc-hash v1.1.0
+   Compiling want v0.3.1
+   Compiling h2 v0.4.19
+   Compiling objc2-foundation v0.2.2
+   Compiling httparse v1.10.1
+   Compiling naga v29.0.4
+   Compiling objc2-quartz-core v0.3.2
+   Compiling cocoa v0.26.0
+   Compiling wgpu-types v29.0.4
+   Compiling tower-service v0.3.3
+   Compiling objc2-core-media v0.3.2
+   Compiling gpui_apple v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui_apple)
+   Compiling accesskit_consumer v0.38.0
+   Compiling raw-window-metal v1.1.0
+   Compiling objc2-core-location v0.3.2
+   Compiling objc2-core-graphics v0.3.2
+   Compiling font-types v0.10.0
+   Compiling font-types v0.11.0
+   Compiling objc2-user-notifications v0.3.2
+   Compiling objc2-screen-capture-kit v0.3.2
+   Compiling system-configuration-sys v0.6.0
+   Compiling read-fonts v0.37.0
+   Compiling read-fonts v0.35.0
+   Compiling rustls-native-certs v0.8.3
+   Compiling objc2-app-kit v0.3.2
+   Compiling objc2-app-kit v0.2.2
+   Compiling hyper v1.11.1
+   Compiling tokio-rustls v0.26.4
+   Compiling mach2 v0.5.0
+   Compiling sync_wrapper v1.0.2
+   Compiling unicase v2.8.1
+   Compiling utf8parse v0.2.2
+   Compiling tower-layer v0.3.3
+   Compiling mime v0.3.17
+   Compiling anstyle-parse v0.2.7
+   Compiling rustls-platform-verifier v0.7.0
+   Compiling system-configuration v0.8.0
+   Compiling tower v0.5.2
+   Compiling accesskit_macos v0.26.3
+   Compiling mime_guess v2.0.5
+   Compiling tokio-socks v0.5.2
+   Compiling rustls-pemfile v2.2.0
+   Compiling webpki-roots v1.0.8
+   Compiling http-body-util v0.1.3
+   Compiling encoding_rs v0.8.35
+   Compiling ipnet v2.11.0
+   Compiling hyper-util v0.1.17
+   Compiling unicode-segmentation v1.13.3
+   Compiling anstyle-query v1.1.4
+   Compiling is_terminal_polyfill v1.70.1
+   Compiling yazi v0.2.1
+   Compiling zeno v0.3.3
+   Compiling colorchoice v1.0.4
+   Compiling anstream v0.6.21
+   Compiling http_client_tls v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/http_client_tls)
+   Compiling env_filter v0.1.4
+   Compiling self_cell v1.2.2
+   Compiling jiff v0.2.15
+   Compiling sys-locale v0.3.2
+   Compiling unicode-linebreak v0.1.5
+   Compiling rangemap v1.7.1
+   Compiling linebender_resource_handle v0.1.1
+   Compiling hyper-rustls v0.27.9
+   Compiling zed-reqwest v0.12.15-zed (https://github.com/zed-industries/reqwest.git?rev=33bc764aa15ff7b200bf7c93bd96e24878d53e14#33bc764a)
+   Compiling skrifa v0.37.0
+   Compiling harfrust v0.5.0
+   Compiling skrifa v0.40.0
+   Compiling wgpu-naga-bridge v29.0.4
+   Compiling wgpu-hal v29.0.4
+   Compiling reqwest_client v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/reqwest_client)
+   Compiling env_logger v0.11.8
+   Compiling wgpu-core-deps-apple v29.0.4
+   Compiling wgpu-core v29.0.4
+   Compiling swash v0.2.6
+   Compiling cosmic-text v0.19.0
+   Compiling wgpu v29.0.4
+   Compiling gpui_macos v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui_macos)
+   Compiling gpui_platform v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui_platform)
+   Compiling gpui_wgpu v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui_wgpu)
+    Finished `release` profile [optimized + debuginfo] target(s) in 2m 28s
+warning: the following packages contain code that will be rejected by a future version of Rust: block v0.1.6
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 2`
+     Running unittests src/gpui.rs (/private/tmp/gpui-alloy-0.1.1-source-target/release/deps/gpui-2137738fae1380b8)
+
+running 424 tests
+test app::bench_context::tests::bench_task_reports_long_task_without_window ... ok
+test app::bench_context::tests::foreground_work_excludes_setup_before_trace_scope_starts ... ok
+test app::bench_context::tests::foreground_work_reports_long_task_without_window_draw ... ok
+test app::bench_context::tests::task_completion_supports_non_send_foreground_output ... ok
+test app::entity_map::test::test_entity_map_slot_assignment_before_cleanup ... ok
+test app::entity_map::test::test_entity_map_weak_upgrade_before_cleanup ... ok
+test app::entity_map::test::test_leak_detector_snapshot_detects_new_leak - should panic ... ok
+test app::entity_map::test::test_leak_detector_snapshot_no_leaks ... ok
+test app::test::async_app_refresh_flushes_refresh_effect ... ok
+test app::test::missing_glyph_callbacks_follow_subscription_lifetime ... ok
+test app::test::test_gpui_borrow ... ok
+test app::test::test_restart_preserves_path_and_arguments ... ok
+test app::test_app::tests::test_basic_usage ... ok
+test app::test_app::tests::test_entity_creation ... ok
+test app::test_app::tests::test_globals ... ok
+test app::test_app::tests::test_simulate_scale_factor_change ... ok
+test app::test_context::tests::test_simulate_path_prompt_cancellation ... ok
+test app::test_context::tests::test_simulate_path_prompt_response ... ok
+test app::test_context::tests::test_system_notification_body_and_action_responses ... ok
+test app::test_context::tests::test_system_notification_response_handler_can_be_replaced ... ok
+test app::test_context::tests::test_system_notification_response_handler_can_reenter_app ... ok
+test app::test_context::tests::test_system_notifications_require_identity_and_replace_matching_tags ... ok
+test arena::tests::test_arena ... ok
+test arena::tests::test_arena_alignment ... ok
+test arena::tests::test_arena_grow ... ok
+test arena::tests::test_arena_use_after_clear - should panic ... ok
+test arena::tests::test_clear_deferred_while_scope_active ... ok
+test arena::tests::test_clear_without_scope_is_immediate ... ok
+test arena::tests::test_unbalanced_end_scope_panics - should panic ... ok
+test asset_cache::tests::cached_load_caches_success_and_error ... ok
+test asset_cache::tests::completed_load_without_subscribers_is_cached_and_deduplicated ... ok
+test asset_cache::tests::eviction_after_worker_completion_does_not_publish_into_replacement ... ok
+test asset_cache::tests::load_completion_notifies_each_observing_entity_once ... ok
+test asset_cache::tests::removing_pending_asset_cancels_it_and_replacement_ignores_stale_completion ... ok
+test assets::tests::empty_render_image_does_not_panic ... ok
+test bounds_tree::tests::test_insert ... ok
+test bounds_tree::tests::test_random_iterations ... ok
+test color::tests::test_background_linear_gradient ... ok
+test color::tests::test_background_solid ... ok
+test color::tests::test_deserialize_eight_value_hex_to_rgba ... ok
+test color::tests::test_deserialize_eight_value_hex_with_mixed_case_to_rgba ... ok
+test color::tests::test_deserialize_eight_value_hex_with_padding_to_rgba ... ok
+test color::tests::test_deserialize_four_value_hex_to_rgba ... ok
+test color::tests::test_deserialize_six_value_hex_to_rgba ... ok
+test color::tests::test_deserialize_three_value_hex_to_rgba ... ok
+test color::tests::test_rgba_alpha ... ok
+test color::tests::test_rgba_opacity ... ok
+test debug_overlay::tests::all_rendered_characters_have_glyphs ... ok
+test debug_overlay::tests::frame_count_accumulates_across_mode_changes ... ok
+test debug_overlay::tests::frame_count_is_right_aligned_and_saturates ... ok
+test debug_overlay::tests::percentile_lows_are_reported_as_times ... ok
+test debug_overlay::tests::reset_clears_durations_but_keeps_frame_count ... ok
+test debug_overlay::tests::toggling_on_shows_previous_frame_immediately ... ok
+test elements::anchored::tests::test_anchored_position_when_scrolled ... ok
+test elements::anchored::tests::test_anchored_position_without_scroll ... ok
+test elements::anchored::tests::test_anchored_snaps_to_window ... ok
+test elements::animation::tests::test_animation_parent ... ok
+test elements::animation::tests::test_cancelled_and_completed_springs_resolve_their_endpoints ... ok
+test elements::animation::tests::test_max_fps_schedules_timer_driven_frames ... ok
+test elements::animation::tests::test_paused_spring_resumes_with_its_velocity ... ok
+test elements::animation::tests::test_reduce_motion_renders_single_static_frame ... ok
+test elements::animation::tests::test_repeating_animation_schedules_animation_frames ... ok
+test elements::animation::tests::test_spring_animation_parent ... ok
+test elements::animation::tests::test_spring_animation_preserves_velocity_when_retargeted ... ok
+test elements::animation::tests::test_spring_animation_respects_reduced_motion ... ok
+test elements::animation::tests::test_spring_animation_uses_scheduler_clock ... ok
+test elements::animation::tests::test_stopped_spring_resumes_without_velocity ... ok
+test elements::animation::tests::test_synced_animations_share_phase_across_elements ... ok
+test elements::deferred::tests::test_nested_deferred_draws_with_reused_views ... ok
+test elements::div::scroll_focus_tests::deferred_descendants_do_not_scroll_the_background ... ok
+test elements::div::scroll_focus_tests::focus_reveal_handles_large_targets_and_clamps_scroll_offsets ... ok
+test elements::div::scroll_focus_tests::inert_descendants_do_not_create_focus_reveal_targets ... ok
+test elements::div::scroll_focus_tests::nested_scroll_areas_resolve_inner_geometry_before_revealing_the_outer_target ... ok
+test elements::div::scroll_focus_tests::tab_reveals_a_cached_descendant_minimally_and_wheel_scrolling_stays_free ... ok
+test elements::div::tests::default_hover_listener_ends_after_key_press ... ok
+test elements::div::tests::default_hover_listener_remains_hovered_during_stationary_mouse_press ... ok
+test elements::div::tests::default_hover_listener_updates_when_layout_changes_under_stationary_mouse ... ok
+test elements::div::tests::focus_next_from_tab_group_container_enters_that_group ... ok
+test elements::div::tests::grid_cols_max_content_sizes_columns_to_their_content ... ok
+test elements::div::tests::group_hover_styles_update_only_on_transitions ... ok
+test elements::div::tests::input_modality_independent_hover_listener_updates_after_key_press ... ok
+test elements::div::tests::keyboard_activation_cleared_by_intervening_key_release ... ok
+test elements::div::tests::keyboard_activation_cleared_by_intervening_keydown ... ok
+test elements::div::tests::keyboard_activation_does_not_distinguish_space_and_enter ... ok
+test elements::div::tests::keyboard_activation_does_not_leak_across_focus_change ... ok
+test elements::div::tests::keyboard_activation_does_not_leak_when_focus_returns ... ok
+test elements::div::tests::keyboard_activation_fires_click_on_same_element ... ok
+test elements::div::tests::keyboard_activation_ignores_modified_keys ... ok
+test elements::div::tests::keyboard_activation_is_cancelled_when_click_handlers_are_removed ... ok
+test elements::div::tests::long_press_shows_tooltip_until_touch_ends ... ok
+test elements::div::tests::mouse_down_out_is_suppressed_while_window_prompt_is_active ... ok
+test elements::div::tests::pointer_activation_is_cancelled_when_click_handlers_are_removed ... ok
+test elements::div::tests::scroll_handle_aligns_tall_children_to_top_edge ... ok
+test elements::div::tests::scroll_handle_aligns_wide_children_to_left_edge ... ok
+test elements::div::tests::test_accessibility_id_builder_writes_author_id ... ok
+test elements::div::tests::test_fractional_padding_does_not_make_a_fitting_container_scrollable ... ok
+test elements::div::tests::test_write_a11y_info_string_and_numeric_properties ... ok
+test elements::div::tests::tooltip_hides_after_mouse_leaves_origin ... ok
+test elements::div::tests::tooltip_is_released_when_its_owner_disappears ... ok
+test elements::div::tests::tooltip_respects_custom_show_delay ... ok
+test elements::div::tests::tooltip_waiting_for_show_is_released_when_its_owner_disappears ... ok
+test elements::img::tests::explicit_aspect_ratio_is_not_overridden_by_intrinsic_ratio ... ok
+test elements::img::tests::image_object_fit_cover_clamps_corner_radii_to_visible_bounds ... ok
+test elements::img::tests::image_object_fit_cover_crops_to_element_bounds ... ok
+test elements::img::tests::stale_frame_index_is_clamped_when_image_changes ... ok
+test elements::img::tests::zero_frame_image_does_not_panic_on_paint ... ok
+test elements::inert::tests::cached_subtrees_rebuild_input_after_inert_transitions ... ok
+test elements::inert::tests::inert_cancels_keyboard_and_pointer_presses_across_reenable ... ok
+test elements::inert::tests::inert_preserves_deferred_paint_and_excludes_input_focus_and_accessibility ... ok
+test elements::list::test::test_autoscroll_above_item_top_renders_items_above ... ok
+test elements::list::test::test_bottom_aligned_scrollbar_offset_at_end ... ok
+test elements::list::test::test_child_scroll_handler_can_stop_list_scroll ... ok
+test elements::list::test::test_follow_tail_disengages_on_scrollbar_reposition ... ok
+test elements::list::test::test_follow_tail_disengages_on_user_scroll ... ok
+test elements::list::test::test_follow_tail_reengagement_not_fooled_by_unmeasured_items ... ok
+test elements::list::test::test_follow_tail_reengages_after_scrollbar_disengagement ... ok
+test elements::list::test::test_follow_tail_reengages_after_scrollbar_drag_to_bottom_while_growing ... ok
+test elements::list::test::test_follow_tail_reengages_when_scrolled_back_to_bottom ... ok
+test elements::list::test::test_follow_tail_stays_at_bottom_as_items_grow ... ok
+test elements::list::test::test_item_viewport_queries_after_scroll_to_end_before_layout ... ok
+test elements::list::test::test_item_viewport_queries_before_logical_scroll_top ... ok
+test elements::list::test::test_item_viewport_queries_measured_item_above_viewport ... ok
+test elements::list::test::test_item_viewport_queries_measured_item_below_viewport ... ok
+test elements::list::test::test_item_viewport_queries_measured_item_inside_viewport ... ok
+test elements::list::test::test_item_viewport_queries_remain_stable_with_zero_height_viewport ... ok
+test elements::list::test::test_item_viewport_queries_return_none_before_layout ... ok
+test elements::list::test::test_measure_all_after_width_change ... ok
+test elements::list::test::test_pause_following_tail_freezes_off_bottom ... ok
+test elements::list::test::test_pause_following_tail_reengages_when_still_at_bottom ... ok
+test elements::list::test::test_remeasure ... ok
+test elements::list::test::test_remeasure_item_preserves_scroll_offset ... ok
+test elements::list::test::test_remeasure_then_scroll_does_not_revert_scroll_position ... ok
+test elements::list::test::test_reset_after_paint_before_scroll ... ok
+test elements::list::test::test_scroll_after_remeasure_clamps_to_shrunk_item_height ... ok
+test elements::list::test::test_scroll_by_positive_and_negative_distance ... ok
+test elements::list::test::test_scrollbar_drag_with_growing_content ... ok
+test elements::list::test::test_set_follow_tail_snaps_to_bottom ... ok
+test elements::text::tests::test_into_element_for ... ok
+test elements::text::tests::text_macro_id ... ok
+test elements::uniform_list::test::test_scroll_strategy_nearest ... ok
+test executor::test::sanity_test_tasks_run ... ok
+test geometry::tests::test_bounds_intersects ... ok
+test gestures::tests::cancelled_pan_emits_cancelled_scroll_and_no_tap ... ok
+test gestures::tests::catching_a_fling_pans_immediately_and_never_taps ... ok
+test gestures::tests::claimed_long_press_emits_cancelled_for_its_touch_only ... ok
+test gestures::tests::claimed_long_press_emits_phased_stream_without_tap ... ok
+test gestures::tests::claimed_touch_drag_emits_phased_stream_without_pan_or_tap ... ok
+test gestures::tests::completed_touch_id_cannot_claim_replacement_touch ... ok
+test gestures::tests::concurrent_touches_are_ignored_while_one_is_active ... ok
+test gestures::tests::consecutive_taps_accumulate_tap_count ... ok
+test gestures::tests::diagonal_release_flings_only_on_locked_axis ... ok
+test gestures::tests::fast_release_starts_momentum_that_decays_to_a_stop ... ok
+test gestures::tests::flick_velocity_reflects_release_speed_not_window_average ... ok
+test gestures::tests::fling_curves_are_sane_for_both_physics ... ok
+test gestures::tests::long_press_cannot_be_offered_after_pending_touch_resolves ... ok
+test gestures::tests::long_press_offer_is_one_shot_and_specific_to_pending_touch ... ok
+test gestures::tests::momentum_is_frame_rate_independent ... ok
+test gestures::tests::new_touch_interrupts_momentum ... ok
+test gestures::tests::ongoing_scroll_ignores_zero_delta_and_resets_when_ended ... ok
+test gestures::tests::ongoing_scroll_ignores_zero_delta_movement ... ok
+test gestures::tests::ongoing_scroll_locks_to_dominant_axis ... ok
+test gestures::tests::ongoing_scroll_starts_new_gesture_at_timeout_boundary ... ok
+test gestures::tests::ongoing_scroll_supports_moved_only_platforms ... ok
+test gestures::tests::ongoing_scroll_unlocks_when_direction_changes ... ok
+test gestures::tests::predicted_overshoot_folds_into_the_fling_without_scrolling_backwards ... ok
+test gestures::tests::predicted_positions_do_not_emit_false_reversals ... ok
+test gestures::tests::predicted_positions_lead_the_pan_but_totals_converge_on_release ... ok
+test gestures::tests::samples_before_a_pause_do_not_contribute_velocity ... ok
+test gestures::tests::slow_release_does_not_start_momentum ... ok
+test gestures::tests::spline_position_table_matches_the_bezier_curve ... ok
+test gestures::tests::touch_beyond_slop_resolves_to_pan ... ok
+test gestures::tests::touch_pan_locks_to_horizontal_axis ... ok
+test gestures::tests::touch_pan_stays_locked_to_its_initial_dominant_axis ... ok
+test gestures::tests::touch_within_slop_resolves_to_tap ... ok
+test gestures::tests::unclaimed_long_press_can_still_become_a_pan ... ok
+test gestures::tests::unclaimed_long_press_remains_a_tap_candidate ... ok
+test gestures::tests::unclaimed_touch_drag_remains_a_pan_candidate ... ok
+test gestures::tests::unrelated_touch_cannot_end_or_cancel_pending_touch ... ok
+test input::tests::inert_unregisters_and_restores_platform_text_input ... ok
+test input::tests::text_input_configuration_and_focus_state_are_forwarded_on_change ... ok
+test interactive::test::test_multi_modifier_gesture_does_not_dispatch_standalone_modifier_binding ... ok
+test interactive::test::test_on_events ... ok
+test key_dispatch::tests::test_bindings_for_action_hides_targeted_unbind_in_active_context ... ok
+test key_dispatch::tests::test_bindings_for_action_keeps_targeted_binding_outside_unbind_context ... ok
+test key_dispatch::tests::test_clearing_pending_input_invalidates_timeout_pause ... ok
+test key_dispatch::tests::test_combined_shortcut_has_no_standalone_modifier ... ok
+test key_dispatch::tests::test_consumed_modifier_preserves_pending_input ... ok
+test key_dispatch::tests::test_input_handler_pending ... ok
+test key_dispatch::tests::test_interceptor_stops_raw_capture_and_bubble_handlers ... ok
+test key_dispatch::tests::test_invalid_continuation_while_timeout_paused_replays_pending_input ... ok
+test key_dispatch::tests::test_keybinding_for_action_bounds ... ok
+test key_dispatch::tests::test_overlay_after_base_restores_shadowed_picker_binding ... ok
+test key_dispatch::tests::test_pending_has_binding_state ... ok
+test key_dispatch::tests::test_pending_input_observers_notified_on_focus_change_and_blur ... ok
+test key_dispatch::tests::test_pending_input_timeout_dispatches_shorter_binding ... ok
+test key_dispatch::tests::test_pending_input_timeout_pauses_and_resumes ... ok
+test key_dispatch::tests::test_pending_input_timeout_resets_when_binding_advances ... ok
+test key_dispatch::tests::test_pending_input_timeout_resumes_when_owner_is_released ... ok
+test key_dispatch::tests::test_pending_input_timeout_starts_when_binding_becomes_ambiguous ... ok
+test key_dispatch::tests::test_pending_modifier_observed_when_binding_resolves ... ok
+test key_dispatch::tests::test_printable_pending_input_replays_on_timeout ... ok
+test key_dispatch::tests::test_raw_modifier_handler_can_suppress_observation ... ok
+test key_dispatch::tests::test_running_pending_input_timeout_resets_when_binding_advances ... ok
+test key_dispatch::tests::test_standalone_modifier_dispatch ... ok
+test key_dispatch::tests::test_unbound_standalone_modifier_observation ... ok
+test keymap::context::tests::test_actions_definition ... ok
+test keymap::context::tests::test_child_operator ... ok
+test keymap::context::tests::test_context_display ... ok
+test keymap::context::tests::test_is_superset ... ok
+test keymap::context::tests::test_not_operator ... ok
+test keymap::context::tests::test_parse_boolean_operators ... ok
+test keymap::context::tests::test_parse_context ... ok
+test keymap::context::tests::test_parse_equality_operators ... ok
+test keymap::context::tests::test_parse_identifiers ... ok
+test keymap::context::tests::test_parse_negations ... ok
+test keymap::context::tests::test_parse_parenthesized_expressions ... ok
+test keymap::tests::test_bindings_for_action ... ok
+test keymap::tests::test_bindings_for_action_keeps_binding_for_narrower_targeted_unbind ... ok
+test keymap::tests::test_bindings_for_action_removes_binding_for_broader_targeted_unbind ... ok
+test keymap::tests::test_context_precedence_with_same_source ... ok
+test keymap::tests::test_depth_precedence ... ok
+test keymap::tests::test_disable_deeper ... ok
+test keymap::tests::test_disable_weaker_sources_only ... ok
+test keymap::tests::test_fail_to_disable ... ok
+test keymap::tests::test_keymap ... ok
+test keymap::tests::test_keymap_disabled ... ok
+test keymap::tests::test_multiple_keystroke_binding_disabled ... ok
+test keymap::tests::test_override_multikey ... ok
+test keymap::tests::test_overriding_prefix ... ok
+test keymap::tests::test_pending_match_enabled ... ok
+test keymap::tests::test_pending_match_enabled_extended ... ok
+test keymap::tests::test_simple_disable ... ok
+test keymap::tests::test_source_precedence_sorting ... ok
+test keymap::tests::test_targeted_unbind_ignores_target_context ... ok
+test platform::app_menu::tests::test_menu ... ok
+test platform::app_menu::tests::test_menu_item_builder ... ok
+test platform::atlas_tests::only_successful_inserts_are_cached ... ok
+test platform::atlas_tests::remove_and_clear_invalidate_keys ... ok
+test platform::image_tests::test_image_to_image_data_applies_exif_orientation ... ok
+test platform::image_tests::test_svg_image_to_image_data_converts_to_bgra ... ok
+test platform::test::window::tests::platform_accessibility_activation_and_actions_reach_the_rendered_view ... ok
+test platform::threaded_dispatcher::tests::cancel_pending_timers_wakes_waiters_without_waiting_for_deadline ... ok
+test platform::threaded_dispatcher::tests::is_idle_tracks_queued_work_but_ignores_undue_timers ... ok
+test platform::threaded_dispatcher::tests::run_ready_main_tasks_advances_requeuing_work_one_batch_per_call ... ok
+test platform::threaded_dispatcher::tests::run_ready_main_tasks_does_not_wait_for_background_handoffs ... ok
+test platform::threaded_dispatcher::tests::run_until_idle_completes_background_to_main_handoffs ... ok
+test platform::threaded_dispatcher::tests::run_until_returns_at_readiness_despite_requeuing_main_work ... ok
+test platform::threaded_dispatcher::tests::run_until_waits_for_untracked_external_wakes ... ok
+test platform::threaded_dispatcher::tests::timers_fire_in_real_time ... ok
+test platform_scheduler::tests::dedicated_executor_tasks_share_one_thread ... ok
+test platform_scheduler::tests::spawn_dedicated_detached_child_outlives_root ... ok
+test platform_scheduler::tests::spawn_dedicated_dropping_task_cancels_future ... ok
+test platform_scheduler::tests::spawn_dedicated_returns_not_send_future_output ... ok
+test platform_scheduler::tests::spawn_dedicated_runs_on_a_real_separate_thread ... ok
+test platform_scheduler::tests::spawn_dedicated_thread_tears_down_after_work_completes ... ok
+test profiler::hang::tests::a_hang_outliving_the_frame_deadline_keeps_its_frame_association ... ok
+test profiler::hang::tests::a_journal_gap_suppresses_budget_inference_but_retains_observed_hangs ... ok
+test profiler::hang::tests::a_slow_frame_with_little_foreground_spend_is_not_an_incident ... ok
+test profiler::hang::tests::an_idle_sealed_interval_over_budget_is_an_incident ... ok
+test profiler::hang::tests::an_interval_of_small_work_over_budget_is_an_incident ... ok
+test profiler::hang::tests::busy_fraction_excludes_small_polls_outside_the_active_window ... ok
+test profiler::hang::tests::detection_matches_threshold_and_budget_model_at_boundaries ... ok
+test profiler::hang::tests::detects_randomly_placed_foreground_hangs ... ok
+test profiler::hang::tests::first_present_at_latches_on_the_first_observed_presentation ... ok
+test profiler::hang::tests::phase_is_startup_until_the_first_present ... ok
+test profiler::hang::tests::serialized_contributors_are_chronological_with_nesting_depths ... ok
+test profiler::hang::tests::serialized_incident_reports_idle_seal_fields ... ok
+test profiler::hang::tests::serialized_incident_reports_presented_seal_fields ... ok
+test profiler::hang::tests::small_poll_spend_alone_can_reach_the_budget ... ok
+test profiler::journal::tests::a_pending_frame_prevents_idle_until_presentation ... ok
+test profiler::journal::tests::a_present_without_a_draw_clears_the_window_pending_state ... ok
+test profiler::journal::tests::a_presentation_after_the_deadline_seals_the_whole_interval ... ok
+test profiler::journal::tests::a_presentation_seals_exactly_once_regardless_of_delay ... ok
+test profiler::journal::tests::an_expired_frame_no_longer_blocks_idle_boundaries ... ok
+test profiler::journal::tests::an_immediately_ready_runnable_prevents_an_idle_boundary_between_polls ... ok
+test profiler::journal::tests::closing_a_window_unblocks_idle_boundaries ... ok
+test profiler::journal::tests::collect_unseen_returns_each_entry_once_in_order ... ok
+test profiler::journal::tests::completion_order_sealer_matches_reference_under_arbitrary_batching ... ok
+test profiler::journal::tests::concurrent_collection_preserves_the_complete_logical_sequence ... ok
+test profiler::journal::tests::draw_waits_for_its_presentation_boundary ... ok
+test profiler::journal::tests::interval_event_cap_counts_overflowing_events ... ok
+test profiler::journal::tests::losses_alone_seal_a_snapshot_at_the_next_boundary ... ok
+test profiler::journal::tests::nested_turns_only_seal_after_the_outermost_turn ... ok
+test profiler::journal::tests::note_lost_is_reported_on_the_next_snapshot_only ... ok
+test profiler::journal::tests::occupancy_matches_interval_union_and_fold_apportionment ... ok
+test profiler::journal::tests::outermost_turn_seals_no_frame_work_when_idle ... ok
+test profiler::journal::tests::power_interruption_drops_the_poll_before_small_poll_folding ... ok
+test profiler::journal::tests::presenting_one_window_does_not_clear_another_pending_window ... ok
+test profiler::journal::tests::ring_matches_reference_model_under_wrap_collisions_and_independent_cursors ... ok
+test profiler::journal::tests::small_polls_are_flushed_before_frame_state_changes ... ok
+test profiler::journal::tests::small_polls_are_flushed_immediately_before_a_retained_event ... ok
+test profiler::journal::tests::sparse_small_polls_are_discarded_when_the_foreground_returns_to_idle ... ok
+test profiler::journal::tests::visibility_and_power_changes_clear_pending_frames ... ok
+test profiler::journal::tests::wake_rechecks_native_visibility ... ok
+test profiler::journal::tests::writer_matches_state_model_across_turn_frame_and_runnable_transitions ... ok
+test profiler::tests::disabling_tracing_clears_frame_events ... ok
+test profiler::tests::excludes_input_that_arrives_during_a_draw ... ok
+test profiler::tests::ignores_re_presents_of_unchanged_frames ... ok
+test profiler::tests::interruptions_drop_latency_samples_but_hiding_keeps_draw_work ... ok
+test profiler::tests::missed_frames_stretch_the_recorded_interval ... ok
+test profiler::tests::overlapping_trace_scopes_keep_tracing_enabled ... ok
+test profiler::tests::records_dirty_to_present_durations ... ok
+test profiler::tests::records_draw_events_only_while_tracing ... ok
+test profiler::tests::records_every_draw_duration ... ok
+test profiler::tests::records_input_latency_at_the_frame_presentation_timestamp ... ok
+test profiler::tests::records_intervals_only_between_animation_frames ... ok
+test profiler::tests::records_present_events_for_newly_drawn_frames ... ok
+test profiler::tests::skips_intervals_for_inactive_windows ... ok
+test queue::tests::all_tasks_get_yielded ... ok
+test queue::tests::new_high_prio_task_get_scheduled_quickly ... ok
+test spring::tests::animation_phases_interpolate_over_arbitrary_ranges ... ok
+test spring::tests::hsla_interpolation_takes_the_shortest_hue_path ... ok
+test spring::tests::propagators_compose_and_have_expected_determinant ... ok
+test spring::tests::ramp_tracks_steady_state_lag ... ok
+test spring::tests::sampled_easing_has_exact_endpoints_and_can_overshoot ... ok
+test spring::tests::settle_time_accounts_for_motion_outside_an_instantaneous_tolerance ... ok
+test spring::tests::settle_time_is_conservative_for_every_damping_regime ... ok
+test spring::tests::settling_requires_low_velocity ... ok
+test spring::tests::spring_targets_resolve_typed_outputs ... ok
+test spring::tests::step_preserves_semigroup_for_every_damping_regime ... ok
+test spring::tests::undamped_spring_never_settles ... ok
+test style::tests::test_basic_highlight_style_combination ... ok
+test style::tests::test_combine_highlights ... ok
+test style::tests::test_text_style_refinement ... ok
+test subscription::tests::test_callback_dropped_by_earlier_callback_does_not_fire ... ok
+test subscription::tests::test_self_drop_during_callback ... ok
+test subscription::tests::test_subscription_drop ... ok
+test subscription::tests::test_unsubscribe_during_callback_with_insert ... ok
+test svg_renderer::tests::fix_generic_font_families_monospace_resolves_to_lilex ... ok
+test svg_renderer::tests::fix_generic_font_families_sets_all_families ... ok
+test svg_renderer::tests::preserves_aspect_ratio_for_width_constrained_size ... ok
+test svg_renderer::tests::renders_parsed_svg_at_requested_size ... ok
+test svg_renderer::tests::test_is_emoji_presentation ... ok
+test svg_renderer::tests::test_select_emoji_font_skips_family_without_glyph ... ok
+test svg_renderer::tests::text_with_split_glyph_clusters_in_mixed_fonts_does_not_panic ... ok
+test tab_stop::tests::test_nested_group ... ok
+test tab_stop::tests::test_sibling_groups ... ok
+test tab_stop::tests::test_sibling_nested_groups ... ok
+test tab_stop::tests::test_sibling_nested_groups_out_of_order ... ok
+test tab_stop::tests::test_tab_group_functionality ... ok
+test tab_stop::tests::test_tab_handles ... ok
+test tab_stop::tests::test_tab_non_stop_filtering ... ok
+test tab_stop::tests::test_with_disabled_tab_stop ... ok
+test tab_stop::tests::test_with_multiple_disabled_tab_stops ... ok
+test taffy::tests::border_widths_to_taffy_use_stroke_snapping ... ok
+test text_system::line::tests::test_aligned_line_paint_bounds ... ok
+test text_system::line::tests::test_cursor_empty_chunks_and_repeated_boundaries ... ok
+test text_system::line::tests::test_cursor_matches_successive_splits_at_ordered_boundaries ... ok
+test text_system::line::tests::test_cursor_partitions_one_decoration_across_three_chunks ... ok
+test text_system::line::tests::test_cursor_preserves_existing_visual_order_splitting ... ok
+test text_system::line::tests::test_cursor_preserves_shaping_metadata_across_runs ... ok
+test text_system::line::tests::test_cursor_rejects_invalid_boundaries ... ok
+test text_system::line::tests::test_split_at_decorations ... ok
+test text_system::line::tests::test_split_at_glyph_rebasing ... ok
+test text_system::line::tests::test_split_at_invariants ... ok
+test text_system::line::tests::test_underline_handler_matches_default_paint ... ok
+test text_system::line::tests::test_underline_handler_matches_wrapped_paint ... ok
+test text_system::line::tests::test_underline_handler_reports_zero_advance_geometry ... ok
+test text_system::line_layout::tests::test_force_width_base_after_combining_mark ... ok
+test text_system::line_layout::tests::test_force_width_combining_mark_after_within_tolerance_base ... ok
+test text_system::line_layout::tests::test_force_width_combining_marks_not_advanced ... ok
+test text_system::line_layout::tests::test_force_width_corrects_drifted_base_positions ... ok
+test text_system::line_layout::tests::test_force_width_latin_unchanged ... ok
+test text_system::line_layout::tests::test_force_width_multiple_combining_marks ... ok
+test text_system::line_wrapper::tests::test_is_word_char ... ok
+test text_system::line_wrapper::tests::test_multiline_truncation_fits_within_wrapped_lines ... ok
+test text_system::line_wrapper::tests::test_multiline_truncation_newline_fits_exactly ... ok
+test text_system::line_wrapper::tests::test_multiline_truncation_newline_on_last_line ... ok
+test text_system::line_wrapper::tests::test_multiline_truncation_no_truncation_needed ... ok
+test text_system::line_wrapper::tests::test_multiline_truncation_three_lines ... ok
+test text_system::line_wrapper::tests::test_multiline_truncation_trailing_newline ... ok
+test text_system::line_wrapper::tests::test_multiline_truncation_with_newlines ... ok
+test text_system::line_wrapper::tests::test_truncate_line_end ... ok
+test text_system::line_wrapper::tests::test_truncate_line_middle ... ok
+test text_system::line_wrapper::tests::test_truncate_line_start ... ok
+test text_system::line_wrapper::tests::test_truncate_multiple_runs_end ... ok
+test text_system::line_wrapper::tests::test_truncate_multiple_runs_start ... ok
+test text_system::line_wrapper::tests::test_update_run_after_truncation_end ... ok
+test text_system::line_wrapper::tests::test_wrap_line ... ok
+test text_system::line_wrapper::tests::test_wrap_shaped_line ... ok
+test text_system::missing_glyph_tests::bounds_retained_missing_glyphs ... ok
+test text_system::missing_glyph_tests::dropping_receiver_closes_and_clears_reports ... ok
+test util::tests::test_device_pixel_helpers ... ok
+test util::tests::test_round_half_toward_zero ... ok
+test util::tests::test_round_half_toward_zero_f64 ... ok
+test util::tests::test_with_timeout ... ok
+test window::a11y::tests::accessibility_enabled_is_independent_of_activation ... ok
+test window::a11y::tests::active_descendant_honored_for_deep_descendant ... ok
+test window::a11y::tests::active_descendant_honored_when_container_focused ... ok
+test window::a11y::tests::active_descendant_ignored_when_focus_in_other_subtree ... ok
+test window::a11y::tests::active_descendant_ignored_when_nothing_focused ... ok
+test window::a11y::tests::active_descendant_in_unfocused_subtree_keeps_real_focus ... ok
+test window::a11y::tests::focus_is_ancestor_excludes_self_and_non_ancestors ... ok
+test window::a11y::tests::multiple_active_descendant_claims_panic_in_debug ... ok
+test window::a11y::tests::regular_focus_used_when_no_active_descendant ... ok
+test window::a11y::tests::set_active_descendant_on_focused_node ... ok
+test window::a11y::tests::set_focus_without_set_focusable ... ok
+test window::a11y::tests::setting_focus_twice_panics_in_debug ... ok
+test window::a11y::tests::two_siblings_claiming_active_descendant ... ok
+test window::inspector_tests::inspector_only_tracks_its_open_window ... ok
+test window::tests::auto_sized_window_root_fills_the_window ... ok
+test window::tests::callback_queued_during_a_frame_requests_a_follow_up ... ok
+test window::tests::claimed_touch_drag_receives_movement_and_release ... ok
+test window::tests::explicitly_sized_window_root_keeps_its_size ... ok
+test window::tests::file_drag_is_promoted_once_and_restored_in_source_window ... ok
+test window::tests::long_press_is_claimed_only_when_started_prevents_default ... ok
+test window::tests::pending_presentation_wakes_a_parked_render_loop ... ok
+test window::tests::queued_frame_callback_wakes_a_parked_render_loop ... ok
+test window::tests::resolved_touch_cancels_scheduled_long_press ... ok
+test window::tests::stale_default_prevention_does_not_claim_long_press ... ok
+test window::tests::stale_long_press_timer_cannot_affect_replacement_touch ... ok
+test window::tests::test_appearance_change_runs_after_app_update ... ok
+test window::tests::test_focus_moved_by_focus_listener_is_dispatched ... ok
+test window::tests::test_frame_waker_fires_on_frame_demand ... ok
+test window::tests::test_fully_visible_bounds_preserve_layout_viewport ... ok
+test window::tests::test_pending_next_frame_callbacks_are_not_stranded ... ok
+test window::tests::test_scale_factor_change_preserves_bounds_and_survives_resize ... ok
+test window::tests::test_underline_exclusions_adversarial_permutations ... ok
+test window::tests::test_underline_exclusions_preserve_content_mask_and_opacity ... ok
+test window::tests::test_underline_exclusions_preserve_device_geometry ... ok
+test window::tests::test_underline_exclusions_preserve_helvetica_warning_edge ... ok
+test window::tests::test_window_opened_during_draw_defers_arena_clear ... ok
+test window::tests::test_window_reports_no_raw_handle_instead_of_panicking ... ok
+test window::tests::test_window_visibility ... ok
+
+test result: ok. 424 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.07s
+
+     Running unittests src/gpui_apple.rs (/private/tmp/gpui-alloy-0.1.1-source-target/release/deps/gpui_apple-5e304bb952a5a200)
+
+running 4 tests
+test metal_atlas::tests::test_metal_texture_is_none_after_last_tile_removed ... ok
+test metal_atlas::tests::test_remove_clears_stale_keys_from_tiles_by_key ... ok
+test metal_atlas::tests::test_remove_deallocates_tile_space_for_reuse ... ok
+test metal_atlas::tests::test_remove_nonexistent_key_is_noop ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.05s
+
+     Running unittests src/gpui_macos.rs (/private/tmp/gpui-alloy-0.1.1-source-target/release/deps/gpui_macos-a27c37a63b49df3b)
+
+running 23 tests
+test pasteboard::tests::test_custom_types_survive_creation_autorelease_pool ... ok
+test pasteboard::tests::test_read_external_path ... ok
+test pasteboard::tests::test_read_external_paths_with_spaces ... ok
+test pasteboard::tests::test_read_image ... ok
+test pasteboard::tests::test_read_multiple_external_paths ... ok
+test pasteboard::tests::test_string ... ok
+test text_system::tests::test_layout_line_bom_char ... ok
+test text_system::tests::test_layout_line_zwnj_edge_cases ... ok
+test text_system::tests::test_layout_line_zwnj_insertion ... ok
+test window::popup::tests::appkit_rect_conversion_preserves_secondary_display_origin ... ok
+test window::popup::tests::bottom_edge_flips_before_sliding_and_preserves_offset ... ok
+test window::popup::tests::centered_popup_uses_both_rectangle_sizes ... ok
+test window::popup::tests::dropdown_extends_below_anchor_with_offset ... ok
+test window::popup::tests::exact_screen_edge_does_not_trigger_flip ... ok
+test window::popup::tests::failed_flip_can_slide_without_resizing ... ok
+test window::popup::tests::horizontal_flip_does_not_flip_vertical_placement ... ok
+test window::popup::tests::negative_display_origins_are_not_clamped_to_zero ... ok
+test window::popup::tests::oversized_popup_slides_then_resizes_to_visible_area ... ok
+test window::popup::tests::oversized_upward_popup_slides_without_shrinking ... ok
+test window::popup::tests::resize_clips_only_the_permitted_axis ... ok
+test window::popup::tests::resizing_at_top_left_preserves_bottom_right_edges ... ok
+test window::popup::tests::unsuccessful_flip_keeps_original_placement ... ok
+test window::tests::display_id_for_screen_returns_none_for_null_screen ... ok
+
+test result: ok. 23 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.03s
+
+     Running unittests src/gpui_wgpu.rs (/private/tmp/gpui-alloy-0.1.1-source-target/release/deps/gpui_wgpu-9f1044c07e91aeec)
+
+running 40 tests
+test cosmic_text_system::tests::adding_fonts_invalidates_cached_line_layouts ... ok
+test cosmic_text_system::tests::all_font_names_tracks_available_families ... ok
+test cosmic_text_system::tests::combines_missing_glyphs_from_one_grapheme ... ok
+test cosmic_text_system::tests::empty_chain_always_returns_primary ... ok
+test cosmic_text_system::tests::falls_through_chain_in_order ... ok
+test cosmic_text_system::tests::font_properties_describe_the_selected_face ... ok
+test cosmic_text_system::tests::font_runs_are_clipped_to_segment ... ok
+test cosmic_text_system::tests::index_for_position_past_line_width ... ok
+test cosmic_text_system::tests::layout_line_keeps_indices_and_positions_ordered_across_paragraphs ... ok
+test cosmic_text_system::tests::layout_line_with_font_run_straddling_a_separator ... ok
+test cosmic_text_system::tests::layout_line_with_mixed_direction_paragraphs ... ok
+test cosmic_text_system::tests::layout_line_with_separators_at_line_edges ... ok
+test cosmic_text_system::tests::layout_line_without_separators_takes_fast_path ... ok
+test cosmic_text_system::tests::no_coverage_returns_primary ... ok
+test cosmic_text_system::tests::paragraph_separator_detection ... ok
+test cosmic_text_system::tests::primary_preferred_over_fallback_when_both_cover ... ok
+test cosmic_text_system::tests::primary_wins_over_current_fallback_when_primary_covers ... ok
+test cosmic_text_system::tests::reports_graphemes_that_exhaust_font_fallback ... ok
+test cosmic_text_system::tests::run_spans_collapse_adjacent_same_slot ... ok
+test cosmic_text_system::tests::run_spans_empty_run_returns_no_spans ... ok
+test cosmic_text_system::tests::run_spans_keep_combining_marks_with_base_in_fallback ... ok
+test cosmic_text_system::tests::run_spans_keep_zwj_inside_emoji_cluster ... ok
+test cosmic_text_system::tests::run_spans_respect_run_offset ... ok
+test cosmic_text_system::tests::run_spans_use_byte_offsets_for_multibyte_chars ... ok
+test cosmic_text_system::tests::run_spans_with_no_chain_emit_one_primary_span ... ok
+test cosmic_text_system::tests::shape_text_with_mixed_direction_paragraphs ... ok
+test cosmic_text_system::tests::slot_font_id_resolution ... ok
+test wgpu_atlas::tests::before_frame_skips_uploads_for_removed_texture ... ok
+test wgpu_atlas::tests::remove_deallocates_tile_space_for_reuse ... ok
+test wgpu_atlas::tests::reused_texture_id_has_new_generation ... ok
+test wgpu_atlas::tests::swizzle_upload_data_converts_bgra_to_rgba ... ok
+test wgpu_atlas::tests::swizzle_upload_data_preserves_bgra_uploads ... ok
+test wgpu_context::tests::device_errors_are_observed_independently ... ok
+test wgpu_context::tests::device_errors_coalesce_and_new_observers_see_latest ... ok
+test wgpu_context::tests::test_parse_device_id ... ok
+test wgpu_renderer::tests::storage_buffer_shader_is_valid_wgsl ... ok
+test wgpu_renderer::tests::subpixel_shader_is_valid_wgsl ... ok
+test wgpu_renderer::tests::webgl_quad_layout_matches_fixed_decoder ... ok
+test wgpu_renderer::tests::webgl_record_sizes_match_shader_word_strides ... ok
+test wgpu_renderer::tests::webgl_shader_is_valid_wgsl_without_storage_buffers ... ok
+
+test result: ok. 40 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.08s
+
+   Compiling objc2-core-foundation v0.3.2
+   Compiling bytemuck v1.24.0
+   Compiling half v2.7.1
+   Compiling hashbrown v0.16.1
+   Compiling gpui_apple v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui_apple)
+   Compiling raw-window-handle v0.6.2
+   Compiling tiny-skia-path v0.11.4
+   Compiling rustybuzz v0.20.1
+   Compiling qoi v0.4.1
+   Compiling rgb v0.8.52
+   Compiling ciborium-ll v0.2.2
+   Compiling tiff v0.11.3
+   Compiling exr v1.74.0
+   Compiling ciborium v0.2.2
+   Compiling accesskit_consumer v0.38.0
+   Compiling tiny-skia v0.11.4
+   Compiling objc2-foundation v0.3.2
+   Compiling objc2-core-video v0.3.2
+   Compiling objc2-core-graphics v0.3.2
+   Compiling objc2-core-media v0.3.2
+   Compiling criterion v0.5.1
+   Compiling accesskit_macos v0.26.3
+   Compiling usvg v0.46.0
+   Compiling image v0.25.10
+   Compiling resvg v0.46.0
+   Compiling objc2-metal v0.3.2
+   Compiling objc2-core-location v0.3.2
+   Compiling objc2-app-kit v0.3.2
+   Compiling objc2-screen-capture-kit v0.3.2
+   Compiling objc2-user-notifications v0.3.2
+   Compiling gpui v0.2.2 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui)
+   Compiling gpui_macos v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui_macos)
+   Compiling gpui_platform v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui_platform)
+    Finished `release` profile [optimized + debuginfo] target(s) in 53.53s
+warning: the following packages contain code that will be rejected by a future version of Rust: block v0.1.6
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 2`
+     Running tests/ordered_backdrop.rs (/private/tmp/gpui-alloy-0.1.1-source-target/release/deps/ordered_backdrop-6f30cde8a78d552b)
+
+running 5 tests
+test backdrop_keeps_antialias_fringe_inside_clip ... ok
+test backdrop_captures_all_preceding_disjoint_primitives ... ok
+test empty_backdrop_does_not_create_a_barrier ... ok
+test fully_clipped_backdrop_does_not_create_a_barrier ... ok
+test backdrop_rebases_nested_layers_and_replayed_operations ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Compiling libc v0.2.186
+   Compiling futures-core v0.3.34
+   Compiling memchr v2.8.3
+   Compiling futures-sink v0.3.34
+   Compiling either v1.15.0
+   Compiling slab v0.4.11
+   Compiling percent-encoding v2.3.2
+   Compiling lyon_path v1.0.16
+   Compiling objc2-core-foundation v0.3.2
+   Compiling gpui_macros v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui_macros)
+   Compiling core-graphics v0.24.0
+   Compiling futures-channel v0.3.34
+   Compiling async-compression v0.4.32
+   Compiling futures-lite v2.6.1
+   Compiling flume v0.12.0
+   Compiling async-channel v2.5.0
+   Compiling form_urlencoded v1.2.2
+   Compiling rayon v1.11.0
+   Compiling itertools v0.10.5
+   Compiling itertools v0.14.0
+   Compiling objc2-core-video v0.3.2
+   Compiling serde_json v1.0.151
+   Compiling nom v7.1.3
+   Compiling futures-util v0.3.34
+   Compiling serde_urlencoded v0.7.1
+   Compiling url v2.5.7
+   Compiling lyon_tessellation v1.0.16
+   Compiling lyon_algorithms v1.0.16
+   Compiling cocoa v0.26.0
+   Compiling futures-concurrency v7.7.1
+   Compiling lyon v1.0.16
+   Compiling perf v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/tooling/perf)
+   Compiling criterion-plot v0.5.0
+   Compiling util_macros v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/util_macros)
+   Compiling cexpr v0.6.0
+   Compiling errno v0.3.14
+   Compiling getrandom v0.4.1
+   Compiling clang-sys v1.8.1
+   Compiling criterion v0.5.1
+   Compiling sum_tree v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/sum_tree)
+   Compiling image v0.25.10
+   Compiling rustix v1.1.4
+   Compiling futures-executor v0.3.34
+   Compiling futures v0.3.34
+   Compiling http_client v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/http_client)
+   Compiling scheduler v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/scheduler)
+   Compiling postage v0.5.0
+   Compiling tempfile v3.27.0
+   Compiling cbindgen v0.28.0
+   Compiling bindgen v0.72.1
+   Compiling gpui_apple v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui_apple)
+   Compiling gpui v0.2.2 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui)
+    Finished `release` profile [optimized + debuginfo] target(s) in 58.49s
+    Blocking waiting for file lock on package cache
+warning: the following packages contain code that will be rejected by a future version of Rust: block v0.1.6
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 2`
+     Running tests/backdrop.rs (/private/tmp/gpui-alloy-0.1.1-source-target/release/deps/backdrop-f9f62d8c02464476)
+
+running 7 tests
+test highlight_keeps_its_logical_width_on_retina ... ok
+test edge_bleed_reads_neighbor_color_and_preserves_interior_and_constant_fields ... ok
+test blur_preserves_constant_fields_and_spreads_an_impulse_symmetrically ... ok
+test opaque_tint_replaces_background_without_changing_outside_pixels ... ok
+test optical_controls_displace_split_and_highlight_background_edges ... ok
+test blur_reads_only_prior_background_and_obeys_output_clip ... ok
+test identity_copy_preserves_grid_and_foreground_through_scale_clip_and_resize ... ok
+
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.02s
+
+     Running tests/clear.rs (/private/tmp/gpui-alloy-0.1.1-source-target/release/deps/clear-09b8217375d3f3bb)
+
+running 2 tests
+test small_radii_keep_constant_face_and_clipping_at_both_scales ... ok
+test clear_matches_native_chromatic_spatial_and_edge_anchors ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.31s
+
+     Running tests/color_management.rs (/private/tmp/gpui-alloy-0.1.1-source-target/release/deps/color_management-f2371991a096fd15)
+
+running 1 test
+test display_conversion_matches_public_colorsync_with_half_boundaries ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.15s
+
+     Running tests/continuous_corners.rs (/private/tmp/gpui-alloy-0.1.1-source-target/release/deps/continuous_corners-6fab3e070a99bd0f)
+
+running 3 tests
+test continuous_border_keeps_foreground_order_clip_and_cached_replay ... ok
+test tiny_radii_stay_finite_and_ancestor_opacity_remains_linear ... ok
+test native_edges_and_opaque_surfaces_share_continuous_geometry_at_both_scales ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.08s
+
+     Running tests/numeric_reference.rs (/private/tmp/gpui-alloy-0.1.1-source-target/release/deps/numeric_reference-bcb37554efe09467)
+
+running 3 tests
+test fractional_straight_edges_cover_intersected_pixel_cells ... ok
+test color_and_opacity_compose_once_in_linear_light ... ok
+test gaussian_impulses_and_steps_match_an_integrated_reference ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.16s
+
+     Running tests/optical_reference.rs (/private/tmp/gpui-alloy-0.1.1-source-target/release/deps/optical_reference-3d3d5e1568234f4c)
+
+running 1 test
+test signed_refraction_samples_the_expected_source_coordinate ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.06s
+
+   Compiling cc v1.4.3
+   Compiling bindgen v0.72.1
+   Compiling cbindgen v0.28.0
+   Compiling objc2-app-kit v0.3.2
+   Compiling embed-resource v3.0.6
+   Compiling gpui_apple v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui_apple)
+   Compiling gpui v0.2.2 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui)
+   Compiling gpui_macos v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui_macos)
+    Finished `release` profile [optimized + debuginfo] target(s) in 1m 12s
+warning: the following packages contain code that will be rejected by a future version of Rust: block v0.1.6
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 2`
+     Running tests/accessibility_focus.rs (/private/tmp/gpui-alloy-0.1.1-source-target/release/deps/accessibility_focus-1573eb4bafa4d01a)
+GPUIWindow: before adapter
+GPUIWindow: focused input
+GPUIWindow: no focused control
+GPUIWindow: host unfocused
+GPUIWindow: after adapter
+GPUIPanel: before adapter
+GPUIPanel: focused input
+GPUIPanel: no focused control
+GPUIPanel: host unfocused
+GPUIPanel: after adapter
+Native accessibility focus regression passed
+     Running tests/native_popup.rs (/private/tmp/gpui-alloy-0.1.1-source-target/release/deps/native_popup-54d37ddd7973d19b)
+native popup regression checks passed
+     Running tests/popup_decorations.rs (/private/tmp/gpui-alloy-0.1.1-source-target/release/deps/popup_decorations-3d62ec1306c620ad)
+popup decoration checks passed
+   Compiling gpui v0.2.2 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui)
+    Finished `release` profile [optimized + debuginfo] target(s) in 13.03s
+warning: the following packages contain code that will be rejected by a future version of Rust: block v0.1.6
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 2`
+     Running unittests examples/popup.rs (/private/tmp/gpui-alloy-0.1.1-source-target/release/examples/popup-8bdda92a1808cfd6)
+
+running 1 test
+test tests::popup_trigger_opens_on_press_without_repeating_or_using_modifiers ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Compiling byteorder v1.5.0
+   Compiling gpui v0.2.2 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui)
+   Compiling gpui_apple v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/gpui_apple)
+   Compiling hash32 v0.3.1
+   Compiling heapless v0.9.2
+   Compiling sum_tree v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-alloy/crates/sum_tree)
+    Finished `release` profile [optimized + debuginfo] target(s) in 32.64s
+warning: the following packages contain code that will be rejected by a future version of Rust: block v0.1.6
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 2`
+     Running tests/continuous_corners.rs (/private/tmp/gpui-alloy-0.1.1-source-target/release/deps/continuous_corners-c5000c48377a2531)
+
+running 3 tests
+test continuous_border_keeps_foreground_order_clip_and_cached_replay ... ok
+test tiny_radii_stay_finite_and_ancestor_opacity_remains_linear ... ok
+test native_edges_and_opaque_surfaces_share_continuous_geometry_at_both_scales ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.09s
+

@@ -1,0 +1,5 @@
+The following is a diff from the previous accessibility tree for Window: "Cupertino Components" with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+~						6 text field (settable) Display name, Value: Cupertinoa, Placeholder: Your name
+~			28 button Save changes
+~			29 button Revert
+The focused UI element is 6 text field (settable) Display name, Value: Cupertinoa, Placeholder: Your name

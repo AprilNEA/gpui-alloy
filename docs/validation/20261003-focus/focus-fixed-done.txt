@@ -1,0 +1,40 @@
+Window: "Cupertino Components", App: Cupertino Settings Acceptance.
+0 standard window Cupertino Components, Secondary Actions: Raise
+	1 container
+		2 unknown Workspace preferences
+			3 container Workspace preferences
+				4 container Profile
+					5 container Display name, Help: Use a name that others can recognize.
+						6 text field (settable) Display name, Value: Cupertinoa, Placeholder: Your name
+					7 button Edit note…
+					8 progress indicator (settable, float) Profile completion, Value: 1
+				9 container Workspace behavior, Help: Save changes to keep these preferences in this window.
+					10 switch (settable, boolean) Notifications, Value: on
+					11 checkbox (settable, boolean) Keep local backups, Value: off
+					12 container Synchronization
+						13 Synchronization
+							14 radio button (selectable, settable, boolean) Manually
+							15 radio button (selectable, settable, boolean) When idle
+							16 radio button (selectable, settable, boolean) Continuously
+					17 container Content density
+						18 Content density
+							19 radio button (selectable, settable, boolean) Comfortable
+							20 radio button (selectable, settable, boolean) Compact
+					21 container Alert volume
+						22 slider (settable, float) Alert volume, Value: 50
+					23 container Backup copies
+						24 stepper (disabled, settable, float) Backup copies, Value: 3
+							25 button (disabled) Decrease Backup copies
+							26 button (disabled) Increase Backup copies
+		27 toolbar Settings actions
+			28 button Save changes
+			29 button Revert
+		30 container (settable) Changes are kept in this window.
+	31 close button
+	32 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	33 minimize button
+	34 text Cupertino Components
+35 menu bar
+	36 Cupertino Settings Acceptance
+
+The focused UI element is 7 button Edit note…

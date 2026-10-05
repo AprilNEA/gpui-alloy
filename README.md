@@ -7,7 +7,7 @@ A maintained GPUI source distribution with tracked downstream patches. The repos
 
 ## Features & fixes
 
-The pinned snapshot includes these changes relative to its recorded upstream baseline. Patch IDs link to the detailed maintenance ledger.
+The source tree includes these changes relative to its recorded upstream baseline. Patch IDs link to the detailed maintenance ledger.
 
 | Type | Change | Scope | Tracking |
 | --- | --- | --- | --- |
@@ -22,8 +22,10 @@ The pinned snapshot includes these changes relative to its recorded upstream bas
 | Feature | Render Inactive Clear with public ColorSync conversion. | macOS Metal; local-only | [GPUI-009](ALLOY.md#current-patch-ledger) |
 | Feature / Fix | Add native anchored popups and fix hidden-popup lifecycle handling. | macOS | [GPUI-010](ALLOY.md#current-patch-ledger), [#64353](https://github.com/zed-industries/zed/pull/64353) |
 | Fix | Remove native window decorations from untitled popups. | macOS | [GPUI-011](ALLOY.md#current-patch-ledger), [#64430](https://github.com/zed-industries/zed/pull/64430) |
+| Fix | Forward native accessibility focus to the content view's focused control. | macOS windows and panels | [GPUI-012](ALLOY.md#gpui-012-focus-forwarding) |
 
 GPUI-010's local lifecycle fix is not included in the linked upstream PR.
+GPUI-012 passed local standalone and consumer acceptance under the signed local tag `gpui-alloy/20261004.1`. The new snapshot is not published. The usage example below retains the published `gpui-alloy/20261003.2` snapshot.
 
 Validation covers macOS (`aarch64-apple-darwin`). The rendering additions target opaque SDR window content on macOS Metal. Inactive Clear additionally requires an Apple GPU, Metal 3.1, and a supported parametric RGB profile. See [validation scope](ALLOY.md#validation-commands-and-limits) for other platform and rendering limits.
 
