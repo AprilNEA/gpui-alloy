@@ -240,10 +240,14 @@
   "isolated_consumer": "passed",
   "isolated_consumer_tests": 119,
   "current_consumer": {
-    "status": "blocked-by-focus-paint-test",
+    "status": "blocked-registry-focus-paint-regression",
     "test": "keyboard_focus_preserves_content_and_remains_visible_on_every_edge",
     "error": "TransparentButton interior pixel (272, 48) changed after keyboard focus.",
     "baseline_session": 84183,
-    "baseline_log": "/private/tmp/alloy-0.1.1-focus-paint-baseline.log"
+    "baseline_log": "/private/tmp/alloy-0.1.1-focus-paint-baseline.log",
+    "vendor_baseline": "passed",
+    "registry_recheck": "failed",
+    "integration_rolled_back": true,
+    "isolated_branch": "build/alloy-0.1.1"
   }
 }
