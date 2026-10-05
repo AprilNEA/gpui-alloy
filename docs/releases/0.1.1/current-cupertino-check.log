@@ -1,104 +1,105 @@
 • Validating lock
-✓ Validating lock in 616µs
+✓ Validating lock in 366µs
 • Configuring shell
 • Configuring cachix
-✓ Configuring cachix in 1.65ms
+✓ Configuring cachix in 1.22ms
 • Evaluating shell
-✓ Evaluating shell in 5.98ms (cached)
-✓ Configuring shell in 11.2ms
+✓ Evaluating shell in 43.4ms (cached)
+✓ Configuring shell in 46.4ms
 • Loading tasks
 • Evaluating devenv.config.task.config
-✓ Evaluating devenv.config.task.config in 1.63ms (cached)
-✓ Loading tasks in 2.64ms
+✓ Evaluating devenv.config.task.config in 895µs (cached)
+✓ Loading tasks in 2.23ms
 • Running tasks
 • Running devenv:files:cleanup
-✓ Running devenv:files:cleanup in 110ms
+✓ Running devenv:files:cleanup in 13.2ms
 • Running devenv:enterShell
-✓ Running devenv:enterShell in 83.3ms
+✓ Running devenv:enterShell in 17.0ms
 • Running devenv:enterTest
-✓ Running devenv:enterTest in 6.96µs (no command)
-✓ Running tasks in 194ms
+✓ Running devenv:enterTest in 4.21µs (no command)
+✓ Running tasks in 30.4ms
 ✨ devenv 2.1.2 is out of date. Please update to 2.4.0: https://devenv.sh/getting-started/#installation
     Checking gpui-cupertino v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-cupertino/crates/gpui-cupertino)
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.18s
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.58s
 warning: the following packages contain code that will be rejected by a future version of Rust: block v0.1.6
 note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`
    Compiling gpui-cupertino v0.1.0 (/Users/Xuan/Developer/AprilNEA/gpui-cupertino/crates/gpui-cupertino)
-    Finished `test` profile [unoptimized + debuginfo] target(s) in 2.06s
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 5.14s
 warning: the following packages contain code that will be rejected by a future version of Rust: block v0.1.6
 note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`
      Running unittests src/lib.rs (/private/tmp/gpui-alloy-0.1.1-consumer-target/debug/deps/cupertino-1079d96b3f23368e)
 
 running 4 tests
-test motion::tests::response_and_bounce_produce_expected_physical_motion ... ok
 test materials::tests::clear_rejects_invalid_radii_without_reinterpreting_the_host_radius ... ok
 test materials::tests::validation_preserves_independent_controls_and_rejects_invalid_numbers ... ok
 test motion::tests::input_boundaries_never_produce_infinite_or_undamped_springs ... ok
+test motion::tests::response_and_bounce_produce_expected_physical_motion ... ok
 
 test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
 
      Running unittests src/lib.rs (/private/tmp/gpui-alloy-0.1.1-consumer-target/debug/deps/gpui_cupertino-dda63b5b4815258f)
 
-running 37 tests
-test components::popover::tests::outside_click_reaches_destination_and_preserves_its_focus ... ok
+running 38 tests
 test components::popover::tests::escape_closes_and_restores_trigger_focus ... ok
 test components::panels_tests::inert_preserves_deferred_paint_and_removes_stale_focus_input ... ok
 test components::panels_tests::inert_contract::cached_subtrees_rebuild_input_after_inert_transitions ... ok
-test components::popover::tests::accessibility_reports_panel_focus_and_retains_identity_on_reopen ... ok
 test components::panels_tests::inert_contract::inert_cancels_keyboard_and_pointer_presses_across_reenable ... ok
-test components::progress::tests::progress_rejects_unknown_and_out_of_range_fractions ... ok
-test components::popover::tests::panel_paints_after_later_siblings ... ok
-test components::split_view::tests::ratios_require_finite_values_and_fractional_ranges ... ok
+test components::popover::tests::outside_click_reaches_destination_and_preserves_its_focus ... ok
+test components::panels_tests::modal_contract::an_inert_trigger_cannot_paint_a_floating_hint_above_the_modal ... ok
+test components::popover::tests::accessibility_reports_panel_focus_and_retains_identity_on_reopen ... ok
 test components::popover::tests::programmatic_close_does_not_steal_focus_after_it_leaves ... ok
 test components::text_input::editing::tests::double_click_at_text_end_selects_the_last_word ... ok
 test components::text_input::editing::tests::grapheme_edits_and_reversed_selection_survive_undo ... ok
-test components::text_input::editing::tests::ime_selection_uses_inserted_utf16_and_composition_is_one_undo ... ok
 test components::text_input::editing::tests::utf16_ranges_clamp_without_splitting_surrogates_and_input_stays_single_line ... ok
+test components::progress::tests::progress_rejects_unknown_and_out_of_range_fractions ... ok
+test components::popover::tests::panel_paints_after_later_siblings ... ok
+test components::split_view::tests::ratios_require_finite_values_and_fractional_ranges ... ok
+test components::text_input::editing::tests::ime_selection_uses_inserted_utf16_and_composition_is_one_undo ... ok
+test components::panels_tests::identity_contract::sibling_panels_keep_distinct_child_identity_and_accessibility ... ok
 test components::value_range::tests::range_rejects_invalid_inputs_and_preserves_both_endpoints ... ok
 test components::popover::tests::panel_anchors_below_trigger_and_fits_after_resize ... ok
-test components::panels_tests::identity_contract::sibling_panels_keep_distinct_child_identity_and_accessibility ... ok
-test components::panels_tests::modal_contract::an_inert_trigger_cannot_paint_a_floating_hint_above_the_modal ... ok
 test materials::tests::outlines_fit_nonsquare_bounds_for_glass_and_opaque_accessibility ... ok
-test theme::tests::palettes_preserve_readable_text_and_visible_control_boundaries ... ok
 test components::panels_tests::nested_panels_close_one_per_input_and_close_descendants_programmatically ... ok
 test components::panels_tests::tooltip_honors_hover_delay_focus_escape_and_blur ... ok
-test components::panels_tests::modal_contract::nested_modal_restores_the_actual_trigger_after_rebuilding_the_lower_tree ... ok
+test theme::tests::palettes_preserve_readable_text_and_visible_control_boundaries ... ok
 test components::popover::tests::trigger_toggle_and_inside_click_do_not_dismiss_early ... ok
+test components::panels_tests::modal_contract::nested_modal_restores_the_actual_trigger_after_rebuilding_the_lower_tree ... ok
 test components::panels_tests::modal_excludes_background_input_and_accessibility_and_cycles_focus ... ok
-test components::menu::tests::closed_menu_preserves_the_triggers_stretched_height ... ok
 test components::panels_tests::focus_contract::menus_without_enabled_items_close_on_tab_and_continue_traversal ... ok
+test components::panels_tests::menu_skips_disabled_actions_wraps_and_restores_focus ... ok
+test components::panels_tests::focus_contract::oversized_panels_reveal_the_tab_target ... ok
+test components::panels_tests::focus_contract::long_menu_end_and_home_reveal_the_selected_item ... ok
+test components::menu::tests::closed_menu_preserves_the_triggers_stretched_height ... ok
 test platform::tests::initialization_synchronizes_system_motion_without_glass ... ok
 test materials::element_tests::child_layout_order_parent_clip_and_opacity_reach_the_scene_at_both_scales ... ok
 test components::popover::tests::glass_captures_window_content_before_painting_popover_content ... ok
 test materials::element_tests::clear_retains_radius_layout_order_clip_opacity_and_accessibility ... ok
-test components::panels_tests::menu_skips_disabled_actions_wraps_and_restores_focus ... ok
 test materials::element_tests::accessibility_replaces_glass_without_changing_outline_clip_or_content ... ok
+test components::tooltip::tests::focus_changes_render_and_remove_the_hint_without_an_external_refresh ... ok
 test components::tooltip::tests::hover_escape_dismisses_before_parent_handlers_and_waits_for_pointer_leave ... ok
 test components::tooltip::tests::hidden_or_unmounted_hints_do_not_intercept_and_explicit_user_bindings_win ... ok
-test components::panels_tests::focus_contract::oversized_panels_reveal_the_tab_target ... ok
-test components::panels_tests::focus_contract::long_menu_end_and_home_reveal_the_selected_item ... ok
 
-test result: ok. 37 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.06s
+test result: ok. 38 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.05s
 
      Running tests/accessibility.rs (/private/tmp/gpui-alloy-0.1.1-consumer-target/debug/deps/accessibility-b211bed2fcc5284d)
 
 running 1 test
 test platform_accessibility_activation_and_actions_reach_the_rendered_view ... ok
 
-test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
 
      Running tests/backdrop.rs (/private/tmp/gpui-alloy-0.1.1-consumer-target/debug/deps/backdrop-d3cab7022bc02b2f)
 
 running 7 tests
 test opaque_tint_replaces_background_without_changing_outside_pixels ... ok
-test highlight_keeps_its_logical_width_on_retina ... ok
 test edge_bleed_reads_neighbor_color_and_preserves_interior_and_constant_fields ... ok
+test highlight_keeps_its_logical_width_on_retina ... ok
 test optical_controls_displace_split_and_highlight_background_edges ... ok
 test blur_reads_only_prior_background_and_obeys_output_clip ... ok
 test blur_preserves_constant_fields_and_spreads_an_impulse_symmetrically ... ok
 test identity_copy_preserves_grid_and_foreground_through_scale_clip_and_resize ... ok
 
-test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.11s
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.15s
 
      Running tests/button.rs (/private/tmp/gpui-alloy-0.1.1-consumer-target/debug/deps/button-b1494d12353b925b)
 
@@ -107,7 +108,7 @@ test pointer_keyboard_and_accessibility_share_activation ... ok
 test navigation_skips_disabled_buttons_and_cancels_an_interrupted_press ... ok
 test disabling_during_a_press_cancels_activation ... ok
 
-test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
 
      Running tests/choice_controls.rs (/private/tmp/gpui-alloy-0.1.1-consumer-target/debug/deps/choice_controls-5253cdb7181c49ed)
 
@@ -126,7 +127,7 @@ test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; fini
 running 1 test
 test scoped_choice_actions_win_without_disabling_application_bindings ... ok
 
-test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.03s
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.04s
 
      Running tests/clear.rs (/private/tmp/gpui-alloy-0.1.1-consumer-target/debug/deps/clear-98d452880ab39e62)
 
@@ -134,7 +135,7 @@ running 2 tests
 test small_radii_keep_constant_face_and_clipping_at_both_scales ... ok
 test clear_matches_native_chromatic_spatial_and_edge_anchors ... ok
 
-test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.89s
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.98s
 
      Running tests/collections.rs (/private/tmp/gpui-alloy-0.1.1-consumer-target/debug/deps/collections-3ed5180a4b0902c7)
 
@@ -148,21 +149,21 @@ test drag_drop_and_accessible_reorder_move_selected_visible_rows_only ... ok
 test table_sort_is_stable_and_resizing_handles_pointer_keyboard_and_accessibility ... ok
 test ten_thousand_rows_are_virtual_and_offscreen_keyboard_focus_scrolls_into_view ... ok
 
-test result: ok. 8 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.06s
+test result: ok. 8 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.07s
 
      Running tests/color_management.rs (/private/tmp/gpui-alloy-0.1.1-consumer-target/debug/deps/color_management-c3e1ecab7a3da3ce)
 
 running 1 test
 test display_conversion_matches_public_colorsync_with_half_boundaries ... ok
 
-test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.11s
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.15s
 
      Running tests/composition.rs (/private/tmp/gpui-alloy-0.1.1-consumer-target/debug/deps/composition-0e753af3130437ba)
 
 running 1 test
 test overlapping_materials_capture_prior_results_in_order_after_background_changes_and_replay ... ok
 
-test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.10s
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.15s
 
      Running tests/continuous_corners.rs (/private/tmp/gpui-alloy-0.1.1-consumer-target/debug/deps/continuous_corners-534ae6b396df41a3)
 
@@ -171,27 +172,150 @@ test tiny_radii_stay_finite_and_ancestor_opacity_remains_linear ... ok
 test continuous_border_keeps_foreground_order_clip_and_cached_replay ... ok
 test native_edges_and_opaque_surfaces_share_continuous_geometry_at_both_scales ... ok
 
-test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.11s
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.30s
 
      Running tests/focus_paint.rs (/private/tmp/gpui-alloy-0.1.1-consumer-target/debug/deps/focus_paint-fa3b4d9b74abec16)
 
 running 1 test
-test keyboard_focus_preserves_content_and_remains_visible_on_every_edge ... FAILED
+test keyboard_focus_preserves_content_and_remains_visible_on_every_edge ... ok
 
-failures:
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.22s
 
----- keyboard_focus_preserves_content_and_remains_visible_on_every_edge stdout ----
+     Running tests/layout.rs (/private/tmp/gpui-alloy-0.1.1-consumer-target/debug/deps/layout-537446ef755ad4ae)
 
-thread 'keyboard_focus_preserves_content_and_remains_visible_on_every_edge' (1086936) panicked at crates/gpui-cupertino/tests/focus_paint.rs:153:17:
-assertion `left == right` failed: TransparentButton focus must preserve interior pixel (272, 48)
-  left: Rgba([0, 102, 204, 255])
- right: Rgba([242, 237, 224, 255])
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+running 3 tests
+test changing_scroll_axes_resets_only_the_excluded_offset ... ok
+test vertical_viewport_excludes_horizontal_actions_and_validation_alert_tracks_state ... ok
+test keyboard_and_accessibility_scroll_clamp_and_leave_child_keys_alone ... ok
 
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.06s
 
-failures:
-    keyboard_focus_preserves_content_and_remains_visible_on_every_edge
+     Running tests/motion.rs (/private/tmp/gpui-alloy-0.1.1-consumer-target/debug/deps/motion-8038f376dc01e590)
 
-test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.04s
+running 3 tests
+test enabling_reduced_motion_in_flight_snaps_and_does_not_restore_old_velocity ... ok
+test reversal_preserves_position_and_momentum_then_stops_requesting_frames ... ok
+test matching_times_match_at_sixty_and_one_twenty_hz_including_a_dropped_frame ... ok
 
-error: test failed, to rerun pass `-p gpui-cupertino --test focus_paint`
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running tests/navigation.rs (/private/tmp/gpui-alloy-0.1.1-consumer-target/debug/deps/navigation-234834f226a49491)
+
+running 4 tests
+test unknown_tab_selection_mounts_no_panel_and_keyboard_recovers_from_first_enabled_tab ... ok
+test tabs_namespace_identical_scroll_area_ids_without_leaking_scroll_offset ... ok
+test tabs_mount_only_selection_and_skip_disabled_keyboard_and_accessibility_targets ... ok
+test sidebar_selection_uses_vertical_navigation_and_disabling_removes_actions ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.05s
+
+     Running tests/numeric_reference.rs (/private/tmp/gpui-alloy-0.1.1-consumer-target/debug/deps/numeric_reference-ffedc2cd1983adf9)
+
+running 3 tests
+test fractional_straight_edges_cover_intersected_pixel_cells ... ok
+test color_and_opacity_compose_once_in_linear_light ... ok
+test gaussian_impulses_and_steps_match_an_integrated_reference ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.50s
+
+     Running tests/optical_reference.rs (/private/tmp/gpui-alloy-0.1.1-consumer-target/debug/deps/optical_reference-a96c98a7a5ff1029)
+
+running 1 test
+test signed_refraction_samples_the_expected_source_coordinate ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.14s
+
+     Running tests/scene.rs (/private/tmp/gpui-alloy-0.1.1-consumer-target/debug/deps/scene-056b94724098ef9c)
+
+running 5 tests
+test backdrop_keeps_antialias_fringe_inside_clip ... ok
+test fully_clipped_backdrop_does_not_create_a_barrier ... ok
+test empty_backdrop_does_not_create_a_barrier ... ok
+test backdrop_rebases_nested_layers_and_replayed_operations ... ok
+test backdrop_captures_all_preceding_disjoint_primitives ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/scroll_focus.rs (/private/tmp/gpui-alloy-0.1.1-consumer-target/debug/deps/scroll_focus-245724e0ef373088)
+
+running 4 tests
+test deferred_descendants_do_not_scroll_the_background ... ok
+test nested_scroll_areas_resolve_inner_geometry_before_revealing_the_outer_target ... ok
+test inert_descendants_do_not_create_focus_reveal_targets ... ok
+test tab_reveals_a_cached_descendant_minimally_and_wheel_scrolling_stays_free ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.03s
+
+     Running tests/split_view.rs (/private/tmp/gpui-alloy-0.1.1-consumer-target/debug/deps/split_view-72d72126af860afc)
+
+running 4 tests
+test splitter_key_scope_precedes_a_conflicting_global_action ... ok
+test collapsed_panes_leave_focus_and_accessibility_and_requests_remain_controlled ... ok
+test divider_uses_remaining_extent_and_resizes_outside_both_orientations ... ok
+test keyboard_and_accessibility_resize_and_disabled_drag_cannot_resume ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.04s
+
+     Running tests/text_input.rs (/private/tmp/gpui-alloy-0.1.1-consumer-target/debug/deps/text_input-0c4b3aff7bae1f0d)
+
+running 7 tests
+test ime_geometry_uses_current_unicode_text_before_the_next_frame ... ok
+test pointer_selection_continues_outside_the_field_and_stops_on_release ... ok
+test caret_geometry_accounts_for_parent_offset_and_horizontal_scroll ... ok
+test double_click_selects_the_hit_word_at_its_trailing_edge ... ok
+test platform_composition_uses_relative_utf16_selection_and_one_undo ... ok
+test readonly_and_disabled_inputs_reject_edits_and_expose_accessible_state ... ok
+test keyboard_edits_graphemes_clipboard_history_and_events ... ok
+
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.03s
+
+     Running tests/value_controls.rs (/private/tmp/gpui-alloy-0.1.1-consumer-target/debug/deps/value_controls-27f0ccfd7f30074b)
+
+running 7 tests
+test removed_listener_cancels_drag_before_listener_is_restored ... ok
+test stepper_has_one_tab_stop_and_disables_each_boundary_action ... ok
+test slider_drag_survives_renders_and_cancels_outside_and_on_disable ... ok
+test segmented_selection_skips_disabled_options_and_exposes_radio_states ... ok
+test numeric_key_scope_takes_precedence_over_global_navigation ... ok
+test slider_keyboard_and_accessibility_share_bounds_and_quantization ... ok
+test progress_exposes_busy_value_and_stops_hidden_or_reduced_motion_frames ... ok
+
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.03s
+
+     Running unittests examples/collections.rs (/private/tmp/gpui-alloy-0.1.1-consumer-target/debug/examples/collections-b0200c0f113f0d00)
+
+running 1 test
+test tests::search_input_filters_both_views_and_list_selection_updates_detail ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.04s
+
+     Running unittests examples/components.rs (/private/tmp/gpui-alloy-0.1.1-consumer-target/debug/examples/components-21b708204b5a6e32)
+
+running 1 test
+test tests::note_submission_save_and_revert_use_the_showcase_entities ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.20s
+
+     Running unittests examples/detail.rs (/private/tmp/gpui-alloy-0.1.1-consumer-target/debug/examples/detail-2817257424bd927f)
+
+running 2 tests
+test tests::initial_focus_enters_toolbar_tab_navigation ... ok
+test tests::edit_save_and_nested_cancel_preserve_the_project_and_restore_focus ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.06s
+
+   Doc-tests cupertino
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests gpui_cupertino
+
+running 2 tests
+test crates/gpui-cupertino/src/components/popover.rs - components::popover (line 3) - compile ... ok
+test crates/gpui-cupertino/src/components/button.rs - components::button::Button (line 17) ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.04s
+
+all doctests ran in 1.46s; merged doctests compilation took 0.88s

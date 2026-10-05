@@ -1,6 +1,6 @@
 {
   "version": "0.1.1",
-  "status": "published-consumer-verified",
+  "status": "complete",
   "source_revision": "1a77576c8ef715f2ceaece8af18017cb360434c9",
   "source_integration": "f7ecd66e516734656bf72e2b6f876ec6d977c633",
   "patch": "GPUI-012",
@@ -240,14 +240,16 @@
   "isolated_consumer": "passed",
   "isolated_consumer_tests": 119,
   "current_consumer": {
-    "status": "blocked-registry-focus-paint-regression",
-    "test": "keyboard_focus_preserves_content_and_remains_visible_on_every_edge",
-    "error": "TransparentButton interior pixel (272, 48) changed after keyboard focus.",
-    "baseline_session": 84183,
-    "baseline_log": "/private/tmp/alloy-0.1.1-focus-paint-baseline.log",
-    "vendor_baseline": "passed",
-    "registry_recheck": "failed",
-    "integration_rolled_back": true,
-    "isolated_branch": "build/alloy-0.1.1"
+    "status": "passed",
+    "revision": "c4a098309bb933dda3a294ed885fabd68bb41b25",
+    "branch": "feat/alloy-registry-0.1.1",
+    "tests": 123,
+    "format": "passed",
+    "clippy": "passed",
+    "registry_identity": "passed",
+    "focus_paint": "passed-after-rebuilding-cupertino",
+    "tooltip_focus": "passed-with-deferred-notification",
+    "vendor_tooltip_regression": "passed",
+    "integration_rolled_back": false
   }
 }
