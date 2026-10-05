@@ -1,6 +1,6 @@
 # Resume GPUI Alloy 0.1.0
 
-The release is partially published. The confirmed package list and current count are stored in [publication.json](publication.json). Their downloaded archives and registry index checksums match [archives.json](archives.json). The remaining package set is the complete projection minus those confirmed packages.
+All 31 release packages are published. Registry consumer acceptance and the release tag remain pending. The confirmed package list and current count are stored in [publication.json](publication.json). Their downloaded archives and registry index checksums match [archives.json](archives.json). The remaining package set is the complete projection minus those confirmed packages.
 
 Crates.io permits an initial burst of five new crates and then restores one new-crate allowance every ten minutes. Follow the retry time in each server response. See the [official rate-limit documentation source](https://github.com/rust-lang/crates.io/blob/main/svelte/src/routes/docs/rate-limits/+page.svelte).
 
@@ -43,7 +43,7 @@ The initial workspace publish uploaded five packages and then received HTTP 429.
 5. Update the pending consumer documents. Create signed commits and verify signatures with the existing 1Password SSH key. Recheck the original Cupertino branch before integrating the completed worktree changes. Preserve unrelated user work.
 6. Record registry acceptance and create the signed immutable `v0.1.0` tag. Keep existing snapshot tags unchanged. Leave Git pushing to the user under the current user instructions.
 
-The 1Password SSH signing agent recovered after the user unlocked 1Password. The pending wgpu publication record and blocker evidence were committed as `8969b0064c9945252eb2eab74b6ba783e3d02ae4`. The signature was verified against the configured public key. See `record_commit` in [publication.json](publication.json) for the verification log and preserved failure history. The release contains 30 verified packages. The fixed release inputs were subsequently recovered and verified as recorded below.
+The 1Password SSH signing agent recovered after the user unlocked 1Password. The pending wgpu publication record and blocker evidence were committed as `8969b0064c9945252eb2eab74b6ba783e3d02ae4`. The signature was verified against the configured public key. See `record_commit` in [publication.json](publication.json) for the verification log and preserved failure history. The release contains 31 verified packages. The fixed release inputs were subsequently recovered and verified as recorded below.
 
 Previous signature verification used the configured public key in a temporary `allowed_signers` file. No global trust configuration or new key is required.
 

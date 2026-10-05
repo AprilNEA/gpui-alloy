@@ -1,7 +1,7 @@
 {
   "format": 1,
   "kind": "partial-publication-verification",
-  "checked_at": "2026-10-05T05:23:01.075135+00:00",
+  "checked_at": "2026-10-05T05:43:14.134685+00:00",
   "archive_manifest_sha256": "78428ea3d01a6a55b6a1abefc4299ef7385434b4057bdaef5902c1de3cbcd5b0",
   "packages": [
     {
@@ -507,6 +507,23 @@
         "crates-io"
       ],
       "evidence_log": "publish-20261005T052015.log"
+    },
+    {
+      "name": "gpui-alloy-platform",
+      "version": "0.1.0",
+      "archive_sha256": "fa16e86ff33a1ccea5744aeb51b56229cefab59636f37d99f0116b6975de8ede",
+      "index_checksum": "fa16e86ff33a1ccea5744aeb51b56229cefab59636f37d99f0116b6975de8ede",
+      "frozen_sha256": "fa16e86ff33a1ccea5744aeb51b56229cefab59636f37d99f0116b6975de8ede",
+      "archive_path": "/Users/Xuan/.cargo/registry/cache/index.crates.io-1949cf8c6b5b557f/gpui-alloy-platform-0.1.0.crate",
+      "index_cache_path": "/Users/Xuan/.cargo/registry/index/index.crates.io-1949cf8c6b5b557f/.cache/gp/ui/gpui-alloy-platform",
+      "command": [
+        "cargo",
+        "info",
+        "gpui-alloy-platform@0.1.0",
+        "--registry",
+        "crates-io"
+      ],
+      "evidence_log": "publish-20261005T054015.log"
     }
   ],
   "exclude": [
@@ -539,20 +556,19 @@
     "gpui-alloy-windows",
     "gpui-alloy-macos",
     "gpui-alloy-linux",
-    "gpui-alloy-web"
-  ],
-  "status": "partially-published",
-  "published_package_count": 30,
-  "total_package_count": 31,
-  "remaining_packages": [
+    "gpui-alloy-web",
     "gpui-alloy-platform"
   ],
+  "status": "published-awaiting-acceptance",
+  "published_package_count": 31,
+  "total_package_count": 31,
+  "remaining_packages": [],
   "rate_limit": {
     "new_crate_burst": 5,
     "new_crate_refill_seconds": 600,
     "source": "https://github.com/rust-lang/crates.io/blob/main/svelte/src/routes/docs/rate-limits/+page.svelte"
   },
-  "latest_upload_log_completed_at": "2026-10-05T05:22:11.871427+00:00",
+  "latest_upload_log_completed_at": "2026-10-05T05:42:24.863328+00:00",
   "automatic_continuation_configured": true,
   "automatic_continuation": {
     "automation_id": "gpui-alloy-cupertino",
@@ -564,19 +580,19 @@
     "stop_condition": "All 31 packages are verified in crates.io and Cupertino registry acceptance is complete."
   },
   "server_retry_after": null,
-  "next_scheduled_check_at": "2026-10-05T05:33:01.075135+00:00",
+  "next_scheduled_check_at": null,
   "latest_run": {
-    "scheduled_at": "2026-10-05T05:20:15.562Z",
+    "scheduled_at": "2026-10-05T05:40:15.563Z",
     "new_packages_published": [
-      "gpui-alloy-web"
+      "gpui-alloy-platform"
     ],
     "exit_code": 0,
-    "log": "publish-20261005T052015.log",
-    "log_sha256": "c0cc3944006a54cbbde789b47bfb228c10f08abfa0ee8456ee947347a60c7540",
+    "log": "publish-20261005T054015.log",
+    "log_sha256": "a7b81e8749ed7f8907df78363c759a87d43723f759761f3417a0a1a6831bb2f5",
     "package_verification_enabled": true,
     "frozen_archive_comparison_passed_before_upload": true,
     "registry_archive_and_index_checksum_match": true,
-    "pre_upload_query_log": "pre-upload-query-20261005T052015.log"
+    "pre_upload_query_log": "pre-upload-query-20261005T054015.log"
   },
   "record_commit": {
     "status": "verified",
