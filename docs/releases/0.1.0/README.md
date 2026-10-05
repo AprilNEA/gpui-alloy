@@ -1,6 +1,6 @@
 # GPUI Alloy 0.1.0
 
-**Release status: published and isolated consumer verified (31/31 packages).** Crates.io has accepted the frozen packages listed in the publication record. All frozen packages are published and checksum-verified. Isolated Cupertino registry acceptance passed. Current Cupertino integration remains blocked by GPUI-012; the release tag is pending. See the [publication record](publication.json) and [continuation instructions](RESUME.md).
+**Release status: published and isolated consumer verified (31/31 packages).** Crates.io has accepted the frozen packages listed in the publication record. All frozen packages are published and checksum-verified. Isolated Cupertino registry acceptance passed. Current Cupertino integration remains blocked by GPUI-012; the immutable release tag is `v0.1.0`. See the [publication record](publication.json) and [continuation instructions](RESUME.md).
 
 | Identity | Fixed commit |
 | --- | --- |

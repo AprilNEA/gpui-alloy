@@ -698,5 +698,11 @@
     "formatter_passed": true,
     "clippy_passed": true,
     "consumer_commit": "4223edf6bb9573d926fdbb5318404ac94f4e0e99"
+  },
+  "release_tag": {
+    "name": "v0.1.0",
+    "source_revision": "9d59ea617d75d02e4645eefd22844235431138c8",
+    "immutable": true,
+    "verification": "Verify the signed tag before pushing."
   }
 }
