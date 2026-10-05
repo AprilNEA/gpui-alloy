@@ -1,0 +1,31 @@
+    Updating crates.io index
+error: could not find `gpui-alloy-shared-string@0.1.1` in registry `https://github.com/rust-lang/crates.io-index`
+   Packaging gpui-alloy-shared-string v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_shared_string)
+    Updating crates.io index
+    Packaged 6 files, 28.6KiB (9.3KiB compressed)
+   Verifying gpui-alloy-shared-string v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_shared_string)
+   Compiling gpui-alloy-shared-string v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-shared-string-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.18s
+    Updating crates.io index
+   Packaging gpui-alloy-shared-string v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_shared_string)
+    Updating crates.io index
+    Packaged 6 files, 28.6KiB (9.3KiB compressed)
+   Verifying gpui-alloy-shared-string v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_shared_string)
+   Compiling gpui-alloy-shared-string v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-shared-string-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.91s
+   Uploading gpui-alloy-shared-string v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_shared_string)
+    Uploaded gpui-alloy-shared-string v0.1.1 to registry `crates-io`
+note: waiting for gpui-alloy-shared-string v0.1.1 to be available at registry `crates-io`
+help: you may press ctrl-c to skip waiting; the crate should be available shortly
+   Published gpui-alloy-shared-string v0.1.1 at registry `crates-io`
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded gpui-alloy-shared-string v0.1.1
+gpui-alloy-shared-string
+GPUI Alloy distribution of gpui_shared_string
+version: 0.1.1
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-shared-string/0.1.1
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-shared-string/0.1.1

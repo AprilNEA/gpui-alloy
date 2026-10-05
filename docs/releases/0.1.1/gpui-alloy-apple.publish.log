@@ -1,0 +1,140 @@
+    Updating crates.io index
+error: could not find `gpui-alloy-apple@0.1.1` in registry `https://github.com/rust-lang/crates.io-index`
+   Packaging gpui-alloy-apple v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_apple)
+    Updating crates.io index
+    Packaged 33 files, 1.0MiB (233.9KiB compressed)
+   Verifying gpui-alloy-apple v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_apple)
+   Compiling gpui-alloy-ztracing v0.1.1
+   Compiling gpui-alloy v0.1.1
+   Compiling gpui-alloy-perf v0.1.1
+   Compiling gpui-alloy-derive-refineable v0.1.1
+   Compiling gpui-alloy-scheduler v0.1.1
+   Compiling gpui-alloy-http-client v0.1.1
+   Compiling gpui-alloy-apple v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-apple-0.1.1)
+   Compiling gpui-alloy-macros v0.1.1
+   Compiling gpui-alloy-sum-tree v0.1.1
+   Compiling gpui-alloy-util-macros v0.1.1
+   Compiling gpui-alloy-refineable v0.1.1
+warning: use of deprecated struct `cocoa::foundation::NSSize`: use the objc2-foundation crate instead
+  --> src/metal_renderer.rs:12:18
+   |
+12 |     foundation::{NSSize, NSUInteger},
+   |                  ^^^^^^
+   |
+   = note: `#[warn(deprecated)]` on by default
+
+warning: use of deprecated type alias `cocoa::foundation::NSUInteger`: use the objc2-foundation crate instead
+  --> src/metal_renderer.rs:12:26
+   |
+12 |     foundation::{NSSize, NSUInteger},
+   |                          ^^^^^^^^^^
+
+warning: use of deprecated struct `cocoa::foundation::NSSize`: use the objc2-foundation crate instead
+   --> src/metal_renderer.rs:423:27
+    |
+423 |             let ns_size = NSSize {
+    |                           ^^^^^^
+
+warning: use of deprecated type alias `cocoa::foundation::NSUInteger`: use the objc2-foundation crate instead
+    --> src/metal_renderer.rs:1673:41
+     |
+1673 |                     length: *written as NSUInteger,
+     |                                         ^^^^^^^^^^
+
+warning: use of deprecated type alias `cocoa::foundation::NSUInteger`: use the objc2-foundation crate instead
+    --> src/metal_renderer.rs:1679:39
+     |
+1679 |                     length: offset as NSUInteger,
+     |                                       ^^^^^^^^^^
+
+warning: use of deprecated field `cocoa::foundation::NSSize::width`: use the objc2-foundation crate instead
+   --> src/metal_renderer.rs:424:17
+    |
+424 |                 width: size.width.0 as f64,
+    |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated field `cocoa::foundation::NSSize::height`: use the objc2-foundation crate instead
+   --> src/metal_renderer.rs:425:17
+    |
+425 |                 height: size.height.0 as f64,
+    |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: `gpui-alloy-apple` (lib) generated 7 warnings
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 14.01s
+warning: the following packages contain code that will be rejected by a future version of Rust: block v0.1.6
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`
+    Updating crates.io index
+   Packaging gpui-alloy-apple v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_apple)
+    Updating crates.io index
+    Packaged 33 files, 1.0MiB (233.9KiB compressed)
+   Verifying gpui-alloy-apple v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_apple)
+   Compiling gpui-alloy-apple v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-apple-0.1.1)
+warning: use of deprecated struct `cocoa::foundation::NSSize`: use the objc2-foundation crate instead
+  --> src/metal_renderer.rs:12:18
+   |
+12 |     foundation::{NSSize, NSUInteger},
+   |                  ^^^^^^
+   |
+   = note: `#[warn(deprecated)]` on by default
+
+warning: use of deprecated type alias `cocoa::foundation::NSUInteger`: use the objc2-foundation crate instead
+  --> src/metal_renderer.rs:12:26
+   |
+12 |     foundation::{NSSize, NSUInteger},
+   |                          ^^^^^^^^^^
+
+warning: use of deprecated struct `cocoa::foundation::NSSize`: use the objc2-foundation crate instead
+   --> src/metal_renderer.rs:423:27
+    |
+423 |             let ns_size = NSSize {
+    |                           ^^^^^^
+
+warning: use of deprecated type alias `cocoa::foundation::NSUInteger`: use the objc2-foundation crate instead
+    --> src/metal_renderer.rs:1673:41
+     |
+1673 |                     length: *written as NSUInteger,
+     |                                         ^^^^^^^^^^
+
+warning: use of deprecated type alias `cocoa::foundation::NSUInteger`: use the objc2-foundation crate instead
+    --> src/metal_renderer.rs:1679:39
+     |
+1679 |                     length: offset as NSUInteger,
+     |                                       ^^^^^^^^^^
+
+warning: use of deprecated field `cocoa::foundation::NSSize::width`: use the objc2-foundation crate instead
+   --> src/metal_renderer.rs:424:17
+    |
+424 |                 width: size.width.0 as f64,
+    |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: use of deprecated field `cocoa::foundation::NSSize::height`: use the objc2-foundation crate instead
+   --> src/metal_renderer.rs:425:17
+    |
+425 |                 height: size.height.0 as f64,
+    |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: `gpui-alloy-apple` (lib) generated 7 warnings
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 6.69s
+warning: the following packages contain code that will be rejected by a future version of Rust: block v0.1.6
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`
+   Uploading gpui-alloy-apple v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_apple)
+    Uploaded gpui-alloy-apple v0.1.1 to registry `crates-io`
+note: waiting for gpui-alloy-apple v0.1.1 to be available at registry `crates-io`
+help: you may press ctrl-c to skip waiting; the crate should be available shortly
+   Published gpui-alloy-apple v0.1.1 at registry `crates-io`
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded gpui-alloy-apple v0.1.1
+gpui-alloy-apple
+GPUI Alloy distribution of gpui_apple
+version: 0.1.1
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-apple/0.1.1
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-apple/0.1.1
+features:
+ +default         = []
+  bench-support   = [gpui/bench-support]
+  runtime_shaders = []
+  test-support    = [gpui/test-support]

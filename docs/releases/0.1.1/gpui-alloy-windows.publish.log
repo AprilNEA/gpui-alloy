@@ -1,0 +1,41 @@
+    Updating crates.io index
+error: could not find `gpui-alloy-windows@0.1.1` in registry `https://github.com/rust-lang/crates.io-index`
+   Packaging gpui-alloy-windows v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_windows)
+    Updating crates.io index
+    Packaged 29 files, 642.9KiB (152.7KiB compressed)
+   Verifying gpui-alloy-windows v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_windows)
+   Compiling gpui-alloy v0.1.1
+   Compiling gpui-alloy-windows v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-windows-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 13.03s
+warning: the following packages contain code that will be rejected by a future version of Rust: block v0.1.6
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`
+    Updating crates.io index
+   Packaging gpui-alloy-windows v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_windows)
+    Updating crates.io index
+    Packaged 29 files, 642.9KiB (152.7KiB compressed)
+   Verifying gpui-alloy-windows v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_windows)
+   Compiling gpui-alloy-windows v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-windows-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 7.33s
+warning: the following packages contain code that will be rejected by a future version of Rust: block v0.1.6
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`
+   Uploading gpui-alloy-windows v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_windows)
+    Uploaded gpui-alloy-windows v0.1.1 to registry `crates-io`
+note: waiting for gpui-alloy-windows v0.1.1 to be available at registry `crates-io`
+help: you may press ctrl-c to skip waiting; the crate should be available shortly
+   Published gpui-alloy-windows v0.1.1 at registry `crates-io`
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded gpui-alloy-windows v0.1.1
+gpui-alloy-windows
+GPUI Alloy distribution of gpui_windows
+version: 0.1.1
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-windows/0.1.1
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-windows/0.1.1
+features:
+ +default        = [gpui/default]
+  scap           = [dep:scap]
+  screen-capture = [gpui/screen-capture, scap]
+  test-support   = [gpui/test-support]

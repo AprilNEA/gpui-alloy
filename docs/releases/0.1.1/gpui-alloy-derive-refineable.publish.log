@@ -1,0 +1,31 @@
+    Updating crates.io index
+error: could not find `gpui-alloy-derive-refineable@0.1.1` in registry `https://github.com/rust-lang/crates.io-index`
+   Packaging gpui-alloy-derive-refineable v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/refineable/derive_refineable)
+    Updating crates.io index
+    Packaged 6 files, 36.9KiB (9.8KiB compressed)
+   Verifying gpui-alloy-derive-refineable v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/refineable/derive_refineable)
+   Compiling gpui-alloy-derive-refineable v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-derive-refineable-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.04s
+    Updating crates.io index
+   Packaging gpui-alloy-derive-refineable v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/refineable/derive_refineable)
+    Updating crates.io index
+    Packaged 6 files, 36.9KiB (9.8KiB compressed)
+   Verifying gpui-alloy-derive-refineable v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/refineable/derive_refineable)
+   Compiling gpui-alloy-derive-refineable v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-derive-refineable-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.28s
+   Uploading gpui-alloy-derive-refineable v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/refineable/derive_refineable)
+    Uploaded gpui-alloy-derive-refineable v0.1.1 to registry `crates-io`
+note: waiting for gpui-alloy-derive-refineable v0.1.1 to be available at registry `crates-io`
+help: you may press ctrl-c to skip waiting; the crate should be available shortly
+   Published gpui-alloy-derive-refineable v0.1.1 at registry `crates-io`
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded gpui-alloy-derive-refineable v0.1.1
+gpui-alloy-derive-refineable
+A derive macro for creating refinement types in Rust
+version: 0.1.1
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-derive-refineable/0.1.1
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-derive-refineable/0.1.1

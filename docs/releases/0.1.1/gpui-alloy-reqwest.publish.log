@@ -1,0 +1,40 @@
+    Updating crates.io index
+error: could not find `gpui-alloy-reqwest@0.1.1` in registry `https://github.com/rust-lang/crates.io-index`
+   Packaging gpui-alloy-reqwest v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/external/gpui-alloy-reqwest)
+    Updating crates.io index
+    Packaged 78 files, 968.9KiB (201.0KiB compressed)
+   Verifying gpui-alloy-reqwest v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/external/gpui-alloy-reqwest)
+   Compiling gpui-alloy-reqwest v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-reqwest-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.77s
+    Updating crates.io index
+   Packaging gpui-alloy-reqwest v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/external/gpui-alloy-reqwest)
+    Updating crates.io index
+    Packaged 78 files, 968.9KiB (201.0KiB compressed)
+   Verifying gpui-alloy-reqwest v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/external/gpui-alloy-reqwest)
+   Compiling gpui-alloy-reqwest v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-reqwest-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.55s
+   Uploading gpui-alloy-reqwest v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/external/gpui-alloy-reqwest)
+    Uploaded gpui-alloy-reqwest v0.1.1 to registry `crates-io`
+note: waiting for gpui-alloy-reqwest v0.1.1 to be available at registry `crates-io`
+help: you may press ctrl-c to skip waiting; the crate should be available shortly
+   Published gpui-alloy-reqwest v0.1.1 at registry `crates-io`
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded gpui-alloy-reqwest v0.1.1
+gpui-alloy-reqwest #http #request #client
+higher level HTTP client library
+version: 0.1.1
+license: MIT OR Apache-2.0
+rust-version: 1.64.0
+documentation: https://docs.rs/reqwest
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-reqwest/0.1.1
+features:
+ +default                             = [default-tls, charset, http2, macos-system-configuration]
+  __tls                               = [dep:rustls-pemfile, tokio/io-util]
+  charset                             = [dep:encoding_rs]
+  default-tls                         = [dep:hyper-tls, dep:native-tls-crate, __tls, dep:tokio-native-tls]
+  h2                                  = [dep:h2]
+  http2                               = [h2, hyper/http2, hyper-util/http2, hyper-rustls?/http2]
+  macos-system-configuration          = [dep:system-configuration]
+  26 deactivated features

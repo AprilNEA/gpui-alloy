@@ -1,0 +1,29 @@
+    Updating crates.io index
+error: could not find `gpui-alloy-ztracing-macro@0.1.1` in registry `https://github.com/rust-lang/crates.io-index`
+   Packaging gpui-alloy-ztracing-macro v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/ztracing_macro)
+    Packaged 6 files, 16.6KiB (6.1KiB compressed)
+   Verifying gpui-alloy-ztracing-macro v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/ztracing_macro)
+   Compiling gpui-alloy-ztracing-macro v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-ztracing-macro-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.42s
+    Updating crates.io index
+   Packaging gpui-alloy-ztracing-macro v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/ztracing_macro)
+    Packaged 6 files, 16.6KiB (6.1KiB compressed)
+   Verifying gpui-alloy-ztracing-macro v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/ztracing_macro)
+   Compiling gpui-alloy-ztracing-macro v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-ztracing-macro-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.96s
+   Uploading gpui-alloy-ztracing-macro v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/ztracing_macro)
+    Uploaded gpui-alloy-ztracing-macro v0.1.1 to registry `crates-io`
+note: waiting for gpui-alloy-ztracing-macro v0.1.1 to be available at registry `crates-io`
+help: you may press ctrl-c to skip waiting; the crate should be available shortly
+   Published gpui-alloy-ztracing-macro v0.1.1 at registry `crates-io`
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded gpui-alloy-ztracing-macro v0.1.1
+gpui-alloy-ztracing-macro
+GPUI Alloy distribution of ztracing_macro
+version: 0.1.1
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-ztracing-macro/0.1.1
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-ztracing-macro/0.1.1

@@ -1,0 +1,32 @@
+    Updating crates.io index
+error: could not find `gpui-alloy-refineable@0.1.1` in registry `https://github.com/rust-lang/crates.io-index`
+   Packaging gpui-alloy-refineable v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/refineable)
+    Updating crates.io index
+    Packaged 6 files, 25.6KiB (8.9KiB compressed)
+   Verifying gpui-alloy-refineable v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/refineable)
+   Compiling gpui-alloy-derive-refineable v0.1.1
+   Compiling gpui-alloy-refineable v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-refineable-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2.77s
+    Updating crates.io index
+   Packaging gpui-alloy-refineable v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/refineable)
+    Updating crates.io index
+    Packaged 6 files, 25.6KiB (8.9KiB compressed)
+   Verifying gpui-alloy-refineable v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/refineable)
+   Compiling gpui-alloy-refineable v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-refineable-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.31s
+   Uploading gpui-alloy-refineable v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/refineable)
+    Uploaded gpui-alloy-refineable v0.1.1 to registry `crates-io`
+note: waiting for gpui-alloy-refineable v0.1.1 to be available at registry `crates-io`
+help: you may press ctrl-c to skip waiting; the crate should be available shortly
+   Published gpui-alloy-refineable v0.1.1 at registry `crates-io`
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded gpui-alloy-refineable v0.1.1
+gpui-alloy-refineable
+A macro for creating 'refinement' types that can be used to partially initialize or mutate a complex struct
+version: 0.1.1
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-refineable/0.1.1
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-refineable/0.1.1

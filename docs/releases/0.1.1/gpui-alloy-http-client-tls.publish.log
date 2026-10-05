@@ -1,0 +1,33 @@
+    Updating crates.io index
+error: could not find `gpui-alloy-http-client-tls@0.1.1` in registry `https://github.com/rust-lang/crates.io-index`
+   Packaging gpui-alloy-http-client-tls v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/http_client_tls)
+    Updating crates.io index
+    Packaged 6 files, 40.9KiB (13.0KiB compressed)
+   Verifying gpui-alloy-http-client-tls v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/http_client_tls)
+   Compiling gpui-alloy-http-client-tls v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-http-client-tls-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.83s
+    Updating crates.io index
+   Packaging gpui-alloy-http-client-tls v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/http_client_tls)
+    Updating crates.io index
+    Packaged 6 files, 40.9KiB (13.0KiB compressed)
+   Verifying gpui-alloy-http-client-tls v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/http_client_tls)
+   Compiling gpui-alloy-http-client-tls v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-http-client-tls-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.00s
+   Uploading gpui-alloy-http-client-tls v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/http_client_tls)
+    Uploaded gpui-alloy-http-client-tls v0.1.1 to registry `crates-io`
+note: waiting for gpui-alloy-http-client-tls v0.1.1 to be available at registry `crates-io`
+help: you may press ctrl-c to skip waiting; the crate should be available shortly
+   Published gpui-alloy-http-client-tls v0.1.1 at registry `crates-io`
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded gpui-alloy-http-client-tls v0.1.1
+gpui-alloy-http-client-tls
+GPUI Alloy distribution of http_client_tls
+version: 0.1.1
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-http-client-tls/0.1.1
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-http-client-tls/0.1.1
+features:
+  test-support = []

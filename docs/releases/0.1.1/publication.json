@@ -1,11 +1,11 @@
 {
   "version": "0.1.1",
-  "status": "frozen-awaiting-publication",
+  "status": "published-awaiting-acceptance",
   "source_revision": "1a77576c8ef715f2ceaece8af18017cb360434c9",
   "source_integration": "f7ecd66e516734656bf72e2b6f876ec6d977c633",
   "patch": "GPUI-012",
   "user_authorized": true,
-  "published_package_count": 0,
+  "published_package_count": 31,
   "total_package_count": 31,
   "source_check_session": 70371,
   "package_session": 30785,
@@ -14,5 +14,225 @@
   "candidate": "/private/tmp/gpui-alloy-0.1.1-candidate",
   "source_validation": "passed",
   "package_validation": "passed",
-  "frozen_directory": "/Users/Xuan/.local/share/gpui-alloy/releases/0.1.1/frozen"
+  "frozen_directory": "/Users/Xuan/.local/share/gpui-alloy/releases/0.1.1/frozen",
+  "packages": [
+    {
+      "name": "gpui-alloy-util",
+      "version": "0.1.1",
+      "archive_sha256": "e0b70855f78eb4fdb666b7df536b088175fa68a6b223d50ba2067973279a4ef3",
+      "index_checksum": "e0b70855f78eb4fdb666b7df536b088175fa68a6b223d50ba2067973279a4ef3",
+      "log": "gpui-alloy-util.publish.log"
+    },
+    {
+      "name": "gpui-alloy-derive-refineable",
+      "version": "0.1.1",
+      "archive_sha256": "d37c7649f1a7f365beb4ae1a6d0f0d0b1c9cd7174bc2c5532c97fe497af2cd83",
+      "index_checksum": "d37c7649f1a7f365beb4ae1a6d0f0d0b1c9cd7174bc2c5532c97fe497af2cd83",
+      "log": "gpui-alloy-derive-refineable.publish.log"
+    },
+    {
+      "name": "gpui-alloy-macros",
+      "version": "0.1.1",
+      "archive_sha256": "a11167c182bb86e91d091f26f03f5a54e5d4c55b8823e01b86631dd8a04eef83",
+      "index_checksum": "a11167c182bb86e91d091f26f03f5a54e5d4c55b8823e01b86631dd8a04eef83",
+      "log": "gpui-alloy-macros.publish.log"
+    },
+    {
+      "name": "gpui-alloy-shared-string",
+      "version": "0.1.1",
+      "archive_sha256": "a5301d88b4a3eb98dff572178e049458997766d4ca7ba6b3224deebd2a120060",
+      "index_checksum": "a5301d88b4a3eb98dff572178e049458997766d4ca7ba6b3224deebd2a120060",
+      "log": "gpui-alloy-shared-string.publish.log"
+    },
+    {
+      "name": "gpui-alloy-scheduler",
+      "version": "0.1.1",
+      "archive_sha256": "640bd4440053d03d01cb35adbaa565443646f37f49e6a5145fa117c809909752",
+      "index_checksum": "640bd4440053d03d01cb35adbaa565443646f37f49e6a5145fa117c809909752",
+      "log": "gpui-alloy-scheduler.publish.log"
+    },
+    {
+      "name": "gpui-alloy-font-kit",
+      "version": "0.1.1",
+      "archive_sha256": "d7368b846f3b11fbad8a9915543103a9dda2b1de10e2c19a43b2065032ea9751",
+      "index_checksum": "d7368b846f3b11fbad8a9915543103a9dda2b1de10e2c19a43b2065032ea9751",
+      "log": "gpui-alloy-font-kit.publish.log"
+    },
+    {
+      "name": "gpui-alloy-async-tar",
+      "version": "0.1.1",
+      "archive_sha256": "d57b40af838edb0c76b2f8549892ad0c682bac3b950e65d1863655aa2105d3c7",
+      "index_checksum": "d57b40af838edb0c76b2f8549892ad0c682bac3b950e65d1863655aa2105d3c7",
+      "log": "gpui-alloy-async-tar.publish.log"
+    },
+    {
+      "name": "gpui-alloy-http-client-tls",
+      "version": "0.1.1",
+      "archive_sha256": "fda3590e895ac4610b759a2659ac62645754874d4fbb231ebc8a21c20492eb8d",
+      "index_checksum": "fda3590e895ac4610b759a2659ac62645754874d4fbb231ebc8a21c20492eb8d",
+      "log": "gpui-alloy-http-client-tls.publish.log"
+    },
+    {
+      "name": "gpui-alloy-path",
+      "version": "0.1.1",
+      "archive_sha256": "b7f672e80579795bfbd850c54c30c186653d8af8e92718339d7b3c23042bd7f5",
+      "index_checksum": "b7f672e80579795bfbd850c54c30c186653d8af8e92718339d7b3c23042bd7f5",
+      "log": "gpui-alloy-path.publish.log"
+    },
+    {
+      "name": "gpui-alloy-reqwest",
+      "version": "0.1.1",
+      "archive_sha256": "e143e6879d51335bb9fe247cfc33157685c9bbc7578e21cbde9a5091843223a4",
+      "index_checksum": "e143e6879d51335bb9fe247cfc33157685c9bbc7578e21cbde9a5091843223a4",
+      "log": "gpui-alloy-reqwest.publish.log"
+    },
+    {
+      "name": "gpui-alloy-ztracing-macro",
+      "version": "0.1.1",
+      "archive_sha256": "60ed397bb621c87e76b99c95a68ed97b309748fd480fe16c3bc7cb8a3d40d159",
+      "index_checksum": "60ed397bb621c87e76b99c95a68ed97b309748fd480fe16c3bc7cb8a3d40d159",
+      "log": "gpui-alloy-ztracing-macro.publish.log"
+    },
+    {
+      "name": "gpui-alloy-async-process",
+      "version": "0.1.1",
+      "archive_sha256": "6add3f9ef9333932e57a26db514bf1bc0000828d34ddec41703e2ee80c42ea3f",
+      "index_checksum": "6add3f9ef9333932e57a26db514bf1bc0000828d34ddec41703e2ee80c42ea3f",
+      "log": "gpui-alloy-async-process.publish.log"
+    },
+    {
+      "name": "gpui-alloy-collections",
+      "version": "0.1.1",
+      "archive_sha256": "6cba86d9dfa8c984ecf9f6a0ff305ebe222584fd6d33e7da398245269f6dbd49",
+      "index_checksum": "6cba86d9dfa8c984ecf9f6a0ff305ebe222584fd6d33e7da398245269f6dbd49",
+      "log": "gpui-alloy-collections.publish.log"
+    },
+    {
+      "name": "gpui-alloy-refineable",
+      "version": "0.1.1",
+      "archive_sha256": "fcaeb5c32160af6b8ccc35efabeccc35751704cf49d7fa0dfa2e07f7e06d9b6f",
+      "index_checksum": "fcaeb5c32160af6b8ccc35efabeccc35751704cf49d7fa0dfa2e07f7e06d9b6f",
+      "log": "gpui-alloy-refineable.publish.log"
+    },
+    {
+      "name": "gpui-alloy-smol",
+      "version": "0.1.1",
+      "archive_sha256": "2088a8413f94092f8b0c86dde50499cd7e48e9e7a4b85ede7bbd89a9adc7f9cc",
+      "index_checksum": "2088a8413f94092f8b0c86dde50499cd7e48e9e7a4b85ede7bbd89a9adc7f9cc",
+      "log": "gpui-alloy-smol.publish.log"
+    },
+    {
+      "name": "gpui-alloy-perf",
+      "version": "0.1.1",
+      "archive_sha256": "fe5721ad4b209dd5fae9da53e2071e759b210573e46c191539bf8d2e89bc91b5",
+      "index_checksum": "fe5721ad4b209dd5fae9da53e2071e759b210573e46c191539bf8d2e89bc91b5",
+      "log": "gpui-alloy-perf.publish.log"
+    },
+    {
+      "name": "gpui-alloy-zlog",
+      "version": "0.1.1",
+      "archive_sha256": "6bc29d252639c3beddc01ec7988380b78379c3711e7f14becba547edfd8c9b6e",
+      "index_checksum": "6bc29d252639c3beddc01ec7988380b78379c3711e7f14becba547edfd8c9b6e",
+      "log": "gpui-alloy-zlog.publish.log"
+    },
+    {
+      "name": "gpui-alloy-util-macros",
+      "version": "0.1.1",
+      "archive_sha256": "085682f06cdaea45c5034276d32a78a5c127ed2ff724ea9d06397f0a6f615d73",
+      "index_checksum": "085682f06cdaea45c5034276d32a78a5c127ed2ff724ea9d06397f0a6f615d73",
+      "log": "gpui-alloy-util-macros.publish.log"
+    },
+    {
+      "name": "gpui-alloy-ztracing",
+      "version": "0.1.1",
+      "archive_sha256": "bda063adfed6076cfbc27eb865fe6d878364d205fb179ad4cdb1f59364e8c778",
+      "index_checksum": "bda063adfed6076cfbc27eb865fe6d878364d205fb179ad4cdb1f59364e8c778",
+      "log": "gpui-alloy-ztracing.publish.log"
+    },
+    {
+      "name": "gpui-alloy-zed-util",
+      "version": "0.1.1",
+      "archive_sha256": "a6eacba9d64659f2267f138eea67667aed7fd9bb41f1146f3e8011c480089fb5",
+      "index_checksum": "a6eacba9d64659f2267f138eea67667aed7fd9bb41f1146f3e8011c480089fb5",
+      "log": "gpui-alloy-zed-util.publish.log"
+    },
+    {
+      "name": "gpui-alloy-sum-tree",
+      "version": "0.1.1",
+      "archive_sha256": "02d2011f8a1ed24f28c8f30c42914331f607b1f8948401273275c4ee5d482718",
+      "index_checksum": "02d2011f8a1ed24f28c8f30c42914331f607b1f8948401273275c4ee5d482718",
+      "log": "gpui-alloy-sum-tree.publish.log"
+    },
+    {
+      "name": "gpui-alloy-http-client",
+      "version": "0.1.1",
+      "archive_sha256": "2e3316f16c41127f09f7c616ae2413c01f718e23cfad529dd05ec63279df6b22",
+      "index_checksum": "2e3316f16c41127f09f7c616ae2413c01f718e23cfad529dd05ec63279df6b22",
+      "log": "gpui-alloy-http-client.publish.log"
+    },
+    {
+      "name": "gpui-alloy",
+      "version": "0.1.1",
+      "archive_sha256": "db2e8c2b9dd4ef14a13b58f9b70f62d7b7a512c07a54da8daa289085bdad0f4c",
+      "index_checksum": "db2e8c2b9dd4ef14a13b58f9b70f62d7b7a512c07a54da8daa289085bdad0f4c",
+      "log": "gpui-alloy.publish.log"
+    },
+    {
+      "name": "gpui-alloy-reqwest-client",
+      "version": "0.1.1",
+      "archive_sha256": "ea8dca6597c982c40fe2833eb03638f3163bd153b9bc2b9a516e93e713e341e0",
+      "index_checksum": "ea8dca6597c982c40fe2833eb03638f3163bd153b9bc2b9a516e93e713e341e0",
+      "log": "gpui-alloy-reqwest-client.publish.log"
+    },
+    {
+      "name": "gpui-alloy-apple",
+      "version": "0.1.1",
+      "archive_sha256": "741c8387ff9e521d99791db94aadedc38c0f5826e7f0d9684bd92873b88a170e",
+      "index_checksum": "741c8387ff9e521d99791db94aadedc38c0f5826e7f0d9684bd92873b88a170e",
+      "log": "gpui-alloy-apple.publish.log"
+    },
+    {
+      "name": "gpui-alloy-wgpu",
+      "version": "0.1.1",
+      "archive_sha256": "3bffa44612675a265ea311f766c122fa046064da15fb63ec75994dd9b88d657e",
+      "index_checksum": "3bffa44612675a265ea311f766c122fa046064da15fb63ec75994dd9b88d657e",
+      "log": "gpui-alloy-wgpu.publish.log"
+    },
+    {
+      "name": "gpui-alloy-windows",
+      "version": "0.1.1",
+      "archive_sha256": "18e5f08e0e044586b8820a8b568330597426e5517a1aa711d9717c581e54851c",
+      "index_checksum": "18e5f08e0e044586b8820a8b568330597426e5517a1aa711d9717c581e54851c",
+      "log": "gpui-alloy-windows.publish.log"
+    },
+    {
+      "name": "gpui-alloy-macos",
+      "version": "0.1.1",
+      "archive_sha256": "db8a24d330864e2a4a8a4030c33f28296d7f74c2ad21522a72cb860adaa4bef4",
+      "index_checksum": "db8a24d330864e2a4a8a4030c33f28296d7f74c2ad21522a72cb860adaa4bef4",
+      "log": "gpui-alloy-macos.publish.log"
+    },
+    {
+      "name": "gpui-alloy-linux",
+      "version": "0.1.1",
+      "archive_sha256": "394f6f53c6a982d9eb9e39f55f39136bf2c2b74fe436c1fa1a1b157fb2a90860",
+      "index_checksum": "394f6f53c6a982d9eb9e39f55f39136bf2c2b74fe436c1fa1a1b157fb2a90860",
+      "log": "gpui-alloy-linux.publish.log"
+    },
+    {
+      "name": "gpui-alloy-web",
+      "version": "0.1.1",
+      "archive_sha256": "85e17221d7916ec5b59b83aaf2ef59e46b7dfdb9b2339d91f5dd072313196a6d",
+      "index_checksum": "85e17221d7916ec5b59b83aaf2ef59e46b7dfdb9b2339d91f5dd072313196a6d",
+      "log": "gpui-alloy-web.publish.log"
+    },
+    {
+      "name": "gpui-alloy-platform",
+      "version": "0.1.1",
+      "archive_sha256": "ae3b49abc0f4a8189a4fd0560a906997513e72071b9b3182e09cbaaf40240f82",
+      "index_checksum": "ae3b49abc0f4a8189a4fd0560a906997513e72071b9b3182e09cbaaf40240f82",
+      "log": "gpui-alloy-platform.publish.log"
+    }
+  ],
+  "checked_at": "2026-10-05T06:25:11.163427+00:00"
 }

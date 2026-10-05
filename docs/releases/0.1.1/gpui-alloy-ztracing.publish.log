@@ -1,0 +1,38 @@
+    Updating crates.io index
+error: could not find `gpui-alloy-ztracing@0.1.1` in registry `https://github.com/rust-lang/crates.io-index`
+   Packaging gpui-alloy-ztracing v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/ztracing)
+    Updating crates.io index
+    Packaged 8 files, 63.9KiB (18.3KiB compressed)
+   Verifying gpui-alloy-ztracing v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/ztracing)
+   Compiling gpui-alloy-ztracing v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-ztracing-0.1.1)
+   Compiling gpui-alloy-ztracing-macro v0.1.1
+   Compiling gpui-alloy-zlog v0.1.1
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 4.46s
+    Updating crates.io index
+   Packaging gpui-alloy-ztracing v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/ztracing)
+    Updating crates.io index
+    Packaged 8 files, 63.9KiB (18.3KiB compressed)
+   Verifying gpui-alloy-ztracing v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/ztracing)
+   Compiling gpui-alloy-ztracing v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-ztracing-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 4.09s
+   Uploading gpui-alloy-ztracing v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/ztracing)
+    Uploaded gpui-alloy-ztracing v0.1.1 to registry `crates-io`
+note: waiting for gpui-alloy-ztracing v0.1.1 to be available at registry `crates-io`
+help: you may press ctrl-c to skip waiting; the crate should be available shortly
+   Published gpui-alloy-ztracing v0.1.1 at registry `crates-io`
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded gpui-alloy-ztracing v0.1.1
+gpui-alloy-ztracing
+GPUI Alloy distribution of ztracing
+version: 0.1.1
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-ztracing/0.1.1
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-ztracing/0.1.1
+features:
+  tracing-tracy = [dep:tracing-tracy]
+  tracy         = [tracing-tracy, tracy-client]
+  tracy-client  = [dep:tracy-client]
+  web           = [dep:async-channel, dep:js-sys, dep:wasm-bindgen, dep:web-sys]

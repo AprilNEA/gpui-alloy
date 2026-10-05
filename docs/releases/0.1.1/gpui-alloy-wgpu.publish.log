@@ -1,0 +1,52 @@
+    Updating crates.io index
+error: could not find `gpui-alloy-wgpu@0.1.1` in registry `https://github.com/rust-lang/crates.io-index`
+   Packaging gpui-alloy-wgpu v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_wgpu)
+    Updating crates.io index
+    Packaged 15 files, 441.4KiB (104.2KiB compressed)
+   Verifying gpui-alloy-wgpu v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_wgpu)
+   Compiling gpui-alloy-zlog v0.1.1
+   Compiling gpui-alloy-perf v0.1.1
+   Compiling gpui-alloy v0.1.1
+   Compiling gpui-alloy-derive-refineable v0.1.1
+   Compiling gpui-alloy-shared-string v0.1.1
+   Compiling gpui-alloy-http-client v0.1.1
+   Compiling gpui-alloy-scheduler v0.1.1
+   Compiling gpui-alloy-macros v0.1.1
+   Compiling gpui-alloy-ztracing v0.1.1
+   Compiling gpui-alloy-util-macros v0.1.1
+   Compiling gpui-alloy-sum-tree v0.1.1
+   Compiling gpui-alloy-refineable v0.1.1
+   Compiling gpui-alloy-wgpu v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-wgpu-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 14.56s
+warning: the following packages contain code that will be rejected by a future version of Rust: block v0.1.6
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`
+    Updating crates.io index
+   Packaging gpui-alloy-wgpu v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_wgpu)
+    Updating crates.io index
+    Packaged 15 files, 441.4KiB (104.2KiB compressed)
+   Verifying gpui-alloy-wgpu v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_wgpu)
+   Compiling gpui-alloy-wgpu v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-wgpu-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 5.70s
+warning: the following packages contain code that will be rejected by a future version of Rust: block v0.1.6
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`
+   Uploading gpui-alloy-wgpu v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_wgpu)
+    Uploaded gpui-alloy-wgpu v0.1.1 to registry `crates-io`
+note: waiting for gpui-alloy-wgpu v0.1.1 to be available at registry `crates-io`
+help: you may press ctrl-c to skip waiting; the crate should be available shortly
+   Published gpui-alloy-wgpu v0.1.1 at registry `crates-io`
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded gpui-alloy-wgpu v0.1.1
+gpui-alloy-wgpu
+GPUI Alloy distribution of gpui_wgpu
+version: 0.1.1
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-wgpu/0.1.1
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-wgpu/0.1.1
+features:
+ +default       = []
+  bench-support = [gpui/bench-support, dep:image]
+  font-kit      = [dep:font-kit]
+  test-support  = [gpui/test-support, dep:image]

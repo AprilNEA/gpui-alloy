@@ -1,0 +1,55 @@
+    Updating crates.io index
+error: could not find `gpui-alloy-linux@0.1.1` in registry `https://github.com/rust-lang/crates.io-index`
+   Packaging gpui-alloy-linux v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_linux)
+    Updating crates.io index
+    Packaged 32 files, 756.8KiB (168.1KiB compressed)
+   Verifying gpui-alloy-linux v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_linux)
+   Compiling gpui-alloy-linux v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-linux-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 4.42s
+    Updating crates.io index
+   Packaging gpui-alloy-linux v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_linux)
+    Updating crates.io index
+    Packaged 32 files, 756.8KiB (168.1KiB compressed)
+   Verifying gpui-alloy-linux v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_linux)
+   Compiling gpui-alloy-linux v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-linux-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 4.50s
+   Uploading gpui-alloy-linux v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_linux)
+    Uploaded gpui-alloy-linux v0.1.1 to registry `crates-io`
+note: waiting for gpui-alloy-linux v0.1.1 to be available at registry `crates-io`
+help: you may press ctrl-c to skip waiting; the crate should be available shortly
+   Published gpui-alloy-linux v0.1.1 at registry `crates-io`
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded gpui-alloy-linux v0.1.1
+gpui-alloy-linux
+GPUI Alloy distribution of gpui_linux
+version: 0.1.1
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-linux/0.1.1
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-linux/0.1.1
+features:
+ +default                  = [wayland, x11]
+  as-raw-xcb-connection    = [dep:as-raw-xcb-connection]
+  ashpd                    = [dep:ashpd]
+  bitflags                 = [dep:bitflags]
+  calloop-wayland-source   = [dep:calloop-wayland-source]
+  filedescriptor           = [dep:filedescriptor]
+  gpui_wgpu                = [dep:gpui_wgpu]
+  open                     = [dep:open]
+  wayland                  = [bitflags, gpui_wgpu, ashpd/wayland, calloop-wayland-source, wayland-backend, wayland-client, wayland-cursor, wayland-protocols, wayland-protocols-plasma, wayland-protocols-wlr, filedescriptor, xkbcommon/wayland, open, gpui/wayland]
+  wayland-backend          = [dep:wayland-backend]
+  wayland-client           = [dep:wayland-client]
+  wayland-cursor           = [dep:wayland-cursor]
+  wayland-protocols        = [dep:wayland-protocols]
+  wayland-protocols-plasma = [dep:wayland-protocols-plasma]
+  wayland-protocols-wlr    = [dep:wayland-protocols-wlr]
+  x11                      = [gpui_wgpu, ashpd, as-raw-xcb-connection, x11rb, xkbcommon/x11, xim, x11-clipboard, filedescriptor, open, scap?/x11]
+  x11-clipboard            = [dep:x11-clipboard]
+  x11rb                    = [dep:x11rb]
+  xim                      = [dep:xim]
+  scap                     = [dep:scap]
+  screen-capture           = [gpui/screen-capture, scap]
+  test-support             = [gpui/test-support]
+  xkbcommon                = [dep:xkbcommon]

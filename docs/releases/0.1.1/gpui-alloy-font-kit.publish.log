@@ -1,0 +1,42 @@
+    Updating crates.io index
+error: could not find `gpui-alloy-font-kit@0.1.1` in registry `https://github.com/rust-lang/crates.io-index`
+   Packaging gpui-alloy-font-kit v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/external/gpui-alloy-font-kit)
+    Updating crates.io index
+    Packaged 42 files, 353.7KiB (72.8KiB compressed)
+   Verifying gpui-alloy-font-kit v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/external/gpui-alloy-font-kit)
+   Compiling gpui-alloy-font-kit v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-font-kit-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.66s
+    Updating crates.io index
+   Packaging gpui-alloy-font-kit v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/external/gpui-alloy-font-kit)
+    Updating crates.io index
+    Packaged 42 files, 353.7KiB (72.8KiB compressed)
+   Verifying gpui-alloy-font-kit v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/external/gpui-alloy-font-kit)
+   Compiling gpui-alloy-font-kit v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-font-kit-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.60s
+   Uploading gpui-alloy-font-kit v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/external/gpui-alloy-font-kit)
+    Uploaded gpui-alloy-font-kit v0.1.1 to registry `crates-io`
+note: waiting for gpui-alloy-font-kit v0.1.1 to be available at registry `crates-io`
+help: you may press ctrl-c to skip waiting; the crate should be available shortly
+   Published gpui-alloy-font-kit v0.1.1 at registry `crates-io`
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded gpui-alloy-font-kit v0.1.1
+gpui-alloy-font-kit
+A cross-platform font loading library
+version: 0.1.1
+license: MIT OR Apache-2.0
+rust-version: 1.77
+documentation: https://docs.rs/gpui-alloy-font-kit/0.1.1
+homepage: https://github.com/servo/font-kit
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-font-kit/0.1.1
+features:
+ +default                   = [source]
+  source                    = []
+  freetype                  = [dep:freetype]
+  loader-freetype           = [freetype]
+  loader-freetype-default   = [loader-freetype]
+  source-fontconfig         = [yeslogic-fontconfig-sys]
+  source-fontconfig-default = [source-fontconfig]
+  source-fontconfig-dlopen  = [yeslogic-fontconfig-sys/dlopen]
+  yeslogic-fontconfig-sys   = [dep:yeslogic-fontconfig-sys]

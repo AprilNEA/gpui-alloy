@@ -1,0 +1,36 @@
+    Updating crates.io index
+error: could not find `gpui-alloy-util-macros@0.1.1` in registry `https://github.com/rust-lang/crates.io-index`
+   Packaging gpui-alloy-util-macros v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/util_macros)
+    Updating crates.io index
+    Packaged 6 files, 37.8KiB (12.5KiB compressed)
+   Verifying gpui-alloy-util-macros v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/util_macros)
+   Compiling gpui-alloy-util v0.1.1
+   Compiling gpui-alloy-collections v0.1.1
+   Compiling gpui-alloy-perf v0.1.1
+   Compiling gpui-alloy-util-macros v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-util-macros-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2.33s
+    Updating crates.io index
+   Packaging gpui-alloy-util-macros v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/util_macros)
+    Updating crates.io index
+    Packaged 6 files, 37.8KiB (12.5KiB compressed)
+   Verifying gpui-alloy-util-macros v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/util_macros)
+   Compiling gpui-alloy-util-macros v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-util-macros-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2.32s
+   Uploading gpui-alloy-util-macros v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/util_macros)
+    Uploaded gpui-alloy-util-macros v0.1.1 to registry `crates-io`
+note: waiting for gpui-alloy-util-macros v0.1.1 to be available at registry `crates-io`
+help: you may press ctrl-c to skip waiting; the crate should be available shortly
+   Published gpui-alloy-util-macros v0.1.1 at registry `crates-io`
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded gpui-alloy-util-macros v0.1.1
+gpui-alloy-util-macros
+Utility macros for Zed
+version: 0.1.1
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-util-macros/0.1.1
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-util-macros/0.1.1
+features:
+  perf-enabled = []

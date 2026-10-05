@@ -1,0 +1,35 @@
+    Updating crates.io index
+error: could not find `gpui-alloy-zlog@0.1.1` in registry `https://github.com/rust-lang/crates.io-index`
+   Packaging gpui-alloy-zlog v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/zlog)
+    Updating crates.io index
+    Packaged 10 files, 90.3KiB (23.5KiB compressed)
+   Verifying gpui-alloy-zlog v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/zlog)
+   Compiling gpui-alloy-util v0.1.1
+   Compiling gpui-alloy-collections v0.1.1
+   Compiling gpui-alloy-zlog v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-zlog-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2.21s
+    Updating crates.io index
+   Packaging gpui-alloy-zlog v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/zlog)
+    Updating crates.io index
+    Packaged 10 files, 90.3KiB (23.5KiB compressed)
+   Verifying gpui-alloy-zlog v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/zlog)
+   Compiling gpui-alloy-zlog v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-zlog-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.67s
+   Uploading gpui-alloy-zlog v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/zlog)
+    Uploaded gpui-alloy-zlog v0.1.1 to registry `crates-io`
+note: waiting for gpui-alloy-zlog v0.1.1 to be available at registry `crates-io`
+help: you may press ctrl-c to skip waiting; the crate should be available shortly
+   Published gpui-alloy-zlog v0.1.1 at registry `crates-io`
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded gpui-alloy-zlog v0.1.1
+gpui-alloy-zlog
+GPUI Alloy distribution of zlog
+version: 0.1.1
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-zlog/0.1.1
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-zlog/0.1.1
+features:
+ +default = []

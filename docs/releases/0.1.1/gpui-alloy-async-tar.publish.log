@@ -1,0 +1,43 @@
+    Updating crates.io index
+error: could not find `gpui-alloy-async-tar@0.1.1` in registry `https://github.com/rust-lang/crates.io-index`
+   Packaging gpui-alloy-async-tar v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/external/gpui-alloy-async-tar)
+    Updating crates.io index
+    Packaged 22 files, 281.2KiB (58.7KiB compressed)
+   Verifying gpui-alloy-async-tar v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/external/gpui-alloy-async-tar)
+   Compiling gpui-alloy-async-tar v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-async-tar-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.17s
+    Updating crates.io index
+   Packaging gpui-alloy-async-tar v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/external/gpui-alloy-async-tar)
+    Updating crates.io index
+    Packaged 22 files, 281.2KiB (58.7KiB compressed)
+   Verifying gpui-alloy-async-tar v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/external/gpui-alloy-async-tar)
+   Compiling gpui-alloy-async-tar v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-async-tar-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.98s
+   Uploading gpui-alloy-async-tar v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/external/gpui-alloy-async-tar)
+    Uploaded gpui-alloy-async-tar v0.1.1 to registry `crates-io`
+note: waiting for gpui-alloy-async-tar v0.1.1 to be available at registry `crates-io`
+help: you may press ctrl-c to skip waiting; the crate should be available shortly
+   Published gpui-alloy-async-tar v0.1.1 at registry `crates-io`
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded gpui-alloy-async-tar v0.1.1
+gpui-alloy-async-tar #tar #tarfile #encoding
+A Rust implementation of an async TAR file reader and writer. This library does not
+currently handle compression, but it is abstract over all I/O readers and
+writers. Additionally, great lengths are taken to ensure that the entire
+contents are never required to be entirely resident in memory all at once.
+version: 0.1.1
+license: MIT/Apache-2.0
+rust-version: 1.85
+documentation: https://docs.rs/async-tar
+homepage: https://github.com/dignifiedquire/async-tar
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-async-tar/0.1.1
+features:
+ +default           = [xattr, runtime-async-std]
+  async-std         = [dep:async-std]
+  runtime-async-std = [async-std]
+  xattr             = [dep:xattr]
+  runtime-tokio     = [tokio, tokio-stream]
+  tokio             = [dep:tokio]
+  tokio-stream      = [dep:tokio-stream]

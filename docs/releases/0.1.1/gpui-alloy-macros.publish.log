@@ -1,0 +1,33 @@
+    Updating crates.io index
+error: could not find `gpui-alloy-macros@0.1.1` in registry `https://github.com/rust-lang/crates.io-index`
+   Packaging gpui-alloy-macros v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_macros)
+    Updating crates.io index
+    Packaged 20 files, 144.8KiB (29.7KiB compressed)
+   Verifying gpui-alloy-macros v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_macros)
+   Compiling gpui-alloy-macros v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-macros-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.11s
+    Updating crates.io index
+   Packaging gpui-alloy-macros v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_macros)
+    Updating crates.io index
+    Packaged 20 files, 144.8KiB (29.7KiB compressed)
+   Verifying gpui-alloy-macros v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_macros)
+   Compiling gpui-alloy-macros v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-macros-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.37s
+   Uploading gpui-alloy-macros v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_macros)
+    Uploaded gpui-alloy-macros v0.1.1 to registry `crates-io`
+note: waiting for gpui-alloy-macros v0.1.1 to be available at registry `crates-io`
+help: you may press ctrl-c to skip waiting; the crate should be available shortly
+   Published gpui-alloy-macros v0.1.1 at registry `crates-io`
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded gpui-alloy-macros v0.1.1
+gpui-alloy-macros
+Macros used by gpui
+version: 0.1.1
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-macros/0.1.1
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-macros/0.1.1
+features:
+  inspector = []

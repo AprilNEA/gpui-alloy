@@ -1,0 +1,53 @@
+    Updating crates.io index
+error: could not find `gpui-alloy-platform@0.1.1` in registry `https://github.com/rust-lang/crates.io-index`
+   Packaging gpui-alloy-platform v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_platform)
+    Updating crates.io index
+    Packaged 7 files, 223.7KiB (59.8KiB compressed)
+   Verifying gpui-alloy-platform v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_platform)
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+   Compiling gpui-alloy v0.1.1
+   Compiling gpui-alloy-apple v0.1.1
+   Compiling gpui-alloy-macos v0.1.1
+   Compiling gpui-alloy-platform v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-platform-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 17.63s
+warning: the following packages contain code that will be rejected by a future version of Rust: block v0.1.6
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`
+    Updating crates.io index
+   Packaging gpui-alloy-platform v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_platform)
+    Updating crates.io index
+    Packaged 7 files, 223.7KiB (59.8KiB compressed)
+   Verifying gpui-alloy-platform v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_platform)
+   Compiling gpui-alloy-platform v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-platform-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 4.67s
+warning: the following packages contain code that will be rejected by a future version of Rust: block v0.1.6
+note: to see what the problems were, use the option `--future-incompat-report`, or run `cargo report future-incompatibilities --id 1`
+   Uploading gpui-alloy-platform v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_platform)
+    Uploaded gpui-alloy-platform v0.1.1 to registry `crates-io`
+note: waiting for gpui-alloy-platform v0.1.1 to be available at registry `crates-io`
+help: you may press ctrl-c to skip waiting; the crate should be available shortly
+   Published gpui-alloy-platform v0.1.1 at registry `crates-io`
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded gpui-alloy-platform v0.1.1
+gpui-alloy-platform
+GPUI Alloy distribution of gpui_platform
+version: 0.1.1
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-platform/0.1.1
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-platform/0.1.1
+features:
+ +default         = []
+  bench-support   = [gpui/bench-support, gpui_macos/bench-support, gpui_wgpu/bench-support]
+  font-kit        = [gpui_macos/font-kit]
+  gpui_wgpu       = [dep:gpui_wgpu]
+  inspector       = [gpui/inspector]
+  runtime_shaders = [gpui_macos/runtime_shaders]
+  screen-capture  = [gpui/screen-capture, gpui_macos/screen-capture, gpui_windows/screen-capture, gpui_linux/screen-capture]
+  test-support    = [gpui/test-support, gpui_macos/test-support, gpui_windows/test-support, gpui_wgpu/test-support]
+  wayland         = [gpui_linux/wayland]
+  x11             = [gpui_linux/x11]

@@ -1,0 +1,39 @@
+    Updating crates.io index
+error: could not find `gpui-alloy-zed-util@0.1.1` in registry `https://github.com/rust-lang/crates.io-index`
+   Packaging gpui-alloy-zed-util v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/util)
+    Updating crates.io index
+    Packaged 26 files, 428.9KiB (95.5KiB compressed)
+   Verifying gpui-alloy-zed-util v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/util)
+   Compiling gpui-alloy-async-process v0.1.1
+   Compiling gpui-alloy-path v0.1.1
+   Compiling gpui-alloy-smol v0.1.1
+   Compiling gpui-alloy-zed-util v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-zed-util-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 3.10s
+    Updating crates.io index
+   Packaging gpui-alloy-zed-util v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/util)
+    Updating crates.io index
+    Packaged 26 files, 428.9KiB (95.5KiB compressed)
+   Verifying gpui-alloy-zed-util v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/util)
+   Compiling gpui-alloy-zed-util v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-zed-util-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2.84s
+   Uploading gpui-alloy-zed-util v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/util)
+    Uploaded gpui-alloy-zed-util v0.1.1 to registry `crates-io`
+note: waiting for gpui-alloy-zed-util v0.1.1 to be available at registry `crates-io`
+help: you may press ctrl-c to skip waiting; the crate should be available shortly
+   Published gpui-alloy-zed-util v0.1.1 at registry `crates-io`
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded gpui-alloy-zed-util v0.1.1
+gpui-alloy-zed-util
+A collection of utility structs and functions used by Zed and GPUI
+version: 0.1.1
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-zed-util/0.1.1
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-zed-util/0.1.1
+features:
+  debug-embed  = [rust-embed/debug-embed]
+  rand         = [dep:rand]
+  test-support = [rand, util_macros, path/test-support]
+  util_macros  = [dep:util_macros]

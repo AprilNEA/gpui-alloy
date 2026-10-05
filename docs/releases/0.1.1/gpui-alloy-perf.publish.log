@@ -1,0 +1,33 @@
+    Updating crates.io index
+error: could not find `gpui-alloy-perf@0.1.1` in registry `https://github.com/rust-lang/crates.io-index`
+   Packaging gpui-alloy-perf v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/tooling/perf)
+    Updating crates.io index
+    Packaged 8 files, 67.4KiB (21.2KiB compressed)
+   Verifying gpui-alloy-perf v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/tooling/perf)
+   Compiling gpui-alloy-util v0.1.1
+   Compiling gpui-alloy-collections v0.1.1
+   Compiling gpui-alloy-perf v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-perf-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2.27s
+    Updating crates.io index
+   Packaging gpui-alloy-perf v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/tooling/perf)
+    Updating crates.io index
+    Packaged 8 files, 67.4KiB (21.2KiB compressed)
+   Verifying gpui-alloy-perf v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/tooling/perf)
+   Compiling gpui-alloy-perf v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-perf-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2.38s
+   Uploading gpui-alloy-perf v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/tooling/perf)
+    Uploaded gpui-alloy-perf v0.1.1 to registry `crates-io`
+note: waiting for gpui-alloy-perf v0.1.1 to be available at registry `crates-io`
+help: you may press ctrl-c to skip waiting; the crate should be available shortly
+   Published gpui-alloy-perf v0.1.1 at registry `crates-io`
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded gpui-alloy-perf v0.1.1
+gpui-alloy-perf
+A tool for measuring Zed test performance, with too many Clippy lints
+version: 0.1.1
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-perf/0.1.1
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-perf/0.1.1

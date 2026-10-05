@@ -1,0 +1,31 @@
+    Updating crates.io index
+error: could not find `gpui-alloy-util@0.1.1` in registry `https://github.com/rust-lang/crates.io-index`
+   Packaging gpui-alloy-util v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_util)
+    Updating crates.io index
+    Packaged 7 files, 49.4KiB (15.0KiB compressed)
+   Verifying gpui-alloy-util v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_util)
+   Compiling gpui-alloy-util v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-util-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.12s
+    Updating crates.io index
+   Packaging gpui-alloy-util v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_util)
+    Updating crates.io index
+    Packaged 7 files, 49.4KiB (15.0KiB compressed)
+   Verifying gpui-alloy-util v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_util)
+   Compiling gpui-alloy-util v0.1.1 (/private/tmp/gpui-alloy-0.1.1-package-target/package/gpui-alloy-util-0.1.1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.00s
+   Uploading gpui-alloy-util v0.1.1 (/private/tmp/gpui-alloy-0.1.1-candidate/crates/gpui_util)
+    Uploaded gpui-alloy-util v0.1.1 to registry `crates-io`
+note: waiting for gpui-alloy-util v0.1.1 to be available at registry `crates-io`
+help: you may press ctrl-c to skip waiting; the crate should be available shortly
+   Published gpui-alloy-util v0.1.1 at registry `crates-io`
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded gpui-alloy-util v0.1.1
+gpui-alloy-util
+GPUI Alloy distribution of gpui_util
+version: 0.1.1
+license: Apache-2.0
+rust-version: unknown
+documentation: https://docs.rs/gpui-alloy-util/0.1.1
+repository: https://github.com/AprilNEA/gpui-alloy
+crates.io: https://crates.io/crates/gpui-alloy-util/0.1.1
