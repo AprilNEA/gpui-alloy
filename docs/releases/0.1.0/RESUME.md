@@ -43,15 +43,17 @@ The initial workspace publish uploaded five packages and then received HTTP 429.
 5. Update the pending consumer documents. Create signed commits and verify signatures with the existing 1Password SSH key. Recheck the original Cupertino branch before integrating the completed worktree changes. Preserve unrelated user work.
 6. Record registry acceptance and create the signed immutable `v0.1.0` tag. Keep existing snapshot tags unchanged. Leave Git pushing to the user under the current user instructions.
 
-The 1Password SSH signing agent recovered after the user unlocked 1Password. The pending wgpu publication record and blocker evidence were committed as `8969b0064c9945252eb2eab74b6ba783e3d02ae4`. The signature was verified against the configured public key. See `record_commit` in [publication.json](publication.json) for the verification log and preserved failure history. The release contains 26 verified packages. Publication remains blocked by the missing local release inputs below.
+The 1Password SSH signing agent recovered after the user unlocked 1Password. The pending wgpu publication record and blocker evidence were committed as `8969b0064c9945252eb2eab74b6ba783e3d02ae4`. The signature was verified against the configured public key. See `record_commit` in [publication.json](publication.json) for the verification log and preserved failure history. The release contains 26 verified packages. The fixed release inputs were subsequently recovered and verified as recorded below.
 
 Previous signature verification used the configured public key in a temporary `allowed_signers` file. No global trust configuration or new key is required.
 
-## Missing local release inputs
+## Recovered local release inputs
 
 At the 2026-10-04 09:42 UTC check, the candidate workspace, frozen archive directory, Cargo target directory, and full-family registry probe were absent. An escalated filesystem check confirmed the missing directories. The Cupertino integration worktree still exists. No package was published during this check. See `local_inputs` in [publication.json](publication.json) for the path observations and evidence log.
 
-Stop publication while the frozen candidate or archives are missing. Restore the fixed local inputs before publication resumes. Verify restored or reconstructed archives against the original checksums in `archives.json`. Verify the recorded projection and workspace lockfile hashes. Preserve published versions and tags. The 1Password signature blocker is resolved.
+The user authorized reconstruction. The fixed Smol Git commit, candidate, all 31 frozen archives, release lockfile, and full-family probe are restored. Every archive SHA-256 matches the original record. The projection and workspace lockfile hashes are identical. Cargo 1.98.1 verified the five rebuilt packages with verification enabled; 26 archives were recovered from matching Cargo cache copies. See the [recovery report](recovery-20261004/recovery.json) and [package verification log](recovery-20261004/package-five.log). Both the local input blocker and the signature blocker are resolved.
+
+A persistent backup is stored at `/Users/Xuan/.local/share/gpui-alloy/releases/0.1.0`. The backup contains `frozen/`, `candidate.tar.gz`, and `probe/`. See the [backup record](recovery-20261004/backup.json). If temporary inputs disappear again, restore from this backup and require the original archive, projection, and lockfile hashes before publishing. Preserve published versions and tags.
 
 ## Current Cupertino integration hold
 

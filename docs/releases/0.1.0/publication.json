@@ -542,21 +542,39 @@
     }
   },
   "local_inputs": {
-    "status": "blocked",
-    "scheduled_at": "2026-10-04T09:42:11.762Z",
-    "checked_at": "2026-10-04T09:46:12.130478+00:00",
-    "checked_with_escalation": true,
-    "path_exists": {
-      "/private/tmp/alloy-registry-packager/staging-process-31": false,
-      "/private/tmp/gpui-alloy-0.1.0-frozen": false,
-      "/private/tmp/gpui-alloy-registry-target": false,
-      "/private/tmp/alloy-complete-family-probe-0.1.0": false,
-      "/Users/Xuan/.codex/worktrees/gpui-alloy-registry/gpui-cupertino": true
+    "status": "verified",
+    "checked_at": "2026-10-04T10:19:31.739398+00:00",
+    "report": "recovery-20261004/recovery.json",
+    "report_sha256": "9ad871d4c44065d79ecc146daa281d528c9d3f4d932bfa0a6a3f8cc06d17c667",
+    "package_count": 31,
+    "all_archives_match_original": true,
+    "package_verification_enabled": true,
+    "backup": {
+      "directory": "/Users/Xuan/.local/share/gpui-alloy/releases/0.1.0",
+      "candidate_archive": "/Users/Xuan/.local/share/gpui-alloy/releases/0.1.0/candidate.tar.gz",
+      "candidate_archive_sha256": "47de1856ff148ed6d81b96fd875dbb15af20c684b6a612dc2363d89534172f33",
+      "frozen_directory": "/Users/Xuan/.local/share/gpui-alloy/releases/0.1.0/frozen",
+      "frozen_archive_count": 31,
+      "all_frozen_hashes_match": true,
+      "probe_directory": "/Users/Xuan/.local/share/gpui-alloy/releases/0.1.0/probe"
     },
-    "new_packages_published": [],
-    "log": "local-inputs-20261004T094211.log",
-    "log_sha256": "c51f82026c423ec74c6e79e67dcc4533102d2e0a6adcad3a37bb88626259c838",
-    "required_action": "Restore the frozen candidate, archives, and full-family registry probe. Verify the recorded archive, projection, and lockfile hashes before publication resumes."
+    "previous_blocker": {
+      "status": "blocked",
+      "scheduled_at": "2026-10-04T09:42:11.762Z",
+      "checked_at": "2026-10-04T09:46:12.130478+00:00",
+      "checked_with_escalation": true,
+      "path_exists": {
+        "/private/tmp/alloy-registry-packager/staging-process-31": false,
+        "/private/tmp/gpui-alloy-0.1.0-frozen": false,
+        "/private/tmp/gpui-alloy-registry-target": false,
+        "/private/tmp/alloy-complete-family-probe-0.1.0": false,
+        "/Users/Xuan/.codex/worktrees/gpui-alloy-registry/gpui-cupertino": true
+      },
+      "new_packages_published": [],
+      "log": "local-inputs-20261004T094211.log",
+      "log_sha256": "c51f82026c423ec74c6e79e67dcc4533102d2e0a6adcad3a37bb88626259c838",
+      "required_action": "Restore the frozen candidate, archives, and full-family registry probe. Verify the recorded archive, projection, and lockfile hashes before publication resumes."
+    }
   },
   "consumer_integration": {
     "status": "blocked-by-newer-consumer-patch",

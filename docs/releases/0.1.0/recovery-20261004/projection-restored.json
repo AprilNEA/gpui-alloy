@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-10-04T10:11:45.801463+00:00",
+  "candidate": "/private/tmp/alloy-registry-packager/staging-process-31",
+  "projection_matches_original_bytes": true,
+  "projection_sha256": "f67f3a22db05c348ae8afee8962c3fde6a650fef478e98942680285494a655a1",
+  "workspace_lock_sha256": "d8cd328129b2fb34e3fe8da3fcdf033869c3df5401680be4dafdde934e34b6a4",
+  "packages": 31,
+  "smol_revision": "a1e642196803fc5dff56f1e04e867bfc024966bd",
+  "generator_sha256": "13866a1322174008eb44db61d02dd7567058b362a042ee0fc74e6468f6e9053f",
+  "snapshot_generator_sha256": "9a82458aa24bedaaf9f592f57d2f956e612dfab1dc31265190e7624bebb69d45"
+}

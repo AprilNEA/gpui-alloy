@@ -1,0 +1,9 @@
+{
+  "directory": "/Users/Xuan/.local/share/gpui-alloy/releases/0.1.0",
+  "candidate_archive": "/Users/Xuan/.local/share/gpui-alloy/releases/0.1.0/candidate.tar.gz",
+  "candidate_archive_sha256": "47de1856ff148ed6d81b96fd875dbb15af20c684b6a612dc2363d89534172f33",
+  "frozen_directory": "/Users/Xuan/.local/share/gpui-alloy/releases/0.1.0/frozen",
+  "frozen_archive_count": 31,
+  "all_frozen_hashes_match": true,
+  "probe_directory": "/Users/Xuan/.local/share/gpui-alloy/releases/0.1.0/probe"
+}

@@ -32,6 +32,7 @@ No root `[patch.crates-io]` table is propagated. The required `async-process` im
 | Full Cargo workspace publish dry-run | Passed for all 31 packages; see [the dry-run log](preflight-2.log). The [first candidate](preflight-1.log) exposed the required `adopt_raw_pid` API; the current candidate preserves the two-package process chain. |
 | Clean consumer against the generated package set | Passed: 119 tests, formatting, Clippy, and 19 reachable Alloy identities; see the [result](generated-consumer.json) and [log](generated-consumer.log). |
 | Locked package verification and frozen archives | Passed for all 31 packages; see [the final package log](preflight-3.log), [archive checksums](archives.json), and [release lockfile](registry.Cargo.lock). |
+| Reconstructed local release inputs | Passed: all 31 original archive hashes reproduced or recovered; Cargo verified all five rebuilt packages. See the [recovery report](recovery-20261004/recovery.json). |
 | Crates.io uploads and checksum verification | Published packages are independently checksum-verified; see [publication.json](publication.json). All 31 publication archives reproduced the frozen hashes before the first upload; see the [pre-upload check](pre-upload-check.json). |
 | Clean Cupertino consumer resolving only crates.io Alloy packages | Pending. |
 | Consumer integration commit | Blocked: current Cupertino requires GPUI-012, which is absent from frozen 0.1.0. See the [integration hold](RESUME.md#current-cupertino-integration-hold). |
