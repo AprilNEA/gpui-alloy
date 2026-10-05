@@ -559,7 +559,7 @@
     "gpui-alloy-web",
     "gpui-alloy-platform"
   ],
-  "status": "published-awaiting-acceptance",
+  "status": "published-and-isolated-consumer-verified",
   "published_package_count": 31,
   "total_package_count": 31,
   "remaining_packages": [],
@@ -681,5 +681,22 @@
     "report": "family-registry-verification.json",
     "report_sha256": "f61561f67cd72af501b360d083cd75298104807d5e9a72ed45497c6ac0055ef7",
     "log": "family-registry-verification.log"
+  },
+  "isolated_consumer_acceptance": {
+    "status": "verified",
+    "started_at": "2026-10-05T05:51:48.820166+00:00",
+    "worktree": "/Users/Xuan/.codex/worktrees/gpui-alloy-registry/gpui-cupertino",
+    "log": "cupertino-registry-acceptance.log",
+    "script": "/private/tmp/alloy-cupertino-acceptance.sh",
+    "exec_session_id": 85417,
+    "registry_report": "cupertino-registry-verification.json",
+    "completed_at": "2026-10-05T06:01:58.798753+00:00",
+    "exit_code": 0,
+    "log_sha256": "65787ef713fde3639369cf98cebbf0f2414261b263a01ee5f7946621af7af177",
+    "registry_report_sha256": "dd2192015b0828dbedc7ba511a343e0e41b1bbc71ce4fbe5800fa2546738a323",
+    "passed_tests": 119,
+    "formatter_passed": true,
+    "clippy_passed": true,
+    "consumer_commit": "4223edf6bb9573d926fdbb5318404ac94f4e0e99"
   }
 }
