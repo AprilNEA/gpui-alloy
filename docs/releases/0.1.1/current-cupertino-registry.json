@@ -1,0 +1,139 @@
+{
+  "archive_manifest_sha256": "35a50b2ec8655bca6751e1d02d72798e2e4364f5a4cd71f36740cf12149485b1",
+  "cargo_lock_sha256": "904522af73a749fd1b53012318e7edf1162b447ddc4f371166ef3e8ac6166f35",
+  "cargo_metadata_sha256": "07341da8590e2e41cd2fbd0beeb8a9bdb7065a2d24871e61b7da1f15e154de85",
+  "checked_packages": [
+    {
+      "checksum": "db2e8c2b9dd4ef14a13b58f9b70f62d7b7a512c07a54da8daa289085bdad0f4c",
+      "name": "gpui-alloy",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "version": "0.1.1"
+    },
+    {
+      "checksum": "741c8387ff9e521d99791db94aadedc38c0f5826e7f0d9684bd92873b88a170e",
+      "name": "gpui-alloy-apple",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "version": "0.1.1"
+    },
+    {
+      "checksum": "6cba86d9dfa8c984ecf9f6a0ff305ebe222584fd6d33e7da398245269f6dbd49",
+      "name": "gpui-alloy-collections",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "version": "0.1.1"
+    },
+    {
+      "checksum": "d37c7649f1a7f365beb4ae1a6d0f0d0b1c9cd7174bc2c5532c97fe497af2cd83",
+      "name": "gpui-alloy-derive-refineable",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "version": "0.1.1"
+    },
+    {
+      "checksum": "d7368b846f3b11fbad8a9915543103a9dda2b1de10e2c19a43b2065032ea9751",
+      "name": "gpui-alloy-font-kit",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "version": "0.1.1"
+    },
+    {
+      "checksum": "2e3316f16c41127f09f7c616ae2413c01f718e23cfad529dd05ec63279df6b22",
+      "name": "gpui-alloy-http-client",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "version": "0.1.1"
+    },
+    {
+      "checksum": "db8a24d330864e2a4a8a4030c33f28296d7f74c2ad21522a72cb860adaa4bef4",
+      "name": "gpui-alloy-macos",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "version": "0.1.1"
+    },
+    {
+      "checksum": "a11167c182bb86e91d091f26f03f5a54e5d4c55b8823e01b86631dd8a04eef83",
+      "name": "gpui-alloy-macros",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "version": "0.1.1"
+    },
+    {
+      "checksum": "fe5721ad4b209dd5fae9da53e2071e759b210573e46c191539bf8d2e89bc91b5",
+      "name": "gpui-alloy-perf",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "version": "0.1.1"
+    },
+    {
+      "checksum": "ae3b49abc0f4a8189a4fd0560a906997513e72071b9b3182e09cbaaf40240f82",
+      "name": "gpui-alloy-platform",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "version": "0.1.1"
+    },
+    {
+      "checksum": "fcaeb5c32160af6b8ccc35efabeccc35751704cf49d7fa0dfa2e07f7e06d9b6f",
+      "name": "gpui-alloy-refineable",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "version": "0.1.1"
+    },
+    {
+      "checksum": "640bd4440053d03d01cb35adbaa565443646f37f49e6a5145fa117c809909752",
+      "name": "gpui-alloy-scheduler",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "version": "0.1.1"
+    },
+    {
+      "checksum": "a5301d88b4a3eb98dff572178e049458997766d4ca7ba6b3224deebd2a120060",
+      "name": "gpui-alloy-shared-string",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "version": "0.1.1"
+    },
+    {
+      "checksum": "02d2011f8a1ed24f28c8f30c42914331f607b1f8948401273275c4ee5d482718",
+      "name": "gpui-alloy-sum-tree",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "version": "0.1.1"
+    },
+    {
+      "checksum": "e0b70855f78eb4fdb666b7df536b088175fa68a6b223d50ba2067973279a4ef3",
+      "name": "gpui-alloy-util",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "version": "0.1.1"
+    },
+    {
+      "checksum": "085682f06cdaea45c5034276d32a78a5c127ed2ff724ea9d06397f0a6f615d73",
+      "name": "gpui-alloy-util-macros",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "version": "0.1.1"
+    },
+    {
+      "checksum": "6bc29d252639c3beddc01ec7988380b78379c3711e7f14becba547edfd8c9b6e",
+      "name": "gpui-alloy-zlog",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "version": "0.1.1"
+    },
+    {
+      "checksum": "bda063adfed6076cfbc27eb865fe6d878364d205fb179ad4cdb1f59364e8c778",
+      "name": "gpui-alloy-ztracing",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "version": "0.1.1"
+    },
+    {
+      "checksum": "60ed397bb621c87e76b99c95a68ed97b309748fd480fe16c3bc7cb8a3d40d159",
+      "name": "gpui-alloy-ztracing-macro",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "version": "0.1.1"
+    }
+  ],
+  "command": [
+    "cargo",
+    "metadata",
+    "--format-version",
+    "1",
+    "--locked",
+    "--all-features",
+    "--filter-platform",
+    "aarch64-apple-darwin"
+  ],
+  "consumer": "/Users/Xuan/Developer/AprilNEA/gpui-cupertino",
+  "format": 1,
+  "kind": "registry-consumer-verification",
+  "projection_sha256": "c42177be1ddfb080a5141289d9296e9b419f1d948ff13c6ea1ea3d8d9fc289c9",
+  "release_version": "0.1.1",
+  "source_revision": "1a77576c8ef715f2ceaece8af18017cb360434c9",
+  "target": "aarch64-apple-darwin",
+  "verifier_sha256": "f7d6582089ef49c0002f0c06273e8536dced8a5934fe5ce3818ae996eb5e50a1"
+}

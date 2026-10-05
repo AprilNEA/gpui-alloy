@@ -1,6 +1,6 @@
 {
   "version": "0.1.1",
-  "status": "published-awaiting-acceptance",
+  "status": "published-consumer-verified",
   "source_revision": "1a77576c8ef715f2ceaece8af18017cb360434c9",
   "source_integration": "f7ecd66e516734656bf72e2b6f876ec6d977c633",
   "patch": "GPUI-012",
@@ -234,5 +234,16 @@
       "log": "gpui-alloy-platform.publish.log"
     }
   ],
-  "checked_at": "2026-10-05T06:25:11.163427+00:00"
+  "checked_at": "2026-10-05T06:25:11.163427+00:00",
+  "native_focus": "passed",
+  "family_registry": "passed",
+  "isolated_consumer": "passed",
+  "isolated_consumer_tests": 119,
+  "current_consumer": {
+    "status": "blocked-by-focus-paint-test",
+    "test": "keyboard_focus_preserves_content_and_remains_visible_on_every_edge",
+    "error": "TransparentButton interior pixel (272, 48) changed after keyboard focus.",
+    "baseline_session": 84183,
+    "baseline_log": "/private/tmp/alloy-0.1.1-focus-paint-baseline.log"
+  }
 }
